@@ -1,0 +1,106 @@
+commit 99dce9296f862331874248c676c8d477e1d6ecbf
+tree 671b623a8a84bfad8b78a145693cdb242342d1a9
+parent 68445c9ed69ab16af3787b8566cbbbac33d1a36e
+author 安冰超 <1400436027@qq.com> 2019-08-01 16:41:10 +0800
+committer 安冰超 <1400436027@qq.com> 2019-08-01 16:41:10 +0800
+
+    editor:   去掉Sync 里的 log日志
+
+
+
+:100644 100644 ade9f2bc614ca957f2e3376041a9c25ff47660b5 8afeab8e32bf4c74f519769dd9594287332c5a9c M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 5d33594eb65f3452225042d7868bc8f4c1f42036 a584d029348721255c271ac825a42e7d9eb34cbd M	SyncAndCheckServer/SyncCourseServer/Configs/Log4Net.config
+:100644 100644 3f1350e545385ddb02864792f93cb994cf5d25c0 a584d029348721255c271ac825a42e7d9eb34cbd M	WebApi/CourseWebAPIServer/Configs/Log4Net.config
+:100644 100644 0ec6eef74a459c5e02203e48328f4a048da9aa34 3afce9561cd883e175f8e9d2fd1392bfb8eb49c3 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+commit 68445c9ed69ab16af3787b8566cbbbac33d1a36e
+tree a6238c6b7f5f37f6a1f8510deb461b949f9b105a
+parent 88665cf95d5ab6b0e2aa6f962a5ed1af9166b4e2
+author 安冰超 <1400436027@qq.com> 2019-08-01 09:46:55 +0800
+committer 安冰超 <1400436027@qq.com> 2019-08-01 09:46:55 +0800
+
+    editor: 修改 去掉kafkalog 日志
+
+
+
+:100644 100644 5d33594eb65f3452225042d7868bc8f4c1f42036 3f1350e545385ddb02864792f93cb994cf5d25c0 M	DomainServer/CourseDomainServer/Configs/Log4Net.config
+:100644 100644 fe379cae26ce463b8fc7d34e0256388d780f0259 3f1350e545385ddb02864792f93cb994cf5d25c0 M	WebApi/CourseWebAPIServer/Configs/Log4Net.config
+commit 94c3953ebbecf1870d235a2785a1de1cf2d366af
+tree 12a1ff4406ce123e9eb6a50847a733aef328d902
+parent 64d702f47d4695c2eb15c2d2c77d6d28e3823fda
+author 王宇鹤 <2511980201@qq.com> 2019-07-31 18:05:16 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-31 18:05:16 +0800
+
+    feat:SchoolCourse
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 05746832d49b0bfcd9f16026f14d9aa3408f5b71 A	WebApi/WebApiCourse/Controllers/SchoolCourseController.cs
+:000000 100644 0000000000000000000000000000000000000000 1d5c5da3988f9c43135228bdc9b67fefb965004f A	WebApi/WebApiCourse/Models/reqCourseAndSchool.cs
+commit 3ed72728be904926d6af8138b1c401ad1fe3d965
+tree 28c155c7333040edef347f70152cdad6f5f1eb5e
+parent 94bfbb858bb13e1277f19364e0de5ffc8730bc0d
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-07-30 14:41:47 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-07-30 14:41:47 +0800
+
+    GetUserExercisePoolByCourseId
+
+
+
+:100644 100644 452673cfe93601c3389f145e5cfff8f72f7feacb 62636d1754a49dfbe8e965bce6b319805eeb5b2e M	WebApi/WebApiCourse/Controllers/CourseAndContentCommonController.cs
+commit 3d6e5765eca655e20d544bd0e65d19dbbc868aa9
+tree 1ff3fcb0ab9c2958e5e323026b430062c6750865
+parent 032a383baff2bce977bb57e63150b06240d5eff1
+author gaofeng <gaofeng@hexfuture.com> 2019-07-30 10:03:26 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-07-30 10:03:26 +0800
+
+    feature:日志记录到本地
+
+
+
+:100644 100644 f6f8115ec624eabcb62050831f3e0c854603e95b fe379cae26ce463b8fc7d34e0256388d780f0259 M	WebApi/CourseWebAPIServer/Configs/Log4Net.config
+commit 032a383baff2bce977bb57e63150b06240d5eff1
+tree 02037d213c264747d7535130c081c4d27e995563
+parent 94bfbb858bb13e1277f19364e0de5ffc8730bc0d
+author gaofeng <gaofeng@hexfuture.com> 2019-07-30 09:51:21 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-07-30 09:51:21 +0800
+
+    feature:日志记录到本地
+
+
+
+:100644 100644 5d33594eb65f3452225042d7868bc8f4c1f42036 f6f8115ec624eabcb62050831f3e0c854603e95b M	WebApi/CourseWebAPIServer/Configs/Log4Net.config
+commit 94bfbb858bb13e1277f19364e0de5ffc8730bc0d
+tree 9944e6d40080936abc8bde5e4339d9b446b52cd7
+parent 3796fa4abf15d669317ffcafd247c4fa6b53b9f6
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-07-29 09:50:57 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-07-29 09:50:57 +0800
+
+    feature:同步投影修改redis存贮位置为courseredis
+
+
+
+:100644 100644 98fa36ba68d8ee8e0c30b08f0d66c495a32d08ea 8f3ff3d7198228680190289c1b7228a3134c4a38 M	WebApi/WebApiCourse/Controllers/ClassRoomController.cs
+commit 3796fa4abf15d669317ffcafd247c4fa6b53b9f6
+tree b3f89d1be71ce76a3cc385aca738d0fc6be50077
+parent 837f2fda56a5173fcc18d85faa0319932f2fd272
+author 彩娟 冯 <1446730634@qq.com> 2019-07-27 17:13:00 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-07-27 17:13:00 +0800
+
+    upgrade：修改s配置
+
+
+
+:100644 100644 cf42bef4f8cbba7e82e5c308fa58664c8bd74e29 308053e20429d9c7fece57e6d9e09372bd0c183d M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config
+commit 837f2fda56a5173fcc18d85faa0319932f2fd272
+tree 8eb3372c2b89e24e279fa02d40d9b556346d6b5f
+parent 64d702f47d4695c2eb15c2d2c77d6d28e3823fda
+author 彩娟 冯 <1446730634@qq.com> 2019-07-27 11:35:42 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-07-27 11:35:42 +0800
+
+    upgrade: API调用Redis   RedisGet  RedisSet
+
+
+
+:100644 100644 cccb6f4146c3e3f855c28994f2241321adae4dd5 b98399741474b70b2e29132c7659031d68736c47 M	WebApi/CourseWebAPIServer/EntAppFrameWork-Local.config
+:100644 100644 d153c98a406c4d0cd115668d28f099845d53ba3f 0ec6eef74a459c5e02203e48328f4a048da9aa34 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 0279ef9bf2aff382865ca80faf6409e20df24a97 dc03a190387d59bb7e1309acdfecadebf3dfb6b8 M	WebApi/WebApiCourse/Controllers/CourseController.cs

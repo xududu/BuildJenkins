@@ -1,0 +1,12 @@
+commit 8c3a70d647494251ac6e021ba0a517dfb6b1e111
+tree 59592b292ee79368907f13f41f84e6125a180a51
+parent dc206a24a262038bd7bafae01d4fd6a18c252ca0
+author luodaishi <luodaishi@hexfuture.com> 2019-08-21 19:31:25 +0800
+committer luodaishi <luodaishi@hexfuture.com> 2019-08-21 19:31:25 +0800
+
+    每次删除1000条 备份
+
+
+
+:100644 100644 a1e8b999a00e2c60bd179704dc255779468b8aac 4b9e80a1fc19352e214a2bd00de8be09d725804a M	ReverseTransfer/ReverseTransferCourseServer/ReverseTransfer.json
+:100644 100644 b9c4a62abee5491c53ae55b66d10862b1a950a02 d2e34d5e8fe24b45513bbba85c3db352c8d106a3 M	ReverseTransfer/ReverseTransferCourseServer/ReverseTransferCourseServer.csproj

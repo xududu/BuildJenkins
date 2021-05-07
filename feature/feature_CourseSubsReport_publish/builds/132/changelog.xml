@@ -1,0 +1,70 @@
+commit 6cfcc7572ca8c5555959ed0528acfa628a7adfe9
+tree d2244eef49d3d8de9c4b2db9387f162ea860f20c
+parent ae3b41e9d690fe8e37fcc2f4e4aee795d1f9c9f9
+author 彩娟 冯 <1446730634@qq.com> 2021-03-23 18:27:29 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-03-23 18:27:29 +0800
+
+    editor:修改接口SaveHTEAndCourseIndexAsync
+
+
+
+:100644 100644 ac47d2b848f600e57d29db2317a9b71e67a58889 fa99eccc0296f58b049c21da9d1b3c6a484384dc M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit ae3b41e9d690fe8e37fcc2f4e4aee795d1f9c9f9
+tree 4a402aa8b5d60d324b0d3c573b9c79bc85400682
+parent 1f2a436de8be101465f748b1f2ec6915dc548d9b
+author 彩娟 冯 <1446730634@qq.com> 2021-03-23 09:45:30 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-03-23 09:45:30 +0800
+
+    editor:SearchRegisteCourseListByClassIds还原同步接口
+
+
+
+:100644 100644 20b7a09b01469f04cf514da46066225abf50b7b1 9cfbeca9bead032f55c186bc59cbd3af2bad8dea M	Domain2/Domain.CourseModel/Service/Interface/IRegisterCourse.cs
+:100644 100644 cac25067c0b9415cc8a9d57dafd2e851c0de60c0 9fc6347d9896be0eab25c2dc46cf2e3e0c417c05 M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs
+commit 2aaaf214a467be8c3be62e6364a5a9aa32254bdd
+tree b5989f2ddb78bb25c8a20bfcb20b77a9fbfb0d94
+parent 6b552718d1f6818e23564d92c5440a32eba485dc
+author 彩娟 冯 <1446730634@qq.com> 2021-03-22 18:26:09 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-03-22 18:26:09 +0800
+
+    editor:修改接口为异步
+
+
+
+:100644 100644 d9ea6994e4eff6f2fe21d4cacffa38f05d81d53e 31eccbe259a8dfa334d270d970d4208edaaeaafd M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTE.cs
+:100644 100644 253ce70b5cbad0fa1a09372b5695327b374fe21f ee8a6d4f909503b349a4b92b77538c63ce15f7ff M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 7ed990e2b059372fc628e3dfadbf8d5198b79602 20b7a09b01469f04cf514da46066225abf50b7b1 M	Domain2/Domain.CourseModel/Service/Interface/IRegisterCourse.cs
+:100644 100644 78ede9da793a7143a9f4d552f09f4d7eb4314400 cac25067c0b9415cc8a9d57dafd2e851c0de60c0 M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs
+commit 529f2734383ba05fdb264177154fa9437b138a35
+tree e12f3d7d3cdcd8f0ea032630cc2cbfa26342e67c
+parent f5f18676f84d3a3394df7d53a50e10af564d031a
+author AnHaNIYa <1400436027@qq.com> 2021-03-22 18:05:21 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-03-22 18:05:21 +0800
+
+     UpdateClassPeriodResourceSequence
+
+
+
+:100644 100644 1f6ad3acc8bc1ceaa27fbd27b733af7e67c233a5 f60a9ae0dcd234e932b0c05ea88a1d2b11f5feec M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+commit f5f18676f84d3a3394df7d53a50e10af564d031a
+tree 96b7212b2ae94cf88d47902de025a86a35f9b6a4
+parent 6b552718d1f6818e23564d92c5440a32eba485dc
+author AnHaNIYa <1400436027@qq.com> 2021-03-22 17:49:33 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-03-22 17:49:33 +0800
+
+     UpdateClassPeriodResourceSequence     优化电子书调序
+
+
+
+:100644 100644 a62b0f87db05af5aa2bbd40e2beaf1da8b91190e 1f6ad3acc8bc1ceaa27fbd27b733af7e67c233a5 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+commit 20b52fc0ac3c267fbec07979bcb60882c0e03bfc
+tree 990d89c153771a6b2e8efcb288e88c1c21a0fd4c
+parent c6ccef93a79b31fb29c4b884c89ff5e52a0f87bf
+author 彩娟 冯 <1446730634@qq.com> 2021-03-17 10:06:01 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-03-17 10:06:01 +0800
+
+    editor:上课端作业列表兼容为null
+
+
+
+:100644 100644 dc96873de1687b07c7870cdd48c70abe6dc30641 e7a2f26448dbb55dd12a0e797fb6af6eced533d6 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj

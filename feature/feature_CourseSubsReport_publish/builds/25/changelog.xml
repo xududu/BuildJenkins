@@ -1,0 +1,48 @@
+commit b51dfd1caad6d93154c9defe50d1ba45d3d6c303
+tree ef83a5a3549d3b69cf0789283fa435e73384678c
+parent 8ae5763c492b415ea68773d45851f98c0cf54d5f
+author gaofeng <gaofeng@hexfuture.com> 2019-08-03 16:34:08 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-08-03 16:34:08 +0800
+
+    tj
+
+
+
+:100644 100644 660bac539d0ada4b81b7d507af902263690bb298 7add9055119348cef189292db4575dfc4f85462b M	WebApi/CourseWebApiServer/Configs/Log4Net.config
+commit 4401898e16a3efd0ded41615617517615eac9a99
+tree 89d8a76d4fc7de48d68daf8cb329c42ec952e8c1
+parent b0583f55c4db6e0e84d236fd49c62a6c770e0c6c
+author gaofeng <gaofeng@hexfuture.com> 2019-08-03 16:31:37 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-08-03 16:31:37 +0800
+
+    feature:log添加，项目文件配置garbage
+
+
+
+:100644 100644 3f1350e545385ddb02864792f93cb994cf5d25c0 660bac539d0ada4b81b7d507af902263690bb298 M	DomainServer/CourseDomainServer/Configs/Log4Net.config
+:100644 100644 5d33594eb65f3452225042d7868bc8f4c1f42036 660bac539d0ada4b81b7d507af902263690bb298 M	SubscriptionService/CourseSubsReport/Configs/Log4Net.config
+:100644 100644 af73d9adcb6ad316987013b5594e20ae46e64100 8b7b7fcac1aac36567967312be44217523b84cd7 M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+:100644 100644 a584d029348721255c271ac825a42e7d9eb34cbd 17bb6782c3dc8ad8154f6071c00b30a61883cd23 M	SyncAndCheckServer/SyncCourseServer/Configs/Log4Net.config
+:100644 100644 a584d029348721255c271ac825a42e7d9eb34cbd 7add9055119348cef189292db4575dfc4f85462b M	WebApi/CourseWebAPIServer/Configs/Log4Net.config
+commit 7123dafe34697045b24de90e52aca625c8a861ee
+tree 7aabb4bed0672ebc553efcdf0c775d6bccab9df4
+parent 120d9f39413f5056e5ec49c21d3e0039b56ed9fd
+author 彩娟 冯 <1446730634@qq.com> 2019-08-02 17:18:50 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-08-02 17:18:50 +0800
+
+    fix:优化获取学生报名的课程  GetUserRegistedCourseListByUserId
+
+
+
+:100644 100644 dc03a190387d59bb7e1309acdfecadebf3dfb6b8 169b15489bf88a46ce1786e7c00823661789f2a1 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit db60f4f3847cf027e7f110ff23cdde523d342a2b
+tree 308822081c5e7369e09e1f0062b1bedb63d344d1
+parent 3d6e5765eca655e20d544bd0e65d19dbbc868aa9
+author gaofeng <gaofeng@hexfuture.com> 2019-08-02 10:04:26 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-08-02 10:04:26 +0800
+
+    feature:日志记录
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 660bac539d0ada4b81b7d507af902263690bb298 A	WebApi/CourseWebApiServer/Configs/Log4Net.config

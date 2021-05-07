@@ -1,0 +1,2357 @@
+commit ec76b36a26bd690653338198a89cc0d4e178c6e7
+tree c366a35c98439db47d5921ba4f3e9cec5b46af45
+parent c3a564b7475761c57a21472258072721ab58867e
+author 王宇鹤 <2511980201@qq.com> 2019-12-18 18:08:42 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-12-18 18:08:42 +0800
+
+    test
+
+
+
+:100644 100644 c08ca404d328ab65bc581152a72bc38a10da433a c89e3a3680f625880c0cdc4dc760f3a28e6fbe6e M	WebApi/WebApiCourse/Controllers/TeachingGroupCallStudentController.cs
+commit 7adf05c7fcb759baedb86dbe8aa8747dfbdf5ac2
+tree 3cfae40c4a8a1574d31f39a268fcffbcdf3763fd
+parent 35bbeb371690f55c638d6709f0c9f4f4b1f77106
+author 王宇鹤 <2511980201@qq.com> 2019-12-18 17:22:31 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-12-18 17:22:31 +0800
+
+    test
+
+
+
+:100644 100644 cda42922dd08a47c4a4bbcb18922f450b7a5d06f c08ca404d328ab65bc581152a72bc38a10da433a M	WebApi/WebApiCourse/Controllers/TeachingGroupCallStudentController.cs
+commit a8b8750801e670e1a30be72fbc5d3a615ae816a7
+tree 5c546c84e77742705a7f34a39f973991d555c7e5
+parent 55717cdfb73c3ee1658c532c8117090ef1d2dd14
+author AnHaNIYa <1400436027@qq.com> 2019-12-18 17:05:14 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-18 17:05:14 +0800
+
+    editor: 添加 IsValid
+
+
+
+:100644 100644 620f427a8c285c276596283efba5696ad0178b1b 44ad32af21b42fee4468abdeb7de6b1f7b791f57 M	Domain2/Domain.LGLogAndReportModel/Core/LearningGroupScore.cs
+:100644 100644 5f9b924d6a6a8e7121b6103ae73578642ecfd12e b056f1228cea8d92f37ae36bf999a2d7f9fb1b1e M	Domain2/Domain.LGLogAndReportModel/Core/LearningUserScore.cs
+:100644 100644 d4fe148d5cc7e18f6d15c30a2d065aa8ea3ac8a8 d99494bca1958b5ec41aee154dbd6c95868fc4fa M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+commit 3c6591a60169175c4689227a9433575ad13c25de
+tree 0bf7e5615f05ad9c4b5a995fc81c8fe47c9f60d1
+parent 7f398cf6186e37d5dae903bb203d930c356f010c
+author 王宇鹤 <2511980201@qq.com> 2019-12-18 14:06:26 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-12-18 14:06:26 +0800
+
+    test
+
+
+
+:100644 100644 9db3e7e74c2d135930c2e804fede131994178fff dff782798c439a108a156ca1aa8ad64c02ad7e9e M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 2c4c7ee62bad702dc50cb6ac6684dc0a64829367 03793f18333edf849d68658176dc4eb48a3d56b4 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 5297cdb8399109674bbc75efd335fad335c1efb4 58e68ba1648191cbb71b17010f670960200c90bf M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 a3ab9851ea17aa498aa9457ca56b729edccb560d cda42922dd08a47c4a4bbcb18922f450b7a5d06f M	WebApi/WebApiCourse/Controllers/TeachingGroupCallStudentController.cs
+commit 329b3ea0379344182c31aec52ac98acff103567d
+tree 74c7f4571e312362fd06a648db2632b54f7ac625
+parent 82eaf9e743fd06f0bb3d03a2dd7c28aab2c0dbfb
+author AnHaNIYa <1400436027@qq.com> 2019-12-16 14:29:55 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-16 14:29:55 +0800
+
+    editor ： 添加版本号
+
+
+
+:100644 100644 e375f9350fce2aadbd5f57dd10de87c41cb787d0 c0fabc59b23e5889de8f1eec487ed4954f0535c0 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 b0ca48ff1efaeed874314919cbe0e2ca7114ef0f 0ce173d52c931596766a21ed234d1bca7de59f66 M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit 42bbc25da3835a432010709d1d6552dfaff405d5
+tree c9f100c72f27b3656da2967bd99b170971ff34cf
+parent c36f0be54883068c0dcd7bff9d9a417c1833dd1e
+author AnHaNIYa <1400436027@qq.com> 2019-12-16 14:20:41 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-16 14:20:41 +0800
+
+    editor ： 升级版本号
+
+
+
+:100644 100644 d661a759c06cfd9a99b7010e83bd80744c84e9d6 e112b65597221768777465c653dc36e1daa350f1 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 dda368f1e973dcb14084540f8758eba9aff66b6c b6349ac2ec3532c342346a792e9737ad6923658f M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit c36f0be54883068c0dcd7bff9d9a417c1833dd1e
+tree 23f75e5457b966f57766e3f93dff32ec811c1ebd
+parent d219079b0fbff844715c0c2c09613f82d21a6db4
+author AnHaNIYa <1400436027@qq.com> 2019-12-16 13:54:03 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-16 13:54:03 +0800
+
+    editor ： 加上王宇贺代码
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 2914836d38bb04b5c75ae0b3875465851a391f35 A	Domain2/Domain.LGLogAndReportModel/DTO/StudentCallCountDTO.cs
+:100644 100644 70fff8f12d0292174b714c12ee641bbe89892636 cf228f2c1de3ec43ca77445c5c7ec81d0eff8d51 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+commit d219079b0fbff844715c0c2c09613f82d21a6db4
+tree b584eef8b505c510af681dfbb9e44f78dc55007a
+parent ef5243b8a8227dadacc7e249ef1db157a95f3986
+author AnHaNIYa <1400436027@qq.com> 2019-12-16 11:37:40 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-16 11:37:40 +0800
+
+    editor ：代码提交
+
+
+
+:100644 100644 c9b1567b902c06240af1efbd3c4d6931079e5143 fec4cc818ce63eb10fe859d0a044114a3c7f2159 M	Domain2/Domain.CourseModel/Service/Realization/ClassService.cs
+:100644 100644 299d9200ff45078915201819d6297620d79d95d1 8b1a4eaee3c17215a8ecf946877d4c10f0bbee5f M	Domain2/Domain.LGLogAndReportModel/Core/AwardSource.cs
+:100644 100644 41a9f89dc5cc116fc9be556226495b8f2154cac5 79141331229d94f0fb88e33a46a159f892c84b10 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 42ea24f1f3bc2fa969bd45c6270060d8a3015cf3 70fff8f12d0292174b714c12ee641bbe89892636 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 343015eb7d0dc2ef4ff749abea124b55b9285924 6da2995483182d1a2b26c261802ef59e81aba163 M	Domain2/Domain.LGLogAndReportModel/Specification/LearningUserScoreSpecification.cs
+:100644 100644 70c11ccd7cdcb0015873ce625a01b5e8f5aff8a1 7592cca1f07abe685e34637a4b581fee7461ad1c M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+:100644 100644 f977b34397ac56981a79a4a86ef3b9d02f549e0a 2813ef8d05d1ee2b0ee80a6a86564893c31db988 M	WebApi/WebApiCourse/Models/ParameterDto/ReqStudentReword.cs
+commit 7f398cf6186e37d5dae903bb203d930c356f010c
+tree cfe7d0078736021c40ab7d0fc5aa314cf1c574ca
+parent 66dbbd9b92d592555c2ee8dd124e22477302de98
+author 王宇鹤 <2511980201@qq.com> 2019-12-16 10:42:16 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-12-16 10:42:16 +0800
+
+    test
+
+
+
+:100644 100644 8b2ff4bf7d939fe9b4b20f9903bb50606d8c2e4c 9db3e7e74c2d135930c2e804fede131994178fff M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+commit ef5243b8a8227dadacc7e249ef1db157a95f3986
+tree 138ea418c4d3511351f43a1acbafb5c53a7005ec
+parent de3fa835f013575be6fa770df88d2282f3fcb447
+author AnHaNIYa <1400436027@qq.com> 2019-12-13 15:49:36 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-13 15:49:36 +0800
+
+    editor ： RewordLGAndStus 加分布式事务锁
+
+
+
+:100644 100644 6dd5e60ccb79de8789b6d556213a7b2857baacde 42ea24f1f3bc2fa969bd45c6270060d8a3015cf3 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 fd5ea74af84551a54c23ec94799fdce6db999711 70c11ccd7cdcb0015873ce625a01b5e8f5aff8a1 M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+commit de3fa835f013575be6fa770df88d2282f3fcb447
+tree 16f2caad6ac0fa924cfe661f9485af25b349f23a
+parent 3754a33577428748433ff5d7ee65307da5ec0773
+author AnHaNIYa <1400436027@qq.com> 2019-12-12 16:27:54 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-12 16:27:54 +0800
+
+    editor: 事务改成老old写法
+
+
+
+:100644 100644 41292b542793a5e2ed9e43e06e5cea42c8c0aaa2 41a9f89dc5cc116fc9be556226495b8f2154cac5 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 20829398d1ea2cae3eb447c749b13caaf202ee79 6dd5e60ccb79de8789b6d556213a7b2857baacde M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 94412a6f3a98ab8d4fd63ac277b68bfa9d14a3a3 66c7fd0e3f1690371e744c0a50c75d3cabe32e2d M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 ec7ba0d8bac1e18063c95d2f18d4f7267bc4ed77 836334c325d19b8da3d265f736b9eb85726241b7 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 2c2f8011cfa41a86fde22796537ebf79c8d9a7a9 fd5ea74af84551a54c23ec94799fdce6db999711 M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+:100644 100644 8762aff07665d30e861fd93431337fd7b6fb5399 8be2d8792a52b9c5571d67b1837fe4d670f67095 M	WebApi/WebApiCourse/Controllers/ManageLearningGroupController.cs
+:100644 100644 b5e4b8ecb4ba0f7ba1b651a5751357e9c0a3cf60 6261ba5a0284165b8cb8d8657847a6e8277e3d6f M	WebApi/WebApiCourse/Models/ParameterDto/ReqLGReword.cs
+:100644 100644 703a66bbf2dc14f8244c937fce68a3db9ab0986d f977b34397ac56981a79a4a86ef3b9d02f549e0a M	WebApi/WebApiCourse/Models/ParameterDto/ReqStudentReword.cs
+:100644 100644 5bab01ed4654469b4c3f858a94a95d5f0cbed0a2 68108b7c877410173bdeb2e0603ab82801d35585 M	WebApi/WebApiCourse/Models/ResLearningGroupScore.cs
+:100644 100644 373719d955dc2842a70e91ac736861e505f2662e 27ddb3a1cd4611542a2f3a8a252a7973b9635866 M	WebApi/WebApiCourse/Models/ReturnDto/ResLearningUserScore.cs
+commit 66547fe7b3d3e05736d050f717624d60c4a0456b
+tree 39cc7eb54cc7ab2aa68f222fcd577da12ae47843
+parent 94fcb30314bc00b23875894fa9f7ff6abbbb45b5
+author AnHaNIYa <1400436027@qq.com> 2019-12-11 18:23:59 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-11 18:23:59 +0800
+
+    editor : 升级版本号 、 准备合并 Master分支
+
+
+
+:100644 100644 d661a759c06cfd9a99b7010e83bd80744c84e9d6 e375f9350fce2aadbd5f57dd10de87c41cb787d0 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 dda368f1e973dcb14084540f8758eba9aff66b6c b0ca48ff1efaeed874314919cbe0e2ca7114ef0f M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit 794366d2460004e35c0fac03a4cf0970dfa099d7
+tree 35146ef6d1b598b80757b13b2af98557dde5d638
+parent 6bf8196033ecdaf0c3a20304b6ff2f9ce73baf95
+author AnHaNIYa <1400436027@qq.com> 2019-12-11 17:27:07 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-11 17:27:07 +0800
+
+    editor:  提交当日代码
+
+
+
+:100644 100644 8f0015fda02007f96b375c03f8670cfecdd6c2f1 620f427a8c285c276596283efba5696ad0178b1b M	Domain2/Domain.LGLogAndReportModel/Core/LearningGroupScore.cs
+:100644 100644 7d54f0d09038e8d00b7a587e98b56778f3c4cd95 5f9b924d6a6a8e7121b6103ae73578642ecfd12e M	Domain2/Domain.LGLogAndReportModel/Core/LearningUserScore.cs
+:100644 100644 6a879ce739ae772047b31dd3245e710138612a38 20829398d1ea2cae3eb447c749b13caaf202ee79 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 66c7fd0e3f1690371e744c0a50c75d3cabe32e2d 94412a6f3a98ab8d4fd63ac277b68bfa9d14a3a3 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 8ae60dc9674c14d7a26c100488d1609bd0456fcd fd741af4f8e9fd499f4d3e165c30255852d22f60 M	Infrastructure2/EntAppSoft.Infrastructure.LGLogAndReportModel/LearningGroupScoreFactory.cs
+:100644 100644 c6c96090a6feac861cdf97ab2ad0e6163c9af678 d39bc1b9ffe51e6ee3436b66c2a7f698f9b4982f M	Infrastructure2/EntAppSoft.Infrastructure.LGLogAndReportModel/LearningGroupScoreRAFCommonSql.cs
+:100644 100644 3dc57f1eccafeb4f221c409cae7b6e4a51f2861e a3585fe9ac6afe96a25314bcd94c24e9f4ca1a9c M	Infrastructure2/EntAppSoft.Infrastructure.LGLogAndReportModel/LearningGroupScoreRepository.cs
+:100644 100644 a9057c05bc8c68d9341cd663f64d900d18da94a3 ce16da358e023cf81a5220f09088dc19ca9efa23 M	Infrastructure2/EntAppSoft.Infrastructure.LGLogAndReportModel/LearningUserScoreFactory.cs
+:100644 100644 223b48f429a972839f8b4f73fc0efb1f307e7a73 0f7a6783e830de70615e252e565694f0f0abbe6b M	Infrastructure2/EntAppSoft.Infrastructure.LGLogAndReportModel/LearningUserScoreRAFCommonSql.cs
+:100644 100644 03fd9c5ca71680d59247093a0b21321502a96311 82b2b8414daf0fae1476ecbc5acec09205c0faca M	Infrastructure2/EntAppSoft.Infrastructure.LGLogAndReportModel/LearningUserScoreRepository.cs
+:100644 100644 836334c325d19b8da3d265f736b9eb85726241b7 ec7ba0d8bac1e18063c95d2f18d4f7267bc4ed77 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 edf9871328313cefec58801f4f1a6975b4be0e2e 2c2f8011cfa41a86fde22796537ebf79c8d9a7a9 M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+commit 6bf8196033ecdaf0c3a20304b6ff2f9ce73baf95
+tree ded30f9a04ab9458b9ea69e35da848f520e55788
+parent 3c34e07762f7b19d02e4717be48d023070394b19
+author AnHaNIYa <1400436027@qq.com> 2019-12-10 17:15:51 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-10 17:15:51 +0800
+
+    editor ： 当日代码提交
+
+
+
+:100644 100644 c54676a396c01dfae0b3b55061887830e6311421 6a879ce739ae772047b31dd3245e710138612a38 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 98e91e8dc9d582633a81bb132b4bd75a10026b67 edf9871328313cefec58801f4f1a6975b4be0e2e M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+:100644 100644 ab13385b2a499ec33f5a6455d432a3f790572a06 b5e4b8ecb4ba0f7ba1b651a5751357e9c0a3cf60 M	WebApi/WebApiCourse/Models/ParameterDto/ReqLGReword.cs
+:100644 100644 6679f828e0e177b76bc570559aae301960e8328e 703a66bbf2dc14f8244c937fce68a3db9ab0986d M	WebApi/WebApiCourse/Models/ParameterDto/ReqStudentReword.cs
+commit 086224e1bdea7816d73971323cd0e859d483d01d
+tree a00d3854ca01535e670ec1a8d9a0640f9c9f28bf
+parent 5c4b60c13a9c6d78b65696f0c9fd8260643fa9ca
+author 王宇鹤 <2511980201@qq.com> 2019-12-10 14:57:22 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-12-10 14:57:22 +0800
+
+    test
+
+
+
+:100644 100644 d7cb96dc92329561998d2e38b2993b10a30729f7 a3ab9851ea17aa498aa9457ca56b729edccb560d M	WebApi/WebApiCourse/Controllers/TeachingGroupCallStudentController.cs
+commit 3c34e07762f7b19d02e4717be48d023070394b19
+tree dbd02343c3502fe100546ef0eb0d791b5a27c965
+parent 60e691d481977e3069e878741902b3fea0237d0a
+author AnHaNIYa <1400436027@qq.com> 2019-12-09 09:44:24 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-09 09:44:24 +0800
+
+    editor ： 准备合并Dev
+
+
+
+:100644 100644 17da3508005a4736933f18ac986b2acc98f8b61c 57be2f97bd0a56d7504b209cb850e22bca64c3a3 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+:100644 100644 58237b2ce46efba5265e6ebff4694248da44299b 41292b542793a5e2ed9e43e06e5cea42c8c0aaa2 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 d1848ae041957652ebd3f31d306f7c4e5c363fe0 c54676a396c01dfae0b3b55061887830e6311421 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 a51da6470d45e37aeacd65f5b9cc5ec2bd21a675 98e91e8dc9d582633a81bb132b4bd75a10026b67 M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+commit 5c4b60c13a9c6d78b65696f0c9fd8260643fa9ca
+tree 2438f16fb29aaf23eb21faf3ad287dec60a7c7db
+parent 9efecee5f296d7cde559df517e95343d9963473c
+author 王宇鹤 <2511980201@qq.com> 2019-12-06 15:24:31 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-12-06 15:24:31 +0800
+
+    test
+
+
+
+:100644 100644 1f40c021f044f362ae2c10175bb1659df06f0d29 6143a357a64cd4c672ebbfa167b72cfd78a1df95 M	Domain2/Domain.LGLogAndReportModel/DTO/StudentCallCountDTO.cs
+:100644 100644 ef3b1993608d6c122b081d05aa594c7af2d932bd 80ef8db8a6b23ce342a757139598ba74ee125a6e M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 cc26ab73e9d2816139bd8522eb70eff20a808097 cd94186833d64738eb8e50378be98e933c3b42f3 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 10ac2ff0e25670cfbe1521994aaf98cbae0f7cff d7cb96dc92329561998d2e38b2993b10a30729f7 M	WebApi/WebApiCourse/Controllers/TeachingGroupCallStudentController.cs
+:100644 100644 869c21b310ff09e0eae15fd6d91ee2e7365deb77 1601030425f52177a5780af67da8e5cf8ca594e2 M	WebApi/WebApiCourse/WebApiCourse.csproj
+commit 9efecee5f296d7cde559df517e95343d9963473c
+tree 86d06b0811e0d365672a985fb2e3ddc5635b00ab
+parent 55bfa2d3d0613be2262205e3bb7beee17c148285
+author 王宇鹤 <2511980201@qq.com> 2019-12-06 14:13:11 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-12-06 14:13:11 +0800
+
+    test
+
+
+
+:100644 100644 1601030425f52177a5780af67da8e5cf8ca594e2 869c21b310ff09e0eae15fd6d91ee2e7365deb77 M	WebApi/WebApiCourse/WebApiCourse.csproj
+commit 55bfa2d3d0613be2262205e3bb7beee17c148285
+tree 7603366e6b56d94a1ddc0a085af450d0a0e6688c
+parent 061e11a2f5398cd5d8aaabcd4da0d0b8ea5ba1e4
+author 王宇鹤 <2511980201@qq.com> 2019-12-06 14:06:08 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-12-06 14:06:08 +0800
+
+    test
+
+
+
+:100644 100644 311b302ff96369f19828d23fdd5cc97e1b8273e4 1f40c021f044f362ae2c10175bb1659df06f0d29 M	Domain2/Domain.LGLogAndReportModel/DTO/StudentCallCountDTO.cs
+:100644 100644 effd60c26018cbe12cf2db9ce1bc2984a7440093 cc26ab73e9d2816139bd8522eb70eff20a808097 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+commit 061e11a2f5398cd5d8aaabcd4da0d0b8ea5ba1e4
+tree 4c7ea9f83b31903a196224064af077f74ea4b9db
+parent b2554656895f093fb7b3d739ae4a1dec121054a1
+author 王宇鹤 <2511980201@qq.com> 2019-12-06 11:52:40 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-12-06 11:52:40 +0800
+
+    test
+
+
+
+:100644 100644 edcfb7f33390fb02b1dfc23f94992c63f9332619 10ac2ff0e25670cfbe1521994aaf98cbae0f7cff M	WebApi/WebApiCourse/Controllers/TeachingGroupCallStudentController.cs
+commit b2554656895f093fb7b3d739ae4a1dec121054a1
+tree b362d77a19368d6cbb4e3fbe0b8d5a79d690d00d
+parent 8c3159970616c7eb31f7be60d00c2b29c5bf5f2b
+author 王宇鹤 <2511980201@qq.com> 2019-12-06 11:46:47 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-12-06 11:46:47 +0800
+
+    test
+
+
+
+:100644 100644 67927121fb3117905546038fa117b59e0647096a edcfb7f33390fb02b1dfc23f94992c63f9332619 M	WebApi/WebApiCourse/Controllers/TeachingGroupCallStudentController.cs
+commit 60e691d481977e3069e878741902b3fea0237d0a
+tree 0a4bbe6d5c4b0f884d3aea0bd7baab03d7fe86e6
+parent 7ed715c41e583ca44686a9fc7d1e4970c65952e1
+author AnHaNIYa <1400436027@qq.com> 2019-12-06 09:58:28 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-06 09:58:28 +0800
+
+    editor ： 小组加分接口， 优化
+
+
+
+:100644 100644 d924edcb284d3414e487bd8f92890b8d39fa1cb1 58237b2ce46efba5265e6ebff4694248da44299b M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 751fb02447f917e95ffb4e6f9b1ba2df08b41de5 d1848ae041957652ebd3f31d306f7c4e5c363fe0 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 f42bbee5ff85b0fc341e72177a9fb3240cb31fe1 a51da6470d45e37aeacd65f5b9cc5ec2bd21a675 M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+:100644 100644 cdc508f17dcc438172e728766d6770e117e38686 6679f828e0e177b76bc570559aae301960e8328e M	WebApi/WebApiCourse/Models/ParameterDto/ReqStudentReword.cs
+commit 58ad04a0cd3883e640c42b4c9006296169c929be
+tree 8d9323d6d8391f93bb990a477cddcf995e8de02a
+parent 16ffe717725921604ec7f0eaab1a38972f7fa8fc
+author AnHaNIYa <1400436027@qq.com> 2019-12-03 18:07:29 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-03 18:07:29 +0800
+
+    editor： CreateCourseTemplateByTemplate:  第三步改为异步
+
+
+
+:100644 100644 c272009d9623b43ac776eeb19d2fe854150c5c07 665d5f3ce585044d3d375eb1c65825bab4b2e3f4 M	WebApi/WebApiCourse/Controllers/CourseTemplateController.cs
+commit 7ed715c41e583ca44686a9fc7d1e4970c65952e1
+tree 4a95aa8aab0fff240ce6ea0f42740855c2432889
+parent 438af0c6220e30aaeb528d0f39cb521f265c073f
+author AnHaNIYa <1400436027@qq.com> 2019-12-03 17:59:58 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-03 17:59:58 +0800
+
+    editor： CreateCourseTemplateByTemplate:  第三步改为异步
+
+
+
+:100644 100644 c272009d9623b43ac776eeb19d2fe854150c5c07 9b696dc2c4f7bad17c7749b3158991306603c38b M	WebApi/WebApiCourse/Controllers/CourseTemplateController.cs
+commit 438af0c6220e30aaeb528d0f39cb521f265c073f
+tree ecaf096be1b7e7efa796a52de2797484336b8bac
+parent 38c381cc727b46e06147be5222106fbc350a34c5
+author AnHaNIYa <1400436027@qq.com> 2019-12-03 15:16:48 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-03 15:16:48 +0800
+
+    editor ：修改RewordStuAndLG
+
+
+
+:100644 100644 f5a809b8948d249171dcdbfed1ad79f502f88b85 17da3508005a4736933f18ac986b2acc98f8b61c M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+:100644 100644 2cb861e4a1eba8a47a46d365b95b617f3a459a42 f42bbee5ff85b0fc341e72177a9fb3240cb31fe1 M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+commit 38c381cc727b46e06147be5222106fbc350a34c5
+tree a2be9995d628ff15ad32d21ab242d1a1a83d1371
+parent e3af210a39a96cb36b5a4ef0edaeabc5e391a227
+author AnHaNIYa <1400436027@qq.com> 2019-12-03 14:25:28 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-12-03 14:25:28 +0800
+
+    editor:  添加课程全部分享
+
+
+
+:100644 100644 da8f250ebb98c89393169e09ec83541fb25e106e 9e95247f05c847dfb9141d8f199bc379cf8e40a8 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplate.cs
+:100644 100644 3b1b9fbe52c70f3e253ae09cac98e2471dfa6361 f5a809b8948d249171dcdbfed1ad79f502f88b85 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+:100644 100644 873260b23cfc1e7748f5feff541c13deddd1af32 d924edcb284d3414e487bd8f92890b8d39fa1cb1 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 20348b87d0e607440a08496874dcbb732db6192b 751fb02447f917e95ffb4e6f9b1ba2df08b41de5 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 6f7f35fd9341b2c955b08ddb056306aead62824c f8c208c79733ba34160a9ca1509deeb61e854a38 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 abded11cb9741b7ad7b86dd49de28e73b5c4afdb 2cb861e4a1eba8a47a46d365b95b617f3a459a42 M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+:100644 100644 cee7c8ef2f01379bfe757d109888b7e18228f557 cdc508f17dcc438172e728766d6770e117e38686 M	WebApi/WebApiCourse/Models/ParameterDto/ReqStudentReword.cs
+commit e3af210a39a96cb36b5a4ef0edaeabc5e391a227
+tree 2f8181164d5f74ae7536f249f9c3146dc2f6bba3
+parent 3dc42dc8680473b738eeb315086442a879090fea
+author AnHaNIYa <1400436027@qq.com> 2019-11-29 09:57:05 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-29 09:57:05 +0800
+
+    editor ： 添加校本分享--全部分享资源的API接口
+
+
+
+:100644 100644 1468fdafaf53594d5f87487c72cda45fa70e6e7c 6f7f35fd9341b2c955b08ddb056306aead62824c M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 c25373d910e65e85e71bcfcbe4b6a0b73d8ce47e 3a80cc6ad75387eb2a29dabd867e6d94de940206 M	WebApi/WebApiCourse/Models/ParameterDto/CreateDirectoryApiPDto.cs
+commit 3dc42dc8680473b738eeb315086442a879090fea
+tree dd18e30f6e6eb3edac92680402aab26363f19010
+parent f9c9c87f37c85e72a4ea91da9cfbbae563d603da
+author AnHaNIYa <1400436027@qq.com> 2019-11-28 14:31:23 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-28 14:31:23 +0800
+
+    editor ：newAdd:课程模板课时下资源调序、课件改名、复制课程模板 
+    、并增加版本信息
+
+
+
+:100644 100644 69b0d28220ed39221aa8e8fee7c0a3d8e031cebb d661a759c06cfd9a99b7010e83bd80744c84e9d6 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 511db3b63fc48953b2bac9c9cd46ef42aba603f7 dda368f1e973dcb14084540f8758eba9aff66b6c M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit be9a6ce2cf546a822e5555e1b0505bc6a67746f0
+tree acd2ec5783c229f4b175955af8c2f153420f2dd1
+parent f09e9f9c23406bc7896fb81f40b421e7631b27e7
+author AnHaNIYa <1400436027@qq.com> 2019-11-27 16:13:22 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-27 16:13:22 +0800
+
+    editor 修改    GetCourseIdByHTE(long HteId
+
+
+
+:100644 100644 78b2ce59202442171af3625be991fcc3fad84449 1b38f9387dbe281aab790cb656a6b551dd869eae M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit f09e9f9c23406bc7896fb81f40b421e7631b27e7
+tree b90dddf1145cc5b7661437f4ecb38048949fca31
+parent f60a5c6ade4f7fb59cc3ac254905318896be68e9
+author AnHaNIYa <1400436027@qq.com> 2019-11-27 16:00:17 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-27 16:00:17 +0800
+
+    editor: 复制课程模板
+
+
+
+:100644 100644 2d3e1f7a95f114cf3e0a4d13ed5cb972474a4b66 c272009d9623b43ac776eeb19d2fe854150c5c07 M	WebApi/WebApiCourse/Controllers/CourseTemplateController.cs
+commit f60a5c6ade4f7fb59cc3ac254905318896be68e9
+tree b0a712a80e462ba525949f076d4618fda73393a0
+parent 44b7b6061f203db8e17b3b13b99b0de09290d672
+author AnHaNIYa <1400436027@qq.com> 2019-11-27 15:21:10 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-27 15:21:10 +0800
+
+    editor:  updateSequence  ByFCJ
+
+
+
+:100644 100644 2b8ade8b516e2a4e1162fb71051e4df157f13361 78b2ce59202442171af3625be991fcc3fad84449 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 44b7b6061f203db8e17b3b13b99b0de09290d672
+tree 8d9a66b825e21c6c1e54e03fb66897aea71c3acc
+parent c8fb06a5cc8b224b6628412e8bfbc5f9da569eda
+author AnHaNIYa <1400436027@qq.com> 2019-11-27 15:12:58 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-27 15:12:58 +0800
+
+    editor: 课时下资源调序
+
+
+
+:100644 100644 882d7ab85af9ddb040210f288148f5b9e767c991 0192d2a0cdb9a3c7b03b9ee31cb58687810a51be M	Domain2/Domain.CourseBuildModel/Service/Interface/IBuildCourse.cs
+:100644 100644 4271c960f9ba16d4c4c66467d01f3c9c87be78e5 da8f250ebb98c89393169e09ec83541fb25e106e M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplate.cs
+:100644 100644 cea1228ead6d1c5a9f2cff61205e74a301d02b07 f00bfccbece133c5efbd5557e19c794c01d315bc M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 49706042334c8d58d1b57c2dc7bbb40fa3b05952 3b1b9fbe52c70f3e253ae09cac98e2471dfa6361 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+:100644 100644 60bfbed1e156f2b9a71f189f7cd85096242e71e5 f21dc472ce889846dbd8293e6f8e411b1cd95644 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 79aad116f3b819b8334dc40f95708eb896e84117 9a83e0a98acd404524e111d77fcac41087dc02d1 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 31342c884d3e2a00db94b7692572e8a8af738e8e 1468fdafaf53594d5f87487c72cda45fa70e6e7c M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 4a9c121e4d2adfeca9819ffbe78a5b3b34c1a1dc 2d3e1f7a95f114cf3e0a4d13ed5cb972474a4b66 M	WebApi/WebApiCourse/Controllers/CourseTemplateController.cs
+:100644 100644 67665c7aa804b6eb5edaf51e3bada1cd6055d7f4 9dd89bdf5f16f215cbf9f378fe3d2562e6bb6229 M	WebApi/WebApiCourse/Models/ParameterDto/CreateCourseDto.cs
+:000000 100644 0000000000000000000000000000000000000000 8a162ef4a7bd41cd469078424dc6b81ffd124925 A	WebApi/WebApiCourse/Models/ReqModel/ReqUpdateResourceSequence.cs
+commit 718e669df283a9eafbd04f1ea072a92d4ce52d37
+tree cd6e5e2988fb2df42ce52805c5f79c33a72d0b87
+parent c8fb06a5cc8b224b6628412e8bfbc5f9da569eda
+author 王宇鹤 <2511980201@qq.com> 2019-11-20 10:55:42 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-11-20 10:55:42 +0800
+
+    feat:test
+
+
+
+:100644 100644 3ae17958333c5497871ef35f95247a94fb5a781c 3cead0f9a43589babda62eefd11c0a1b7610d0bb M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:000000 100644 0000000000000000000000000000000000000000 196d5b81039568da3519bf3e67c78ae3396bb1ec A	WebApi/WebApiCourse/Models/ResTeacherCourse.cs
+commit 12cf91264f26f0374f33f50024f2a128035fb9a7
+tree 18a79489600408a387e8926c7567ba0afa628fb4
+parent 35e5e4a1a182717d912047979529fb44238a0dc3
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-11-18 11:56:02 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-11-18 11:56:02 +0800
+
+    插入同步投影
+
+
+
+:100644 100644 01c4bba057652ac0de497da814daf1282cc2a037 e303eaa43f4f64f7ff9abb8ca96073615c346ba2 M	WebApi/WebApiCourse/Controllers/ClassRoomController.cs
+commit af5f0c95248a23fd5a489c058982f49e970bcd2e
+tree 6b04c71db889a133b5de6313b64cbc59abb570b0
+parent b34a0ae71d3c087a2f44d7ac71c5ea0733110ac8
+author yangjialin <yangjialin@hexfuture.com> 2019-11-18 11:18:01 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-11-18 11:18:01 +0800
+
+    fix:添加老师所教的所有教学班
+
+
+
+:100644 100644 8831b35de4a7eb9f43f47ae9b59cfb81abf17ff5 d5dabe315d6b79a5023f57e562c406a951071b2e M	Domain2/Domain.CourseModel/Service/Interface/IClass.cs
+:100644 100644 1f2dfa50050c300de614366f65d671c67470206c c9b1567b902c06240af1efbd3c4d6931079e5143 M	Domain2/Domain.CourseModel/Service/Realization/ClassService.cs
+:100644 100644 aa232f5355b6dcc84e132651b10185dedee16d7a 6bebc662b4e9dbbeb93deb1b04b0acb954aa425c M	Domain2/Domain.CourseModel/Specification/StudyClassSpecification.cs
+:100644 100644 60bfbed1e156f2b9a71f189f7cd85096242e71e5 66c7fd0e3f1690371e744c0a50c75d3cabe32e2d M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 79aad116f3b819b8334dc40f95708eb896e84117 836334c325d19b8da3d265f736b9eb85726241b7 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+commit b34a0ae71d3c087a2f44d7ac71c5ea0733110ac8
+tree efcd1b06570aa81db24e20b1750fc1f39bb35479
+parent c8fb06a5cc8b224b6628412e8bfbc5f9da569eda
+author yangjialin <yangjialin@hexfuture.com> 2019-11-13 16:50:00 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-11-13 16:50:00 +0800
+
+    fix:GetClassInfoById(string[] ClassIds);
+
+
+
+:100644 100644 4829e3dc413606ac37fdf60ac18dd51d50d2855c 8831b35de4a7eb9f43f47ae9b59cfb81abf17ff5 M	Domain2/Domain.CourseModel/Service/Interface/IClass.cs
+:100644 100644 14b721ff8791c4b73bfea47209fbd64e0caf754f 1f2dfa50050c300de614366f65d671c67470206c M	Domain2/Domain.CourseModel/Service/Realization/ClassService.cs
+commit 35e5e4a1a182717d912047979529fb44238a0dc3
+tree 4e6cf4e089e22a618c060bf90c1e9a0529bae61a
+parent 434a848499309522fb8641de41e8fe5c832f087f
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-11-12 11:53:21 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-11-12 11:53:21 +0800
+
+    同步投影
+
+
+
+:100644 100644 f5039fa65a39307e00a7de9eb39c5c4205aa033c 065948d01f5a42384255fc5fd227e9d31257f328 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 7e67469af91ef8e20f47fe2f4cfe3481a352feb5 01c4bba057652ac0de497da814daf1282cc2a037 M	WebApi/WebApiCourse/Controllers/ClassRoomController.cs
+commit c8fb06a5cc8b224b6628412e8bfbc5f9da569eda
+tree 0a5f6737042a56224c2bbfec676f2e3c68167ac8
+parent db5fdcd804a2fd86dba3785ef1c10ab6441ed5b2
+author AnHaNIYa <1400436027@qq.com> 2019-11-11 18:42:50 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-11 18:42:50 +0800
+
+    editor 添加锁
+
+
+
+:100644 100644 bb87534a98448710f8921251013c95e03caa4ff7 49706042334c8d58d1b57c2dc7bbb40fa3b05952 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+commit db5fdcd804a2fd86dba3785ef1c10ab6441ed5b2
+tree 048f0bc51d3d5712a674d5be1297ad8a72e22925
+parent 780a504cd679ed731669a24f91df24f85a177fe7
+author AnHaNIYa <1400436027@qq.com> 2019-11-11 18:34:03 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-11 18:34:03 +0800
+
+    editor: 添加方法锁
+
+
+
+:100644 100644 2851f42f967e45fad13043883b93c7834ba8aac6 edb64cfd2013eac993886a88b7d6b786c0f35384 M	Domain2/Domain.CourseBuildModel/Service/Realization/ComFunction.cs
+:100644 100644 0ce020d8d20b92c2416fdfe635a72e94b1043141 bb87534a98448710f8921251013c95e03caa4ff7 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+commit 780a504cd679ed731669a24f91df24f85a177fe7
+tree d4cb6cf0f49ab375aaaf098de513365867bed7bc
+parent 0146a5c96912b293b290adfb223bc4db74a1ac0e
+author AnHaNIYa <1400436027@qq.com> 2019-11-11 18:09:47 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-11 18:09:47 +0800
+
+    ediotr:  添加锁接口
+
+
+
+:100644 100644 f1356d29fadcaaab58cfa529842e5816b4bef96f 2851f42f967e45fad13043883b93c7834ba8aac6 M	Domain2/Domain.CourseBuildModel/Service/Realization/ComFunction.cs
+:100644 100644 a0ba2df8fa364f21d77e326aee9266da5ac54d09 0ce020d8d20b92c2416fdfe635a72e94b1043141 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+commit 0146a5c96912b293b290adfb223bc4db74a1ac0e
+tree a54b21a4c491c8bddaa2734e51cba375591965d4
+parent f99e4536e9c5d08df2e60e1640e429eb8bcaa247
+author AnHaNIYa <1400436027@qq.com> 2019-11-11 17:16:34 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-11 17:16:34 +0800
+
+    editor : AddClassPeriodCoursewareContentWithLog
+
+
+
+:100644 100644 30b5d6af2f0a923ff338cf7c483a2cc2c6943ff6 a0ba2df8fa364f21d77e326aee9266da5ac54d09 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+commit f99e4536e9c5d08df2e60e1640e429eb8bcaa247
+tree 69fda3f80fb218733e5e8f3df3d1fe2c1a52911a
+parent 17410e6586bc3738d66b2592cdf91036873d0791
+author AnHaNIYa <1400436027@qq.com> 2019-11-11 16:52:50 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-11 16:52:50 +0800
+
+    editor : 静态类AddClassPeriodSectionContentListWithLog
+
+
+
+:100644 100644 9de2701dcf53488f676b1e5c6b46bf5ed6ca321a 30b5d6af2f0a923ff338cf7c483a2cc2c6943ff6 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+commit e61fc8bae8182e199b7cfa11009028b7f2bc455a
+tree 48224bf693fef4d6cc8e19b0266b6f6306085c5e
+parent c393d819892b96669a76848c3e8dae13093aa782
+author AnHaNIYa <1400436027@qq.com> 2019-11-11 16:41:34 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-11 16:41:34 +0800
+
+    editor ： 静态类: AddClassPeriodSectionContentListWithLog
+
+
+
+:100644 100644 790b83d1a2af6fbc8e2cc819dcd67fd05b351b86 9de2701dcf53488f676b1e5c6b46bf5ed6ca321a M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+commit ad7c332583df2ec8892b433f9a44b4b9d8e8f2be
+tree 256ec826c949508d13833589387a53841f96641f
+parent 33a44da845ad2a3494640b0c63c7c8069ca960d2
+author 王宇鹤 <2511980201@qq.com> 2019-11-11 15:25:14 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-11-11 15:25:14 +0800
+
+    h5
+
+
+
+:100644 100644 46bff2cba95374f7e152eca9de71d3e2db91e041 ecd41da9cdcb27db8e014ec6d12f765dc324442b M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 5eed67bf07d6d041313c202df50415709752df7f 9af9cbb0a066b5b0301a30de8fcb7a3cea2b7ddc M	WebApi/WebApiCourse/Controllers/CourseScheduleController.cs
+:100644 100644 e14c0955cf237130aae82522732cd021918f61dc 96ef26cc0367ee4383aac11c97e381e0c52ba6f4 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit c393d819892b96669a76848c3e8dae13093aa782
+tree 644d85e279f19f337c81b27fa0e742cbbf696161
+parent e3e286a5d44828846b04d53cb5a778085074d36d
+author AnHaNIYa <1400436027@qq.com> 2019-11-08 20:17:40 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-08 20:17:40 +0800
+
+    editor: 新接口  NewAndCount
+
+
+
+:100644 100644 69fecddfe32888591967bce44f7f5a445cbbb9d7 1440d115a014bd5e17ac8b0d8897a8304add9a66 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 961a466505f08b2cc2b53bf1aae4e6523089c2e4 3ae17958333c5497871ef35f95247a94fb5a781c M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 3a5bce90127553336e6469d129d2ca8b6d18faff 13fba7542a95eb9ec4208e0df06a7ad566a0f328 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit e3e286a5d44828846b04d53cb5a778085074d36d
+tree bdae67e775dc1134ea3e7feb1cdca263f8ca9d89
+parent f1a2a0725cf927aabc8fdaf58e4281e04d1d83f6
+author AnHaNIYa <1400436027@qq.com> 2019-11-08 16:12:01 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-08 16:12:01 +0800
+
+    editor: 复制课程
+
+
+
+:100644 100644 b9090358e3d9df5a8e8cd8ca720f4c460e0e2e3a 961a466505f08b2cc2b53bf1aae4e6523089c2e4 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit f1a2a0725cf927aabc8fdaf58e4281e04d1d83f6
+tree dc1d82d00410baf84023d16585a0e864fa213f3b
+parent 1fce8f2de341102c18bef575660a24531287f541
+author AnHaNIYa <1400436027@qq.com> 2019-11-08 15:56:20 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-08 15:56:20 +0800
+
+    editor: 复制课程
+
+
+
+:100644 100644 f6cd07c4efc94683d19c1379a8cc3c4a531ff3f7 b9090358e3d9df5a8e8cd8ca720f4c460e0e2e3a M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 1fce8f2de341102c18bef575660a24531287f541
+tree 459f3a1d391c3908bdf5fccdbfd63dff8ddf39c9
+parent e6b1d55cfd0dc450a3dea5f9c17b279c23adb2d2
+author AnHaNIYa <1400436027@qq.com> 2019-11-08 15:35:41 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-08 15:35:41 +0800
+
+    editor: 进度问题解决
+
+
+
+:100644 100644 8aefc98877e5b71ca15a66897856c618094189c6 69fecddfe32888591967bce44f7f5a445cbbb9d7 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit e6b1d55cfd0dc450a3dea5f9c17b279c23adb2d2
+tree be74af7e0025ad94cb0e4c8e9a3c9428bf371c91
+parent 496412fac61d1e547968c1813336a3dfb1e69c4f
+author AnHaNIYa <1400436027@qq.com> 2019-11-08 13:24:36 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-08 13:24:36 +0800
+
+    EDITOR: UpdateResourceProcess
+
+
+
+:100644 100644 e01319b47d643f8683695279f329750fd90d1595 8aefc98877e5b71ca15a66897856c618094189c6 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 496412fac61d1e547968c1813336a3dfb1e69c4f
+tree 5750a61ea450c980c307e2a8eaebed14d5b0e3de
+parent f35f4742a9381d3cbcf8d0d01fb3191114918caa
+author AnHaNIYa <1400436027@qq.com> 2019-11-08 11:48:11 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-08 11:48:11 +0800
+
+    editor 测试
+
+
+
+:100644 100644 ec3b5b67d36eaeda5a95718528d320d21572ddcc f6cd07c4efc94683d19c1379a8cc3c4a531ff3f7 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit f35f4742a9381d3cbcf8d0d01fb3191114918caa
+tree 5d6f4e7395b69246124267aa780667242b7491af
+parent 4cd18faf560f740a6d0b7c31ebb62125a89acceb
+author AnHaNIYa <1400436027@qq.com> 2019-11-08 11:43:18 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-08 11:43:18 +0800
+
+    editor 测试try
+
+
+
+:100644 100644 5a800036c2ad562e19c5522fcbd7421e360dad91 ec3b5b67d36eaeda5a95718528d320d21572ddcc M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 4cd18faf560f740a6d0b7c31ebb62125a89acceb
+tree 98f22668ae49466cc1b93cbfd59c7e8445dbe6d7
+parent 5d13bc4e9e6ddf3277de6358de1bda382cf7b7b2
+author AnHaNIYa <1400436027@qq.com> 2019-11-08 11:19:07 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-08 11:19:07 +0800
+
+    editor: 添加监控日志
+
+
+
+:100644 100644 2af1e2c24e2d08594e9ea81ecd9972e47bc812b3 94f1023d27240569eaec5092d4e2f3e3730b7b74 M	Course.sln
+:100644 100644 566186fdc29a7cd5bf53cbcba98da6da386f9561 5a800036c2ad562e19c5522fcbd7421e360dad91 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 5d13bc4e9e6ddf3277de6358de1bda382cf7b7b2
+tree 3ffc727ed4ba5a3a2ff78d41095c1869d2dab84d
+parent 06bc0c68789bca8c7c313d66ad6e2f8e3459dd15
+author AnHaNIYa <1400436027@qq.com> 2019-11-08 10:11:04 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-08 10:11:04 +0800
+
+    editor： 测试UpdateResourceProcess
+
+
+
+:100644 100644 d9eec0f8a0da90547d4a84d45d586c5bf45fad60 e01319b47d643f8683695279f329750fd90d1595 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 06bc0c68789bca8c7c313d66ad6e2f8e3459dd15
+tree 7dcfd4155d77a5d98e0ffa92863f937039bab193
+parent c109322971cd84cd38986fc4cb4969ce258ea1df
+author AnHaNIYa <1400436027@qq.com> 2019-11-07 17:36:33 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-07 17:36:33 +0800
+
+    editor：测试新建课程
+
+
+
+:100644 100644 8cdda9aaf5ef7bdd2231ea0e778b15559078de2e cea1228ead6d1c5a9f2cff61205e74a301d02b07 M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+commit c109322971cd84cd38986fc4cb4969ce258ea1df
+tree 6befcb791a9cb1a5c633dfa33abacf6acf005c82
+parent 2b4066abfea0075a4b5374c0b885edbe217a257b
+author AnHaNIYa <1400436027@qq.com> 2019-11-07 17:16:43 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-07 17:16:43 +0800
+
+    editor: 测试新建课程异步
+
+
+
+:100644 100644 cea1228ead6d1c5a9f2cff61205e74a301d02b07 8cdda9aaf5ef7bdd2231ea0e778b15559078de2e M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 22bf9979d99d1df9368a9ee948b5c199474f7259 21b10332dbc7d7f92a12b2d0a181a0a1da178465 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 e5005431a9314878f10661a9b05c99e6a4d66160 1dd086ad82e0d1cea57d32edecb8582cd392dd99 M	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/appsettings.json
+commit 2b4066abfea0075a4b5374c0b885edbe217a257b
+tree e241f6c554e64cf902e362447baf8c5a362adda6
+parent dde3fc23d367f8d877744f2b635c165d32276074
+author AnHaNIYa <1400436027@qq.com> 2019-11-07 15:09:22 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-07 15:09:22 +0800
+
+    editor: 添加NEW
+
+
+
+:100644 100644 6e8fe07dd98e97e346ab1ad059a9294432dbe1a3 3a5bce90127553336e6469d129d2ca8b6d18faff M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit dde3fc23d367f8d877744f2b635c165d32276074
+tree 0d341d9e45b1c200cc2e342654d90a6887d1fae0
+parent 8730fcd128622c11386b935fc01c14e00af27ebd
+author AnHaNIYa <1400436027@qq.com> 2019-11-07 14:35:13 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-07 14:35:13 +0800
+
+    editor: 优化接口GetDirCountAndIsNew
+
+
+
+:100644 100644 4fe6a7709a6e485141c6a406a0fc0f3d08c9c769 9b70be504ebf0d34c0275a15877c590dd8b5c12e M	Domain2/Domain.CourseBuildModel/Specification/ClassPeriodSpecification.cs
+:100644 100644 26789fc4d2c89e7890a0fe6ec8afefcbae584632 6e8fe07dd98e97e346ab1ad059a9294432dbe1a3 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 8730fcd128622c11386b935fc01c14e00af27ebd
+tree fca94c0059d81301eefa0890cb08b170e7f0b736
+parent 57411aa94845c6dbc37a1971bb3cbcf4fd05a440
+author AnHaNIYa <1400436027@qq.com> 2019-11-07 14:11:47 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-07 14:11:47 +0800
+
+    editor:  提交GetDirCountAndIsNew
+
+
+
+:100644 100644 f21dc472ce889846dbd8293e6f8e411b1cd95644 60bfbed1e156f2b9a71f189f7cd85096242e71e5 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 9a83e0a98acd404524e111d77fcac41087dc02d1 79aad116f3b819b8334dc40f95708eb896e84117 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 27230465e1a2140df76f5badc2edd8aaadc84e6e 26789fc4d2c89e7890a0fe6ec8afefcbae584632 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 57411aa94845c6dbc37a1971bb3cbcf4fd05a440
+tree 6d9311da483ad6d33ea69b4359a1383d93f7a1e2
+parent 8fbb87ead84c25e0154c33aeb98aa9f169a56e81
+author AnHaNIYa <1400436027@qq.com> 2019-11-07 12:49:26 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-07 12:49:26 +0800
+
+    editor: 修改i重复章节问题
+
+
+
+:100644 100644 02c62c849d45d7c0136ebf2b5b6b5bf078cfd720 4271c960f9ba16d4c4c66467d01f3c9c87be78e5 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplate.cs
+:100644 100644 b2c9c2154740d54571598ecdb5323d6f454e7cbe 790b83d1a2af6fbc8e2cc819dcd67fd05b351b86 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+:100644 100644 7a1817d2660890ba05678eee04c196c3fba3befa 4fe6a7709a6e485141c6a406a0fc0f3d08c9c769 M	Domain2/Domain.CourseBuildModel/Specification/ClassPeriodSpecification.cs
+:100644 100644 43a0fc7644d2765d3f6bd4bf01605af5e78568e3 27230465e1a2140df76f5badc2edd8aaadc84e6e M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 8fbb87ead84c25e0154c33aeb98aa9f169a56e81
+tree 84a1dbfd529a5766213052f2e4fdc3abec5e7be6
+parent 71859babc98b5eede058efbe5ae0dd5e107e18e7
+author AnHaNIYa <1400436027@qq.com> 2019-11-07 11:29:08 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-07 11:29:08 +0800
+
+    editor: 提交测试
+
+
+
+:100644 100644 4b84b1722c012d9fdfdee523a385ba5ebca10a50 22bf9979d99d1df9368a9ee948b5c199474f7259 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 0e6aa47f3e57ba603713aa5bf38b912f5cb8ccda 43a0fc7644d2765d3f6bd4bf01605af5e78568e3 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit b99ce1a43a4bf45cca222914658326a78b1c27b0
+tree 2819dd1b2170e840b7f255fdfc8708190b617014
+parent 65fcecdb3335d15d8d48718a21006de6cabe96f7
+author AnHaNIYa <1400436027@qq.com> 2019-11-07 09:12:15 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-07 09:12:15 +0800
+
+    editor: 优化GetDirCountAndIsNew 方法
+
+
+
+:100644 100644 51b760edf6dd97c26e083408620c94292a7c2272 13ddfe4496be7c23e82ae0cc7b597c41ab4e1af9 M	Domain2/Domain.CourseBuildModel/Service/Interface/IBussinessModelLog.cs
+:100644 100644 f97592f619762dad40a3d5a991b6fa20d0e7caae 466795bd3acc7f509f55349314423bd80d4fdee0 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 a9f959a1b51d4e1e838991d4fed0a2ffd70e9db7 fdaf2215586beaa66ea209b270a795b7261bcda3 M	Domain2/Domain.CourseBuildModel/Service/Realization/BussinessModelLogService.cs
+:100644 100644 0b79ae31392e313075f194c5ea3e2e611f3cdeb4 4b84b1722c012d9fdfdee523a385ba5ebca10a50 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 2fd691516f6a61e0363f657da1e48d9b65c10053 e85ce8b799bdf7dc76a6efd630567496e03bf34d M	Domain2/Domain.CourseBuildModel/Specification/ResourceLogQuerySpecification.cs
+:100644 100644 5a14696e6d2333ffc54acd401ba99878eeca178d 447f81e1fa1861d95951960bcc89f940e66c35d8 M	Domain2/Domain.CourseBuildModel/Specification/ResourceRelationSpecification.cs
+:100644 100644 3903ba5b109ff1f3adbe4a76ec69c886205b51fe eaa402d3c0d0100d8c1d89223bead7497fc3772b M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/ResourceRelationRAFCommonSql.cs
+:100644 100644 3391f6ac5d3b0958e57d0d530f665ddf20faebf1 f39c32bba592cb7e1885cd599874d9b3764f8eac M	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/CourseAndCTResourceRelationDBTransfer.csproj
+:100644 100644 0aaefcb70cc42a127c6ecf794e6741e8cc53ede3 d563a76aeb2c25a2070c2ce5854dc9811533748c M	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/Program.cs
+:000000 100644 0000000000000000000000000000000000000000 e5005431a9314878f10661a9b05c99e6a4d66160 A	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/appsettings.json
+:100644 100644 4fb6afc296420f4eed0e23877fb7addc4bc41d19 0e6aa47f3e57ba603713aa5bf38b912f5cb8ccda M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 434a848499309522fb8641de41e8fe5c832f087f
+tree 12bff0b0e2e08f9cf296c04e5dfc2687a784e9c8
+parent 761bdda7718a9ad73ae640b77baf86dfe92b7cba
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-11-06 11:56:50 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-11-06 11:56:50 +0800
+
+    插入同步投影
+
+
+
+:100644 100644 6091cc3f8b4c212da5511b905583da27cd8bab61 7e67469af91ef8e20f47fe2f4cfe3481a352feb5 M	WebApi/WebApiCourse/Controllers/ClassRoomController.cs
+commit 65fcecdb3335d15d8d48718a21006de6cabe96f7
+tree ad628b0b4be27f050c64a3699e7e4e0e75338461
+parent 6fc4519ebb6471797fb5269a8beaf2c857bc3942
+author AnHaNIYa <1400436027@qq.com> 2019-11-05 15:12:35 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-05 15:12:35 +0800
+
+    editor: 课时排序
+
+
+
+:100644 100644 f954165f3206ff7a2da22dbe2653a6049bac8c05 566186fdc29a7cd5bf53cbcba98da6da386f9561 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit a014d5ad6ba860b172862e614f18872b78825d26
+tree dd7c81b1e74a074b131c621f0a9b9570e1ae702d
+parent 54c96c8beb32acea7111a60f054d64de85dca3e0
+author AnHaNIYa <1400436027@qq.com> 2019-11-05 14:54:28 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-05 14:54:28 +0800
+
+    editor： 前端排序
+
+
+
+:100644 100644 2b82bd7c09f7bf77611e5134895a0036af75cd5d c0240a8c0ebf4a776b8ba385aa43370093b9ac60 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 6fc4519ebb6471797fb5269a8beaf2c857bc3942
+tree e5715f8aa13007e0b18acc9f907ab1abbf4bc98c
+parent a6042b40db81b74eebe379a52f5c581c2148d7c9
+author AnHaNIYa <1400436027@qq.com> 2019-11-05 12:03:45 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-05 12:03:45 +0800
+
+    add： 升级版本 及添加信息
+
+
+
+:100644 100644 562ef4790d9e01a4e79ade708e6a0959b05636d7 69b0d28220ed39221aa8e8fee7c0a3d8e031cebb M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 bfb2adcc0ae6953ccc52c4da71a62e9dc4d55981 511db3b63fc48953b2bac9c9cd46ef42aba603f7 M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+:100644 100644 2afab094493ba358f7407d26a8bdb6eb826072c3 f954165f3206ff7a2da22dbe2653a6049bac8c05 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 869c21b310ff09e0eae15fd6d91ee2e7365deb77 1601030425f52177a5780af67da8e5cf8ca594e2 M	WebApi/WebApiCourse/WebApiCourse.csproj
+commit 761bdda7718a9ad73ae640b77baf86dfe92b7cba
+tree 1b3a01f035b3fe432c29a973b91a1635ccd4983d
+parent 6bd22bb94be1bc2221a36ba6048c5b2a323c1b31
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-11-05 12:02:51 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-11-05 12:02:51 +0800
+
+    图片调整顺序
+
+
+
+:100644 100644 38f4944cbe02a76e7778adec517a5a730d5cbfcb 6091cc3f8b4c212da5511b905583da27cd8bab61 M	WebApi/WebApiCourse/Controllers/ClassRoomController.cs
+commit 6bd22bb94be1bc2221a36ba6048c5b2a323c1b31
+tree bf25ec621e2ac31e86eb1d1d6aff06667786d3a8
+parent 0ddc789a343203c418bc2b7da8a73c9648f431cc
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-11-05 11:53:09 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-11-05 11:53:09 +0800
+
+    索引
+
+
+
+:100644 100644 5cb5903657f8dded132e80d707e52d87ae0610f1 2c15cc8e314693e1cbfbe0f5ad6155bcbdf88185 M	WebApi/CourseWebAPIServer/Startup.cs
+:100644 100644 329413d742b8fa528ce95b7a70ac819044705a2b 38f4944cbe02a76e7778adec517a5a730d5cbfcb M	WebApi/WebApiCourse/Controllers/ClassRoomController.cs
+commit a6042b40db81b74eebe379a52f5c581c2148d7c9
+tree cb39bfa2df0cbefbbbd339cd535cc8176b61ad38
+parent 0547294f12ca716f2bfb2ef8669e5823db90dba1
+author AnHaNIYa <1400436027@qq.com> 2019-11-05 09:53:51 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-05 09:53:51 +0800
+
+    editor：删除测试代码
+
+
+
+:100644 100644 2b82bd7c09f7bf77611e5134895a0036af75cd5d 2afab094493ba358f7407d26a8bdb6eb826072c3 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 0547294f12ca716f2bfb2ef8669e5823db90dba1
+tree 16ed1c5eb106f7e2ea9df73029c04ffc1adfa9fb
+parent a63e4402b9cf422c573e95f4f92652a37abedb51
+author AnHaNIYa <1400436027@qq.com> 2019-11-04 17:36:57 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-04 17:36:57 +0800
+
+    editor: 复制课程
+
+
+
+:100644 100644 a63a9bd34fdb89649118e35cafc2ae29af655f6d cea1228ead6d1c5a9f2cff61205e74a301d02b07 M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+commit a63e4402b9cf422c573e95f4f92652a37abedb51
+tree 46f2de0f497406c99affcd466c738439825d03fc
+parent 98204a02a36ff1fdf8a4032bd2a1fe7942415e4d
+author AnHaNIYa <1400436027@qq.com> 2019-11-04 17:08:20 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-04 17:08:20 +0800
+
+    editor :复制课程  创建关系表
+
+
+
+:100644 100644 c4209a7ffc5927e61f4395bfcf7d8d047c3fdb7e a63a9bd34fdb89649118e35cafc2ae29af655f6d M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+commit 98204a02a36ff1fdf8a4032bd2a1fe7942415e4d
+tree 3b6b5affffa88942c530f48278e0b60e2dff0c30
+parent 8af23ba0596e6a8599aeba06c0014b12fc027c6d
+author AnHaNIYa <1400436027@qq.com> 2019-11-04 15:54:32 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-04 15:54:32 +0800
+
+    editor: 添加判断课程是否复制完成
+
+
+
+:100644 100644 c90eec8a1ae6b6919a79557a1d3edc8749283026 2b82bd7c09f7bf77611e5134895a0036af75cd5d M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 8af23ba0596e6a8599aeba06c0014b12fc027c6d
+tree 42691a9e6eff8975ada0a06fcfe243fc9a81a95c
+parent fb15a5144e27c9aa8d4c0689aff14ea6a2a8625f
+author AnHaNIYa <1400436027@qq.com> 2019-11-04 15:09:33 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-04 15:09:33 +0800
+
+    editor: 复制课程
+
+
+
+:100644 100644 a65110db4048bc15aa599082ae989820b08c4a5c c4209a7ffc5927e61f4395bfcf7d8d047c3fdb7e M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 a5301cc925684bc1ef67ee70a07829af1c176d63 c90eec8a1ae6b6919a79557a1d3edc8749283026 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:000000 100644 0000000000000000000000000000000000000000 3e209c06b4616029aae52f9c418eaa591598d1f7 A	WebApi/WebApiCourse/Models/CustomEnum/CourseStateEnum.cs
+commit fb15a5144e27c9aa8d4c0689aff14ea6a2a8625f
+tree 58987eb2180430c2bfa7bb17abd28b449e85538a
+parent 93a8de5d094a55a9b060938dfcb52d3e86a539c1
+author AnHaNIYa <1400436027@qq.com> 2019-11-04 11:48:08 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-04 11:48:08 +0800
+
+    editor ： 复制课程、同步课程
+
+
+
+:100644 100644 bec4e336b5689fffbfaf1d1317de93febdd3c2a5 a65110db4048bc15aa599082ae989820b08c4a5c M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 4024f7fd2c26ceb8c274a8ac37deb174c9408bd0 d9eec0f8a0da90547d4a84d45d586c5bf45fad60 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 0dfa7cf26589ec6ff3b7f3ec670d7fc8b2538c77
+tree 8d6d3d4421ed10f7db5f69ca14cc36b0e20d546c
+parent 621fda18cc7404d1da2cc87b67621cb7104fac38
+author AnHaNIYa <1400436027@qq.com> 2019-11-04 09:15:08 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-04 09:15:08 +0800
+
+    editor: 准备合并DEV分支，进行测试
+
+
+
+:100644 100644 a030c9021cb3016a80a772bfd150aa03665fa3e8 0b79ae31392e313075f194c5ea3e2e611f3cdeb4 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:000000 100644 0000000000000000000000000000000000000000 5b2ffe25b485c1820cbe84fb7ae54fef3c496e89 A	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/Configs/Log4Net.config
+:100644 100644 958d2f1daae335c650f21374c768aa8005410ab0 3391f6ac5d3b0958e57d0d530f665ddf20faebf1 M	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/CourseAndCTResourceRelationDBTransfer.csproj
+:100644 100644 7350554fdb1cf5b91b7e9e1194395d8669dd0294 0aaefcb70cc42a127c6ecf794e6741e8cc53ede3 M	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/Program.cs
+:000000 100644 0000000000000000000000000000000000000000 315d926cc668dcf13003d4de9d0e000d3e97526b A	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/Properties/launchSettings.json
+:000000 100644 0000000000000000000000000000000000000000 148e6da220e1ea97d1abc1dd03c065d6ae13099f A	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/UnTestHost.cs
+commit b0d0e31c40e89bdbb679d3bba7ba31309b218f92
+tree c9368c3cbf0a65b52c5973f5ec206a97a7d3d350
+parent cbb4332cf827b558cea4d13c733c3d5bf57aaba4
+author 彩娟 冯 <1446730634@qq.com> 2019-11-01 17:52:03 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-11-01 17:52:03 +0800
+
+    UpdateResourceProcess
+
+
+
+:100644 100644 48c7a0272895ecbf087b22a1eae29e5ec2c12b85 4024f7fd2c26ceb8c274a8ac37deb174c9408bd0 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit e0fddc25e74dd17298f1a2d778fcdc266e51c791
+tree bf50beeaf1561434720b6b5468fc681d72dc9839
+parent 854eade527302d903ab0fbefb051c659a26cad49
+author 彩娟 冯 <1446730634@qq.com> 2019-11-01 17:35:33 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-11-01 17:35:33 +0800
+
+    UpdateResourceProcess
+
+
+
+:100644 100644 80f7277cee4fb146a0efae875b86f7bd17fc1020 c0cd7834de59ef4694b120b8e07ea8d0e8fadb4a M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 621fda18cc7404d1da2cc87b67621cb7104fac38
+tree 68dc97f703ed60398893b2f06c88912f8da59d87
+parent 854eade527302d903ab0fbefb051c659a26cad49
+author AnHaNIYa <1400436027@qq.com> 2019-11-01 14:51:54 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-01 14:51:54 +0800
+
+    editor: 添加和删除
+
+
+
+:100644 100644 6c42dc5847240c554f4541a260d27aecf32c2664 51b760edf6dd97c26e083408620c94292a7c2272 M	Domain2/Domain.CourseBuildModel/Service/Interface/IBussinessModelLog.cs
+:100644 100644 c0d8231fa340eb616dfca66b08d347a6c2489805 a9f959a1b51d4e1e838991d4fed0a2ffd70e9db7 M	Domain2/Domain.CourseBuildModel/Service/Realization/BussinessModelLogService.cs
+:100644 100644 c99e60a7f3ab967803d67dd3b6ffe2342e0da076 2fd691516f6a61e0363f657da1e48d9b65c10053 M	Domain2/Domain.CourseBuildModel/Specification/ResourceLogQuerySpecification.cs
+:100644 100644 80f7277cee4fb146a0efae875b86f7bd17fc1020 1c7c510997ccc0ed639839d2bb1fd1b6185591c7 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 64f04953248cc2c5764078156eacb07976ab17ae 4fb6afc296420f4eed0e23877fb7addc4bc41d19 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 854eade527302d903ab0fbefb051c659a26cad49
+tree 3a27630933f5c058730c57ccf316a0729654ee82
+parent abb3bbc8ecd7b9070e6d90060106582dc8ddde40
+author 彩娟 冯 <1446730634@qq.com> 2019-11-01 13:19:55 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-11-01 13:19:55 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 a36209fff004470850bc3980d22f811755a40583 64f04953248cc2c5764078156eacb07976ab17ae M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit abb3bbc8ecd7b9070e6d90060106582dc8ddde40
+tree 063f187d0037679294ae61aeb02ab46a893e7a76
+parent 83b8c568ba6baa056970e6a2c62fec2f8aba916b
+author 彩娟 冯 <1446730634@qq.com> 2019-11-01 12:04:41 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-11-01 12:04:41 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 2de92fe16c6cbd60cc15a919ab6c1227942b1706 a36209fff004470850bc3980d22f811755a40583 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 83b8c568ba6baa056970e6a2c62fec2f8aba916b
+tree cc3939bd77d9db5370286735578a4a37131a56be
+parent e9c3952383209ed329c4ea8caec52099331f15a4
+author AnHaNIYa <1400436027@qq.com> 2019-11-01 11:04:23 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-01 11:04:23 +0800
+
+    editor: GetClassPeriodContentByCT
+
+
+
+:100644 100644 2398b5434523b831e1a7a51708cc5ca2443c1b68 80f7277cee4fb146a0efae875b86f7bd17fc1020 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit e9c3952383209ed329c4ea8caec52099331f15a4
+tree 0bbb0c98baf46878edc0ffd9039d0cd50215f27f
+parent 66077313b974c8d0c19e88c65d8a2d76a6962eac
+author AnHaNIYa <1400436027@qq.com> 2019-11-01 11:02:06 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-01 11:02:06 +0800
+
+    EDITOR: GetClassPeriodContentByCT
+
+
+
+:100644 100644 0f02dfebcdeef402a9042cf736ee6079422fbaef 2398b5434523b831e1a7a51708cc5ca2443c1b68 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 66077313b974c8d0c19e88c65d8a2d76a6962eac
+tree 80fe0b5d71c62c1fa8aa933d790608e1f8930cdf
+parent 1235252d7fc3d421402b282e1876d7bb590f5801
+author AnHaNIYa <1400436027@qq.com> 2019-11-01 10:25:33 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-01 10:25:33 +0800
+
+    editor: 修改Course/UpdateResourceFromCourseTemplate返回值
+
+
+
+:100644 100644 80da4de8c30b7e5e58465f991563eac7da58f42e a5301cc925684bc1ef67ee70a07829af1c176d63 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit c5b355f453b7ca5b39d78929c1fd5707997d84e2
+tree e189ab66b9bea76c87c6a026d027fd11bf7cf980
+parent 08c7db7775c28f01ccb9d53fea6edb7fa8c4f897
+author AnHaNIYa <1400436027@qq.com> 2019-11-01 10:09:37 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-11-01 10:09:37 +0800
+
+    editor：  修改兼容接口
+
+
+
+:100644 100644 e1afea9befade354aafac994e4819ccc23104d94 80da4de8c30b7e5e58465f991563eac7da58f42e M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 1d1e912608f05777e60c7b22ec6cf214478e8b6b
+tree 3003ee795368d93b742d56f829313000f1662cf6
+parent 08c29863238773714fead0d062a4685115c76b66
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:50:15 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:50:15 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 9f01473440297ee873637e18e783e0f63495cde4 2de92fe16c6cbd60cc15a919ab6c1227942b1706 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit c422f0617db902299a1ad2453449180c96809424
+tree 8edfbad2e25bca3b2fe3962575bf787a5465b86e
+parent 87ba15543c61562102323109e81309b9f1d448dd
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:36:14 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:36:14 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 7acb68870bb9686688000b764d5c165f28c6b38a 9f01473440297ee873637e18e783e0f63495cde4 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 79edbd490cc46239fbf0ed524395004baba4bcb7
+tree d5754e691626ed804dd658c7d45720fa1116f6c5
+parent c747886cf0c1b95c07b4e383c52bc3036a8e4ed1
+author AnHaNIYa <1400436027@qq.com> 2019-10-31 18:23:03 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-31 18:23:03 +0800
+
+    editor : 分离两个接口
+
+
+
+:100644 100644 fd7181fe4fbab240367c2367e2c31dfe98855402 e1afea9befade354aafac994e4819ccc23104d94 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:000000 100644 0000000000000000000000000000000000000000 a225a84700e90ef2ce855997239b1fba185135d6 A	WebApi/WebApiCourse/Models/RspModel/RspCourseAndCTClassPeriod.cs
+commit 87ba15543c61562102323109e81309b9f1d448dd
+tree 5fbe0a96e66250269caac9449eb6fe6553d323dc
+parent e4b6879a30873fcf295bea2695217bf15e90977d
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:20:58 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:20:58 +0800
+
+    addcount
+
+
+
+:100644 100644 8612e9019a00e786ba3a438c8c4f73177e909532 0f02dfebcdeef402a9042cf736ee6079422fbaef M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 8fbd653fd1ed2a40e6aac48ba5975fd91305a6a7 7acb68870bb9686688000b764d5c165f28c6b38a M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit e4b6879a30873fcf295bea2695217bf15e90977d
+tree 9dd5d1bf071d8747316b459bf393580a75d7632e
+parent 9d456939f009cd372e56f7a1af72fc3aea4e77cb
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:14:39 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:14:39 +0800
+
+    GetOnlyClassPeriodListByDirectoryId
+
+
+
+:100644 100644 732394492c958af79dbf620f29dac60cf327d5ce 8612e9019a00e786ba3a438c8c4f73177e909532 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 9d456939f009cd372e56f7a1af72fc3aea4e77cb
+tree 7784054de924c7dc55055cd37827ebc8e123e72e
+parent a916b149478a477c0a91558aa9d65725ba0474a8
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:13:57 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:13:57 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 efde5ff973e77f4a58ed83b243eef1146f3ffb09 8fbd653fd1ed2a40e6aac48ba5975fd91305a6a7 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit dd7f1a4a45b4bd6b9f39c74dfafd08b6d0ce371f
+tree 8fbdf4ac8d63d1f15c2c8343a96e43cbb61a447a
+parent 813ed0a2c6e1cd4d2dc7e0b3b0ac0b1750f3e37b
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:06:18 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 18:06:18 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 148b233cd5d49ed0a750500718b660ba4a4cb802 efde5ff973e77f4a58ed83b243eef1146f3ffb09 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit d55fad6cdc559bd6a32b070963695904c83b3199
+tree 171fc5dcc712a0784ae75681245696cff3bcab70
+parent 9152b7d59fbad04312392988197341c17a2dea07
+author AnHaNIYa <1400436027@qq.com> 2019-10-31 17:52:05 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-31 17:52:05 +0800
+
+    editor: GetClassPeriodContentByCT  修改资源倒叙对比问题
+
+
+
+:100644 100644 42728b9c6f14dc8e446fa7ae44d6f700c08f6370 3560020138052a8c480d3914b4859e11c2522d6b M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 813ed0a2c6e1cd4d2dc7e0b3b0ac0b1750f3e37b
+tree c60b2489dfd761c733c2c3b54345462be57e8a71
+parent 9152b7d59fbad04312392988197341c17a2dea07
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 17:34:28 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 17:34:28 +0800
+
+    GetOnlyClassPeriodListByDirectoryId
+
+
+
+:100644 100644 42728b9c6f14dc8e446fa7ae44d6f700c08f6370 cc41f9a3876b0ce9599654a59cf5f0536de8e4ff M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 b5a839d10bae028022d41b01d6ffa451ea377204 148b233cd5d49ed0a750500718b660ba4a4cb802 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 99d2c98bd8d2aeaa71903f06d729ac22717720a0
+tree b3f91de80593f58a86d543201558cfff2b2832e3
+parent e38fe7ee2be2c6d18c2973a1ddee07e1e6b396ab
+author AnHaNIYa <1400436027@qq.com> 2019-10-31 17:25:42 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-31 17:25:42 +0800
+
+    editor: 优化查询课时资源Log模型
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 1a3c0c44b755598f66db0917d92023f294cf419d A	Domain2/Domain.CourseBuildModel/Query/ResourceLogQuery.cs
+:100644 100644 874c261f78c1a390b3b8a909f218848a1f4b03a9 6c42dc5847240c554f4541a260d27aecf32c2664 M	Domain2/Domain.CourseBuildModel/Service/Interface/IBussinessModelLog.cs
+:100644 100644 ef763f7a9253924f98039d5cb27a6914f59a8294 c0d8231fa340eb616dfca66b08d347a6c2489805 M	Domain2/Domain.CourseBuildModel/Service/Realization/BussinessModelLogService.cs
+:000000 100644 0000000000000000000000000000000000000000 c99e60a7f3ab967803d67dd3b6ffe2342e0da076 A	Domain2/Domain.CourseBuildModel/Specification/ResourceLogQuerySpecification.cs
+:000000 100644 0000000000000000000000000000000000000000 2464112b7e04fa9631f6863229e2f5104382b29e A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/ResourceLogQueryFactory.cs
+:000000 100644 0000000000000000000000000000000000000000 06c4ad015cd8796c3ab3d702e1f3f63f77f6e804 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/ResourceLogQueryRAFCommonSql.cs
+:000000 100644 0000000000000000000000000000000000000000 64fcca407bb016f0e5bc56c01e7ba03919f3b9c0 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/ResourceLogQueryRepository.cs
+commit 703d259a40629b0b76ccf4917ad0dbbf3ed49055
+tree 1ff2fd0c67ed659fd00be79df8ab17de024f8477
+parent dc69e44cd67c33f604bb0c8b8ffcc09a3ba73204
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 17:22:15 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 17:22:15 +0800
+
+    SaveCourseAndCourseTemplateResourceRelation
+
+
+
+:100644 100644 6ce753b1eb6d9cc71a4d98339b772b04eba3772a f97592f619762dad40a3d5a991b6fa20d0e7caae M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+commit dc69e44cd67c33f604bb0c8b8ffcc09a3ba73204
+tree efa530391e51cd6ed8de10196d8d8f6d5b89dce3
+parent ed3b7d86ca06b36023bae42d00fb706adb3d5876
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 17:14:12 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 17:14:12 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 b12740c6f69e51a0a80220269477eda9bc4ff722 6ce753b1eb6d9cc71a4d98339b772b04eba3772a M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 e261570f9ab03e865d8ef418a30c53f4154e3a95 a030c9021cb3016a80a772bfd150aa03665fa3e8 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 ae1e5281f60f00ac19e31f907500130500276ab6 42728b9c6f14dc8e446fa7ae44d6f700c08f6370 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit ed3b7d86ca06b36023bae42d00fb706adb3d5876
+tree fe92646fc19f31e6d40e54896461e7ad3bf8a672
+parent 86225aa64ad805695357bed3ecca60118cb9e44a
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 16:50:18 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 16:50:18 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 6aeb55a158937d26e21589aca1724ccf9fad6644 b5a839d10bae028022d41b01d6ffa451ea377204 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 86225aa64ad805695357bed3ecca60118cb9e44a
+tree b4793e30f6bb02ca36094709e2c75b8303babc51
+parent 47285fd233dcb3a573e9f0f2f51e61f4298f952f
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 15:51:58 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 15:51:58 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 3e3e08a185142d2a078823101f8ce90d11e3fa49 b12740c6f69e51a0a80220269477eda9bc4ff722 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 58fa68229f892a5629f51ca5e803a73c8fd8ce49 e261570f9ab03e865d8ef418a30c53f4154e3a95 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 e86b2bdf6125205104f467eeb092ee5f9307e921 66ea22f8682f65b717fcb661f9463540c37b8bd1 M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceRelationSpecification.cs
+:100644 100644 23ed885aa37e2cc324eff55a28ad97e57ebcf246 ae1e5281f60f00ac19e31f907500130500276ab6 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 4913e4d7277d2d29b57ec57a8e112dff982d530b 6aeb55a158937d26e21589aca1724ccf9fad6644 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 47285fd233dcb3a573e9f0f2f51e61f4298f952f
+tree 5caed6dd3b51659f55a979465ba8bdc0ea8d8b9d
+parent 864cad5d42b6e4afdbaa28e076a3757f17d4401d
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 15:07:05 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 15:07:05 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 e6e83e7f1e58d2f1430da4bf444b42e07f9a0709 4913e4d7277d2d29b57ec57a8e112dff982d530b M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 864cad5d42b6e4afdbaa28e076a3757f17d4401d
+tree edf42697cc78fbce767b105db75ca553f708dd4b
+parent e38fe7ee2be2c6d18c2973a1ddee07e1e6b396ab
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 15:00:45 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 15:00:45 +0800
+
+    UpdateResourceFromCourseTemplate
+
+
+
+:100644 100644 012b789510f815daa290025147194388ec6797e5 23ed885aa37e2cc324eff55a28ad97e57ebcf246 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 350e1a8b059ce87119a1f5b3168c0b94879807a8 fd7181fe4fbab240367c2367e2c31dfe98855402 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit e38fe7ee2be2c6d18c2973a1ddee07e1e6b396ab
+tree 65b2d4192d316961a1f2023db53dfba0f9ea6e28
+parent c527f72395225390782e3bfcc036b9ebe2038014
+author AnHaNIYa <1400436027@qq.com> 2019-10-31 14:28:26 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-31 14:28:26 +0800
+
+    editor: UpdateResourceFromCourseTemplate
+
+
+
+:100644 100644 c68dc093d0c578087580fe4a30a734c56ce7e587 350e1a8b059ce87119a1f5b3168c0b94879807a8 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit c527f72395225390782e3bfcc036b9ebe2038014
+tree 837c2fa16af4888cffdaab662b6b332a910938c3
+parent 58cf5753c24b643eb9e3c471657eceee04d25724
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 11:55:32 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 11:55:32 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 7f5d872796e188268826ef7da612cd34f96dbc82 e6e83e7f1e58d2f1430da4bf444b42e07f9a0709 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 58cf5753c24b643eb9e3c471657eceee04d25724
+tree eebcd18585583a9f53c12a9694115993de5994d1
+parent 1417cda2275cc528c53ad8eff5b959a6fab640fc
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 11:31:17 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 11:31:17 +0800
+
+    获取章节列表
+
+
+
+:100644 100644 567ceaff158023bcbb3b0b242c5070ecbe7f8d3d 7f5d872796e188268826ef7da612cd34f96dbc82 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 1417cda2275cc528c53ad8eff5b959a6fab640fc
+tree 40608426d1a1ad27368feb1bddf7b60115860736
+parent 226d6d9aa7fda478276dafa07737f53d0259cbb8
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 11:11:43 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 11:11:43 +0800
+
+    GetDirectoryListByCourseId
+
+
+
+:100644 100644 ef9b666e810e7dd39e1f26aabfb09f5bafb215fe 567ceaff158023bcbb3b0b242c5070ecbe7f8d3d M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+:100644 100644 f61b33caecc89058e17b5333b96e3ee42187c6c9 3d94cc10475e76043540d4a2a5d9ed6aad0d2d46 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit 226d6d9aa7fda478276dafa07737f53d0259cbb8
+tree 3cc0238e71c41d45bd9a680eab3a29cf2a1be3bb
+parent aa5000f7bc712d553243d215c3896e3082559169
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 10:57:59 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 10:57:59 +0800
+
+    GetDirectoryListByCourseId
+
+
+
+:100644 100644 1c0b8f3a94cb110fc96e0c12cd7f2396ff60090a ef9b666e810e7dd39e1f26aabfb09f5bafb215fe M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit aa5000f7bc712d553243d215c3896e3082559169
+tree d03a0fe589e1f67d1f016aa48f2b9fabc3d7d524
+parent c6561ae501943f270c1c569c1fa42c3affe7d612
+author 彩娟 冯 <1446730634@qq.com> 2019-10-31 10:41:27 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-31 10:41:27 +0800
+
+    GetDirIsNewAndCount
+
+
+
+:100644 100644 c01b15d03e613659a7376dacc03623d83c69eaa6 012b789510f815daa290025147194388ec6797e5 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 272d0233f76816b1fda2ae58b10ba7c9f3e9d35a 1c0b8f3a94cb110fc96e0c12cd7f2396ff60090a M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+:100644 100644 34fcf91d60f819eccf282eeb6e50a34c69710668 f61b33caecc89058e17b5333b96e3ee42187c6c9 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit c6561ae501943f270c1c569c1fa42c3affe7d612
+tree ff7b9c5090ab46f382480359d9a6c20dd4098258
+parent ed8af1f784b78382ae742cd51a96c8b5ab379007
+author 彩娟 冯 <1446730634@qq.com> 2019-10-30 18:34:47 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-30 18:34:47 +0800
+
+    UpdateDirectoryAndClassPeriodIsNew
+
+
+
+:100644 100644 30676c598b8597098d5f85f3215d69e574aa7e7c c01b15d03e613659a7376dacc03623d83c69eaa6 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 85ed811b14774df7911871644baedd756141da28 725428df8d60c049dd74cb54f508a16901e4c9a8 M	WebApi/WebApiCourse/Models/ReqCourse.cs
+commit ed8af1f784b78382ae742cd51a96c8b5ab379007
+tree ba9da07da8be6dceded968ee53c1f57558fb1879
+parent fe6ce3ae00d7eecba2c2187c29bb20c24b1ede76
+author 彩娟 冯 <1446730634@qq.com> 2019-10-30 18:23:51 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-30 18:23:51 +0800
+
+    UpdateDirectoryAndClassPeriodIsNew
+
+
+
+:100644 100644 dbca4daee6e6b6be1d7576e5f73b2fb2e4a89176 30676c598b8597098d5f85f3215d69e574aa7e7c M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit fe6ce3ae00d7eecba2c2187c29bb20c24b1ede76
+tree 0d04c3c2fb8ef8446a6e2a80cea3acf3c56087db
+parent 8c72eafdd2f3873fbeebd3065c7e08b833e57cb4
+author 彩娟 冯 <1446730634@qq.com> 2019-10-30 18:16:41 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-30 18:16:41 +0800
+
+    UpdateResourceFromCourseTemplate
+
+
+
+:100644 100644 7b1fbd1fb42ea06f368cf41c2eb217855eaf3ee4 c68dc093d0c578087580fe4a30a734c56ce7e587 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 426ac2a8f7e6c468bf592b56de36d56622380e09
+tree b24b56da8ac78e741acaf6476928d95b687f7146
+parent d8f6a5087ce62d81697c56a5a765675eddfa439e
+author AnHaNIYa <1400436027@qq.com> 2019-10-30 17:14:33 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-30 17:14:33 +0800
+
+    editor: 是否为新 ByCT接口
+
+
+
+:100644 100644 6768a59c6b3311a0ec58d1bd02990c7a18842914 0a01286bc14314ced8735c33ddcac90b4893be99 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 99d34df19ab987095b849a150749fe3a8bb97d5e
+tree bf0fc42939fe3767bec346c156981633c697daa1
+parent a5041629dadb891ad5fbc4cd3e7d97514c5bf9da
+author 彩娟 冯 <1446730634@qq.com> 2019-10-30 17:11:23 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-30 17:11:23 +0800
+
+    SearchClassPeriodEbookSectionLogBySCList
+
+
+
+:100644 100644 f796f4cfd2696206bceef365eadbe2d2c7366e96 ef763f7a9253924f98039d5cb27a6914f59a8294 M	Domain2/Domain.CourseBuildModel/Service/Realization/BussinessModelLogService.cs
+:100644 100644 24e9658cd0fb9861afce067e51262aa73e25daac 272d0233f76816b1fda2ae58b10ba7c9f3e9d35a M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit a5041629dadb891ad5fbc4cd3e7d97514c5bf9da
+tree 98412ef3309d39e63d9b2fb98282a2119bc00c0c
+parent f3476f9c2468d74bf874b3726ede70ef50c0686e
+author 彩娟 冯 <1446730634@qq.com> 2019-10-30 16:49:20 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-30 16:49:20 +0800
+
+    课时下资源
+
+
+
+:100644 100644 83278be0f167bd68afdb134ebcbeec1492113c8d 32de4173ae9b91104173968166348e3607ae7a96 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 dc412b9abdf42d51345eb3d57270073e00299399 24e9658cd0fb9861afce067e51262aa73e25daac M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 1f93d055bab15a0351b704107e2114a046fa1a24
+tree 8bcf0834195ed75632f0b6b8bb73007b376d9a66
+parent 29d5067aeb75842a82e3fd892dcdaadf1a213ff3
+author 彩娟 冯 <1446730634@qq.com> 2019-10-30 16:19:30 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-30 16:19:30 +0800
+
+    课时数字、章节数字
+
+
+
+:100644 100644 c8b45de8846d23e7b7ffbccc455306d9bab82997 71788d7d428691c2ce6e44b45d103f9a33e07cf8 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 719ecfefdb5c1817482cfdea612f3e9f83f0dd61 dc412b9abdf42d51345eb3d57270073e00299399 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit d8f6a5087ce62d81697c56a5a765675eddfa439e
+tree 787f0b14de43d69448f053fec4d865d87353bb68
+parent 52776c9bb70819eeaeaa46287eab0dc2c68c840b
+author AnHaNIYa <1400436027@qq.com> 2019-10-30 16:11:10 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-30 16:11:10 +0800
+
+    editor: 修改SearchClassPeriodHteLogByHteList
+
+
+
+:100644 100644 d43f83531099ed20a4d7da8a48fe54fe6e9ecff1 874c261f78c1a390b3b8a909f218848a1f4b03a9 M	Domain2/Domain.CourseBuildModel/Service/Interface/IBussinessModelLog.cs
+:100644 100644 bece08d19ea7c7a9af5b72276a2f5126628ad9d4 f796f4cfd2696206bceef365eadbe2d2c7366e96 M	Domain2/Domain.CourseBuildModel/Service/Realization/BussinessModelLogService.cs
+:100644 100644 c8b45de8846d23e7b7ffbccc455306d9bab82997 6768a59c6b3311a0ec58d1bd02990c7a18842914 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 52776c9bb70819eeaeaa46287eab0dc2c68c840b
+tree e048a15550de052529dfcc7324d6590d88113a0e
+parent 29d5067aeb75842a82e3fd892dcdaadf1a213ff3
+author AnHaNIYa <1400436027@qq.com> 2019-10-30 16:00:57 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-30 16:00:57 +0800
+
+    editor: 添加SearchClassPeriodHteLogByCWList
+
+
+
+:100644 100644 8b715aeb3aaa8d9900bf54b94cf7562965f8af2b d43f83531099ed20a4d7da8a48fe54fe6e9ecff1 M	Domain2/Domain.CourseBuildModel/Service/Interface/IBussinessModelLog.cs
+:100644 100644 3a5d24f5b42f40d74ea852cfac874e46595b8a1d bece08d19ea7c7a9af5b72276a2f5126628ad9d4 M	Domain2/Domain.CourseBuildModel/Service/Realization/BussinessModelLogService.cs
+:100644 100644 d50d1c55df2503815d32734fddffdefab5989277 f479435d77f93f597e5685101faa6e3c0e5ca031 M	Domain2/Domain.CourseBuildModel/Specification/ClassPeriodCoursewareLogSpecification.cs
+:100644 100644 bbbd21eb2ee7c3dfdd794ea4f20b8df0987959ea c86ea4df082f8e50f67192281c12ab7b8e6c88d2 M	Domain2/Domain.CourseBuildModel/Specification/ClassPeriodEbookSectionLogSpecification.cs
+:100644 100644 8c03e56aea8c07a7a62f99f84973a3f617b5a4b2 5a926c057f1067e57c107180e0053222d2e13451 M	Domain2/Domain.CourseBuildModel/Specification/ClassPeriodHteLogSpecification.cs
+commit 0ddc789a343203c418bc2b7da8a73c9648f431cc
+tree 49d45a229b313e579b4e02e484c17067aa968096
+parent ce3c7e69cae2d78b6943c8e23ef989c69937ff6d
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-10-30 14:50:17 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-10-30 14:50:17 +0800
+
+    同步投影新接口
+
+
+
+:100644 100644 c1b6e6f2a6e0fa6df337c56730d768ad64a7255f c26798684a202b75dec19d1334739a6da3a969bd M	WebApi/WebApiCourse/Models/ClassRoom.cs
+commit 29d5067aeb75842a82e3fd892dcdaadf1a213ff3
+tree 2744dd0b4123f340f14de0a0d2d00dcdfd6ada24
+parent 74f0d13d34abbdd272321b96a9e48d85d15d2a10
+author 彩娟 冯 <1446730634@qq.com> 2019-10-30 13:56:36 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-30 13:56:36 +0800
+
+    GetOnlyClassPeriodListByDirectoryId
+
+
+
+:100644 100644 2230ef3f4f839715fd155c0a937ab95c2fed4e3d c8b45de8846d23e7b7ffbccc455306d9bab82997 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 4c403336dd259d8a17e110f845894c3d3d5d3ec5 7b1fbd1fb42ea06f368cf41c2eb217855eaf3ee4 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 21274afe0e6f224b9051b386637bd3840a1f348e 34fcf91d60f819eccf282eeb6e50a34c69710668 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit 74f0d13d34abbdd272321b96a9e48d85d15d2a10
+tree 303bf25824e0b3db144fa9b0c361b5d04361133b
+parent cf1cb516f5817a7fdd685a6d6d9589e1b250f67e
+author 彩娟 冯 <1446730634@qq.com> 2019-10-30 10:38:37 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-30 10:38:37 +0800
+
+    同步课程模板接口完善
+
+
+
+:100644 100644 3c42c081ee5d79b4401f2272ce432f28668eca9c 3e3e08a185142d2a078823101f8ce90d11e3fa49 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 2418e13010eb5585b86e9923d40bd27ffc14f6c0 58fa68229f892a5629f51ca5e803a73c8fd8ce49 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 24a77a19cc3c1288b1b71cb2117f256dc20f809f 5a14696e6d2333ffc54acd401ba99878eeca178d M	Domain2/Domain.CourseBuildModel/Specification/ResourceRelationSpecification.cs
+:100644 100644 19c7f3db6915a14fdb2443f418dc28a96891e83b 2230ef3f4f839715fd155c0a937ab95c2fed4e3d M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 7dedcd45fb53808a1154fb3e696bcdaab9e7b0da 719ecfefdb5c1817482cfdea612f3e9f83f0dd61 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit ce3c7e69cae2d78b6943c8e23ef989c69937ff6d
+tree fd2e55f91e233f5549fb645617674f9263396684
+parent b6731b5595de284796a97d16c85c1a9afd3c6edf
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-10-29 17:30:11 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-10-29 17:30:11 +0800
+
+    同步投影新接口
+
+
+
+:100644 100644 a779b3fe4e0c2f876afc9d538dc2497c91cd4de8 329413d742b8fa528ce95b7a70ac819044705a2b M	WebApi/WebApiCourse/Controllers/ClassRoomController.cs
+:100644 100644 40cf8fa5ee21228db67b83f127ac703230975209 c1b6e6f2a6e0fa6df337c56730d768ad64a7255f M	WebApi/WebApiCourse/Models/ClassRoom.cs
+commit cf1cb516f5817a7fdd685a6d6d9589e1b250f67e
+tree f63a9ce964e03c35a9a4df8590eb9b173c262297
+parent 96e803364e309e09612a226098fbfd92036eea68
+author 彩娟 冯 <1446730634@qq.com> 2019-10-29 16:28:21 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-29 16:28:21 +0800
+
+    课时下资源更新进度
+
+
+
+:100644 100644 18104f0059ce8b20f21157f94da2dba1ea5e1ec9 19c7f3db6915a14fdb2443f418dc28a96891e83b M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 96e803364e309e09612a226098fbfd92036eea68
+tree bcbce6ea59ac7c1304eaf23e388e7e445f281179
+parent 003fc93f15a43ff4f9d65264bb88dde22c06a4f9
+author 彩娟 冯 <1446730634@qq.com> 2019-10-29 16:06:32 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-29 16:06:32 +0800
+
+    GetOnlyClassPeriodListByDirectoryId
+
+
+
+:100644 100644 95b47e6cc0471dfbd78e862c599e5053b2afee62 18104f0059ce8b20f21157f94da2dba1ea5e1ec9 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 003fc93f15a43ff4f9d65264bb88dde22c06a4f9
+tree 4980ec7ce9466901128e4697f46d989334d145a4
+parent 039f580d28f63f03d01b6f429e07212a284b85f4
+author 彩娟 冯 <1446730634@qq.com> 2019-10-29 10:10:51 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-29 10:10:51 +0800
+
+    UpdateResourceProcess
+
+
+
+:100644 100644 100865d3d8f9ebf02cb99b4250747c8ffcc71ccb 95b47e6cc0471dfbd78e862c599e5053b2afee62 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 039f580d28f63f03d01b6f429e07212a284b85f4
+tree 1e90267c2b735cc530aaea5eb0ae6c867e5cdda5
+parent 712bad4f14b48316aa6a8fba6f863932dd635303
+author AnHaNIYa <1400436027@qq.com> 2019-10-29 09:07:13 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-29 09:07:13 +0800
+
+    editor: 查询模型添加排序字段
+
+
+
+:100644 100644 e082a96f6f91bafb8146662f29a66bde01100f5e 303e2528e8d9ca540f3c511d3b3548d95fc61490 M	Domain2/Domain.CourseBuildModel/Query/CourseTemplateCourseResourceQuery.cs
+:100644 100644 e99071749172bb04a92dbbb5cb66adad8e3c625f cc42e04f496708ba3dd9010e3dd2a486e38460bc M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryFactory.cs
+:100644 100644 644de052653ac795b928a2e987b4fa902570b927 8e634683aa9d73aaa1e42dcb243892aee713e19a M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryRAFCommonSql.cs
+:100644 100644 ae85465797e36fe6a36f95a507ca7d6155d02ba7 2e3536fbe87a73e10a7049d9c5847697354f2c9a M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryRepository.cs
+:100644 100644 73a56b79badc966bae4f9e1141a627e3cc3235e5 4c403336dd259d8a17e110f845894c3d3d5d3ec5 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 712bad4f14b48316aa6a8fba6f863932dd635303
+tree 465df30a100ba5cc39a06d7f1637a649fa6fef42
+parent 27ab83261539edc9451f1863bb5ca12c9c64964e
+author AnHaNIYa <1400436027@qq.com> 2019-10-28 10:11:39 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-28 10:11:39 +0800
+
+    editor: 迁移数据 StartServer
+
+
+
+:100644 100644 65430ed6ff27d42586677f95e239e2f0032c8622 2af1e2c24e2d08594e9ea81ecd9972e47bc812b3 M	Course.sln
+:100644 100644 6f6e65f0f8334ea422b098d3e106c5dd44651d72 3c42c081ee5d79b4401f2272ce432f28668eca9c M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 fd0142ead9a8ddc264c0f719141811e5270c4b27 2418e13010eb5585b86e9923d40bd27ffc14f6c0 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:000000 100644 0000000000000000000000000000000000000000 958d2f1daae335c650f21374c768aa8005410ab0 A	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/CourseAndCTResourceRelationDBTransfer.csproj
+:000000 100644 0000000000000000000000000000000000000000 7350554fdb1cf5b91b7e9e1194395d8669dd0294 A	ReverseTransfer/CourseAndCTResourceRelationDBTransfer/Program.cs
+:100644 100644 bb2340643d623ed53f7a292b249196457197283f 73a56b79badc966bae4f9e1141a627e3cc3235e5 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 27ab83261539edc9451f1863bb5ca12c9c64964e
+tree 699105151ae63d2e6832e5f5f6af919e179c4613
+parent 74070e6a3afe9d6049ac8864b29f901e542c9726
+author 彩娟 冯 <1446730634@qq.com> 2019-10-25 17:31:43 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-25 17:31:43 +0800
+
+    GetOnlyClassPeriodListByDirectoryId
+
+
+
+:100644 100644 ce4be5e346a63862ba6cb8608b8f37023c5cbe71 100865d3d8f9ebf02cb99b4250747c8ffcc71ccb M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 204c078a7f23611276b978a311bdea4996a22c99
+tree ce372fc0a25dd447499175e7900e9bcae754d136
+parent a2a16e7b86405ffc77f1e309c675859ad74b44c7
+author 彩娟 冯 <1446730634@qq.com> 2019-10-25 16:13:41 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-25 16:13:41 +0800
+
+    GetOnlyClassPeriodListByDirectoryId
+
+
+
+:100644 100644 844a94a9601b1094b38bbcebf18720e26c865d31 6f6e65f0f8334ea422b098d3e106c5dd44651d72 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 e8b24fd1a82bfc4c904156911ca1bcd4da63aa31 fd0142ead9a8ddc264c0f719141811e5270c4b27 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 0e0b708ba19a9998266b37e5b2140da5cba7ae32 e86b2bdf6125205104f467eeb092ee5f9307e921 M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceRelationSpecification.cs
+:100644 100644 6d4a132b4dff29fed0b2eba2d55ca88700579da0 eb270264a3333adc0a95b0db203e8c43553ea86d M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 5a4dd12b8f1595fa88f0be09bb3857890be5dfd0 7dedcd45fb53808a1154fb3e696bcdaab9e7b0da M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 8a8d63c537101f8500226659ebb20c3ac2465310
+tree 86cb7826330a1c32f3f2b8922c5202724d294730
+parent 47c7b6820fe2f15eac6e91c94b4ae14809c31e60
+author AnHaNIYa <1400436027@qq.com> 2019-10-25 16:12:11 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-25 16:12:11 +0800
+
+    editor: UpdateResourceFromCourseTemplate
+
+
+
+:100644 100644 9271f55208e324a98b9c0b283d7d048960ccbfbf d095b3215f8616f76f30e3800939483b1730fd49 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 5c1b8859ddd2014d614eed96827124943dd44baf bb2340643d623ed53f7a292b249196457197283f M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit a2a16e7b86405ffc77f1e309c675859ad74b44c7
+tree d88113a847d8c076dfeec4a5e4dba46eb0e36c64
+parent 47c7b6820fe2f15eac6e91c94b4ae14809c31e60
+author 彩娟 冯 <1446730634@qq.com> 2019-10-25 14:02:53 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-25 14:02:53 +0800
+
+    GetDirectoryListByCourseId
+
+
+
+:100644 100644 ac1cfdc229b0809f251d83a471d0ec063fe30360 844a94a9601b1094b38bbcebf18720e26c865d31 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 4ad8fd9ef9fc2ac45390b139e4d0ba4937e7eac6 e8b24fd1a82bfc4c904156911ca1bcd4da63aa31 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 2456e1857dbc45edb1111e63aa796c197da89b1d bc070d28638f4f9753ea01640912fb95111c58c5 M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceQuerySpecification.cs
+:100644 100644 5f7c61986d7070d96d3d311d8d23d12e1f7752cd 0e0b708ba19a9998266b37e5b2140da5cba7ae32 M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceRelationSpecification.cs
+:100644 100644 9271f55208e324a98b9c0b283d7d048960ccbfbf 6d4a132b4dff29fed0b2eba2d55ca88700579da0 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 cae8c18244d0273b6faf7f79e5c37ad6146ed5f0 5a4dd12b8f1595fa88f0be09bb3857890be5dfd0 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 5af7348dd3d27f12a584dde969469b56ce2609dd
+tree 0c4c2223c2525f96fb7307ead299ecd289c0919b
+parent 87a3082fd971dd222d57855406d9fa56f5ceece9
+author 王宇鹤 <2511980201@qq.com> 2019-10-25 11:29:44 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-25 11:29:44 +0800
+
+    feat:随机点名
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 311b302ff96369f19828d23fdd5cc97e1b8273e4 A	Domain2/Domain.LGLogAndReportModel/DTO/StudentCallCountDTO.cs
+:100644 100644 873260b23cfc1e7748f5feff541c13deddd1af32 ef3b1993608d6c122b081d05aa594c7af2d932bd M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 20348b87d0e607440a08496874dcbb732db6192b effd60c26018cbe12cf2db9ce1bc2984a7440093 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 1ce360c16574de9df8c6fb36341662b74dd11496 2c4c7ee62bad702dc50cb6ac6684dc0a64829367 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 f5039fa65a39307e00a7de9eb39c5c4205aa033c 5297cdb8399109674bbc75efd335fad335c1efb4 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 81dbde6ec12ef6c850bb0fc299fb329c4db7dd0a 67927121fb3117905546038fa117b59e0647096a M	WebApi/WebApiCourse/Controllers/TeachingGroupCallStudentController.cs
+commit 34d3b5ebea0dc8b0c75776f1858cd56a63e9b3f7
+tree 7d2fd4026b216a2b45d75a753c36749438c4ffa7
+parent f632bbc4d2ab3b37a47dc19ba9dd670b1a81e070
+author 彩娟 冯 <1446730634@qq.com> 2019-10-25 11:04:21 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-25 11:04:21 +0800
+
+    GetClassPeriodByDIrectoryIds
+
+
+
+:100644 100644 983ec2d01b5adf6c4ec5564c90c89d8522efea93 4cbc3316af6f9aa6b704034461ca814a64d1306f M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 3da80709a8d277b8118d14332ae4a16c06d09d5b aa212b6ef7e7d3750f19def38242b2a761ba5290 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 9003f325f0ac7a8607f685d4d65e08cc9980099e 5f7c61986d7070d96d3d311d8d23d12e1f7752cd M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceRelationSpecification.cs
+:100644 100644 1dbb501835b3b52a27466a207f519b38f6c361e0 cae8c18244d0273b6faf7f79e5c37ad6146ed5f0 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit faf37cbcdd0c299d1ad5ba07767ddfb0279b4161
+tree c7ae56a22dbab63a499ca954b7afd7844c18c909
+parent f632bbc4d2ab3b37a47dc19ba9dd670b1a81e070
+author AnHaNIYa <1400436027@qq.com> 2019-10-25 11:03:17 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-25 11:03:17 +0800
+
+    editor: 提交接口
+
+
+
+:100644 100644 b53fcb5a2e28b500f06688a3a3075883f1bfbf3b 882d7ab85af9ddb040210f288148f5b9e767c991 M	Domain2/Domain.CourseBuildModel/Service/Interface/IBuildCourse.cs
+:100644 100644 983ec2d01b5adf6c4ec5564c90c89d8522efea93 d229cf80c5c7df98cee156762daefa138df18fb0 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 f2ebce3580df58ffae6cb1a06214bb0b23c9803f bec4e336b5689fffbfaf1d1317de93febdd3c2a5 M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 3da80709a8d277b8118d14332ae4a16c06d09d5b 46ce8ad5c4a6e8353a9bc23e14080c2e27881a09 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 f53e97ea407bf3ecd0070ae90828f76513e892d3 9271f55208e324a98b9c0b283d7d048960ccbfbf M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 7be2f20e3798dc93faa73104a50d90cc0fecf59c 5c1b8859ddd2014d614eed96827124943dd44baf M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 3c9bad551c15cadfbb2f68de4fda1bd7445c010d
+tree 98fb682f3acdd07baed8949e178f5aaa8d0c33bc
+parent 75a31a73224823bf290d6548469f1cdcac0c59f1
+author AnHaNIYa <1400436027@qq.com> 2019-10-25 10:02:07 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-25 10:02:07 +0800
+
+    editor: 提交代码
+
+
+
+:100644 100644 842014162e13207ba97b14fb01f8b7d0772c0c63 24a77a19cc3c1288b1b71cb2117f256dc20f809f M	Domain2/Domain.CourseBuildModel/Specification/ResourceRelationSpecification.cs
+:100644 100644 4fce4b2f627aaec9575d3707b167945da96b0bf2 3903ba5b109ff1f3adbe4a76ec69c886205b51fe M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/ResourceRelationRAFCommonSql.cs
+:100644 100644 1e467a5f7247e96a4b2263bd2d6030a6093b782b dbcfb233353d765e4b8836505c6c0efdbd82f5cf M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit bfac37a0f7d2ec32842dcd946c24e9016e59dddc
+tree f62700c7d2e0f5704840c62b5053ca4030f945af
+parent 7f509f4798e08be4a2dc5b8269ca4e5011293c54
+author 彩娟 冯 <1446730634@qq.com> 2019-10-24 18:43:23 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-24 18:43:23 +0800
+
+    更新
+
+
+
+:100644 100644 9c26ac9c60066084b462b566c44eec1fa76d5905 983ec2d01b5adf6c4ec5564c90c89d8522efea93 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 c49a785007d7f41a5336626aa5b7fae4394801fb 3da80709a8d277b8118d14332ae4a16c06d09d5b M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 a565edf5608ff346657dae46de9e991ad09631d5 74d08577708f35e784ab47271c136cdf7b34ae9e M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 ec3032cfc0ff2f83e672a1cf5ec7ce2d331b92b6 7be2f20e3798dc93faa73104a50d90cc0fecf59c M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 1537e42465fdbfc1264f05a10f3e82dd94cf8159 1dbb501835b3b52a27466a207f519b38f6c361e0 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 7f509f4798e08be4a2dc5b8269ca4e5011293c54
+tree 37f1155e90ba3a2d0af2343e82fd6d59cd47956d
+parent f74dad1dc1f498231a0eae7ccdde31b25ef2964f
+author 彩娟 冯 <1446730634@qq.com> 2019-10-24 18:22:49 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-24 18:22:49 +0800
+
+    UpdateResourceProcess
+
+
+
+:100644 100644 f509dfb14488e08d10c30f98ea6081dd31563062 c49a785007d7f41a5336626aa5b7fae4394801fb M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 b16644ffd9bb7c9a2634b49cc73178e1e9820557 2456e1857dbc45edb1111e63aa796c197da89b1d M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceQuerySpecification.cs
+:100644 100644 3596e8014120a28f33e77727bd5f18cc978d2097 644de052653ac795b928a2e987b4fa902570b927 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryRAFCommonSql.cs
+:100644 100644 1068446aa0bf3f08b297d6b9fd332c49ab6a3980 a565edf5608ff346657dae46de9e991ad09631d5 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 586a9b44ae5a3c563a9ec3c1002dc1cba1d8ee0d ec3032cfc0ff2f83e672a1cf5ec7ce2d331b92b6 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 e89bf0dfa96639e8aa8e8e1c725f5da9db9f3d0b 85ed811b14774df7911871644baedd756141da28 M	WebApi/WebApiCourse/Models/ReqCourse.cs
+commit f74dad1dc1f498231a0eae7ccdde31b25ef2964f
+tree c41443526e10815aff02f0c5e3dfda76987d8d3b
+parent 78315583a304b3983c0560146a4ebbae45dc825e
+author 彩娟 冯 <1446730634@qq.com> 2019-10-24 17:24:22 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-24 17:24:22 +0800
+
+    AddCount
+
+
+
+:100644 100644 1be9b82a62da859250cfc611b3013396c5ff8333 1068446aa0bf3f08b297d6b9fd332c49ab6a3980 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 fe1ccc53db8ecb504841437dfb629f5ded7a0bdf 1537e42465fdbfc1264f05a10f3e82dd94cf8159 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit 78315583a304b3983c0560146a4ebbae45dc825e
+tree 728c013c3a79b7ce24a6feab0ec048474df42ed9
+parent 2bd7ed60431c4a1ed0925d16e8ac93d18f4e4329
+author 彩娟 冯 <1446730634@qq.com> 2019-10-24 17:20:34 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-24 17:20:34 +0800
+
+    AddCount
+
+
+
+:100644 100644 a19c2a1987d84bf0817eb47936eb8af1650c3186 21274afe0e6f224b9051b386637bd3840a1f348e M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit 2bd7ed60431c4a1ed0925d16e8ac93d18f4e4329
+tree 3f58498408fdf1c753f54d15e0294942d22933b7
+parent 75a31a73224823bf290d6548469f1cdcac0c59f1
+author 彩娟 冯 <1446730634@qq.com> 2019-10-24 17:18:08 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-24 17:18:08 +0800
+
+    UpdateDirectoryAndClassPeriodIsNew
+
+
+
+:100644 100644 8b72ba31e7be64bb62914cb4fb86742092cea892 538aa07af9cdba9508868e1604f75b75432b0a2f M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceRelationFactory.cs
+:100644 100644 945c703c57d773da1c89fdd1680c9ed3638255a7 74a4ca0083528f8fc76ed5462ff018faad5a552b M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceRelationRAFCommonSql.cs
+:100644 100644 de2d5f6eac892bcd4ad8fec7b3c697fbca95c7ef 17975aed371db2b0a9177631fa0e42ba33dda366 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceRelationRepository.cs
+:100644 100644 1e467a5f7247e96a4b2263bd2d6030a6093b782b 1be9b82a62da859250cfc611b3013396c5ff8333 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 35329f02cf19d0600e9ce72776c4c530646b0ed5
+tree 0f610f681db329c91da73e9b28ddc891e6e1c90b
+parent 8792d9591e871e04253bbe6d56ac02f6949abeea
+author 彩娟 冯 <1446730634@qq.com> 2019-10-24 16:28:07 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-24 16:28:07 +0800
+
+    同步课程模板资源
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 bc5a5011eabfb605e1bcef0308e55573394ba832 A	Domain2/Domain.CourseBuildModel/Query/ResourceRelation.cs
+:100644 100644 ed0d7522707f092fcec69796b97d63821e4df270 9c26ac9c60066084b462b566c44eec1fa76d5905 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 d572b168c69dbf173c8fac9c04a9875e018bf8df f2ebce3580df58ffae6cb1a06214bb0b23c9803f M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 dec56c2a43461a548d6bb7ba68bd02cda8d93c71 f509dfb14488e08d10c30f98ea6081dd31563062 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:000000 100644 0000000000000000000000000000000000000000 842014162e13207ba97b14fb01f8b7d0772c0c63 A	Domain2/Domain.CourseBuildModel/Specification/ResourceRelationSpecification.cs
+:000000 100644 0000000000000000000000000000000000000000 34b3d77c0d58f8bbb93fa15e94c0b85ca6969e86 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/ResourceRelationFactory.cs
+:000000 100644 0000000000000000000000000000000000000000 4fce4b2f627aaec9575d3707b167945da96b0bf2 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/ResourceRelationRAFCommonSql.cs
+:000000 100644 0000000000000000000000000000000000000000 5f062789e9a3e44c630e05240ac234011cdb1a03 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/ResourceRelationRepository.cs
+:100644 100644 6222bde2af4249f841ceab3d5b3b5dd4d2596530 9a28a1c533abed96af25d49b42b7ea6e3b676c8b M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 27d371854b953e2fc279cfd91be730b16d1a1c2c
+tree be296d5fa2322a318f5fd68be735b06597fd855b
+parent 8792d9591e871e04253bbe6d56ac02f6949abeea
+author AnHaNIYa <1400436027@qq.com> 2019-10-24 16:12:48 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-24 16:12:48 +0800
+
+    editor: GetClassPeriodCoursewareContentRDtoList
+
+
+
+:100644 100644 6222bde2af4249f841ceab3d5b3b5dd4d2596530 d587f60b66fb65cda45dac84cb7f97095964e64d M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 8792d9591e871e04253bbe6d56ac02f6949abeea
+tree 1f579b4ab2a5850d5dea313ada02c5afb0a26261
+parent 204027cf8e8e8f485728c7b5fd18e22cf9f84e17
+author AnHaNIYa <1400436027@qq.com> 2019-10-24 11:17:17 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-24 11:17:17 +0800
+
+    editor: UpdateResourceFromCourseTemplate
+
+
+
+:100644 100644 f3ed5d568532e7206ceb464bc3e3db421bf0a27c 586a9b44ae5a3c563a9ec3c1002dc1cba1d8ee0d M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 204027cf8e8e8f485728c7b5fd18e22cf9f84e17
+tree 8ee098ea49d0bf1c4e31915c013a09192f24de8e
+parent d24b268c3ec57f928588d2069b09202dfd2f83d5
+author AnHaNIYa <1400436027@qq.com> 2019-10-24 11:13:29 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-24 11:13:29 +0800
+
+    editor:  UpdateResourceFromCourseTemplate
+
+
+
+:100644 100644 a9538c1b8e1ae7781b8e9402410cf079f85b0ace 6222bde2af4249f841ceab3d5b3b5dd4d2596530 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 e1dd9348e385b24e1a5cd725e79cbbb7cc57a99c f3ed5d568532e7206ceb464bc3e3db421bf0a27c M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 43ce36bb4b1d6bc7947d9c753ba0552d47da9e5e 4a9c121e4d2adfeca9819ffbe78a5b3b34c1a1dc M	WebApi/WebApiCourse/Controllers/CourseTemplateController.cs
+:100644 100644 c9f8a65fdfc34f1dcde7943859cee333ad42de82 fe1ccc53db8ecb504841437dfb629f5ded7a0bdf M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+:100644 100644 aa81e84599926ffe50aa052bb6e3a05f27d3be6b 8c41ecc44d0ce1b982a2d55a96c8d78c8a78e534 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit 33a44da845ad2a3494640b0c63c7c8069ca960d2
+tree 15470267f6c94df5766337573a7dc030389ccaa9
+parent d876ca27622754cfcd2173a9f735d9388da0f240
+author 王宇鹤 <2511980201@qq.com> 2019-10-24 10:53:29 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-24 10:53:29 +0800
+
+    feat:pdf
+
+
+
+:100644 100644 a6057bb52b87eed191adee9063abad2913c8ad00 46bff2cba95374f7e152eca9de71d3e2db91e041 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 9f13e3441bacd37b7271f9f4881f214d11887e49 5eed67bf07d6d041313c202df50415709752df7f M	WebApi/WebApiCourse/Controllers/CourseScheduleController.cs
+:100644 100644 ccefd368f70510c5c46b4470c99f2496d42c0444 e14c0955cf237130aae82522732cd021918f61dc M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit d24b268c3ec57f928588d2069b09202dfd2f83d5
+tree 106cedd4b88debd40dc6d512cd0f1f119300cf6f
+parent c49dd9453b7560d99d8c41fde5b0dd236e02bd12
+author 彩娟 冯 <1446730634@qq.com> 2019-10-24 10:23:29 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-24 10:23:29 +0800
+
+    同步课程模板
+
+
+
+:100644 100644 30d3142ed53df201bdb94ee443d1ed5865ffb744 5afc27a22f3e802bd70e49e93eb3f112e6217252 M	Domain2/Domain.CourseBuildModel/Core/CustomEnumItem.cs
+:100644 000000 8c818f41bc2bcfcc883970533056f28359a1f6bf 0000000000000000000000000000000000000000 D	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceQuery.cs
+:100644 100644 6b5e898cc8dc47a1c31ebac291901d7a53a7dee7 ed0d7522707f092fcec69796b97d63821e4df270 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 000000 b86460b3ecdfc2b4d9e0bf54665bb568753922ef 0000000000000000000000000000000000000000 D	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceQueryService.cs
+:100644 100644 c2f84aaaeacad5aed1f4cf268e448bf43c691abc dec56c2a43461a548d6bb7ba68bd02cda8d93c71 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 5e3886c491c5e43644182e4a28eabf6ac744126d b16644ffd9bb7c9a2634b49cc73178e1e9820557 M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceQuerySpecification.cs
+:100644 100644 a8afbc7b5bec794941f6845045aefeed34d02dae 9003f325f0ac7a8607f685d4d65e08cc9980099e M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceRelationSpecification.cs
+:100644 100644 ea783452919abed3b18e6b86fc4410b154d357b6 a9538c1b8e1ae7781b8e9402410cf079f85b0ace M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 d0d357b2fe963a5785eca4e2e8f82a72a94e3e86 e1dd9348e385b24e1a5cd725e79cbbb7cc57a99c M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 8b9a008babea99c3c0075a3b3f4598800b6010c0 c9f8a65fdfc34f1dcde7943859cee333ad42de82 M	WebApi/WebApiCourse/Controllers/DirectoryController.cs
+commit c49dd9453b7560d99d8c41fde5b0dd236e02bd12
+tree 84e33d0cde46dd7e385716434e5fe114bd87809c
+parent 335d69d87fe3dc9c514292aea58094cc3749934b
+author 彩娟 冯 <1446730634@qq.com> 2019-10-23 16:25:50 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-23 16:25:50 +0800
+
+    GetUpdateResourceCount
+
+
+
+:100644 100644 b1e55e90646760d98c7fbee8ab77934532f41a2e 4959069e4514c7c2fecf6565031577c0691693f1 M	Domain2/Domain.CourseBuildModel/Relation/CourseTemplateCourseResourceRelation.cs
+:100644 100644 a639a49b0747046ee55418aad973d6edbc3cbf3c b53fcb5a2e28b500f06688a3a3075883f1bfbf3b M	Domain2/Domain.CourseBuildModel/Service/Interface/IBuildCourse.cs
+:100644 100644 1df86b1109cf0dd9467faae99406f8599e8e6661 d572b168c69dbf173c8fac9c04a9875e018bf8df M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 8ba419a792b4a0b5737503acbbdc431de418b418 a8afbc7b5bec794941f6845045aefeed34d02dae M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceRelationSpecification.cs
+:100644 100644 f18a328e70fa9746045bd972245fc90475fc9d22 d0d357b2fe963a5785eca4e2e8f82a72a94e3e86 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 ee118cf898b4ce836ad9042b16bbc944dac62383 e89bf0dfa96639e8aa8e8e1c725f5da9db9f3d0b M	WebApi/WebApiCourse/Models/ReqCourse.cs
+commit d876ca27622754cfcd2173a9f735d9388da0f240
+tree 2c905ec9465e0eccb8c59209ec94a8313e681ba2
+parent d381dc6305033b07b4fb3d4c201ea34b57b3f80e
+author 王宇鹤 <2511980201@qq.com> 2019-10-23 14:08:59 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-23 14:08:59 +0800
+
+    feat:GetTeaCourseScheduleByCourseId
+
+
+
+:100644 100644 3382364937bc340e3f522ad6d0c5df6173b6f6f8 9f13e3441bacd37b7271f9f4881f214d11887e49 M	WebApi/WebApiCourse/Controllers/CourseScheduleController.cs
+:100644 100644 4f7315996512b53f188242a13d7f64ab03e669bc 869c21b310ff09e0eae15fd6d91ee2e7365deb77 M	WebApi/WebApiCourse/WebApiCourse.csproj
+commit d381dc6305033b07b4fb3d4c201ea34b57b3f80e
+tree c6d3959a04b96f15428176dfe1f03808e78092f9
+parent 7bbce098b6efc8ae99b0558f1763f756a33590cc
+author 王宇鹤 <2511980201@qq.com> 2019-10-23 11:42:22 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-23 11:42:22 +0800
+
+    1
+
+
+
+:100644 100644 b0eed3c6521f5fd6f1411ea4311525e75bdf9f02 a6057bb52b87eed191adee9063abad2913c8ad00 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 7bbce098b6efc8ae99b0558f1763f756a33590cc
+tree a02ad98b6b1503688221ceb0e44eb1333e0933a4
+parent 7b4e7960f3f0f3d4959adeb90e1bac5514e7f820
+author 王宇鹤 <2511980201@qq.com> 2019-10-23 10:43:39 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-23 10:43:39 +0800
+
+    feat:officetype
+
+
+
+:100644 100644 5a386203382d2454b1d71374dca806fc907b5cdd b0eed3c6521f5fd6f1411ea4311525e75bdf9f02 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 6b00fb0c4d470b4cf0b6f23630332fa52a451ae8 ccefd368f70510c5c46b4470c99f2496d42c0444 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit 335d69d87fe3dc9c514292aea58094cc3749934b
+tree 5025fa576d67b0599f4c1a87f01cb0bea6304e48
+parent c2fe5e87d089d5ff2c64b58fcfea538a348d6a2d
+author 彩娟 冯 <1446730634@qq.com> 2019-10-23 10:29:57 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-23 10:29:57 +0800
+
+    GetUpdateResourceFromCourseTemplate
+
+
+
+:100644 100644 a0d76560fbf701797fe8027d20d8ab572d6c7c30 b86460b3ecdfc2b4d9e0bf54665bb568753922ef M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceQueryService.cs
+:100644 100644 a65f857e36af18fe77ca3064a9ccbb2f6d785c58 5e3886c491c5e43644182e4a28eabf6ac744126d M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceQuerySpecification.cs
+:100644 100644 cbf6a3df379579cf89728e066f8ea079f37a0272 3596e8014120a28f33e77727bd5f18cc978d2097 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryRAFCommonSql.cs
+:100644 100644 ca7f51040d762b711d7b59af296129f6f3a5c464 f18a328e70fa9746045bd972245fc90475fc9d22 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit c2fe5e87d089d5ff2c64b58fcfea538a348d6a2d
+tree e59ff8bf5e67a8f99531a26d60d4b663b5ca2bfc
+parent 28fc61278004045ae90ae16173c2447816872a5c
+author 彩娟 冯 <1446730634@qq.com> 2019-10-22 18:14:17 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-22 18:14:17 +0800
+
+    CourseTemplateCourseResourceQuery
+
+
+
+:100644 100644 130913303e6c85daff0c32cbb4f02543ff411575 e082a96f6f91bafb8146662f29a66bde01100f5e M	Domain2/Domain.CourseBuildModel/Query/CourseTemplateCourseResourceQuery.cs
+:100644 100644 a382feee91e81aa869cf288f2c508b97c16a2786 8c818f41bc2bcfcc883970533056f28359a1f6bf M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceQuery.cs
+:100644 100644 fdce94e73dafef3eec0674d4d90b2143c561a540 a0d76560fbf701797fe8027d20d8ab572d6c7c30 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceQueryService.cs
+:100644 100644 94c6d53dd36464abb78998179516922dbbe93945 a65f857e36af18fe77ca3064a9ccbb2f6d785c58 M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceQuerySpecification.cs
+:100644 100644 6f3db3c0d02e8c46ea001776b367efdf6a904864 e99071749172bb04a92dbbb5cb66adad8e3c625f M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryFactory.cs
+:100644 100644 cfa9031c8db98be8fdddba37e7f99e1936923de6 cbf6a3df379579cf89728e066f8ea079f37a0272 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryRAFCommonSql.cs
+:100644 100644 d8a1f14892d514b5f42ed4597803bc473ddbff54 ae85465797e36fe6a36f95a507ca7d6155d02ba7 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryRepository.cs
+:100644 100644 6e03b5b3345229101b3c2b1c92a127b3554c0dad ca7f51040d762b711d7b59af296129f6f3a5c464 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 28fc61278004045ae90ae16173c2447816872a5c
+tree f08e9c8611d008958cd062dad945d51202ec4b4f
+parent 97d2876a075c4b3ffe388d2ea27ef8b1c5be0941
+author 彩娟 冯 <1446730634@qq.com> 2019-10-22 17:24:10 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-22 17:24:10 +0800
+
+    Stat_CourseTemplateCourseResourceRelationQuery
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 130913303e6c85daff0c32cbb4f02543ff411575 A	Domain2/Domain.CourseBuildModel/Query/CourseTemplateCourseResourceQuery.cs
+:100644 100644 042f38138cba4efd35f1a82820c96be945e25ac4 b1e55e90646760d98c7fbee8ab77934532f41a2e M	Domain2/Domain.CourseBuildModel/Relation/CourseTemplateCourseResourceRelation.cs
+:000000 100644 0000000000000000000000000000000000000000 a382feee91e81aa869cf288f2c508b97c16a2786 A	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceQuery.cs
+:100644 100644 62117eefbb9b168a90f20265f37f736aed13e355 6b5e898cc8dc47a1c31ebac291901d7a53a7dee7 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:000000 100644 0000000000000000000000000000000000000000 fdce94e73dafef3eec0674d4d90b2143c561a540 A	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceQueryService.cs
+:100644 100644 050205a808dd2791eba47c6b94bfc6bba5f151c6 c2f84aaaeacad5aed1f4cf268e448bf43c691abc M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:000000 100644 0000000000000000000000000000000000000000 94c6d53dd36464abb78998179516922dbbe93945 A	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceQuerySpecification.cs
+:000000 100644 0000000000000000000000000000000000000000 6f3db3c0d02e8c46ea001776b367efdf6a904864 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryFactory.cs
+:000000 100644 0000000000000000000000000000000000000000 cfa9031c8db98be8fdddba37e7f99e1936923de6 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryRAFCommonSql.cs
+:000000 100644 0000000000000000000000000000000000000000 d8a1f14892d514b5f42ed4597803bc473ddbff54 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceQueryRepository.cs
+:100644 100644 6c15c75a8ad4f30e40a4c6857b97ded00eb3f8e5 6e03b5b3345229101b3c2b1c92a127b3554c0dad M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 4adef866631de6ecde8b4adf7a0ba67e0f3e9968 ee118cf898b4ce836ad9042b16bbc944dac62383 M	WebApi/WebApiCourse/Models/ReqCourse.cs
+commit 97d2876a075c4b3ffe388d2ea27ef8b1c5be0941
+tree dcbea0557d844b8686a68aaa662c1fde8e5594be
+parent f723a6b4a8942752efbb7393a4206b58d130caf4
+author AnHaNIYa <1400436027@qq.com> 2019-10-22 15:06:53 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-22 15:06:53 +0800
+
+    editor: 修改新增课程
+
+
+
+:100644 100644 a4e8e66326edba5dfc6ea1da41b57e8d2b296826 1df86b1109cf0dd9467faae99406f8599e8e6661 M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+commit f723a6b4a8942752efbb7393a4206b58d130caf4
+tree 17266926197e49b32cda6337724b96c1ec2d9ee0
+parent 7100c8a4202b0d89a50079f697113e7d8ada11e0
+author AnHaNIYa <1400436027@qq.com> 2019-10-22 13:44:32 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-22 13:44:32 +0800
+
+    editor: 修改新建课程代码
+
+
+
+:100644 100644 41d20af126ce922818a727a4c3a23345ca774808 a4e8e66326edba5dfc6ea1da41b57e8d2b296826 M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+commit 7100c8a4202b0d89a50079f697113e7d8ada11e0
+tree ac72f7f08468b22c79cd82175b460d03b8b7b677
+parent dc252a9387a52c1025754a44e193af126bfc13b7
+author 彩娟 冯 <1446730634@qq.com> 2019-10-22 10:24:42 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-22 10:24:42 +0800
+
+    CourseTemplateCourseResourceRelation
+
+
+
+:100644 100644 6d3ee13ede83271ca942c352aa4419ad8a9dc932 042f38138cba4efd35f1a82820c96be945e25ac4 M	Domain2/Domain.CourseBuildModel/Relation/CourseTemplateCourseResourceRelation.cs
+:100644 100644 8ec695dce67b88afdeb21b16732e5bdd475d780a 8ba419a792b4a0b5737503acbbdc431de418b418 M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceRelationSpecification.cs
+:100644 100644 3d56f9fe06c8c908f305c0718bae0fd23e6e7c8b 8b72ba31e7be64bb62914cb4fb86742092cea892 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceRelationFactory.cs
+:100644 100644 fc4032267bda5c277e870a827d02da127adb7810 945c703c57d773da1c89fdd1680c9ed3638255a7 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceRelationRAFCommonSql.cs
+:100644 100644 4df0b5ecc7465abdfee73395b93b0454c1bd4cb5 de2d5f6eac892bcd4ad8fec7b3c697fbca95c7ef M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceRelationRepository.cs
+commit 7b4e7960f3f0f3d4959adeb90e1bac5514e7f820
+tree 301a4b831eac814c099a061ee757e28a86890554
+parent 87a3082fd971dd222d57855406d9fa56f5ceece9
+author 王宇鹤 <2511980201@qq.com> 2019-10-21 18:24:24 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-21 18:24:24 +0800
+
+    feat:officetype
+
+
+
+:100644 100644 ea783452919abed3b18e6b86fc4410b154d357b6 5a386203382d2454b1d71374dca806fc907b5cdd M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 aa81e84599926ffe50aa052bb6e3a05f27d3be6b 6b00fb0c4d470b4cf0b6f23630332fa52a451ae8 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit 98e082fe1057df146a98d57808e7483018772da0
+tree c48eba64de3608a69483acc5e68088d0fbcae68b
+parent 69c3128d3dfafe5e3ab13e28070566eb771aac15
+author AnHaNIYa <1400436027@qq.com> 2019-10-21 17:37:38 +0800
+committer AnHaNIYa <1400436027@qq.com> 2019-10-21 17:37:38 +0800
+
+    editor ： 修改新建课程接口
+
+
+
+:100644 100644 33d104e3a42fa13da643a61b019fcabeaebf0fd1 41d20af126ce922818a727a4c3a23345ca774808 M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+commit 10c6bf1dfad7ecb2b149790ad17e5fbc8c3bb7b9
+tree b0e4d1aac58b666dc744180e54f2cee4e6f4e505
+parent 69c3128d3dfafe5e3ab13e28070566eb771aac15
+author 彩娟 冯 <1446730634@qq.com> 2019-10-21 17:36:22 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-21 17:36:22 +0800
+
+    GetUpdateResourceFromCourseTemplate
+
+
+
+:100644 100644 8e1466471b4e1b2a883f6b43966662d9769cc5ac 6d3ee13ede83271ca942c352aa4419ad8a9dc932 M	Domain2/Domain.CourseBuildModel/Relation/CourseTemplateCourseResourceRelation.cs
+:100644 100644 73b22a3df9c8ea211a94395e71c2ceb9e6741ade 62117eefbb9b168a90f20265f37f736aed13e355 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:100644 100644 8920ffe048b010a72ed1fa8d48b4ab819f0b7445 050205a808dd2791eba47c6b94bfc6bba5f151c6 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:100644 100644 301e2e2b00b055a2368b72ca0919f1b2e62ab9c5 8ec695dce67b88afdeb21b16732e5bdd475d780a M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceRelationSpecification.cs
+:100644 100644 6b41d18f76aa39397c3d4ec6247a1bf7f5bda65d f21dc472ce889846dbd8293e6f8e411b1cd95644 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 f5039fa65a39307e00a7de9eb39c5c4205aa033c 9a83e0a98acd404524e111d77fcac41087dc02d1 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 44aa3423aaf1dc76f2cb11dcc336b8ca6348079e 6c15c75a8ad4f30e40a4c6857b97ded00eb3f8e5 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 69c3128d3dfafe5e3ab13e28070566eb771aac15
+tree 01dd070375f52d1b20b9d40e59531dc5fc9097a0
+parent b6731b5595de284796a97d16c85c1a9afd3c6edf
+author 彩娟 冯 <1446730634@qq.com> 2019-10-21 14:29:58 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-10-21 14:29:58 +0800
+
+    CourseTemplateCourseResourceRelation
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 8e1466471b4e1b2a883f6b43966662d9769cc5ac A	Domain2/Domain.CourseBuildModel/Relation/CourseTemplateCourseResourceRelation.cs
+:000000 100644 0000000000000000000000000000000000000000 73b22a3df9c8ea211a94395e71c2ceb9e6741ade A	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplateCourseResourceRelation.cs
+:000000 100644 0000000000000000000000000000000000000000 8920ffe048b010a72ed1fa8d48b4ab819f0b7445 A	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateCourseResourceRelationService.cs
+:000000 100644 0000000000000000000000000000000000000000 301e2e2b00b055a2368b72ca0919f1b2e62ab9c5 A	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseResourceRelationSpecification.cs
+:000000 100644 0000000000000000000000000000000000000000 3d56f9fe06c8c908f305c0718bae0fd23e6e7c8b A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceRelationFactory.cs
+:000000 100644 0000000000000000000000000000000000000000 fc4032267bda5c277e870a827d02da127adb7810 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceRelationRAFCommonSql.cs
+:000000 100644 0000000000000000000000000000000000000000 4df0b5ecc7465abdfee73395b93b0454c1bd4cb5 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/CourseTemplateCourseResourceRelationRepository.cs
+commit 87a3082fd971dd222d57855406d9fa56f5ceece9
+tree bc257b8ec15ada21d0cd3e5358c3694090c5e8c3
+parent 5397dc617c4152ceca32fdfa45ce4d393f3abf1b
+author 王宇鹤 <2511980201@qq.com> 2019-10-18 11:46:49 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-18 11:46:49 +0800
+
+    feat:GetTeacherHTEListDTO
+
+
+
+:100644 100644 c069822ec25e8bcbe159586642b29679c7fa7a3f 2b8ade8b516e2a4e1162fb71051e4df157f13361 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 5397dc617c4152ceca32fdfa45ce4d393f3abf1b
+tree 4c93f3829dc67927daf6ec9e4cb9ba4465cbfceb
+parent d64d29fe6d867751eba2978d0e93caadcc4cab40
+author 王宇鹤 <2511980201@qq.com> 2019-10-18 11:08:48 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-18 11:08:48 +0800
+
+    feat:修改消息
+
+
+
+:100644 100644 04f37a7860c6ade0c7a9373c71fef9e5ee4350ef 5b141fc39aa9ada2e09aa6b8c809e72ce9c813ac M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit 59dabfac69a0d95406d39bda41ffeba55cdf2ea9
+tree b39b56cafcb0dd6530974d0148f7b3a2b0166836
+parent 483b253bec80a3c8ec5c6308241042491c169de0
+author 王宇鹤 <2511980201@qq.com> 2019-10-17 18:13:30 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-17 18:13:30 +0800
+
+    feat:处理子作业
+
+
+
+:100644 100644 2c4c7ee62bad702dc50cb6ac6684dc0a64829367 1ce360c16574de9df8c6fb36341662b74dd11496 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 cfcedf2c831004bfe791376f564a91df14218f6d 04f37a7860c6ade0c7a9373c71fef9e5ee4350ef M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit ffee19d24856257bf6f6203fa4b3a54c07b17f89
+tree fbbf06edd0f898daf752bc56f0d7a2a4c179a9b3
+parent 3acfe09056ce3fc65b1c34847be8fb80587a2dfd
+author wangyuhe <wangyuhe@hexfuture.com> 2019-10-15 15:26:18 +0800
+committer wangyuhe <wangyuhe@hexfuture.com> 2019-10-15 15:26:18 +0800
+
+    106
+
+
+
+:100644 100644 8b7946d111068288a4e24a89a9034057e92d504b bfb2adcc0ae6953ccc52c4da71a62e9dc4d55981 M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit 3acfe09056ce3fc65b1c34847be8fb80587a2dfd
+tree 05178d6d1b98e3ce41a778aceb1e44c85dacb34a
+parent d33cfb7c2e36422e1303ada4a642f758008d3ea4
+author wangyuhe <wangyuhe@hexfuture.com> 2019-10-15 15:22:10 +0800
+committer wangyuhe <wangyuhe@hexfuture.com> 2019-10-15 15:22:10 +0800
+
+    106
+
+
+
+:100644 100644 a01eeb5cb2f637d072bc8ac9d19b44ad7cea8110 db5f86159ba853ebba598925f52e192a5e78bdc4 M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+commit d33cfb7c2e36422e1303ada4a642f758008d3ea4
+tree 055891d35760300e9f5c94bb9a90b37e2be6f0de
+parent c62e865b44efda23d9961c02fb559fda74b65601
+author wangyuhe <wangyuhe@hexfuture.com> 2019-10-15 15:21:38 +0800
+committer wangyuhe <wangyuhe@hexfuture.com> 2019-10-15 15:21:38 +0800
+
+    106
+
+
+
+:100644 100644 e0bc86052637a36b1b0e4b2fe4d2ef812a3779eb 562ef4790d9e01a4e79ade708e6a0959b05636d7 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+commit 483b253bec80a3c8ec5c6308241042491c169de0
+tree 300e6953c3c106891464dab8a6c4cea415ba9701
+parent d546c9ea9242243196b974675659ba447414b034
+author 王宇鹤 <2511980201@qq.com> 2019-10-15 10:10:35 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-15 10:10:35 +0800
+
+    debug:test
+
+
+
+:100644 100644 31c76a765e2f848a6a2fd6e68328806f1d3f544d cfcedf2c831004bfe791376f564a91df14218f6d M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit d546c9ea9242243196b974675659ba447414b034
+tree 5ab61fa5b3381bc590f3cb4f2ad7626b1b2aeb1e
+parent 1bf6af04aac2cdd7dcd5cd2ffb0daeaa5654df37
+author 王宇鹤 <2511980201@qq.com> 2019-10-14 15:27:24 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-14 15:27:24 +0800
+
+    feat:test
+
+
+
+:100644 100644 2530d5384d22c30a7eb2ff51c1d617bb274d463c 31c76a765e2f848a6a2fd6e68328806f1d3f544d M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit 1bf6af04aac2cdd7dcd5cd2ffb0daeaa5654df37
+tree 92ade39c92d6e9654d396bdad2da8594e030639f
+parent afc54b302e11bef84e15b63e59b41a479fa1d01c
+author 王宇鹤 <2511980201@qq.com> 2019-10-14 11:22:22 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-14 11:22:22 +0800
+
+    feat:test
+
+
+
+:100644 100644 4315e49f5e3aa98d3d5b2200e7d4d1a3f6067bc3 2530d5384d22c30a7eb2ff51c1d617bb274d463c M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit afc54b302e11bef84e15b63e59b41a479fa1d01c
+tree e7606c0f696765afd116902bcfda777117d65c0d
+parent cdfba17b030cc19df2c712a400cd0badcb81a5f9
+author 王宇鹤 <2511980201@qq.com> 2019-10-14 11:01:23 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-14 11:01:23 +0800
+
+    test
+
+
+
+:100644 100644 3ba0ffce9ccd7229d3a79f6521bdec8abb86fb53 1b75c9520087a347662c257d1efdef000d563d23 M	Domain2/Domain.CourseBuildModel/DTO/HTEAndSubHTEDTO.cs
+:100644 100644 3c15149d64f66fd7de7b6d96d105460724d6638f c069822ec25e8bcbe159586642b29679c7fa7a3f M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 06e1111a4404818c6959ad9758e26f2f2bc6dc77 4315e49f5e3aa98d3d5b2200e7d4d1a3f6067bc3 M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit cdfba17b030cc19df2c712a400cd0badcb81a5f9
+tree 883109b61ca8bdde2409bad22b7e2abafcdf2482
+parent 5e50cdc6ba424249cc151b936940bcea7cc727f7
+author 王宇鹤 <2511980201@qq.com> 2019-10-14 00:33:22 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-14 00:33:22 +0800
+
+    test
+
+
+
+:100644 100644 cb93639cef5972524b5ae324ab3bc27299927e6c a01eeb5cb2f637d072bc8ac9d19b44ad7cea8110 M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+commit 5e50cdc6ba424249cc151b936940bcea7cc727f7
+tree 48cb7eb27368db7b8373e34c61021546165d6ca8
+parent 4661ac5ae56c23aa5b3073c515bafdf00f0c9921
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 18:39:24 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 18:39:24 +0800
+
+    test
+
+
+
+:100644 100644 351aca84139066b0a55bcd474097c373c24cb201 06e1111a4404818c6959ad9758e26f2f2bc6dc77 M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit 4661ac5ae56c23aa5b3073c515bafdf00f0c9921
+tree de94781b71c03d79fae25003d7b5db8305c9fb62
+parent 13824f39864e7f8b96e381c8435637aed51f7644
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 17:11:57 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 17:11:57 +0800
+
+    feat:测试
+
+
+
+:100644 100644 2eac823c26b649649f8362673a5d1c3b995de6ee 351aca84139066b0a55bcd474097c373c24cb201 M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit 13824f39864e7f8b96e381c8435637aed51f7644
+tree f7168992cccf9939a8f73d7b4e52fe4586fcdd69
+parent 50a03880966cfe0879a56066ff1afb0e2c6cbf08
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 16:56:37 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 16:56:37 +0800
+
+    feat:测试
+
+
+
+:100644 100644 12496d302d9913e167c09159b1c5bcf25eda032a 68b5403e7539795cee3106d125ef903aae096101 M	Domain2/Domain.CourseBuildModel/DTO/TeacherHTEListDTO.cs
+:100644 100644 bcdca2c0322f88a724ff19cb4010fe10353ab574 3c15149d64f66fd7de7b6d96d105460724d6638f M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 50a03880966cfe0879a56066ff1afb0e2c6cbf08
+tree 7156d968f94f62eceeb0534e1417d7e408bb7e63
+parent 004a7b0c01e3f0365a0dbbaaa04f99d3e15b2b41
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 16:41:22 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 16:41:22 +0800
+
+    feat:测试
+
+
+
+:100644 100644 81891bfa33484d0abb3a198a70caba8e943f129d 3beb71aa59d97a630888cb768d0b31235418bb98 M	SubscriptionService/CourseSubsReport/Properties/launchSettings.json
+:100644 100644 0bd0c90f9251fe45f3bf504ce927bbd686f26406 2eac823c26b649649f8362673a5d1c3b995de6ee M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit 004a7b0c01e3f0365a0dbbaaa04f99d3e15b2b41
+tree 7c9a666876a5bce182876b87d9cd267fd6a00b51
+parent 821469d6bf21a95f5605590683923eca460dcb43
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 15:47:04 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 15:47:04 +0800
+
+    feat:测试
+
+
+
+:100644 100644 b4106e9d4fde3a5fa23b4320153283fe7a77fa5a bcdca2c0322f88a724ff19cb4010fe10353ab574 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 821469d6bf21a95f5605590683923eca460dcb43
+tree 36b4c4430ef622aa4aa04af3a31abd9c55534333
+parent 821deee24996e5b743bb2f985ca1671ea9cc5d50
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 15:09:19 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 15:09:19 +0800
+
+    测试
+
+
+
+:100644 100644 910275c03826314df75209ca15d6a88763b644d9 12496d302d9913e167c09159b1c5bcf25eda032a M	Domain2/Domain.CourseBuildModel/DTO/TeacherHTEListDTO.cs
+:100644 100644 bdd9efedf8c257e7c1d59587b841e9149116848f b4106e9d4fde3a5fa23b4320153283fe7a77fa5a M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 821deee24996e5b743bb2f985ca1671ea9cc5d50
+tree 61acdb7426db69c8a3fd2ce42982ff2aa3323632
+parent dfd9d317d66ff0ac819b54f62b255cc47e8f08a2
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 14:23:09 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 14:23:09 +0800
+
+    feat:测试
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 7b59c8ae2c25520cd73baad273fe4377278136f7 A	Domain2/Domain.CourseBuildModel/DTO/HTEAndCourseDTO.cs
+:000000 100644 0000000000000000000000000000000000000000 3ba0ffce9ccd7229d3a79f6521bdec8abb86fb53 A	Domain2/Domain.CourseBuildModel/DTO/HTEAndSubHTEDTO.cs
+:100644 100644 1131a838b78089b943ad6be295869050fd5c80ba bdd9efedf8c257e7c1d59587b841e9149116848f M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 b1d16c73796e7e9525dc2374eb51c69d5a73499e cb93639cef5972524b5ae324ab3bc27299927e6c M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+:100644 100644 d0b60e326070546921a1848aa277d23cbd333b2c 0bd0c90f9251fe45f3bf504ce927bbd686f26406 M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit 9edd4b386a0fcc94a04ccf4cb0cc014e13b2086e
+tree a9d16128ac1e1c118143c3345e9bb8c642f8f2b3
+parent e038589bea38a4bec247303a4429db4000bd568a
+author 王宇鹤 <2511980201@qq.com> 2019-10-11 16:53:19 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-11 16:53:19 +0800
+
+    feat:测试
+
+
+
+:100644 100644 055c1d2ea36fab7cd65f707e24322d7f645f09cb 1131a838b78089b943ad6be295869050fd5c80ba M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 527b1f22f3d76a8f45b5918937ea2e05a72c8ec8 d0b60e326070546921a1848aa277d23cbd333b2c M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit e038589bea38a4bec247303a4429db4000bd568a
+tree caf4b8b26f7373e7c3605c972d9ef1abbc0aec19
+parent bf777f8e360de24cec4ae8651b2e7dd8cafb54b0
+author 王宇鹤 <2511980201@qq.com> 2019-10-10 17:09:03 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-10 17:09:03 +0800
+
+    测试
+
+
+
+:100644 100644 5c9575e9c7f82d9c75b7e35fdfb38004f50004c2 055c1d2ea36fab7cd65f707e24322d7f645f09cb M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 6b41d18f76aa39397c3d4ec6247a1bf7f5bda65d 2c4c7ee62bad702dc50cb6ac6684dc0a64829367 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+commit bf777f8e360de24cec4ae8651b2e7dd8cafb54b0
+tree 30fbc323fee2ae08eee33d4741c99461aa1aad37
+parent bef7fe97486bfef75628f40f72180cf8bbd0cc9e
+author 王宇鹤 <2511980201@qq.com> 2019-10-10 11:57:54 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-10 11:57:54 +0800
+
+    feat:回收站
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 910275c03826314df75209ca15d6a88763b644d9 A	Domain2/Domain.CourseBuildModel/DTO/TeacherHTEListDTO.cs
+:100644 100644 98f30244f11eaad58a791664985c486e1d370f2a 6ebcbc1a948cf691d879ed94886eb4135324f437 M	Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj
+:100644 100644 6a60c98e793dad0640f8eaf0fa5c73af45530d93 42eb93e31de43844ee4a89923d20fba61861c557 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTE.cs
+:100644 100644 78cf5f35e1e6079f23ca0a70666763d64f521e95 5c9575e9c7f82d9c75b7e35fdfb38004f50004c2 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 7c4bba804356bc600dc5690e3b5ca0845f4f9ee1 03f25303116f4366894002d30449bd6f512832b0 M	SubscriptionService/CourseSubsReport/Configs/MessageTranfer.config
+:100644 100644 0e075c5e5ca1c5d173ca23e9e1ff820486a6b360 b1d16c73796e7e9525dc2374eb51c69d5a73499e M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+:000000 100644 0000000000000000000000000000000000000000 527b1f22f3d76a8f45b5918937ea2e05a72c8ec8 A	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebAPI/CourseWebAPIServer/log/logError20190819.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebAPI/CourseWebAPIServer/log/logInfo20190819.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebAPI/CourseWebAPIServer/log/logWarn20190819.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logError20190704.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logError20190713.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logError20190715.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logError20190716.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logError20190717.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logInfo20190704.txt
+:100644 000000 fd9c25399da9fddfcbd63b5409b057c190e11a4f 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logInfo20190713.txt
+:100644 000000 58985b1ce75a98bed80f2df1c4f8c4f92cff3c30 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logInfo20190715.txt
+:100644 000000 03aacaced1cce04f8d114f4cfbae007425ca4a6f 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logInfo20190716.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logInfo20190717.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logWarn20190704.txt
+:100644 000000 834a6bef6921ba618f8f44adb55b5bcda0fec51b 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logWarn20190713.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logWarn20190715.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logWarn20190716.txt
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	WebApi/CourseWebAPIServer/log/logWarn20190717.txt
+commit 0adb15d7973a15b23d34ecaa74044ec691c2e2cb
+tree bb97c0db0f4be6cdea802256a15449a1c5e120d7
+parent 7626240a224627d726b4812b7325b72b0845b0e2
+author 王宇鹤 <2511980201@qq.com> 2019-10-08 10:02:39 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-08 10:02:39 +0800
+
+    feat:RewordGroutStudent
+
+
+
+:100644 100644 fd996f2299f7d39105d5422fa40404d5df66d58a abded11cb9741b7ad7b86dd49de28e73b5c4afdb M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+:100644 100644 2e24edfdd4d86c139f9955ad18f3e7d22b790888 cee7c8ef2f01379bfe757d109888b7e18228f557 M	WebApi/WebApiCourse/Models/ParameterDto/ReqStudentReword.cs
+commit bef7fe97486bfef75628f40f72180cf8bbd0cc9e
+tree 612fcab3bc39ac3310b378fa3881a1e74c41e986
+parent d059b639018439fcde3fdbf5aee213350199c7e3
+author 王宇鹤 <2511980201@qq.com> 2019-09-24 11:31:05 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-09-24 11:31:05 +0800
+
+    105
+
+
+
+:100644 100644 90ee424f18561d0f79d0259c7881329d08343291 e0bc86052637a36b1b0e4b2fe4d2ef812a3779eb M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 05e562c582bf64816c81ffb4846968809278bd6d 7838a898cf5e1e71f9da70e9568cc3f41c1dc720 M	ReverseTransfer/ReverseTransferCourseServer/ReverseTransferCourseServer.csproj
+:100644 100644 2b7ed2bfb5ea8a9f3621c9b40a048b03fde2c52f 0e075c5e5ca1c5d173ca23e9e1ff820486a6b360 M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+:100644 100644 f960a98e725fb70669daed639650903e8d5e6cce 4aeaf4166a92ed6b1fb7442ab0d45b8f13f52fb5 M	SyncAndCheckServer/SyncCourseServer/SyncCourseServer.csproj
+:100644 100644 b1d7fe8d844a4ffef54b061ceb65ca227e8c5cee 8b7946d111068288a4e24a89a9034057e92d504b M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit 7626240a224627d726b4812b7325b72b0845b0e2
+tree 9233fe3bb5b15577203b55f6cd2d061bb7b08f24
+parent 99d595c81ebb2d97f67af1683cf651aafa55dbfb
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 18:22:58 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 18:22:58 +0800
+
+    小组成员集体加分
+
+
+
+:100644 100644 660126d2402d3ca998ad1250feb3cb5f6f2815f5 873260b23cfc1e7748f5feff541c13deddd1af32 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+commit b24327519cb5d96f9c32b8c9d0e17ec375b82d7a
+tree 6157d2538b9972da31ad2a677881adc7623fddeb
+parent b2a18e35472ef8a6d198b7b0a6e59c05863d231f
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 11:26:14 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 11:26:14 +0800
+
+    小组统一加分
+
+
+
+:100644 100644 a2042accef6e330eefc75049bf47b6c1722e397d 660126d2402d3ca998ad1250feb3cb5f6f2815f5 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 92a83b98357d76263c1ebfaad0475a39340d24f8 20348b87d0e607440a08496874dcbb732db6192b M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 8afeab8e32bf4c74f519769dd9594287332c5a9c de3a95b18871c2bb1f69d43d465b7924d2f7638e M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 3afce9561cd883e175f8e9d2fd1392bfb8eb49c3 6e20b31233e155e385c8365063ee5a362d34d478 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logError20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logError20190828.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logInfo20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logInfo20190828.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logWarn20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logWarn20190828.txt
+:100644 100644 52b146118ccf7b6a4aa66e0b68df9f1f4ef401a9 9206fafbc8e242783aac748d82447ce5c08d9241 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 8852ed346d2054d45bea9e5ac1ab90ab016929ab fd996f2299f7d39105d5422fa40404d5df66d58a M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+:100644 100644 015bc5e49dfbbe429f812809c2fb28b2187c6cfa 2e24edfdd4d86c139f9955ad18f3e7d22b790888 M	WebApi/WebApiCourse/Models/ParameterDto/ReqStudentReword.cs
+commit cb9350c5217bd832907710b969ecceeb9c1172e2
+tree e88c447b7f8dc7a04377b70a9ae696e5d572b4b5
+parent df33f911101224891ae262dc138a296491285d56
+author 彩娟 冯 <1446730634@qq.com> 2019-09-16 11:11:50 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-09-16 11:11:50 +0800
+
+    fix:修改版本号
+
+
+
+:100644 100644 5cd8863f3e9bed824bd747b48ab8cb8da0aa9053 b1d7fe8d844a4ffef54b061ceb65ca227e8c5cee M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit 8d55ef388531a4baff2bbd742694d73546f21a83
+tree e202bdccdda6f198d5465c2e4ba4f895944d0f8b
+parent 3567f56d1b315160daa09c0e3bfbb8add171daff
+author 王宇鹤 <2511980201@qq.com> 2019-09-12 11:43:57 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-09-12 11:43:57 +0800
+
+    feat:DeleteAllStudentInClass
+
+
+
+:100644 100644 3b3ae04e2a603940541faf0503eaecc077201617 ea0c024f7e5c06f2b41d0751cde4d1f2195340cd M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 0129dac4996173ff2e41bc10f5ee5a90bacb75ca
+tree 80506ac71e035ebc62788e4be87b10889e68e23b
+parent ba7b770d620353f87a48f9723368217326de1736
+author 彩娟 冯 <1446730634@qq.com> 2019-09-11 17:48:00 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-09-11 17:48:00 +0800
+
+    SearchTemplateByKeywordForTeacher
+
+
+
+:100644 100644 87cf2111824e935adc2dac0701e3c52fa5f87456 43ce36bb4b1d6bc7947d9c753ba0552d47da9e5e M	WebApi/WebApiCourse/Controllers/CourseTemplateController.cs
+commit ba7b770d620353f87a48f9723368217326de1736
+tree 3fb3955d350b74657d9459745826e573ef6066ce
+parent 902e7eb1d0b56be6e187ac0dc5f9334ef5c76d85
+author 彩娟 冯 <1446730634@qq.com> 2019-09-11 10:26:13 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-09-11 10:26:13 +0800
+
+    创建课程接口第四步-绑定课程模板的目录给课程（改为异步）
+
+
+
+:100644 100644 c96a28636b016ed2f25f8741bb90ff8ee0357144 774f1249f6ed949884209cd285b5a213afa79416 M	WebApi/WebApiCourse/Controllers/CourseController.cs

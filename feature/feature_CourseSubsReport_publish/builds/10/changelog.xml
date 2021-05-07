@@ -1,0 +1,13 @@
+commit ab3f68bd9b080da939020330303aa25aef8784e8
+tree 87417e3c30238745e02788b23845cef87e7f9f17
+parent f8c9010f96672e60bb36b66d56e7fe6fe6dad9e5
+author 王宇鹤 <2511980201@qq.com> 2019-07-16 11:33:19 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-16 11:33:19 +0800
+
+    feat:添加模型
+
+
+
+:100644 100644 8449c08801bd3367a0b838679ec1a48dc7fa1c0e c51a71d88bf3bc3924df14ec8c145dbc5797281f M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 b75d0de47ff8bb219ef10e660ef34f098683c368 8762aff07665d30e861fd93431337fd7b6fb5399 M	WebApi/WebApiCourse/Controllers/ManageLearningGroupController.cs
+:100644 100644 c5fbfa15685ab19537be5ed57446b076b996e463 4adef866631de6ecde8b4adf7a0ba67e0f3e9968 M	WebApi/WebApiCourse/Models/ReqCourse.cs

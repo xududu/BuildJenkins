@@ -1,0 +1,22 @@
+commit 6cfcc7572ca8c5555959ed0528acfa628a7adfe9
+tree d2244eef49d3d8de9c4b2db9387f162ea860f20c
+parent ae3b41e9d690fe8e37fcc2f4e4aee795d1f9c9f9
+author 彩娟 冯 <1446730634@qq.com> 2021-03-23 18:27:29 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-03-23 18:27:29 +0800
+
+    editor:修改接口SaveHTEAndCourseIndexAsync
+
+
+
+:100644 100644 ac47d2b848f600e57d29db2317a9b71e67a58889 fa99eccc0296f58b049c21da9d1b3c6a484384dc M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 20b52fc0ac3c267fbec07979bcb60882c0e03bfc
+tree 990d89c153771a6b2e8efcb288e88c1c21a0fd4c
+parent c6ccef93a79b31fb29c4b884c89ff5e52a0f87bf
+author 彩娟 冯 <1446730634@qq.com> 2021-03-17 10:06:01 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-03-17 10:06:01 +0800
+
+    editor:上课端作业列表兼容为null
+
+
+
+:100644 100644 dc96873de1687b07c7870cdd48c70abe6dc30641 e7a2f26448dbb55dd12a0e797fb6af6eced533d6 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj

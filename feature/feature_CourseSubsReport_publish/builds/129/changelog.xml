@@ -1,0 +1,11 @@
+commit cda18b473344bf638e8dced9aadcfa06dc74a845
+tree 710e255913fb171614af4773ac15f81b7409a57f
+parent cf9f9a1ec1857a8da8ab703866a6e71f91f30aad
+author AnHaNIYa <1400436027@qq.com> 2021-03-15 11:53:11 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-03-15 11:53:11 +0800
+
+    editr
+
+
+
+:100644 100644 c777a2f060aef96ef0c0d9963d21457888eee400 955d142a0ba458b0d9442eb42a4eccc4b710c8c2 M	Domain2/Domain.CourseBuildModel/Core/CoursewareContent.cs

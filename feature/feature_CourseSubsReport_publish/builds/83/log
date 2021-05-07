@@ -1,0 +1,238 @@
+Started by upstream project "[8mha:////4OKj7acYiFQZtdWtW71Y7GH61jl12G6kNhuUstc0QLr+AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH3HnJyA0qSczOIMfQDrKHBGxQAAAA==[0mAllPublish" build number [8mha:////4HgjBYsNDouespdbwWrkAbm5jTvdJRlfIo2l3eWkUGCrAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwkfcecnIDSpJzM4gx9SwApEScLxgAAAA==[0m9
+originally caused by:
+ Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4C7WLzTQ/Mj+3OtJt70nJPJ2hpzHX1PSOHUcWVjQbPSZAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQifUNLIz1DMws9Qz0jQ0sAGr6k48wAAAA=[0m192.168.1.219 in workspace /usr/local/jenkins/workspace/feature_CourseSubsReport_publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/course.git
+ > git init /usr/local/jenkins/workspace/feature_CourseSubsReport_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/dev-async^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/dev-async^{commit} # timeout=10
+Checking out Revision 44d11034e3537f3f75ff002a34f15379b00e5136 (refs/remotes/origin/dev-async)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 44d11034e3537f3f75ff002a34f15379b00e5136
+Commit message: "EDIT BaseDto.ProtoBuf多态"
+ > git rev-list --no-walk 44d11034e3537f3f75ff002a34f15379b00e5136 # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=SubscriptionService:CSProjFile=CourseSubsReport:BINPATH=bin/Release/netcoreapp3.1:DOCKERIMAGENAME=coursesubsreport:DockerProName=subs:DockerName=w1.coursesubsreport.sub.group.hex.com:ServiceName=coursesubsreport-w1
+[feature_CourseSubsReport_publish] $ /bin/sh -xe /tmp/jenkins1165153072751781192.sh
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker pull reg.hexfuture.com/dotnet/sdk:3.1
+3.1: Pulling from dotnet/sdk
+Digest: sha256:c31116825aebd79605b91dc032ce5049c0bb9454223ccfc70c9a07142592dbcb
+Status: Image is up to date for reg.hexfuture.com/dotnet/sdk:3.1
++ docker pull reg.hexfuture.com/dotnet/runtime:3.1
+3.1: Pulling from dotnet/runtime
+Digest: sha256:911f274791e63cc2216687b39ef7f90296ddbbbc7023c5f111c93d4f858704b9
+Status: Image is up to date for reg.hexfuture.com/dotnet/runtime:3.1
+++ cat ./SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+++ grep -i versionprefix
+++ awk '-F>' '{ print $2 }'
+++ awk '-F<' '{ print $1 }'
++ DockerImageVersion=1.1.0
++ cat
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker build --no-cache -t reg.hexfuture.com/subs/coursesubsreport:1.1.0 .
+Sending build context to Docker daemon  124.2MB
+Step 1/8 : FROM reg.hexfuture.com/dotnet/sdk:3.1
+ ---> c4155a9104a8
+Step 2/8 : COPY ./ /opt/publishdir
+ ---> 168418b8ae1b
+Step 3/8 : RUN dotnet publish /opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp3.1
+ ---> Running in 36dbfbf8b7e4
+Microsoft (R) Build Engine version 16.7.0+7fb82e5b2 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/entappframework.log/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/entappframework.log/index.json' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/dotnet-etcd/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/dotnet-etcd/index.json' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/system.runtime.numerics/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.runtime.numerics/index.json' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/system.security.cryptography.algorithms/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.algorithms/index.json' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/system.threading.tasks/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.threading.tasks/index.json' has timed out after 100000ms.
+  Failed to download package 'System.IO.4.1.0' from 'https://api.nuget.org/v3-flatcontainer/system.io/4.1.0/system.io.4.1.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.io/4.1.0/system.io.4.1.0.nupkg' has timed out after 100000ms.
+  Failed to download package 'System.Reflection.Metadata.1.6.0' from 'https://api.nuget.org/v3-flatcontainer/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg' has timed out after 100000ms.
+  Failed to download package 'System.Diagnostics.Tools.4.3.0' from 'https://api.nuget.org/v3-flatcontainer/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/system.buffers/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.buffers/index.json' has timed out after 100000ms.
+  Failed to download package 'Microsoft.Extensions.FileProviders.Abstractions.2.2.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.fileproviders.abstractions/2.2.0/microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.fileproviders.abstractions/2.2.0/microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg' has timed out after 100000ms.
+  Failed to download package 'Microsoft.Extensions.DependencyInjection.2.2.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/2.2.0/microsoft.extensions.dependencyinjection.2.2.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/2.2.0/microsoft.extensions.dependencyinjection.2.2.0.nupkg' has timed out after 100000ms.
+  Failed to download package 'System.Reflection.TypeExtensions.4.1.0' from 'https://api.nuget.org/v3-flatcontainer/system.reflection.typeextensions/4.1.0/system.reflection.typeextensions.4.1.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.reflection.typeextensions/4.1.0/system.reflection.typeextensions.4.1.0.nupkg' has timed out after 100000ms.
+  Failed to download package 'System.Runtime.4.1.0' from 'https://api.nuget.org/v3-flatcontainer/system.runtime/4.1.0/system.runtime.4.1.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.runtime/4.1.0/system.runtime.4.1.0.nupkg' has timed out after 100000ms.
+  Failed to download package 'System.Linq.Expressions.4.1.1' from 'https://api.nuget.org/v3-flatcontainer/system.linq.expressions/4.1.1/system.linq.expressions.4.1.1.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.linq.expressions/4.1.1/system.linq.expressions.4.1.1.nupkg' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/system.runtime.loader/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.runtime.loader/index.json' has timed out after 100000ms.
+  Failed to download package 'Microsoft.AspNetCore.Routing.Abstractions.2.2.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.routing.abstractions/2.2.0/microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.routing.abstractions/2.2.0/microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.netcore.dotnethostresolver/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.dotnethostresolver/index.json' has timed out after 100000ms.
+  Restored /opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj (in 3.77 min).
+  CourseSubsReport -> /opt/publishdir/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp3.1/CourseSubsReport.dll
+  CourseSubsReport -> /opt/publishdir/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp3.1/publish/
+Removing intermediate container 36dbfbf8b7e4
+ ---> 223b97edf967
+Step 4/8 : FROM reg.hexfuture.com/dotnet/runtime:3.1
+ ---> 7be7431e6153
+Step 5/8 : COPY --from=0 /opt/publishdir/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp3.1/publish/ /opt/CourseSubsReport
+ ---> 12807742a3b3
+Step 6/8 : WORKDIR /opt/CourseSubsReport
+ ---> Running in 49c1ab880ab6
+Removing intermediate container 49c1ab880ab6
+ ---> 0c7da00ff222
+Step 7/8 : VOLUME /opt/CourseSubsReport
+ ---> Running in b467ca593bf0
+Removing intermediate container b467ca593bf0
+ ---> efdc9d1525d8
+Step 8/8 : RUN exiftool /opt/CourseSubsReport/*.dll|egrep "^File Name|^File Version Number"|awk -F ":" '{tmp=$2;getline;print tmp" :"$2}'
+ ---> Running in c9d2edbbffcb
+[91m/bin/sh: 1: exiftool: not found
+[0mRemoving intermediate container c9d2edbbffcb
+ ---> f6315921130f
+Successfully built f6315921130f
+Successfully tagged reg.hexfuture.com/subs/coursesubsreport:1.1.0
++ docker push reg.hexfuture.com/subs/coursesubsreport:1.1.0
+The push refers to repository [reg.hexfuture.com/subs/coursesubsreport]
+c55d7b780c2e: Preparing
+be86e0c2642d: Preparing
+966e4a1df68a: Preparing
+08e8c8e2420b: Preparing
+07cab4339852: Preparing
+08e8c8e2420b: Layer already exists
+966e4a1df68a: Layer already exists
+07cab4339852: Layer already exists
+be86e0c2642d: Layer already exists
+c55d7b780c2e: Pushed
+1.1.0: digest: sha256:452aa7dbaa7898490831f5e09d288be65f03767666d241698f840cf3fef97712 size: 1376
++ docker tag reg.hexfuture.com/subs/coursesubsreport:1.1.0 reg.hexfuture.com/subs/coursesubsreport
++ docker push reg.hexfuture.com/subs/coursesubsreport
+The push refers to repository [reg.hexfuture.com/subs/coursesubsreport]
+c55d7b780c2e: Preparing
+be86e0c2642d: Preparing
+966e4a1df68a: Preparing
+08e8c8e2420b: Preparing
+07cab4339852: Preparing
+07cab4339852: Layer already exists
+be86e0c2642d: Layer already exists
+966e4a1df68a: Layer already exists
+c55d7b780c2e: Layer already exists
+08e8c8e2420b: Layer already exists
+1.1.0: digest: sha256:452aa7dbaa7898490831f5e09d288be65f03767666d241698f840cf3fef97712 size: 1376
+c55d7b780c2e: Preparing
+be86e0c2642d: Preparing
+966e4a1df68a: Preparing
+08e8c8e2420b: Preparing
+07cab4339852: Preparing
+be86e0c2642d: Layer already exists
+08e8c8e2420b: Layer already exists
+07cab4339852: Layer already exists
+c55d7b780c2e: Layer already exists
+966e4a1df68a: Layer already exists
+latest: digest: sha256:452aa7dbaa7898490831f5e09d288be65f03767666d241698f840cf3fef97712 size: 1376
+SSH: Connecting from host [docker-219]
+SSH: Connecting with configuration [subs-55] ...
+SSH: EXEC: STDOUT/STDERR from command [#启动docker images
+docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+
+docker pull reg.hexfuture.com/subs/coursesubsreport
+
+
+# 判断1,如果存在同名字执行中的容器,先停止,没有判断停止失败情况
+num=`docker ps -f name=w1.coursesubsreport.sub.group.hex.com -f status=running|wc -l`
+if [ $num == 2 ];then
+ docker stop w1.coursesubsreport.sub.group.hex.com
+fi
+
+# 判断2,如果存在同名字的停止的容器,删除
+num=`docker ps -af name=w1.coursesubsreport.sub.group.hex.com -f status=exited|wc -l`
+if [ $num == 2 ];then
+ docker rm w1.coursesubsreport.sub.group.hex.com
+fi
+sleep 8s
+docker run -d \
+-v /etc/localtime:/etc/localtime \
+-v /usr/local/docker-data/sleep.sh:/docker-entrypoint-initdb.d/sleep.sh \
+-l io.rancher.container.network=true \
+--ulimit core=-1 \
+--security-opt seccomp=unconfined \
+--privileged=true \
+-e HOST_IP=`ip a sh eth0 | grep "inet " |awk '{print $2}'|awk -F/ '{print $1}'` \
+-e ETCD_ADDR=etcd.common.hex.com:2379 \
+-h w1.coursesubsreport.sub.group.hex.com \
+--name w1.coursesubsreport.sub.group.hex.com \
+reg.hexfuture.com/subs/coursesubsreport \
+dotnet \
+/opt/CourseSubsReport/CourseSubsReport.dll \
+--serviceName coursesubsreport-w1 \
+--zkConfigServer w1.confandsa.zk.group.hex.com:2181,w2.confandsa.zk.group.hex.com:2181,w3.confandsa.zk.group.hex.com:2181 \
+--minThreadCount 100 \
+--runScope Core991 \
+--msGroup dongbei \
+--ser protobuf \
+--zkTimeOut 15000 \
+--mcTimeOut 30000 \
+--trace kafka \
+--KafkaRedis  1] ...
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Using default tag: latest
+latest: Pulling from subs/coursesubsreport
+d121f8d1c412: Already exists
+7b2d5a029506: Already exists
+778ad5bbc2d1: Already exists
+6de7a0eb2598: Already exists
+5f44c8e0aca2: Pulling fs layer
+5f44c8e0aca2: Verifying Checksum
+5f44c8e0aca2: Download complete
+5f44c8e0aca2: Pull complete
+Digest: sha256:452aa7dbaa7898490831f5e09d288be65f03767666d241698f840cf3fef97712
+Status: Downloaded newer image for reg.hexfuture.com/subs/coursesubsreport:latest
+w1.coursesubsreport.sub.group.hex.com
+w1.coursesubsreport.sub.group.hex.com
+cf13acd1f8346a6e28c5a460f8076071d7381793a5cdea2dd80c41c6bebe037a
+SSH: EXEC: completed after 50,434 ms
+SSH: Disconnecting configuration [subs-55] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

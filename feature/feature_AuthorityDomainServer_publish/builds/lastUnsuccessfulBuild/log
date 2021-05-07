@@ -1,0 +1,71 @@
+Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4M/y1nrSWVzOsByPcVSr2OyU9JfnEyXW/rHSlTXylDcaAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQifUNLIz1DMws9Az0jQ0sAqpfE3swAAAA=[0m192.168.0.219 in workspace /usr/local/jenkins/workspace/AuthorityDomainServer_publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/Authority.git
+ > git init /usr/local/jenkins/workspace/AuthorityDomainServer_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/Authority.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/Authority.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/Authority.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/Authority.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/Authority.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/Authority.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/feature-core22^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/feature-core22^{commit} # timeout=10
+Checking out Revision fa923fa158f9b52d273f687b6025f6a905eeedce (refs/remotes/origin/feature-core22)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fa923fa158f9b52d273f687b6025f6a905eeedce
+Commit message: "editor： 修改SYNC ENT文件"
+ > git rev-list --no-walk fa923fa158f9b52d273f687b6025f6a905eeedce # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=DomainServer:CSProjFile=AuthorityDomainServer
+Build environment variables will be made available to the next build: DockerPort=20012:DOCKERIMAGENAME=authoritydomainserver:DockerProName=domain
+Build environment variables will be made available to the next build: DockerImageVersion=5.0.0
+[AuthorityDomainServer_publish] $ /bin/sh -xe /tmp/jenkins2540287814087705657.sh
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker pull reg.hexfuture.com/dotnet/sdk
+Using default tag: latest
+latest: Pulling from dotnet/sdk
+Digest: sha256:bacb30a69411f0f71a5ec7bb07c7a4449b20aa4571cb3a53682012d50e374768
+Status: Image is up to date for reg.hexfuture.com/dotnet/sdk:latest
++ docker pull reg.hexfuture.com/dotnet/runtime
+Using default tag: latest
+latest: Pulling from dotnet/runtime
+Digest: sha256:a93e450611b4087a3acecf0b01735f7ba181a08bdaf3862f26ee8120176e2696
+Status: Image is up to date for reg.hexfuture.com/dotnet/runtime:latest
++ cat
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker build --no-cache -t reg.hexfuture.com/domain/authoritydomainserver:5.0.0 .
+Sending build context to Docker daemon    937kB
+Step 1/9 : FROM reg.hexfuture.com/dotnet/sdk
+ ---> 3b3aa3bb0c44
+Step 2/9 : COPY ./ /opt/publishdir
+ ---> 038a9d56c2be
+Step 3/9 : RUN echo "192.168.0.40 nuget.hexstudy.com" >> /etc/hosts;dotnet publish /opt/publishdir/DomainServer/AuthorityDomainServer/AuthorityDomainServer.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp2.2
+ ---> Running in 50e0ebb28d04
+Microsoft (R) Build Engine version 16.2.32702+c4012a063 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build was aborted
+Aborted by [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

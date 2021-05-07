@@ -1,0 +1,1001 @@
+Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+ln builds/lastSuccessfulBuild /var/jenkins_home/jobs/feature_CourseSubsReport_publish/lastSuccessful failed
+java.nio.file.DirectoryNotEmptyException: /var/jenkins_home/jobs/feature_CourseSubsReport_publish/lastSuccessful
+	at sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:242)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at hudson.Util.createSymlink(Util.java:1192)
+	at hudson.model.Run.createSymlink(Run.java:1957)
+	at hudson.model.Run.updateSymlinks(Run.java:1938)
+	at hudson.model.Run.execute(Run.java:1816)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ln builds/lastStableBuild /var/jenkins_home/jobs/feature_CourseSubsReport_publish/lastStable failed
+java.nio.file.DirectoryNotEmptyException: /var/jenkins_home/jobs/feature_CourseSubsReport_publish/lastStable
+	at sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:242)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at hudson.Util.createSymlink(Util.java:1192)
+	at hudson.model.Run.createSymlink(Run.java:1957)
+	at hudson.model.Run.updateSymlinks(Run.java:1939)
+	at hudson.model.Run.execute(Run.java:1816)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4MDYWumaGptxmzSEQa4kByck1jJfHJRUyNArrtdRV95jAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQifUNLIz1DMws9Az0jY3MAL9hKC8wAAAA=[0m192.168.0.237 in workspace /usr/local/jenkins/workspace/feature_CourseSubsReport_publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/course.git
+ > git init /usr/local/jenkins/workspace/feature_CourseSubsReport_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/dev^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/dev^{commit} # timeout=10
+Checking out Revision 1987430045f54b8c6e6167ac286edfbaa7c636df (refs/remotes/origin/dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1987430045f54b8c6e6167ac286edfbaa7c636df
+Commit message: "editor 升级版本"
+ > git rev-list --no-walk 1987430045f54b8c6e6167ac286edfbaa7c636df # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=SubscriptionService:CSProjFile=CourseSubsReport:BINPATH=bin/Release/netcoreapp2.2:DOCKERIMAGENAME=coursesubsreport:DockerProName=subs:DockerName=w1.coursesubsreport.sub.group.hex.com:ServiceName=coursesubsreport-w1
+[feature_CourseSubsReport_publish] $ /bin/sh -xe /tmp/jenkins8858593670871102912.sh
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker pull reg.hexfuture.com/dotnet/sdk
+Using default tag: latest
+latest: Pulling from dotnet/sdk
+Digest: sha256:0991a8b02a9124939f293570bf67f792fd35bbb2a27e1b029d9515c84e22718d
+Status: Image is up to date for reg.hexfuture.com/dotnet/sdk:latest
++ docker pull reg.hexfuture.com/dotnet/runtime
+Using default tag: latest
+latest: Pulling from dotnet/runtime
+Digest: sha256:18b6f46964dd33dd7ca1494960cf5ba0396a3b1e479be275b2b47587e38d2e31
+Status: Image is up to date for reg.hexfuture.com/dotnet/runtime:latest
+++ cat ./SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+++ grep -i versionprefix
+++ awk '-F>' '{ print $2 }'
+++ awk '-F<' '{ print $1 }'
++ DockerImageVersion=1.0.6
++ cat
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker build --no-cache -t reg.hexfuture.com/subs/coursesubsreport:1.0.6 .
+Sending build context to Docker daemon  122.7MB
+Step 1/8 : FROM reg.hexfuture.com/dotnet/sdk
+ ---> 872a2d0fc47a
+Step 2/8 : COPY ./ /opt/publishdir
+ ---> 2b9d7d32dcac
+Step 3/8 : RUN dotnet publish /opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp2.2
+ ---> Running in e2c232984cb2
+Microsoft (R) Build Engine version 16.2.32702+c4012a063 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 13.79 sec for /opt/publishdir/Domain2/Domain.CourseModel/Domain.CourseModel.csproj.
+  Restore completed in 13.79 sec for /opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj.
+  Restore completed in 13.79 sec for /opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj.
+  Restore completed in 13.79 sec for /opt/publishdir/Domain2/Domain.CourseRedisModel/Domain.CourseRedisModel.csproj.
+  Restore completed in 1.19 sec for /opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj.
+  Restore completed in 4.85 sec for /opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj.
+  Domain.CourseRedisModel -> /opt/publishdir/Domain2/Domain.CourseRedisModel/bin/Release/netstandard2.0/Domain.CourseRedisModel.dll
+Service/Realization/CourseService.cs(535,24): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseModel/Domain.CourseModel.csproj]
+Service/Realization/RegisterCourseService.cs(596,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseModel/Domain.CourseModel.csproj]
+Service/Realization/RegisterCourseService.cs(772,24): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseModel/Domain.CourseModel.csproj]
+Service/Realization/CourseService.cs(962,42): warning CS0168: The variable 'ee' is declared but never used [/opt/publishdir/Domain2/Domain.CourseModel/Domain.CourseModel.csproj]
+Service/Realization/CourseService.cs(988,42): warning CS0168: The variable 'ee' is declared but never used [/opt/publishdir/Domain2/Domain.CourseModel/Domain.CourseModel.csproj]
+Service/Realization/RegisterCourseService.cs(1237,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseModel/Domain.CourseModel.csproj]
+Service/Realization/RegisterCourseService.cs(1259,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseModel/Domain.CourseModel.csproj]
+  Domain.CourseModel -> /opt/publishdir/Domain2/Domain.CourseModel/bin/Release/netstandard2.0/Domain.CourseModel.dll
+Service/Realization/SyllabusService.cs(710,34): warning CS0168: The variable 'ex' is declared but never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(745,34): warning CS0168: The variable 'ex' is declared but never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(778,34): warning CS0168: The variable 'ex' is declared but never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(814,34): warning CS0168: The variable 'ex' is declared but never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(849,34): warning CS0168: The variable 'ex' is declared but never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(908,34): warning CS0168: The variable 'ex' is declared but never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(1227,27): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(1822,17): warning CS0219: The variable 'rows' is assigned but its value is never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(1823,17): warning CS0219: The variable 'pages' is assigned but its value is never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(1950,17): warning CS0219: The variable 'rows' is assigned but its value is never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(1951,17): warning CS0219: The variable 'pages' is assigned but its value is never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+Service/Realization/SyllabusService.cs(2307,19): warning CS0219: The variable 'currSequence' is assigned but its value is never used [/opt/publishdir/Domain2/Domain.SyllabusModel/Domain.SyllabusModel.csproj]
+  Domain.SyllabusModel -> /opt/publishdir/Domain2/Domain.SyllabusModel/bin/Release/netstandard2.0/Domain.SyllabusModel.dll
+Query/CourseTemplateDirectoryQuery.cs(62,25): warning CS0108: 'CourseTemplateDirectoryQuery.LastUpdateTime' hides inherited member 'EntityWithDate<long>.LastUpdateTime'. Use the new keyword if hiding was intended. [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Specification/HTEAndCourseSpecification.cs(187,17): warning CS0162: Unreachable code detected [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/SyncRecordService.cs(20,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/SyncRecordService.cs(41,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/SyncRecordService.cs(62,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/SyncRecordService.cs(83,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/SyncRecordService.cs(104,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/BuildCourseService.cs(1239,18): warning CS0219: The variable 'ret' is assigned but its value is never used [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/BuildCourseService.cs(1264,18): warning CS0219: The variable 'ret' is assigned but its value is never used [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/BuildCourseService.cs(2017,30): warning CS0168: The variable 'ex' is declared but never used [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/BuildCourseService.cs(1978,18): warning CS0219: The variable 'createUserId' is assigned but its value is never used [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseAndHTEService.cs(57,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseAndHTEService.cs(68,34): warning CS0168: The variable 'ex' is declared but never used [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/ClassPeriodService.cs(227,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseSynchronizationService.cs(33,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseSynchronizationService.cs(79,25): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseSynchronizationService.cs(131,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseSynchronizationService.cs(142,32): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseAndHTEService.cs(879,17): warning CS0184: The given expression is never of the provided ('Exam') type [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseAndHTEService.cs(1038,29): warning CS0184: The given expression is never of the provided ('Exam') type [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseAndHTEService.cs(1097,18): warning CS0219: The variable 'ClassId' is assigned but its value is never used [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseTemplateService.cs(2755,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseTemplateService.cs(2871,20): warning CS0618: 'DomainModelFacade.IsExit<M, K>(ISpecification<M>)' is obsolete: '因为名称不对，被IsExist取代' [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/CourseAndHTEService.cs(1866,17): warning CS0219: The variable 'peexits' is assigned but its value is never used [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+Service/Realization/ComFunction.cs(19,30): warning CS0649: Field 'ComFunction.obj' is never assigned to, and will always have its default value null [/opt/publishdir/Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj]
+  Domain.CourseBuildModel -> /opt/publishdir/Domain2/Domain.CourseBuildModel/bin/Release/netstandard2.0/Domain.CourseBuildModel.dll
+SyncCourseUserQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalClassPeriodRecordRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalClassPeriodRecordRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalClassPeriodRecordRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalClassPeriodRecordRepository.cs(101,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalClassPeriodRecordRepository.cs(109,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalClassPeriodRecordRepository.cs(117,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalClassPeriodRecordRepository.cs(125,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalClassPeriodRecordRepository.cs(133,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalClassPeriodRecordRepository.cs(141,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+SyncCourseUserQueryRepository.cs(104,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+SyncCourseUserQueryRepository.cs(114,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(107,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(115,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(123,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(131,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(139,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(147,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(155,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalCoursewareRecordRepository.cs(163,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalDirectoryRecordRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalDirectoryRecordRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalDirectoryRecordRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalDirectoryRecordRepository.cs(101,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalDirectoryRecordRepository.cs(109,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalDirectoryRecordRepository.cs(117,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalDirectoryRecordRepository.cs(125,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalDirectoryRecordRepository.cs(133,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalDirectoryRecordRepository.cs(141,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+StudentExerciseLibRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareContentQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+StudentExerciseLibRepository.cs(143,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+StudentExerciseLibRepository.cs(151,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareContentQueryRepository.cs(89,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareContentQueryRepository.cs(99,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(107,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(115,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(123,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(131,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(139,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(147,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(155,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalHteRecordRepository.cs(163,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(107,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(115,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(123,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(131,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(139,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(147,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(155,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+AdditionalSectionRecordRepository.cs(163,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(69,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(74,17): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(69,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(74,17): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(118,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(126,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(134,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(142,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(150,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(158,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(166,25): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(174,21): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(183,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(193,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(202,25): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodCoursewareLogRepository.cs(210,21): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(66,21): warning CS0472: The result of the expression is always 'true' since a value of type 'CourseResourceUse' is never equal to 'null' of type 'CourseResourceUse?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(85,21): warning CS0472: The result of the expression is always 'false' since a value of type 'ClassPeriodContentState' is never equal to 'null' of type 'ClassPeriodContentState?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(91,21): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(118,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(126,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(134,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(142,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(150,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(158,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(166,25): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(174,21): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(183,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(193,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(202,25): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodEbookSectionLogRepository.cs(210,21): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(107,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(115,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(123,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(131,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(139,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(147,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(155,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceRelationRepository.cs(163,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(142,21): warning CS0472: The result of the expression is always 'false' since a value of type 'ClassPeriodContentState' is never equal to 'null' of type 'ClassPeriodContentState?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(148,21): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(200,21): warning CS0472: The result of the expression is always 'false' since a value of type 'ClassPeriodContentState' is never equal to 'null' of type 'ClassPeriodContentState?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(206,21): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(50,17): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(55,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(60,17): warning CS0472: The result of the expression is always 'true' since a value of type 'ClassPeriodContentState' is never equal to 'null' of type 'ClassPeriodContentState?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(254,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(274,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(280,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(104,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(114,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(124,25): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(134,21): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(144,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(154,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(164,25): warning CS0472: The result of the expression is always 'true' since a value of type 'ClassPeriodContentState' is never equal to 'null' of type 'ClassPeriodContentState?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteContentQueryRepository.cs(174,21): warning CS0472: The result of the expression is always 'true' since a value of type 'ClassPeriodContentState' is never equal to 'null' of type 'ClassPeriodContentState?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(107,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(115,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(123,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(131,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(139,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(147,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(155,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ResourceLogQueryRepository.cs(163,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(358,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(366,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(413,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(421,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(429,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodRepository.cs(437,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(69,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(74,17): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(62,17): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(68,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(73,17): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(118,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(126,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(134,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(142,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(150,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(158,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(166,25): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(174,21): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(183,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(193,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(202,25): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodHteLogRepository.cs(210,21): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(68,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(74,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(80,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(117,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(125,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(133,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(141,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(169,25): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(177,21): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(186,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(196,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(205,25): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+ClassPeriodLogRepository.cs(213,21): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(44,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(55,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(66,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(77,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(134,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(142,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(166,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(174,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(202,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(210,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(218,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(226,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(234,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseClassPeriodQueryRepository.cs(242,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(127,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(137,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(163,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(173,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(199,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(209,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(235,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+HTECourseSubjectCourseSubjectQueryRepository.cs(245,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseCoursewarePackageRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseCoursewarePackageRelationRepository.cs(69,17): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryInfoRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseCoursewarePackageRelationRepository.cs(153,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseCoursewarePackageRelationRepository.cs(161,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseCoursewarePackageRelationRepository.cs(170,25): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseCoursewarePackageRelationRepository.cs(180,21): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryInfoRelationRepository.cs(143,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryInfoRelationRepository.cs(151,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseExercisePoolRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseExercisePoolRelationRepository.cs(69,17): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(50,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(61,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(66,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(71,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(77,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(83,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(89,17): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseExercisePoolRelationRepository.cs(153,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseExercisePoolRelationRepository.cs(161,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseExercisePoolRelationRepository.cs(170,25): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseExercisePoolRelationRepository.cs(180,21): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseGradeRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(133,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(143,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(153,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(163,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(189,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(199,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(209,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(219,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(228,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(236,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(244,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(252,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(260,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(268,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(277,25): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseDirectoryQueryRepository.cs(287,21): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseGradeRelationRepository.cs(143,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseGradeRelationRepository.cs(151,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(62,17): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(68,17): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(112,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(120,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(128,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(136,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(164,25): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(172,21): warning CS0472: The result of the expression is always 'false' since a value of type 'UserOperationAction' is never equal to 'null' of type 'UserOperationAction?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(180,25): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoLogRepository.cs(188,21): warning CS0472: The result of the expression is always 'false' since a value of type 'ResourceCategory' is never equal to 'null' of type 'ResourceCategory?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseLocaleRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusRemarkRepository.cs(77,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(75,17): warning CS0472: The result of the expression is always 'true' since a value of type 'CourseResourceUse' is never equal to 'null' of type 'CourseResourceUse?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(97,17): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(111,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseLocaleRelationRepository.cs(143,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseLocaleRelationRepository.cs(151,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusRemarkRepository.cs(124,29): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusRemarkRepository.cs(137,25): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusRemarkRepository.cs(150,29): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusRemarkRepository.cs(163,25): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusRemarkRepository.cs(176,29): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusRemarkRepository.cs(189,25): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusRemarkRepository.cs(237,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusRemarkRepository.cs(245,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoRepository.cs(66,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoRepository.cs(72,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoRepository.cs(78,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(158,29): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(171,25): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(184,29): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(197,25): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(210,29): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(223,25): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(236,29): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(249,25): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(262,29): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(275,25): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(308,29): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(321,25): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(334,29): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(347,25): warning CS0184: The given expression is never of the provided ('IIsNullEntity') type [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(286,25): warning CS0472: The result of the expression is always 'true' since a value of type 'CourseResourceUse' is never equal to 'null' of type 'CourseResourceUse?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(296,21): warning CS0472: The result of the expression is always 'true' since a value of type 'CourseResourceUse' is never equal to 'null' of type 'CourseResourceUse?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(378,25): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(388,21): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(415,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusLogRepository.cs(423,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoRepository.cs(187,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoRepository.cs(195,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoRepository.cs(203,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoRepository.cs(211,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoRepository.cs(219,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+DirectoryInfoRepository.cs(227,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(60,17): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(65,17): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(70,17): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(84,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(163,25): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(173,21): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(183,25): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(193,21): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(203,25): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(213,21): warning CS0472: The result of the expression is always 'true' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(240,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceStatusTagRepository.cs(248,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateToResourceGroupRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceTagRepository.cs(69,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateToResourceGroupRepository.cs(143,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateToResourceGroupRepository.cs(151,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleNewAddQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleNewAddQueryRepository.cs(50,17): warning CS0472: The result of the expression is always 'true' since a value of type 'ScheduleResourceType' is never equal to 'null' of type 'ScheduleResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceTagRepository.cs(165,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseResourceTagRepository.cs(173,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleNewAddQueryRepository.cs(94,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleNewAddQueryRepository.cs(104,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleNewAddQueryRepository.cs(114,25): warning CS0472: The result of the expression is always 'true' since a value of type 'ScheduleResourceType' is never equal to 'null' of type 'ScheduleResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleNewAddQueryRepository.cs(124,21): warning CS0472: The result of the expression is always 'true' since a value of type 'ScheduleResourceType' is never equal to 'null' of type 'ScheduleResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleResourceSyncedRecordQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleResourceSyncedRecordQueryRepository.cs(50,17): warning CS0472: The result of the expression is always 'true' since a value of type 'ScheduleResourceType' is never equal to 'null' of type 'ScheduleResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleResourceSyncedRecordQueryRepository.cs(94,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleResourceSyncedRecordQueryRepository.cs(104,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleResourceSyncedRecordQueryRepository.cs(114,25): warning CS0472: The result of the expression is always 'true' since a value of type 'ScheduleResourceType' is never equal to 'null' of type 'ScheduleResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseScheduleResourceSyncedRecordQueryRepository.cs(124,21): warning CS0472: The result of the expression is always 'true' since a value of type 'ScheduleResourceType' is never equal to 'null' of type 'ScheduleResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateTeacherSearchQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateTeacherSearchQueryRepository.cs(68,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateTeacherSearchQueryRepository.cs(74,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(50,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(55,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(72,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateTeacherSearchQueryRepository.cs(119,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateTeacherSearchQueryRepository.cs(129,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateTeacherSearchQueryRepository.cs(186,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateTeacherSearchQueryRepository.cs(194,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateTeacherSearchQueryRepository.cs(202,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateTeacherSearchQueryRepository.cs(210,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(122,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(132,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(142,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(152,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(162,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(172,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(214,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSubjectHTEQueryRepository.cs(224,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateProportionRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(107,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(115,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(123,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(131,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(139,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(147,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(155,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseSynchronizationRelationRepository.cs(163,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateProportionRelationRepository.cs(143,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateProportionRelationRepository.cs(151,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateAuthorsRepository.cs(54,17): warning CS0472: The result of the expression is always 'true' since a value of type 'AuthorType' is never equal to 'null' of type 'AuthorType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateAuthorsRepository.cs(77,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateAuthorsRepository.cs(140,25): warning CS0472: The result of the expression is always 'true' since a value of type 'AuthorType' is never equal to 'null' of type 'AuthorType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateAuthorsRepository.cs(150,21): warning CS0472: The result of the expression is always 'true' since a value of type 'AuthorType' is never equal to 'null' of type 'AuthorType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateAuthorsRepository.cs(195,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateAuthorsRepository.cs(203,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateProductRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'CourseTemplateResourceType' is never equal to 'null' of type 'CourseTemplateResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateProductRelationRepository.cs(79,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseRelationRepository.cs(143,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseRelationRepository.cs(151,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateProductRelationRepository.cs(169,25): warning CS0472: The result of the expression is always 'false' since a value of type 'CourseTemplateResourceType' is never equal to 'null' of type 'CourseTemplateResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateProductRelationRepository.cs(177,21): warning CS0472: The result of the expression is always 'false' since a value of type 'CourseTemplateResourceType' is never equal to 'null' of type 'CourseTemplateResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateProductRelationRepository.cs(225,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateProductRelationRepository.cs(233,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(74,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(118,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(126,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(134,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(142,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(150,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(158,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(166,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(174,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(202,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceQueryRepository.cs(210,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(72,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(79,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(86,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(93,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(100,17): warning CS0472: The result of the expression is always 'false' since a value of type 'ScheduleResourceType' is never equal to 'null' of type 'ScheduleResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(107,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryInfoRelationRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(50,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(61,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(66,17): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(71,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(77,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(83,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryInfoRelationRepository.cs(143,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryInfoRelationRepository.cs(151,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(205,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(215,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(226,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(236,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(247,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(257,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(268,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(278,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(289,25): warning CS0472: The result of the expression is always 'false' since a value of type 'ScheduleResourceType' is never equal to 'null' of type 'ScheduleResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(299,21): warning CS0472: The result of the expression is always 'false' since a value of type 'ScheduleResourceType' is never equal to 'null' of type 'ScheduleResourceType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(310,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateCourseResourceRelationRepository.cs(320,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(118,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(124,17): warning CS0472: The result of the expression is always 'true' since a value of type 'PublishScope' is never equal to 'null' of type 'PublishScope?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(129,17): warning CS0472: The result of the expression is always 'true' since a value of type 'CatalogType' is never equal to 'null' of type 'CatalogType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(134,17): warning CS0472: The result of the expression is always 'true' since a value of type 'decimal' is never equal to 'null' of type 'decimal?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(148,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(127,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(137,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(147,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(157,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(183,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(193,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(203,25): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(213,21): warning CS0472: The result of the expression is always 'true' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(222,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(230,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(238,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(246,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(254,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateDirectoryQueryRepository.cs(262,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(329,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(337,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(346,25): warning CS0472: The result of the expression is always 'true' since a value of type 'PublishScope' is never equal to 'null' of type 'PublishScope?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(356,21): warning CS0472: The result of the expression is always 'true' since a value of type 'PublishScope' is never equal to 'null' of type 'PublishScope?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(366,25): warning CS0472: The result of the expression is always 'true' since a value of type 'CatalogType' is never equal to 'null' of type 'CatalogType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(376,21): warning CS0472: The result of the expression is always 'true' since a value of type 'CatalogType' is never equal to 'null' of type 'CatalogType?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(386,25): warning CS0472: The result of the expression is always 'true' since a value of type 'decimal' is never equal to 'null' of type 'decimal?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(396,21): warning CS0472: The result of the expression is always 'true' since a value of type 'decimal' is never equal to 'null' of type 'decimal?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(423,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+CourseTemplateRepository.cs(431,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/EntAppSoft.Infrastructure.CourseBuildModel.csproj]
+  EntAppSoft.Infrastructure.CourseBuildModel -> /opt/publishdir/Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/bin/Release/netstandard2.0/EntAppSoft.Infrastructure.CourseBuildModel.dll
+  CourseSubsReport -> /opt/publishdir/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp2.2/CourseSubsReport.dll
+  CourseSubsReport -> /opt/publishdir/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp2.2/publish/
+Removing intermediate container e2c232984cb2
+ ---> f13eafd2ce65
+Step 4/8 : FROM reg.hexfuture.com/dotnet/runtime
+ ---> 21bfc676bdbf
+Step 5/8 : COPY --from=0 /opt/publishdir/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp2.2/publish/ /opt/CourseSubsReport
+ ---> 7b2f5fe259c1
+Step 6/8 : WORKDIR /opt/CourseSubsReport
+ ---> Running in cf28f93ccf7c
+Removing intermediate container cf28f93ccf7c
+ ---> 329e6c747542
+Step 7/8 : VOLUME /opt/CourseSubsReport
+ ---> Running in ce6d780800ae
+Removing intermediate container ce6d780800ae
+ ---> 63da6a202c17
+Step 8/8 : RUN exiftool /opt/CourseSubsReport/*.dll|egrep "^File Name|^File Version Number"|awk -F ":" '{tmp=$2;getline;print tmp" :"$2}'
+ ---> Running in 50c2d028c87f
+ AipSdk.dll : 3.6.13.0
+ CommonFunc.dll : 1.0.0.0
+ CommonServiceLocator.SolrNet.Cloud.dll : 1.0.14.0
+ CommonServiceLocator.SolrNet.dll : 1.0.14.0
+ CommonServiceLocator.dll : 2.0.2.0
+ CommonTools.dll : 5.0.1.0
+ Confluent.Kafka.dll : 1.1.0.0
+ Core.ReportModel.dll : 5.0.2.1
+ CoreCompat.System.ComponentModel.Attributes.dll : 4.2.3.0
+ CourseSubsReport.dll : 1.0.6.0
+ Domain.CommunicationModel.Interface.dll : 5.0.1.0
+ Domain.CommunicationModel.dll : 5.0.1.0
+ Domain.ContentModel.dll : 5.0.1.0
+ Domain.CourseBuildModel.dll : 5.0.1.0
+ Domain.CourseModel.dll : 5.0.1.0
+ Domain.CourseRedisModel.dll : 5.0.1.0
+ Domain.CoursewareModel.dll : 5.0.1.0
+ Domain.EbookModel.dll : 5.0.5.0
+ Domain.ExecutiveClass.dll : 5.0.1.0
+ Domain.ExerciseModel.dll : 5.0.2.1
+ Domain.HTEPaperModel.dll : 1.0.0.0
+ Domain.HomeTestExamModel.dll : 5.0.3.1
+ Domain.KeyPointModel.dll : 5.0.6.0
+ Domain.LGLogAndReportModel.dll : 5.0.1.0
+ Domain.LicenseModel.dll : 5.0.1.0
+ Domain.MenuModel.dll : 5.0.1.0
+ Domain.MultipleTeachingModel.dll : 5.0.1.0
+ Domain.OrderModel.dll : 5.0.1.0
+ Domain.ProductModel.dll : 5.0.1.0
+ Domain.ReportModel.dll : 5.0.2.4
+ Domain.SalesQueryModel.dll : 5.0.1.0
+ Domain.SyllabusModel.dll : 5.0.1.0
+ Domain.SystemModel.dll : 5.0.1.0
+ Domain.UserModel.dll : 5.0.1.0
+ DomainModelStructure.dll : 4.0.0.0
+ DomainProcess.dll : 5.0.0.0
+ DotNetty.Buffers.dll : 0.6.0.0
+ DotNetty.Codecs.dll : 0.6.0.0
+ DotNetty.Common.dll : 0.6.0.0
+ DotNetty.Handlers.dll : 0.6.0.0
+ DotNetty.Transport.Libuv.dll : 0.6.0.0
+ DotNetty.Transport.dll : 0.6.0.0
+ EntAppFrameWork.AOP.dll : 4.0.0.0
+ EntAppFrameWork.AuthenticationAndAuthorization.dll : 4.0.0.0
+ EntAppFrameWork.Common.dll : 4.0.3.0
+ EntAppFrameWork.DataAccess.Redis.dll : 4.0.0.0
+ EntAppFrameWork.DataAccess.SqlServer.dll : 4.0.0.0
+ EntAppFrameWork.DataAccess.dll : 4.0.0.0
+ EntAppFrameWork.DomainModel.dll : 4.0.2.0
+ EntAppFrameWork.Log.dll : 4.0.0.0
+ EntAppFrameWork.PCL.dll : 4.0.1.0
+ EntAppFrameWork.PublishSubscribe.Kafka.dll : 4.0.1.0
+ EntAppFrameWork.PublishSubscribe.dll : 4.0.0.0
+ EntAppFrameWork.RPC.dll : 4.0.1.0
+ EntAppFrameWork.SerialNumber.dll : 4.0.0.0
+ EntAppFrameWork.Staticization.dll : 4.0.0.0
+ EntAppFrameWork.dll : 4.0.2.0
+ EntAppSoft.Infrastructure.CourseBuildModel.dll : 5.0.1.0
+ EntAppSoft.Infrastructure.HomeTestExamModel.dll : 5.0.1.0
+ Microsoft.AspNetCore.Authentication.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Authentication.Core.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Connections.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Diagnostics.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Diagnostics.dll : 2.2.0.18316
+ Microsoft.AspNetCore.HostFiltering.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Hosting.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Hosting.Server.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Hosting.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.Extensions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.Features.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.dll : 2.2.0.18316
+ Microsoft.AspNetCore.HttpOverrides.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Routing.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Routing.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.IIS.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.IISIntegration.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Core.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Https.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.dll : 2.2.0.18316
+ Microsoft.AspNetCore.WebUtilities.dll : 2.2.0.18316
+ Microsoft.AspNetCore.dll : 2.2.0.18316
+ Microsoft.CodeAnalysis.CSharp.Workspaces.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.CSharp.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.VisualBasic.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.Workspaces.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.dll : 3.200.19.38121
+ Microsoft.DotNet.PlatformAbstractions.dll : 2.1.0.0
+ Microsoft.Extensions.Configuration.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.Binder.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.CommandLine.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.EnvironmentVariables.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.FileExtensions.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.Json.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.UserSecrets.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.dll : 2.2.0.18315
+ Microsoft.Extensions.DependencyInjection.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.DependencyInjection.dll : 2.2.0.18315
+ Microsoft.Extensions.DependencyModel.dll : 2.1.0.0
+ Microsoft.Extensions.FileProviders.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.FileProviders.Physical.dll : 2.2.0.18315
+ Microsoft.Extensions.FileSystemGlobbing.dll : 2.2.0.18315
+ Microsoft.Extensions.Hosting.Abstractions.dll : 2.2.0.18316
+ Microsoft.Extensions.Logging.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.Configuration.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.Console.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.Debug.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.EventSource.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.dll : 2.2.0.18315
+ Microsoft.Extensions.ObjectPool.dll : 2.2.0.18315
+ Microsoft.Extensions.Options.ConfigurationExtensions.dll : 2.2.0.18315
+ Microsoft.Extensions.Options.dll : 2.2.0.18315
+ Microsoft.Extensions.Primitives.dll : 2.2.0.18315
+ Microsoft.Net.Http.Headers.dll : 2.2.0.18316
+ Newtonsoft.Json.dll : 12.0.2.23222
+ PinYinConverterCore.dll : 1.0.2.0
+ Pipelines.Sockets.Unofficial.dll : 2.0.22.26858
+ Polly.dll : 7.1.0.0
+ RWSServiceRuntime.dll : 5.1.2.0
+ Receive.Logic.dll : 5.0.2.0
+ Receive.Push.dll : 5.0.2.0
+ Receive.Service.dll : 5.0.1.0
+ Report.DAL.dll : 5.0.2.0
+ Report.Helper.dll : 5.0.2.0
+ Report.Model.dll : 5.0.2.0
+ SolrNet.Cloud.dll : 1.0.14.0
+ SolrNet.dll : 1.0.14.0
+ StackExchange.Redis.dll : 2.0.601.3402
+ SubsribePublishDTO.dll : 5.0.1.0
+ System.Composition.AttributedModel.dll : 4.6.24705.1
+ System.Composition.Convention.dll : 4.6.24705.1
+ System.Composition.Hosting.dll : 4.6.24705.1
+ System.Composition.Runtime.dll : 4.6.24705.1
+ System.Composition.TypedParts.dll : 4.6.24705.1
+ System.Configuration.ConfigurationManager.dll : 4.6.26515.6
+ System.Data.DataSetExtensions.dll : 4.6.26515.6
+ System.Data.SqlClient.dll : 4.6.27110.4
+ System.Diagnostics.PerformanceCounter.dll : 4.6.26515.6
+ System.IO.Pipelines.dll : 4.6.26919.2
+ System.Runtime.CompilerServices.Unsafe.dll : 4.6.26919.2
+ System.Security.Cryptography.ProtectedData.dll : 4.6.26515.6
+ System.Security.Permissions.dll : 4.6.26515.6
+ System.ServiceModel.Primitives.dll : 4.6.26720.1
+ System.ServiceModel.dll : 4.6.26720.1
+ System.Text.Encoding.CodePages.dll : 4.6.27129.4
+ System.Text.Encodings.Web.dll : 4.6.26515.6
+ System.Threading.Channels.dll : 4.6.26515.6
+ ZooKeeperNetEx.dll : 3.4.12.1
+ aliyun.oss.sdk.core-2.5.3.dll.dll : 2.5.3.0
+ log4net.Kafka.dll : 5.0.0.0
+ log4net.dll : 2.0.8.0
+Removing intermediate container 50c2d028c87f
+ ---> c70de35204f0
+Successfully built c70de35204f0
+Successfully tagged reg.hexfuture.com/subs/coursesubsreport:1.0.6
++ docker push reg.hexfuture.com/subs/coursesubsreport:1.0.6
+The push refers to repository [reg.hexfuture.com/subs/coursesubsreport]
+96401ddeae99: Preparing
+d7bde7f62f4e: Preparing
+223745a1224f: Preparing
+4af49aba95e9: Preparing
+04ae46afae44: Preparing
+349c7f00d08e: Preparing
+370f72f4d447: Preparing
+8dc6654a61c6: Preparing
+8fa655db5360: Preparing
+349c7f00d08e: Waiting
+370f72f4d447: Waiting
+8dc6654a61c6: Waiting
+8fa655db5360: Waiting
+223745a1224f: Layer already exists
+d7bde7f62f4e: Layer already exists
+4af49aba95e9: Layer already exists
+04ae46afae44: Layer already exists
+349c7f00d08e: Layer already exists
+370f72f4d447: Layer already exists
+8dc6654a61c6: Layer already exists
+8fa655db5360: Layer already exists
+96401ddeae99: Pushed
+1.0.6: digest: sha256:f699dd474d80f21ae3fec2a236a76b0a8d0541e066575c18e6ec1d07f5d1b964 size: 2215
++ docker tag reg.hexfuture.com/subs/coursesubsreport:1.0.6 reg.hexfuture.com/subs/coursesubsreport
++ docker push reg.hexfuture.com/subs/coursesubsreport
+The push refers to repository [reg.hexfuture.com/subs/coursesubsreport]
+0b863449a822: Preparing
+d7bde7f62f4e: Preparing
+223745a1224f: Preparing
+4af49aba95e9: Preparing
+04ae46afae44: Preparing
+349c7f00d08e: Preparing
+370f72f4d447: Preparing
+8dc6654a61c6: Preparing
+8fa655db5360: Preparing
+349c7f00d08e: Waiting
+370f72f4d447: Waiting
+8dc6654a61c6: Waiting
+8fa655db5360: Waiting
+223745a1224f: Layer already exists
+d7bde7f62f4e: Layer already exists
+04ae46afae44: Layer already exists
+4af49aba95e9: Layer already exists
+349c7f00d08e: Layer already exists
+370f72f4d447: Layer already exists
+8dc6654a61c6: Layer already exists
+8fa655db5360: Layer already exists
+0b863449a822: Pushed
+1.0.5: digest: sha256:9425e0010fb9ae5232dceb3b2b948d2445203fffb72f10136b49f5136caad07a size: 2215
+96401ddeae99: Preparing
+d7bde7f62f4e: Preparing
+223745a1224f: Preparing
+4af49aba95e9: Preparing
+04ae46afae44: Preparing
+349c7f00d08e: Preparing
+370f72f4d447: Preparing
+8dc6654a61c6: Preparing
+8fa655db5360: Preparing
+370f72f4d447: Waiting
+8dc6654a61c6: Waiting
+223745a1224f: Layer already exists
+8fa655db5360: Waiting
+4af49aba95e9: Layer already exists
+349c7f00d08e: Waiting
+349c7f00d08e: Layer already exists
+8dc6654a61c6: Layer already exists
+370f72f4d447: Layer already exists
+8fa655db5360: Layer already exists
+04ae46afae44: Layer already exists
+d7bde7f62f4e: Layer already exists
+96401ddeae99: Layer already exists
+1.0.6: digest: sha256:f699dd474d80f21ae3fec2a236a76b0a8d0541e066575c18e6ec1d07f5d1b964 size: 2215
+da2cd39b1698: Preparing
+28caec23f567: Preparing
+a4caa8eed580: Preparing
+e5cd7d9c9d66: Preparing
+6339615de93e: Preparing
+c6c9de941dfa: Preparing
+9c894eb0930b: Preparing
+d56055da3352: Preparing
+c6c9de941dfa: Waiting
+9c894eb0930b: Waiting
+d56055da3352: Waiting
+28caec23f567: Mounted from subs/reportsubspushserver
+a4caa8eed580: Mounted from subs/reportsubspushserver
+e5cd7d9c9d66: Mounted from subs/reportsubspushserver
+6339615de93e: Mounted from subs/reportsubspushserver
+c6c9de941dfa: Mounted from subs/reportsubspushserver
+9c894eb0930b: Mounted from subs/reportsubspushserver
+d56055da3352: Mounted from subs/reportsubspushserver
+da2cd39b1698: Pushed
+2.3.2.1: digest: sha256:0615aaacf4bc9ad811fe2c7ce4ad0a2cf0a8f838b9be803cb944bc36badb8b9d size: 2004
+609f37bc0533: Preparing
+d7bde7f62f4e: Preparing
+223745a1224f: Preparing
+4af49aba95e9: Preparing
+04ae46afae44: Preparing
+349c7f00d08e: Preparing
+370f72f4d447: Preparing
+8dc6654a61c6: Preparing
+8fa655db5360: Preparing
+223745a1224f: Layer already exists
+4af49aba95e9: Layer already exists
+04ae46afae44: Layer already exists
+349c7f00d08e: Waiting
+370f72f4d447: Waiting
+8dc6654a61c6: Waiting
+8fa655db5360: Waiting
+349c7f00d08e: Layer already exists
+d7bde7f62f4e: Layer already exists
+8fa655db5360: Layer already exists
+370f72f4d447: Layer already exists
+8dc6654a61c6: Layer already exists
+609f37bc0533: Pushed
+5.0.0: digest: sha256:143c57e88a517b3988db619e62378520e62e8b6b12aaef17f29d6c6b02f13f5e size: 2215
+96401ddeae99: Preparing
+d7bde7f62f4e: Preparing
+223745a1224f: Preparing
+4af49aba95e9: Preparing
+04ae46afae44: Preparing
+349c7f00d08e: Preparing
+370f72f4d447: Preparing
+8dc6654a61c6: Preparing
+8fa655db5360: Preparing
+d7bde7f62f4e: Layer already exists
+349c7f00d08e: Waiting
+370f72f4d447: Waiting
+8dc6654a61c6: Waiting
+223745a1224f: Layer already exists
+8fa655db5360: Waiting
+04ae46afae44: Layer already exists
+4af49aba95e9: Layer already exists
+370f72f4d447: Layer already exists
+349c7f00d08e: Layer already exists
+8dc6654a61c6: Layer already exists
+8fa655db5360: Layer already exists
+96401ddeae99: Layer already exists
+latest: digest: sha256:f699dd474d80f21ae3fec2a236a76b0a8d0541e066575c18e6ec1d07f5d1b964 size: 2215
+SSH: Connecting from host [api-domain-237]
+SSH: Connecting with configuration [subs-55] ...
+SSH: EXEC: STDOUT/STDERR from command [#启动docker images
+docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+
+docker pull reg.hexfuture.com/subs/coursesubsreport
+
+
+# 判断1,如果存在同名字执行中的容器,先停止,没有判断停止失败情况
+num=`docker ps -f name=w1.coursesubsreport.sub.group.hex.com -f status=running|wc -l`
+if [ $num == 2 ];then
+ docker stop w1.coursesubsreport.sub.group.hex.com
+fi
+
+# 判断2,如果存在同名字的停止的容器,删除
+num=`docker ps -af name=w1.coursesubsreport.sub.group.hex.com -f status=exited|wc -l`
+if [ $num == 2 ];then
+ docker rm w1.coursesubsreport.sub.group.hex.com
+fi
+sleep 8s
+docker run -d \
+-v /etc/localtime:/etc/localtime \
+-v /usr/local/docker-data/sleep.sh:/docker-entrypoint-initdb.d/sleep.sh \
+-l io.rancher.container.network=true \
+--ulimit core=-1 \
+--security-opt seccomp=unconfined \
+--privileged=true \
+-e HOST_IP=`ip a sh eth0 | grep "inet " |awk '{print $2}'|awk -F/ '{print $1}'` \
+-e ETCD_ADDR=etcd.common.hex.com:2379 \
+-h w1.coursesubsreport.sub.group.hex.com \
+--name w1.coursesubsreport.sub.group.hex.com \
+reg.hexfuture.com/subs/coursesubsreport \
+dotnet \
+/opt/CourseSubsReport/CourseSubsReport.dll \
+--serviceName coursesubsreport-w1 \
+--zkConfigServer w1.confandsa.zk.group.hex.com:2181,w2.confandsa.zk.group.hex.com:2181,w3.confandsa.zk.group.hex.com:2181 \
+--minThreadCount 100 \
+--runScope Core991 \
+--msGroup center \
+--zkTimeOut 15000 \
+--mcTimeOut 30000 \
+--trace kafka \
+--KafkaRedis  1] ...
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Using default tag: latest
+latest: Pulling from subs/coursesubsreport
+9fc222b64b0a: Already exists
+f033c4f65cdb: Already exists
+7405f9e6a7ae: Already exists
+1d2e9b4ca111: Already exists
+eeb2978f7d55: Already exists
+43b0a51e87e6: Already exists
+b94a238e8534: Already exists
+574d1be55b15: Already exists
+a5de4ad84f05: Pulling fs layer
+a5de4ad84f05: Verifying Checksum
+a5de4ad84f05: Download complete
+a5de4ad84f05: Pull complete
+Digest: sha256:f699dd474d80f21ae3fec2a236a76b0a8d0541e066575c18e6ec1d07f5d1b964
+Status: Downloaded newer image for reg.hexfuture.com/subs/coursesubsreport:latest
+w1.coursesubsreport.sub.group.hex.com
+w1.coursesubsreport.sub.group.hex.com
+854387a8864e6780943e66d6136062baf97f7f182e2cce251d82466d5346d5c6
+SSH: EXEC: completed after 23,226 ms
+SSH: Disconnecting configuration [subs-55] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

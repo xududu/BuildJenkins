@@ -1,0 +1,100 @@
+commit f8c9010f96672e60bb36b66d56e7fe6fe6dad9e5
+tree 64589543a19606defcedda8b8e2e48058460d532
+parent 10bbb2ff42ee93d877005f5fab5b096d9150b4f1
+author 王宇鹤 <2511980201@qq.com> 2019-07-11 18:05:28 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-11 18:05:28 +0800
+
+    测试
+
+
+
+:100644 100644 3cbac77179cf93d48d90c7509b3a91a4f23cc6dc e43e4c3fdf4d6d11ef37f8843c4edfc1222a4bcc M	WebApi/CourseWebApiServer/Controllers/ValuesController.cs
+:100644 100644 7d2cf9f1c7add73798f882e10bb3fc76ca98a90f 75ba77001f84e529bb834e57347c5f36a0e3b387 M	WebApi/CourseWebApiServer/Program.cs
+:100644 100644 52b619b2652181206b46a2941060d83127dcebe0 96b65bbc3b02f8fac54b5735927132aeb2ee07fd M	WebApi/CourseWebApiServer/Properties/launchSettings.json
+:100644 100644 0efcbb5b7bde97039e3d8de693c088d916c46b9f 5cb5903657f8dded132e80d707e52d87ae0610f1 M	WebApi/CourseWebApiServer/Startup.cs
+:100644 100644 6e1b94b81fd5c9f96f80e9ec97d0720a7b26cc67 8449c08801bd3367a0b838679ec1a48dc7fa1c0e M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 58855d33afcffa98117de0e15512bdd2876dd6d8 c5fbfa15685ab19537be5ed57446b076b996e463 R077	WebAPI/WebApiCourse/Models/ReqCourseID.cs	WebApi/WebApiCourse/Models/ReqCourse.cs
+commit 10bbb2ff42ee93d877005f5fab5b096d9150b4f1
+tree 542131ae87fe408f68eac12ec2c774bf67c78f9a
+parent fa6db696f0ad1c5f4fa7dfe272daf3d78fce16cd
+author 王宇鹤 <2511980201@qq.com> 2019-07-11 17:53:25 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-11 17:53:25 +0800
+
+    feat:测试
+
+
+
+:100644 100644 f54eeb3a83e541675ad465b8e0aa7c082c00a627 76f66b2977c97fa9845cffc18e469fb284b6da01 M	Course.sln
+:100644 100644 0c10883e68ffb2f22fffd07e258574268da9abc8 6e1b94b81fd5c9f96f80e9ec97d0720a7b26cc67 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit fa6db696f0ad1c5f4fa7dfe272daf3d78fce16cd
+tree 142a3467a44427c23e331625be48d0846ebb7ba1
+parent b44f089558053ef18ad718a071513fb913c3e9e5
+author 王宇鹤 <2511980201@qq.com> 2019-07-11 17:20:22 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-11 17:20:22 +0800
+
+    feat:测试
+
+
+
+:100644 100644 29a1770f957ecf50976c5e607c379d6ff69da548 0c10883e68ffb2f22fffd07e258574268da9abc8 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit b44f089558053ef18ad718a071513fb913c3e9e5
+tree 2344897e412b8045c383f21b096ad8d72021a87c
+parent 4564e4c61db0024d546f7ba9ccb91cee854ccbbd
+author 王宇鹤 <2511980201@qq.com> 2019-07-11 17:16:57 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-11 17:16:57 +0800
+
+    feat:model
+
+
+
+:100644 100644 a31e38457120c58206c32d12e8afee236cd9bc6e 58855d33afcffa98117de0e15512bdd2876dd6d8 M	WebAPI/WebApiCourse/Models/ReqCourseID.cs
+commit 364979d0e0b58094be330234b3be0231e971e8a8
+tree c3d99bc82d42121f8e917c2ea7c84f5c6a6871e1
+parent 401a6ca16d6465de25e0f47c48de719832877e37
+author 王宇鹤 <2511980201@qq.com> 2019-07-11 17:10:30 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-11 17:10:30 +0800
+
+    feat:添加模型
+
+
+
+:100644 100644 fe26846d2a917d35622c11d1b6a2fc4c5b806fae 29a1770f957ecf50976c5e607c379d6ff69da548 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 6f1bcdccfd9aa1809a03cc5096b055c60a024c5f
+tree 6758ea02467b01d628a0ede65db8dd98fa6d4286
+parent 401a6ca16d6465de25e0f47c48de719832877e37
+author 彩娟 冯 <1446730634@qq.com> 2019-07-11 15:31:13 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-07-11 15:31:13 +0800
+
+    refactor:修改webhost
+
+
+
+:100644 100644 02b35d6c378b1e2dbd56c41dad6a11654bfb73f3 f54eeb3a83e541675ad465b8e0aa7c082c00a627 M	Course.sln
+:000000 100644 0000000000000000000000000000000000000000 b82379cd400095bc628d7c83a295cbddd9130918 A	SyncAndCheckServer/SyncCourseServer/Configs/Log4Net.config
+:000000 100644 0000000000000000000000000000000000000000 eca0b882ffcdc4859ed582f5e93a9a349eedb0c4 A	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config
+:000000 100644 0000000000000000000000000000000000000000 9ed650ad44234e1e1baa241db32fbff08dfa2042 A	SyncAndCheckServer/SyncCourseServer/Program.cs
+:000000 100644 0000000000000000000000000000000000000000 b6b2e5898b80ad476f586d6e535305f40b6f2b1c A	SyncAndCheckServer/SyncCourseServer/Properties/launchSettings.json
+:000000 100644 0000000000000000000000000000000000000000 58b1e2e29dc573ee52304b64a5792a4f19bd5e46 A	SyncAndCheckServer/SyncCourseServer/SyncCourseServer.csproj
+commit 616a6c4651c825df3a9253e1e68f1bf9ea4ddc28
+tree 4aa1b8a3106f3e3705f3b40309e1ab008fafdabc
+parent 24f0c6e39eace4b8b74e785990bea2325bf91c1a
+author 王宇鹤 <2511980201@qq.com> 2019-07-11 14:06:46 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-11 14:06:46 +0800
+
+    refactor修改webhost
+
+
+
+:100644 100644 29f1f0ca51417fa6770d90ae0cb9a4c937df278b 23e6289f94fc8ab65ee2b89371b72c198fe194ad M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 fd79446b5ca10f73de11bda2f396d9cbc126f96d 7d2cf9f1c7add73798f882e10bb3fc76ca98a90f M	WebApi/CourseWebApiServer/Program.cs
+commit 720d5b56d2162f029dfd1218021b42a5570a74ee
+tree f52765ef5059b895db25da637c5fd14c3bcaf71d
+parent c98aee9e6b90c56487681d67ce76155f3175757f
+author yangjialin <yangjialin@hexfuture.com> 2019-07-09 17:02:08 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-07-09 17:02:08 +0800
+
+    修改配置
+
+
+
+:100644 100644 29f1f0ca51417fa6770d90ae0cb9a4c937df278b fd4ca7aa7b7a50f63b036dc44a8da1079d6d2eb6 M	DomainServer/CourseDomainServer/Properties/launchSettings.json

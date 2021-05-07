@@ -1,0 +1,29 @@
+Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building on master in workspace /var/jenkins_home/workspace/CourseSubReport_publish
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/course.git
+ > git init /var/jenkins_home/workspace/CourseSubReport_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/feature-core22^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/feature-core22^{commit} # timeout=10
+Checking out Revision f6c2320d769f51cdd9f5ce78716e0945e0a01610 (refs/remotes/origin/feature-core22)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f6c2320d769f51cdd9f5ce78716e0945e0a01610
+Commit message: "测试"
+First time build. Skipping changelog.
+Build environment variables will be made available to the next build: CSProjPath=SubscribeService:CSProjFile=CourseSubReport:BINPATH=bin/Release/netcoreapp2.2
+[CourseSubReport_publish] $ /bin/sh -xe /tmp/jenkins5558273453941548692.sh
++ cd SubscribeService/CourseSubReport
+/tmp/jenkins5558273453941548692.sh: 3: cd: can't cd to SubscribeService/CourseSubReport
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

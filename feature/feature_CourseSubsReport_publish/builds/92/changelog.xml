@@ -1,0 +1,11 @@
+commit 537f232df2df5dbbaac56db1be982c41ac3b9902
+tree b91f56eb0bf41d05a4a4de9653027df89730aee8
+parent 000230a682a29da5e2644232d013da50760278de
+author AnHaNIYa <1400436027@qq.com> 2021-01-18 11:23:47 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-01-18 11:23:47 +0800
+
+    editor:  SearchRegisteCourseListByClassIds
+
+
+
+:100644 100644 1f2b0b1e0f6f2d1ebcb38b98832e4db04c4cbd15 9e4cca580c26cb565a46bbcc68f979a155721b8e M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs

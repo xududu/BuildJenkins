@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>PublishOperation</name>
+          <description>默认值&quot;1&quot;BuildAndRun,&quot;2&quot;为仅Run</description>
+          <value>BuildAndRun</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>PublishOperation</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.envinject.EnvInjectPluginAction plugin="envinject@2.2.0"/>
+  </actions>
+  <queueId>2</queueId>
+  <timestamp>1616653995980</timestamp>
+  <startTime>1616653995983</startTime>
+  <result>UNSTABLE</result>
+  <duration>11050</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>218</builtOn>
+  <workspace>/usr/local/jenkins/workspace/feature_AuthorityDomainServer_publish_test</workspace>
+  <hudsonVersion>2.235.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

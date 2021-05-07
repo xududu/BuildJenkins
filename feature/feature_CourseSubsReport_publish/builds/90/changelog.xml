@@ -1,0 +1,1430 @@
+commit 9d30cdb6091c02893651c2670b9360f2b6a91ea3
+tree 68add80a7aea71d5c9f19ed448682bf28859914e
+parent eb8f555dcc32bee3d96fc736e3207cca01e1cfc2
+author AnHaNIYa <1400436027@qq.com> 2021-01-06 11:54:49 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-01-06 11:54:49 +0800
+
+    editor: 修改ClassPeriod 一对多 layzLoad用法
+
+
+
+:100644 100644 e8f3aa59f2a96cd8c158c7f4213559c80a175fa8 fad34082f7c7b38f1b4630f80f35c0728a37628b M	Domain2/Domain.CourseBuildModel/Core/ClassPeriod.cs
+:100644 100644 9fcbc9f3f5292f0831bb62b7a0ddb2e0598b58e3 bdae5d2c48742798b289a9f34db2d98198e575a8 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 bbf3597e4196de94193415d21aa1d9a25cfde741 9b55f50ad5ab4252bd71e09cbc1ee19f69dd3939 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+commit 2566e8c025f20728e4264fbcfa736bd5feb36c3d
+tree a78d06cf2b46d90930b2051974e630ce96d7d66f
+parent 1f47a70f1cce1a01915aaf678d80a1eb546d7775
+author dongjiazhe <dongjiazhe@hexfuture.com> 2021-01-06 10:23:20 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2021-01-06 10:23:20 +0800
+
+    editor:修改CourseAndHTEIndexService/UpdateHTEExerciseCount方法
+
+
+
+:100644 100644 39d9aa98c9151b2b9486e5c4d27ad9e2030fc20e 04af21a3ad96ea9b090249226d99b61220d6188c M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit eb8f555dcc32bee3d96fc736e3207cca01e1cfc2
+tree 152b954181cd0b13757d193c8cc81de3d403030a
+parent 1a3585b4b8388cb5db5d9eeea412893fecada005
+author AnHaNIYa <1400436027@qq.com> 2021-01-06 09:55:05 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-01-06 09:55:05 +0800
+
+    editro:
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 b305724a8615a66696fbbb3b956b41c90702dc67 A	Domain2/Domain.CourseModel/DTO/UserDTO.cs
+commit 1f47a70f1cce1a01915aaf678d80a1eb546d7775
+tree 0eb7c7577ec999ccb9fa5d21f9762e614b7a8789
+parent 1220b6a5fc4d3eabbeaa9e704260d04b70817301
+author dongjiazhe <dongjiazhe@hexfuture.com> 2021-01-06 09:53:02 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2021-01-06 09:53:02 +0800
+
+    editor:添加新方法CourseAndHTEIndexService/UpdateHTEExerciseCount
+
+
+
+:100644 100644 c52b7c193648425b28e86e39d628311365c46395 39a18aec710f4bdc2b7d89ba41467304fb69213a M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 29326ca3e688d3d6372cc5707800d22e7e44c634 39d9aa98c9151b2b9486e5c4d27ad9e2030fc20e M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 1a3585b4b8388cb5db5d9eeea412893fecada005
+tree 253d314c82ace002eba1be01cdffb32db0e8fe2a
+parent ffc0696cae0de0e797df535bac26b8d0d6459eb5
+author AnHaNIYa <1400436027@qq.com> 2021-01-05 17:24:37 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-01-05 17:24:37 +0800
+
+    editor:  ExecutiveClassInfoDTO
+
+
+
+:100644 100644 e85dc5164bd130a0c08532051b4ecdfb51f7d755 a110b81c4bbe0e5ef3ad3e1f63f707cf290f3824 M	Domain2/Domain.CourseBuildModel/DTO/CourseExtDto.cs
+:100644 100644 3070863e098ac334aa78b12de6baa87e9d27e591 24f959d11cfea959ae27faed74e51497a7802689 M	Domain2/Domain.CourseBuildModel/DTO/ExecutiveClassInfoDTO.cs
+:100644 100644 7fa1ed9ff8f51731492f2a4704f3a123002ac14e a71b39f8080927d0d68ca18610d21a03b55a3e70 M	Domain2/Domain.CourseBuildModel/Service/CourseFW/CourseCommonAbstract.cs
+:100644 100644 570ad8287f4c80436ab06675eb4d270ac7748c7e fc7bae81b31fbcb2ff206ff1cb0ca97217d22f5e M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 c6725c0644c146eecc916149f344ef769c4d0ca1 bd8951e262bbea188e4f50dadfa9f15586387d71 M	Domain2/Domain.CourseModel/DTO/CourseDto.cs
+:100644 100644 026575599b14829cb7a5d17601e912eeed5bf0fc 94277899e86c274cac759351475d951ad96141e1 M	Domain2/Domain.CourseTemplateModel/DTO/CourseExtDto.cs
+:100644 100644 e59757a0a2fcc85976f48b49418d28cb3ccd2ff5 70c483b504634b75354d6076eefa0d5f58d06e85 M	Domain2/Domain.CourseTemplateModel/Service/CourseFW/CourseCommonAbstract.cs
+:100644 100644 3fd67c1972e0e49c5fc691c7ab19181eee07a666 dfdbe1b8c6e6753984f4cef55520dd0b36546455 M	Domain2/Domain.CourseTemplateModel/Service/Realization/BuildCourseService.cs
+commit ffc0696cae0de0e797df535bac26b8d0d6459eb5
+tree 37ab28edc60eb0c1a060a9efdbd5a21c7a785ad6
+parent 7b059b50f76f83a9a53385b439feea5a41b67a1d
+author AnHaNIYa <1400436027@qq.com> 2021-01-05 14:42:02 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-01-05 14:42:02 +0800
+
+    editro: 暂存
+
+
+
+:100644 100644 62a191d4c0d84c77a401c9be71196db3d019aa23 3070863e098ac334aa78b12de6baa87e9d27e591 M	Domain2/Domain.CourseBuildModel/DTO/ExecutiveClassInfoDTO.cs
+commit 7b059b50f76f83a9a53385b439feea5a41b67a1d
+tree 62c14ecf8eee4a4230ed44895eabbc2e757ea862
+parent 98106aae81ea1f5297abc2c0619b69122b0cb442
+author AnHaNIYa <1400436027@qq.com> 2021-01-04 16:12:25 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-01-04 16:12:25 +0800
+
+    editor:  KafKa发消息   哈希改成 Dic
+
+
+
+:100644 100644 8d30d7bfccecad9457699c9f2e9eb3ab5094e117 1569efd4b06801acffb26ded2861e9c710e6862a M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 c0ccebc0e56d8a19fc619956d26dd4e4e7ebea8b cbef4c07d94421f57986e45dbe0aa2590670c370 M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+commit 98106aae81ea1f5297abc2c0619b69122b0cb442
+tree 9f7e0afb6c09803d1fb06511fc738f8180ab2784
+parent 15e3661acba40533cc87d9022bd32c0054106df7
+author AnHaNIYa <1400436027@qq.com> 2021-01-04 15:52:23 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-01-04 15:52:23 +0800
+
+    eidotr: 修改Clear
+
+
+
+:100644 100644 77ead1bcb4f06065e2827d674ddda08521a42557 6a9b5fba6c5ceac30492d0b5ee94bb2a95824490 M	Domain2/Domain.SyllabusModel/Service/Realization/SyllabusService.cs
+commit 15e3661acba40533cc87d9022bd32c0054106df7
+tree 80c4a8dbb31d3ae5e7363caabee0eff7c879374d
+parent 066e0b8379197a724dc9b681d8016543d564b9c0
+author AnHaNIYa <1400436027@qq.com> 2021-01-04 15:46:56 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-01-04 15:46:56 +0800
+
+    editor:  重新生成成功
+
+
+
+:100644 100644 09c7e375818879158ebd7f8b92ffc13103bf01ca d5320d569ad369e620cd759e34d143e5a11b556c M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+:100644 100644 f09d35d9ee1c90effcddf456365a250cf9049efa a356e9f3a7a2fe3fea4ced641684b583cc208932 M	WebApi/WebApiCourse/Controllers/TeachingGroupController.cs
+commit 7f397d562e5ca232f9e2c78b2ae7f06557e254a8
+tree b729ae0432b7f1205a3838b0ef28679950b21dcf
+parent a43170524a3ddc10cf57cfe286e328530eac157b
+author yangjialin <yangjialin@hexfuture.com> 2020-12-31 11:56:03 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2020-12-31 11:56:03 +0800
+
+    edit:创建课程时ISVALID为0的问题
+
+
+
+:100644 100644 4a3b7e755877453c4b916c299078789523ad181e d09792f51086d18a92fea9c525dbdb99cead25c8 M	Domain2/Domain.CourseModel/Core/Course.cs
+commit 1220b6a5fc4d3eabbeaa9e704260d04b70817301
+tree b4559081b05c6c504afa214ae6e10b114ecbb293
+parent 132100fb358768e10c6b2382e3626d0aaee66e83
+author 彩娟 冯 <1446730634@qq.com> 2020-12-30 18:27:55 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-30 18:27:55 +0800
+
+    editor:上课端课程主线列表
+
+
+
+:100644 100644 601218f81377d6e4fa0250e13699c7ca2afc8897 1d7c36874513599c2b19d2b5ef7695ddfcf5a32d M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 132100fb358768e10c6b2382e3626d0aaee66e83
+tree d4e94aca3c25b69c0c3605c33d02b34dbdb6a059
+parent 600b61b795b8c60968cb453c455fd84a1bd9ce56
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-30 18:09:50 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-30 18:09:50 +0800
+
+    editor:修改Class/StudentRegister接口，兼容A3的代码改为异步执行
+
+
+
+:100644 100644 83705eb9594d7ed52d15452b6371ea4903938846 fb77496fa65c64d5c1df6a0772aa39280daeba4f M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 600b61b795b8c60968cb453c455fd84a1bd9ce56
+tree 791123138e004c52a4f03d4b27ed539c0b4cd511
+parent dc1e8f5f70b4a56439b9f468046e00701e5d9003
+author 彩娟 冯 <1446730634@qq.com> 2020-12-30 17:17:59 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-30 17:17:59 +0800
+
+    editor:删除班级
+
+
+
+:100644 100644 38b396f31d3c4482b29a7c5a8bbf99199d772219 83705eb9594d7ed52d15452b6371ea4903938846 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit e47bd850c19f33fb51ead8fb132dc13d1efc6bef
+tree ad14231b0aa51896cb276c3341ac31e86ff24264
+parent 69c2d7c0e52abeaa9ccb63f03d47818a57dc86f6
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-30 16:53:44 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-30 16:53:44 +0800
+
+    editor:修改删除班级接口，兼容A3
+
+
+
+:100644 100644 03b7a99a6c93f21e1d9542cd0ab6643ccc7cb560 52a2183cef3f48e627e06a2bad7f6cc85113116f M	WebApi/WebApiCourse/Controllers/ClassController.cs
+:100644 100644 c23f336cfd0a75461fd4d796a6b35c0f6fe13a4e 7e9f525fdb94ecf8dc46117efcc839ae351f1282 M	WebApi/WebApiCourse/Models/ReturnDto/ClassInfo_ApiDto.cs
+commit 6f8a4a7fd16ac58f33414959620c0639396042a7
+tree 98ebc296458229d08bdd39f35781f24c0c7fc2f4
+parent 69e7d7ef20f588c2f957b281c2abc7623bf510c2
+author 彩娟 冯 <1446730634@qq.com> 2020-12-30 16:49:54 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-30 16:49:54 +0800
+
+    editor:删除学生bug修改
+
+
+
+:100644 100644 c647d8aa0f502ba86736b0f161dce1f44c13752b e9b03ca8e9fe5171c2c69b5c3cc8df348e87738a M	WebApi/WebApiCourse/Controllers/ClassController.cs
+:100644 100644 c23f336cfd0a75461fd4d796a6b35c0f6fe13a4e fcea397d2f7b12bda3f39055d48d642496d058aa M	WebApi/WebApiCourse/Models/ReturnDto/ClassInfo_ApiDto.cs
+commit 1df6afd13634893d7e64cd566e124646b9d37521
+tree dbbb9855bbe30816cb3cd9dc313afb2b84c1bc73
+parent 563d3bc62389759550a8439ff5d9d467314e08eb
+author 彩娟 冯 <1446730634@qq.com> 2020-12-30 16:22:50 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-30 16:22:50 +0800
+
+    editor:获取班级列表
+
+
+
+:100644 100644 ee0c0d100925e6b82cfacf34fa397eaf06195901 b6b42e0d59dccdfa4bf80807bf523410649d463c M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 b043e8cae3fcacd708f86a07929c70710a558081 d8ebad24cdc7b44dde0b3cb85ab3968226cb534b M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit fbf78c4cae691dbb8d7705f07a8b741807161af3
+tree ffedebae15e00cb888c8036ce43011540669de18
+parent f6e79c5b1167ce2d2f88bddf5b62e69aaa039521
+author 王奇 <wq15127015744@126.com> 2020-12-30 14:51:42 +0800
+committer 王奇 <wq15127015744@126.com> 2020-12-30 14:51:42 +0800
+
+    edit:上课端课程主线作业课程作业和靶向作业按照班级过滤
+
+
+
+:100644 100644 0317b342a4262578bd06c0128f8bc2ad599ce267 1be842fc5144f46471b13698b298f7efde2f3a13 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 c604e8c2af43637bc55d76e14bef42d56140ae1a e01090d60a4c33d629abeb53b5410e09e5097df5 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 541c3124616c9b583ed82f17813ab9d3508ce925
+tree 32efe666238c45b84fb65507a2847f8824634471
+parent fe39e4d8b9ad4b331931e9d6f884a63cfa2a4b29
+author 承昊 石 <279502695@qq.com> 2020-12-30 13:40:47 +0800
+committer 承昊 石 <279502695@qq.com> 2020-12-30 13:40:47 +0800
+
+    edit:备课端课程主线删除作业子作业数
+
+
+
+:100644 100644 d7c400063eb64fde69929a6dd64631be688b67a0 dabf68784ee8e06ee628f7c2c398be5e3da78b10 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 049c70e70114f28d4babe3cc59260c8902243872
+tree d74b367ade3080594d0a2444796da0bb03ff6a0b
+parent 563d3bc62389759550a8439ff5d9d467314e08eb
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-30 10:14:03 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-30 10:14:03 +0800
+
+    editor:修改删除学生和班级的接口，兼容A3
+
+
+
+:100644 100644 b043e8cae3fcacd708f86a07929c70710a558081 03b7a99a6c93f21e1d9542cd0ab6643ccc7cb560 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 7d31a7687a57c291363b71fc5c64c62b7d5f3360
+tree 5475adbc67d8e3bbb2e10691258a0f2a5e6d167b
+parent 32a82e979ac500704cea9e9ec9eb463c2b4c4181
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-29 14:17:44 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-29 14:17:44 +0800
+
+    editor:修改CourseAndHTEIndexService/SyncCourseAndHTEIndex接口
+
+
+
+:100644 100644 0f6107127b29bf458848701d334d35fd78d0c479 29326ca3e688d3d6372cc5707800d22e7e44c634 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit fe39e4d8b9ad4b331931e9d6f884a63cfa2a4b29
+tree d77167d99b20a964986e31c108625eefc0196afa
+parent fe879489cd4a8c8ce4452bf94c6651c492fefa7c
+author 承昊 石 <279502695@qq.com> 2020-12-29 11:59:11 +0800
+committer 承昊 石 <279502695@qq.com> 2020-12-29 11:59:11 +0800
+
+    edit:备课端课程主线作业
+
+
+
+:100644 100644 535f763ec2f2dcc0e9b987bf0560f925fe86538c d7c400063eb64fde69929a6dd64631be688b67a0 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit fe879489cd4a8c8ce4452bf94c6651c492fefa7c
+tree 5305b55ffe775b070d24279def355d9fb697bc90
+parent 32a82e979ac500704cea9e9ec9eb463c2b4c4181
+author 承昊 石 <279502695@qq.com> 2020-12-29 11:56:01 +0800
+committer 承昊 石 <279502695@qq.com> 2020-12-29 11:56:01 +0800
+
+    edit:备课端课程主线
+
+
+
+:100644 100644 68ee3dd00b84fbbc5b48a7d88e658bd0cc910577 535f763ec2f2dcc0e9b987bf0560f925fe86538c M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 82de97cc7934f661e400647ab4d4ac89f91c7128
+tree 2ea07a8a924a1267fbc309a490614ccfb9f7874b
+parent 3e946ddb629a9334081b1fa579ebf02fa70338d4
+author 承昊 石 <279502695@qq.com> 2020-12-29 11:03:23 +0800
+committer 承昊 石 <279502695@qq.com> 2020-12-29 11:03:23 +0800
+
+    edit:ClassPeriod/GetClassPeriodHteContentApiRDtoList
+    打开备课端子作业查询
+
+
+
+:100644 100644 80cd732e141029633da600808469d1c5eb760ae5 6d672c5e8d2f1452da8835b3d739c1ef98ed777b M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit df8d4e763fe8723984a084e6e27eb212a24e7c92
+tree 840de5ecf2d0cfcb6b9aa2834d2783b18d30c0d1
+parent 3887602152b811bc048cd2ca66c06ae94957263c
+author 彩娟 冯 <1446730634@qq.com> 2020-12-29 10:18:57 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-29 10:18:57 +0800
+
+    editor:导入班级、班级下导入学生(A3统计总人数)
+
+
+
+:100644 100644 3e7e9a513caaa1ea3542120e544b21d1f803efaf b043e8cae3fcacd708f86a07929c70710a558081 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 6aa16548347ce1fca389243fc628067f2fcfbe3e
+tree e45ea8e2a473ea070fec8620a19cc6818b2288b7
+parent 347cb924d1aaeb09f02d84ad86502f9ffc9682c7
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-29 10:10:56 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-29 10:10:56 +0800
+
+    editor:修改Class/StudentRegister接口，兼容A3
+
+
+
+:100644 100644 a492f93e1a75ea2b495bf5fdbd2a2f00059a1431 3e7e9a513caaa1ea3542120e544b21d1f803efaf M	WebApi/WebApiCourse/Controllers/ClassController.cs
+:100644 100644 31ff12e2a181c7f3e3ddc503cfbce795728e3a15 81c02becbec16508bd25854ffb5e89dfcb8d27e5 M	WebApi/WebApiCourse/Models/ParameterDto/CreateCourseDto.cs
+commit aac5e267e064ac43ab32f10b1b56756d5b0bbe3f
+tree dbc628fc612410938208e288bb010e851e62c44f
+parent 490ccea728db319bd7bfaa9029e18fd157eb7bf6
+author 王奇 <wq15127015744@126.com> 2020-12-29 10:06:48 +0800
+committer 王奇 <wq15127015744@126.com> 2020-12-29 10:06:48 +0800
+
+    edit:课程主线作业 不过滤课程作业
+
+
+
+:100644 100644 78f6a80357125a2201d3b23f5d9af5e70eb2ab24 4eabec07620eaeee507b77212951a0e84bf3f65b M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 3e946ddb629a9334081b1fa579ebf02fa70338d4
+tree 2d47ada0aa7791d22cfe4d0a75f7c508807d1ba9
+parent 347cb924d1aaeb09f02d84ad86502f9ffc9682c7
+author 承昊 石 <279502695@qq.com> 2020-12-29 10:04:14 +0800
+committer 承昊 石 <279502695@qq.com> 2020-12-29 10:04:14 +0800
+
+    edit:删除课程主线增加的修改接口
+
+
+
+:100644 100644 09b8b2211181ef91797f808815e9cfa11661465a 80cd732e141029633da600808469d1c5eb760ae5 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 8dd4caba6a6d8c9fc92b3ff293c8658b1e04eb3b 46724cea57197e63965b3e18939934e848e1aec7 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit 85e2e6357febc55bf86b15abef3545ad17931f8a
+tree 140dee5be3aad60d9799264bb1884a917ef0765c
+parent 8270d7db54e0e303eda264e2c77a8680c4300b8e
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-28 18:07:08 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-28 18:07:08 +0800
+
+    editor:修改删除班级和删除班级内学生的接口，兼容A3作业
+
+
+
+:100644 100644 6a06af3a2d8a9e849b9ac2a208f0685413c5b94a c52b7c193648425b28e86e39d628311365c46395 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 6bb5f752ea2848b625d8c3ad71d35e6050d54032 0f6107127b29bf458848701d334d35fd78d0c479 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 819cd69f2bb450dc60bc90ae6e4beb1e75ce0a6f a492f93e1a75ea2b495bf5fdbd2a2f00059a1431 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+:100644 100644 2c70185f946bff1821bd1c2832c3d4bd9644eece 31ff12e2a181c7f3e3ddc503cfbce795728e3a15 M	WebApi/WebApiCourse/Models/ParameterDto/CreateCourseDto.cs
+:100644 100644 48d76c607721f202f22b8d1a07be684d619e5c87 c23f336cfd0a75461fd4d796a6b35c0f6fe13a4e M	WebApi/WebApiCourse/Models/ReturnDto/ClassInfo_ApiDto.cs
+commit f6dce2abb1c6f04ed9cda88b65f42f53d78e9e5e
+tree 70c126afde01a6528c89c561fe6b983069844690
+parent 490ccea728db319bd7bfaa9029e18fd157eb7bf6
+author 彩娟 冯 <1446730634@qq.com> 2020-12-28 17:22:50 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-28 17:22:50 +0800
+
+    editor:自动导入标识不是设置有效期
+
+
+
+:100644 100644 976eb67cd99e4faaca484dfeec4e87f8ee544dd0 c0ccebc0e56d8a19fc619956d26dd4e4e7ebea8b M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+commit 8270d7db54e0e303eda264e2c77a8680c4300b8e
+tree f8aa25fa28da0771a564d475195aacbff7699e49
+parent baf4df01743078cc28a7b5e1dccd75e588737248
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-28 15:30:10 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-28 15:30:10 +0800
+
+    editor:修改Class/DeleteClassInfo接口,去掉班级人数为0时结束方法
+
+
+
+:100644 100644 3223d7308344715d98345e14d6cb8048a7dd09a0 819cd69f2bb450dc60bc90ae6e4beb1e75ce0a6f M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit a5decb9a75b2974bf6e1729cd820f6b90658d59e
+tree 50a8cfba12ce6fe1d40c0194b202623717954cc9
+parent 5d8bf14befc9d007bcb7b1f9b200ac8054960557
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-28 15:07:53 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-28 15:07:53 +0800
+
+    editor:修改待批改作业过滤班级
+
+
+
+:100644 100644 32430ea8dea0a9a533429150352e0051a37c5025 6bb5f752ea2848b625d8c3ad71d35e6050d54032 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 1d0c7528b4d7747e48cc37ac0e6c0ca0bc37ff0e
+tree 83d308ced413f5b8a132152ab3fde3c98abf608b
+parent f0b0c481d85c69efe7e9ffe394eca5269e3521df
+author AnHaNIYa <1400436027@qq.com> 2020-12-28 15:01:14 +0800
+committer AnHaNIYa <1400436027@qq.com> 2020-12-28 15:01:14 +0800
+
+    editor
+
+
+
+:100644 100644 bb4ebbd26f5334617024fab16ccb9f836e93520c 65e7032b3b7d520362820a8f106f15da634dcf8a M	WebApi/CourseWebApiServer/CourseWebApiServer.csproj
+commit d0c2e71c0e22443585d361c0111b75908a077b22
+tree 730681608aa12814763050ed4741fe38d723f402
+parent 9566bae0b4923d5639ab665fd0d5f36676fec1f7
+author AnHaNIYa <1400436027@qq.com> 2020-12-28 15:00:31 +0800
+committer AnHaNIYa <1400436027@qq.com> 2020-12-28 15:00:31 +0800
+
+    editor: 提交Bug
+
+
+
+:100644 100644 a70d8e79d4fa8ba3c6faeb78d3aaf408fe65f7d0 bb4ebbd26f5334617024fab16ccb9f836e93520c M	WebApi/CourseWebApiServer/CourseWebApiServer.csproj
+commit 081714581087dfd67655581d1ce6044bf98f6185
+tree af934fc0788f23a1b988c7dfef8fd92ecb26a37c
+parent 5d8bf14befc9d007bcb7b1f9b200ac8054960557
+author 承昊 石 <279502695@qq.com> 2020-12-28 14:56:45 +0800
+committer 承昊 石 <279502695@qq.com> 2020-12-28 14:56:45 +0800
+
+    edit:CoutseWebAPI 版本升级到1.0.17
+
+
+
+:100644 100644 bb4ebbd26f5334617024fab16ccb9f836e93520c 65e7032b3b7d520362820a8f106f15da634dcf8a M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit 5d8bf14befc9d007bcb7b1f9b200ac8054960557
+tree 167fe70e102eb9aaa308bc10dee23fe5a972c90f
+parent 490ccea728db319bd7bfaa9029e18fd157eb7bf6
+author 承昊 石 <279502695@qq.com> 2020-12-28 12:49:58 +0800
+committer 承昊 石 <279502695@qq.com> 2020-12-28 12:49:58 +0800
+
+    edit:ClassPeriod/GetBeiKeClassPeriodContent
+
+
+
+:100644 100644 78f6a80357125a2201d3b23f5d9af5e70eb2ab24 09b8b2211181ef91797f808815e9cfa11661465a M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 b8b10e1fa6ca7c2c095867f051e2f03e49b6c056 8dd4caba6a6d8c9fc92b3ff293c8658b1e04eb3b M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit 490ccea728db319bd7bfaa9029e18fd157eb7bf6
+tree 730681608aa12814763050ed4741fe38d723f402
+parent bd9f8cfe2c92869e2fcb1841c751a5a6af9f1099
+author 承昊 石 <279502695@qq.com> 2020-12-28 11:48:12 +0800
+committer 承昊 石 <279502695@qq.com> 2020-12-28 11:48:12 +0800
+
+    Revert "edit:ClassPeriod/GetClassPeriodContent"
+
+    This reverts commit b413c97b62a1adc4d8208a1cca894fe5310428c2.
+
+
+:100644 100644 a8b4d6617673061ae60c1c650046fba0155f4cbf 78f6a80357125a2201d3b23f5d9af5e70eb2ab24 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 b449dcc713bd7f403e9a5dd2283f3e837b067c61 b8b10e1fa6ca7c2c095867f051e2f03e49b6c056 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit b413c97b62a1adc4d8208a1cca894fe5310428c2
+tree b04e3d897e94a7385ad58279317b1dd93d1db217
+parent 2e21ab46c02dd50d02e1fd6686b78fa1fd76d632
+author 承昊 石 <279502695@qq.com> 2020-12-28 11:38:17 +0800
+committer 承昊 石 <279502695@qq.com> 2020-12-28 11:38:17 +0800
+
+    edit:ClassPeriod/GetClassPeriodContent
+
+
+
+:100644 100644 5fce496fea705d6892b9ed3ee696d93126d0a440 d68c8d5112f3ff242675f073121dadaf26b2d706 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 b8b10e1fa6ca7c2c095867f051e2f03e49b6c056 b449dcc713bd7f403e9a5dd2283f3e837b067c61 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit 314bdef6302bc03e84ac557f64490c511c741899
+tree 730681608aa12814763050ed4741fe38d723f402
+parent 9566bae0b4923d5639ab665fd0d5f36676fec1f7
+author 王奇 <wq15127015744@126.com> 2020-12-28 11:38:12 +0800
+committer 王奇 <wq15127015744@126.com> 2020-12-28 11:38:12 +0800
+
+    edit:升级版本
+
+
+
+:100644 100644 a70d8e79d4fa8ba3c6faeb78d3aaf408fe65f7d0 bb4ebbd26f5334617024fab16ccb9f836e93520c M	WebApi/CourseWebApiServer/CourseWebApiServer.csproj
+commit 9566bae0b4923d5639ab665fd0d5f36676fec1f7
+tree 2a4bf13d0f79afc1f2f68e563b0f0e4889ee069f
+parent 0f57fbdc8eccf233003fffa0294636e05fab5a7d
+author 王奇 <wq15127015744@126.com> 2020-12-28 10:03:54 +0800
+committer 王奇 <wq15127015744@126.com> 2020-12-28 10:03:54 +0800
+
+    升级版本
+
+
+
+:100644 100644 a70d8e79d4fa8ba3c6faeb78d3aaf408fe65f7d0 bb4ebbd26f5334617024fab16ccb9f836e93520c M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit 0f57fbdc8eccf233003fffa0294636e05fab5a7d
+tree 9e37e55be54a83bbd3d75ca1d5000d4f61265e72
+parent 66b5260f513ab88e8161927bd60c130f9cc9fd76
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-27 18:05:11 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-27 18:05:11 +0800
+
+    editor:修改ClassPeriod/GetClassPeriodHteContentApiRDtoLists接口
+
+
+
+:100644 100644 754e434afbfb5bac10d00d2357970c5e2bec824d 78f6a80357125a2201d3b23f5d9af5e70eb2ab24 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 66b5260f513ab88e8161927bd60c130f9cc9fd76
+tree 425a3d1ed575fe84a441cfa0e5f69e4b01cd4c9d
+parent 2e21ab46c02dd50d02e1fd6686b78fa1fd76d632
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-27 17:20:20 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-27 17:20:20 +0800
+
+    editor:修改ClassPeriod/GetClassPeriodHteContentApiRDtoLists，课程主线下的班级作业和分层作业根据班级id过滤
+
+
+
+:100644 100644 5fce496fea705d6892b9ed3ee696d93126d0a440 754e434afbfb5bac10d00d2357970c5e2bec824d M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 2e21ab46c02dd50d02e1fd6686b78fa1fd76d632
+tree c5b943a66db41db3b9cc00997fd9571180402cd6
+parent 532e2651c33fa011a8533cd5f0d5c13270f1870f
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-25 17:01:19 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-25 17:01:19 +0800
+
+    editor:修改删除班级和删除班级学生的接口
+
+
+
+:100644 100644 0f676772ce756ff6c78ff3f58e65eceb548d3a6f 3223d7308344715d98345e14d6cb8048a7dd09a0 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 74271e86e841fceb4038d3bd68d14bc4d06ef3b1
+tree 6d04753ef17d1067362b9f8c07593813b5eefb9c
+parent b41be8165d72ef2d4c7f1dd3aaa52ce17223964c
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-25 15:58:23 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-25 15:58:23 +0800
+
+    editor:修改删除教学班和删除教学班内学生的接口
+
+
+
+:100644 100644 9cda5249a298d6816c59afcff4aabd6a6a937140 bea7f440ce8cff24a351c89b339c8ede14e3908b M	WebApi/WebApiCourse/Controllers/ClassController.cs
+:100644 100644 88a13a62b9e4fbeab42a1e2b7df4232ffa4a4af3 48d76c607721f202f22b8d1a07be684d619e5c87 M	WebApi/WebApiCourse/Models/ReturnDto/ClassInfo_ApiDto.cs
+commit ac87928e112eade89331e5887db0c5a62175edca
+tree 980059a5dab84e4e9881a2a7349b1e455e368ab4
+parent b41be8165d72ef2d4c7f1dd3aaa52ce17223964c
+author AnHaNIYa <1400436027@qq.com> 2020-12-25 11:53:58 +0800
+committer AnHaNIYa <1400436027@qq.com> 2020-12-25 11:53:58 +0800
+
+    editor:  Class/StudentRegister 在创建班级、新加学生、删除学生， 
+    加了容错
+
+
+
+:100644 100644 9cda5249a298d6816c59afcff4aabd6a6a937140 ff0aa25543a0e2c87bd7cc86f54c92bf6a88bdd5 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit b41be8165d72ef2d4c7f1dd3aaa52ce17223964c
+tree 2dc8462743c3c10acb1c4fd5eeccfe7e8f7f91fc
+parent 2873c58d622a9d6ebf8055ca434a21dd8100f81f
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-25 10:28:54 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-25 10:28:54 +0800
+
+    editor:导入学生时过滤掉非导入作业
+
+
+
+:100644 100644 58f9e4545b30353f7b198e8458167c7b03e1a40e 6a06af3a2d8a9e849b9ac2a208f0685413c5b94a M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 3adb526c7aa63122ee6f5064ea33177dec66d8b8 32430ea8dea0a9a533429150352e0051a37c5025 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 faa15b679f66790c1fc54cade41dbcf5933e350d 9cda5249a298d6816c59afcff4aabd6a6a937140 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 2873c58d622a9d6ebf8055ca434a21dd8100f81f
+tree 71f2309ecb0623c56685b5fa1de87379717ac0df
+parent c9c2904ea41cd495aeaf0aee19a667fd85c8082f
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-24 18:39:51 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-24 18:39:51 +0800
+
+    editor:修改CourseAndHTEIndex/GetHTEAndCourseIndex方法
+
+
+
+:100644 100644 d133a07cd6f1e2374671c9c10f23a1babc63403b 3adb526c7aa63122ee6f5064ea33177dec66d8b8 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 9628fae5c27869845e522c13d123349840b84dac 2dfd7c405ca8a0f6cf078750de327a6e122ac9aa M	Domain2/Domain.CourseBuildModel/Specification/HTEAndCourseIndexSpecification.cs
+commit 4a1c2e4fcf6223790d31df3dea88e7620be75146
+tree ef3a0b1432102d7f7abca78e60f24329626b41d9
+parent 790a3a529e397bdc519b43c1644ba42f129a7cdf
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-24 16:21:01 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-24 16:21:01 +0800
+
+    editor:CourseAndHTEService/GetUserInfoByHTEID1方法
+
+
+
+:100644 100644 2ca5ad256d238702ae9c9ebab6a3fd5ccd25f615 da20a345f21c6dde142254887c3032613ca89675 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTE.cs
+:100644 100644 87108d40d42b8ba9e8b5ccd45e1dad945658fed1 ee0c0d100925e6b82cfacf34fa397eaf06195901 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 456a5b5cd2a47d9f3fe598ef41de95a57b69db69
+tree 61226c93065280276d67ad43e1a71e5cb62e63b3
+parent 5256cfcd4812f128a18bf35370c339c153f17b6f
+author 彩娟 冯 <1446730634@qq.com> 2020-12-24 15:33:35 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-24 15:33:35 +0800
+
+    editor:自动导入作业
+
+
+
+:100644 100644 f652f50ab960d2ff08572f3a26ac1db87c050cde 976eb67cd99e4faaca484dfeec4e87f8ee544dd0 M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+commit 98b5f8d26a5677fb66fc9d6bd5868b9610616bb2
+tree 14fbf88d9d59af41601b09ef8ac47a71c0a8cc9a
+parent 248afbc9fd205d66931963bb2f39b60ebea24d90
+author 彩娟 冯 <1446730634@qq.com> 2020-12-24 15:20:55 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-24 15:20:55 +0800
+
+    editor:自动导入订阅修改
+
+
+
+:100644 100644 12165f6c5caa408602ac4606e146ab1e0021c384 f652f50ab960d2ff08572f3a26ac1db87c050cde M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+commit 790a3a529e397bdc519b43c1644ba42f129a7cdf
+tree f2dd836a0b675a239ffb8f797cb9c69b312567c5
+parent d261d1bbc77c5db617336e04a28f0cd2303f56fb
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-24 11:48:03 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-24 11:48:03 +0800
+
+    editor:修改CourseAndHTEIndexService/GetHTEAndCourseIndex方法，过滤掉未发布的作业
+
+
+
+:100644 100644 cdbaa413c0d0869ed66a2515eea7af49226903de d133a07cd6f1e2374671c9c10f23a1babc63403b M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 248afbc9fd205d66931963bb2f39b60ebea24d90
+tree 23aa556c08e4c68a7eb0b3f1c16ea147ddd9f634
+parent 03f772fc5564d7c46f989a5e4e523a06e0019071
+author 彩娟 冯 <1446730634@qq.com> 2020-12-23 18:58:41 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-23 18:58:41 +0800
+
+    editor:自动导入作业订阅修改
+
+
+
+:100644 100644 9be6900f0b55c2ab8944d0b77fbc7f31f6c1972d 12165f6c5caa408602ac4606e146ab1e0021c384 M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+commit 03f772fc5564d7c46f989a5e4e523a06e0019071
+tree e722ca8159abd52918b87280b786a62ee3df1ead
+parent 7f28edc49de1653b3ca5c0bd931249ac020a64df
+author 彩娟 冯 <1446730634@qq.com> 2020-12-23 18:52:49 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-23 18:52:49 +0800
+
+    editor:自动导入班级作业
+
+
+
+:100644 100644 55aebe090b688f990920765948916abd7263ba0e 9be6900f0b55c2ab8944d0b77fbc7f31f6c1972d M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+:100644 100644 42f2afd5d5f48b7cb719f59365136e65318c79c0 1aeac2af1e8c8276fe8fcd7fd5341af449a0b09d M	SubscriptionService/CourseSubsReport/EntAppFrameWork.config
+commit cf41b71740b7d815a516715c5d3ed2079dc555d2
+tree ba1ab4759f149d769162846f9dd670134e195c75
+parent 02865181dfe0cac8be09a85d66b8bfd37e98840b
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-23 18:49:28 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-23 18:49:28 +0800
+
+    editor:修改Class/StudentRegister接口
+
+
+
+:100644 100644 2c503b4dc7b65979caec0b470977215db3171e5b 4dd423ee1e7d4a6a759605c07dabfe7a1ed37850 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit a4a97e926fc025e5fcd2bae1bc7e671003c6d511
+tree fed8298d2c724ee5b4cc55fb6f9a493e509417ea
+parent ac3264f9a2bcfdedb701f2d636b9e45458337770
+author 彩娟 冯 <1446730634@qq.com> 2020-12-23 18:29:33 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-23 18:29:33 +0800
+
+    editor:班级列表、分层列表返回年级
+
+
+
+:100644 100644 866d7614b08222889667adfe3918ab3caa5b0b3b cdbaa413c0d0869ed66a2515eea7af49226903de M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 3624eaf14f886bac16fc1c44c683af28833bc3fc 55aebe090b688f990920765948916abd7263ba0e M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+:100644 100644 eaa74c8c2227ed2c0b4a52ddc3f695dbbbbc03cc ff4e18f83aece0a4740355fafd38a085715f83da M	WebApi/WebApiCourse/Controllers/ClassController.cs
+:100644 100644 edc4de3732486452c46ec042936e9694b41c66ae f09d35d9ee1c90effcddf456365a250cf9049efa M	WebApi/WebApiCourse/Controllers/TeachingGroupController.cs
+:100644 100644 e7dbd7fbd7efe699fd30b9e421a931b7bda27b6e 814c0d0a1e81cdd968f42c03bb84c507620a653f M	WebApi/WebApiCourse/Models/ResTeachingGroup.cs
+:100644 100644 56c20f72a3c192c5212180b6f50b022e13edec81 88a13a62b9e4fbeab42a1e2b7df4232ffa4a4af3 M	WebApi/WebApiCourse/Models/ReturnDto/ClassInfo_ApiDto.cs
+commit 02865181dfe0cac8be09a85d66b8bfd37e98840b
+tree 6fb0b4e8ed7a1ac1b2651e13c81b6ccbc9af923a
+parent ac3264f9a2bcfdedb701f2d636b9e45458337770
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-23 18:13:05 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-23 18:13:05 +0800
+
+    editor:修改Class/StudentRegister接口
+
+
+
+:100644 100644 eaa74c8c2227ed2c0b4a52ddc3f695dbbbbc03cc 2c503b4dc7b65979caec0b470977215db3171e5b M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit ac3264f9a2bcfdedb701f2d636b9e45458337770
+tree 9b85eed7a5ba698c4746626d1574ad0f1a94864c
+parent 1d3bb15979c73e2360434e425de8d37c9a197e2f
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-23 18:05:12 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-23 18:05:12 +0800
+
+    editor:修改lass/StudentRegister接口
+
+
+
+:100644 100644 c4d912e6043f076c43dc40569f28ff569f18c73d eaa74c8c2227ed2c0b4a52ddc3f695dbbbbc03cc M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 1d3bb15979c73e2360434e425de8d37c9a197e2f
+tree 52be4f62f22536850a8420573127c82e2628bdf5
+parent c3fe47104ef708c3c8db673516c8cb5fe260c0a1
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-23 18:02:16 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-23 18:02:16 +0800
+
+    editor:修改CourseAndHTEIndexService/SaveHTEAndCourseIndex方法
+
+
+
+:100644 100644 577cbc0cf4293b883e58eb11aee5326546305635 0106d344b2f4bdf8fba996bddeca582432cdd6cf M	Domain2/Domain.CourseBuildModel/Index/HTEAndCourseIndex.cs
+:100644 100644 f6c9e8493cf456b1e6e170feba36f1169434e6b1 58f9e4545b30353f7b198e8458167c7b03e1a40e M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 de62de85eee4bcd29aa747bab47027048bf92fa4 866d7614b08222889667adfe3918ab3caa5b0b3b M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 381aded2ee2eeab9ed39c13cc882232185c27022 95462f4594c93ae924353ed5e5b70f30532ee85a M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexFactory.cs
+:100644 100644 5de5d4fe59956be5cf7a7c235273e16acf0d34be 2d5523ea9e3f97535e7665fe5338bd790ee43d7b M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexRAFCommonSql.cs
+:100644 100644 03141db6668fdb1e25cf80f51daf86a13856e773 c5e6eaceb55648750f81b121eceb0647e4ddd589 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexRepository.cs
+commit c3fe47104ef708c3c8db673516c8cb5fe260c0a1
+tree a0ec2f7dc6b97c278cb18f97b9cc7ebc090d340e
+parent 49c406caa63fcaf46b29da646ca75f90896ab1e0
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-22 14:41:39 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-22 14:41:39 +0800
+
+    editor:修改方法CourseAndHTEIndexService/GetHTEAndCourseIndex
+
+
+
+:100644 100644 8a8af3c2bd7513df07fa18e2877ff8a92e59e5b9 f6c9e8493cf456b1e6e170feba36f1169434e6b1 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 5a13b15b823f0bbddc8b1f32ebda226568239ada de62de85eee4bcd29aa747bab47027048bf92fa4 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 3b0867409afe7df68890619a70a0db682419e0ed 9628fae5c27869845e522c13d123349840b84dac M	Domain2/Domain.CourseBuildModel/Specification/HTEAndCourseIndexSpecification.cs
+commit 0efb9be0827a55bf788610644c9eb7e227dc5dac
+tree 0d1f235bbc6ec1de9140f7b575c6cca09a5902f1
+parent d2fbab436ae264d306be7e39a1c6e8fbc0af3f26
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-22 11:17:44 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-22 11:17:44 +0800
+
+    editor:添加新方法CourseService/GetTeachingCourseByCourseId(long
+    courseId,bool? isValid)
+
+
+
+:100644 100644 9178f80514be11eb1291e055445d4b474501a65c 240aba48ab381139c8f381bef5314f861d24ec6f M	Domain2/Domain.CourseModel/Service/Interface/ICourse.cs
+:100644 100644 e4b087f4319c033606a6dedfdce59292995d48b5 4bf0b4d410648fd6f362fcc03c2a64f4ec45570f M	Domain2/Domain.CourseModel/Service/Realization/CourseService.cs
+:100644 100644 0b1545130f73ef49e7d81d505dbd5c9fb97b7735 05c35715612287fd3f04162b88cc7658666cfc6e M	WebApi/WebApiCourse/Controllers/ClassController.cs
+:100644 100644 65adf8444b77570d78cdb4bd55cbd14394a724af 2c70185f946bff1821bd1c2832c3d4bd9644eece M	WebApi/WebApiCourse/Models/ParameterDto/CreateCourseDto.cs
+:100644 100644 c621aa1090eb554cb1e88e9b241e150eec08148c 56c20f72a3c192c5212180b6f50b022e13edec81 M	WebApi/WebApiCourse/Models/ReturnDto/ClassInfo_ApiDto.cs
+commit 147415b8c4f5f123165b6d3865c27e79c7dde463
+tree 3e52c9a8e6bfd604053edf87a07e2d99f0732a72
+parent 026b6dc2873e7e3eb7ab20e7351ca8abb67bf538
+author 彩娟 冯 <1446730634@qq.com> 2020-12-21 18:23:51 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-21 18:23:51 +0800
+
+    editor:自动导入作业订阅
+
+
+
+:100644 100644 22a7eeb4c027895cc0e090cfcd02a28779bc8a78 3624eaf14f886bac16fc1c44c683af28833bc3fc M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+commit e290e29e0e5e336d61c5ad4a8c9e6f8a03b81caf
+tree ff3ae85c6a30b4b74ba7fb0651ab4c0ca9f110a2
+parent ebbf994866bcd615aa8fc1a47325871c094119fc
+author 彩娟 冯 <1446730634@qq.com> 2020-12-21 17:16:08 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-21 17:16:08 +0800
+
+    editor:获取班级列表bug修改
+
+
+
+:100644 100644 9ffc72a8d9278db803505a8aa1a61925c9ef2bd9 22a7eeb4c027895cc0e090cfcd02a28779bc8a78 M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+:100644 100644 55e8b244ee57cf3c3f90b7d209956edc72fa00cc 9b35e9e5d49394d76a49d0cd77ef9b391301e77f M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit d2fbab436ae264d306be7e39a1c6e8fbc0af3f26
+tree 794ac9bec0a48a9ff339f2abfb7dcf3c4717da77
+parent f0402fd02142741f3fb2505fa65af459d4676bbe
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-21 15:40:15 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-21 15:40:15 +0800
+
+    editor:修改删除作业方法
+
+
+
+:100644 100644 98f41dba3d4f90f0a4fe978ddf5dbf2c1b752f92 87108d40d42b8ba9e8b5ccd45e1dad945658fed1 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit f0402fd02142741f3fb2505fa65af459d4676bbe
+tree 9999b9ce1e08009cb7eddfe53b6295aac06a5a5e
+parent e4dd09f6c2bf15012457bb554b8dc9c4f253cd56
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-21 15:24:32 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-21 15:24:32 +0800
+
+    editor:修改删除作业方法
+
+
+
+:100644 100644 846ec87aea7c98a00ce1a21c3fbcee047c9ef43c 98f41dba3d4f90f0a4fe978ddf5dbf2c1b752f92 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit c60df8f7f6358f61c0f877bebe50f12216b84585
+tree 798c890ce09ae1159d5289460ed059c0d2602163
+parent 27a60571c650ab8027accd1c6429a5b921d8b2a8
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-21 15:06:30 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-21 15:06:30 +0800
+
+    editor:修改导入教学班学生和创建教学班方法。兼容A3跨班作业
+
+
+
+:100644 100644 e59e50e5012e2ef7656bd6d23eddb6b15476dbbd 2c9f473857a23b0da3b482b94a435a4dd9ae2705 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 002df5bc4dc3cbc7f85b395480c9240319d08bf6 e87c70cd987abf30b0c398a04463b7048561244e M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 bc5f3db334d327d5f3d3588b5e9ee8a0d216a3df a58b24fa6cc4abd83f849b633feee29fa3301443 M	Domain2/Domain.CourseModel/Service/Interface/ICourse.cs
+:100644 100644 8b75b49c4e3b4a68cb2e2fb11d242d4729f62c12 b424b476d1bbac7ffddae9b5e6a6d9d5db08c31d M	Domain2/Domain.CourseModel/Service/Realization/CourseService.cs
+:100644 100644 55e8b244ee57cf3c3f90b7d209956edc72fa00cc 0b1545130f73ef49e7d81d505dbd5c9fb97b7735 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit ebbf994866bcd615aa8fc1a47325871c094119fc
+tree 288a4404fe4e80f30b3bc2faa2a8448af7a11340
+parent 94dbd0205bfd33f5449b47de3beca2f9cf27640d
+author 彩娟 冯 <1446730634@qq.com> 2020-12-21 09:54:50 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-21 09:54:50 +0800
+
+    editor:魔方收A3，自动导入订阅修改
+
+
+
+:100644 100644 642ccc37a11603f357324603bc976f5b92c2dd79 9ffc72a8d9278db803505a8aa1a61925c9ef2bd9 M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+commit 94dbd0205bfd33f5449b47de3beca2f9cf27640d
+tree 30461ee2206bf0b9af117fe0b17aa8c85975e321
+parent af3135bd38efd712601f723305096aaae7b9aa70
+author 彩娟 冯 <1446730634@qq.com> 2020-12-18 18:09:12 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-18 18:09:12 +0800
+
+    editor:魔方收A3自动导入作业
+
+
+
+:100644 100644 14fea6b81c41b80e50d9f67bacad635feada749c 642ccc37a11603f357324603bc976f5b92c2dd79 M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+commit ba44297d8ce98bb67b7adb1ceebdfaa0227af06f
+tree c5b7f5205603f5f575ce7f15cea68901ff965950
+parent a846a80e4b3644c311985ef66bcd045b05a59e65
+author 彩娟 冯 <1446730634@qq.com> 2020-12-18 10:23:45 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-18 10:23:45 +0800
+
+    editor:收A3自动导入作业
+
+
+
+:100644 100644 e59e50e5012e2ef7656bd6d23eddb6b15476dbbd 69bd7b01f2ade72b7e9e934ad31821afaacfb640 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 eb6e59e08157efce1fa93f95fe9c8bdd772e1b1c f7fc0eb7f176de58b2c075ba2c4b911ff8809ddd M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 ff038391628a42c5570e4c2204a94a13f9bb6fa5 3393a1fbaf08b23c46816959f4fc187a0c779748 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 b5ddbb2ad6b0216204275adacdcae309864d853c f4f299b9013d25facb4e85274bdb3cd1e6ada5fe M	Domain2/Domain.CourseModel/Query/RegistCourseAndSubjectCourseQuery.cs
+:100644 100644 bc5f3db334d327d5f3d3588b5e9ee8a0d216a3df aa89877927de159dbc4fe2e012ec2f209b017642 M	Domain2/Domain.CourseModel/Service/Interface/ICourse.cs
+:100644 100644 8b75b49c4e3b4a68cb2e2fb11d242d4729f62c12 ece548729071ea0f1aa01474c38c83af0aacc5aa M	Domain2/Domain.CourseModel/Service/Realization/CourseService.cs
+:100644 100644 1bc168ac1b0b5d68898fd0c8a1c3d9892eeee856 e60fa6762fe8fe3156276063ba37c56a066a8ae6 M	Domain2/Domain.CourseModel/Specification/CourseSpecification.cs
+:100644 100644 4342dcfbd1578d86ad8cea3888cf1027b8a63c26 d8343da604ae6487f4d137b82308e74d3937b43c M	Domain2/Domain.CourseModel/Specification/RegistCourseAndSubjectCourseQuerySpecification.cs
+:100644 100644 340c334f9c676ed2bfd80c004b062b6cd299713e 095fb6dbeecbcb3e9d4f312d71123df13e8203f4 M	Infrastructure2/EntAppSoft.Infrastructure.CourseModel/RegistCourseAndSubjectCourseQueryFactory.cs
+:100644 100644 2131ff23a41ca3a9ef682f1fd346a30c43df4cfb bb2785262c34b74241c20faf27a68773b70382d3 M	Infrastructure2/EntAppSoft.Infrastructure.CourseModel/RegistCourseAndSubjectCourseQueryRAFCommonSql.cs
+:100644 100644 a07050a278435cb519dc70bd5aaa9c0836d8bf14 14fea6b81c41b80e50d9f67bacad635feada749c M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+commit 27a60571c650ab8027accd1c6429a5b921d8b2a8
+tree 4eb733bc07f9aa5819aa9a970917b6383fea0161
+parent efbbbadb489a6905aeab5db0413289a6a95e4826
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-17 11:30:37 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-17 11:30:37 +0800
+
+    editor:修改CourseAndHTEService/RemoveHTEsForCourse
+
+
+
+:100644 100644 0c160b3d1136da9df8fb3877da4016fe85f14c52 325c2a226e21933483b57636ca455fc7bb212414 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit efbbbadb489a6905aeab5db0413289a6a95e4826
+tree d253253a46fbf6ca755532f9719e317a72e7cb6d
+parent 6083fcd1ac19ae1ef23a676d86e373f27eadfedf
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-17 09:30:48 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-17 09:30:48 +0800
+
+    editor:修改新建课程接口Course/CreateCourseByTemplate
+
+
+
+:100644 100644 ad3297f207c2c8737a6241cf7a54f13f339a9e9a 25a2b205243aa361decdb128baa74bc55f34c522 M	Domain2/Domain.CourseBuildModel/Service/Interface/IBuildCourse.cs
+:100644 100644 016f4c667df6cbcc3dcddfc0636898eff4fb102d 892b14236723392ef211db2abd96170ac8d9bc80 M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 a28de39acd316761edf88e34857f37ac49b1097f 05e4cffe70cf7c70f7bf457f2cd1e4ba4fb2aa9a M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 6083fcd1ac19ae1ef23a676d86e373f27eadfedf
+tree 65006ef9ba9c6f7ec946fd90ca9659b72153c530
+parent 4a15283229264d3882166ec8b118a21fe423d4e8
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-16 15:35:26 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-16 15:35:26 +0800
+
+    editor:修改CourseAndHTEIndexService/ImportSingleCourseAndHTEIndex方法
+
+
+
+:100644 100644 2e3d8d9bcba34e7e4538454c06583878912a435a 002df5bc4dc3cbc7f85b395480c9240319d08bf6 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 4a15283229264d3882166ec8b118a21fe423d4e8
+tree 0b5ef24d04e45f11bdbd76414d76465710a5010e
+parent 0036ebcf6c71ff2a2a568e4b5c2860242ca1d677
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-16 13:55:04 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-16 13:55:04 +0800
+
+    editor:修改CourseAndHTEIndexService/SyncCourseAndHTEIndex方法
+
+
+
+:100644 100644 eb6e59e08157efce1fa93f95fe9c8bdd772e1b1c 2e3d8d9bcba34e7e4538454c06583878912a435a M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 0036ebcf6c71ff2a2a568e4b5c2860242ca1d677
+tree 011163224fe73509fc468d4c496ef5fcb4e9d457
+parent 1c3480ecd5ace0de2f19f8c8fe79037c89fc199c
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-16 11:17:27 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-16 11:17:27 +0800
+
+    editor:同步作业时作业创建人改为自己
+
+
+
+:100644 100644 1aa0bff35aa312125154a8565bd709b52533b51a fb1de3f11fe16023739c480774001f4a7328902f M	Domain2/Domain.CourseBuildModel/Service/Interface/IClassPeriod.cs
+:100644 100644 6f3a484c28363d58e074c827e160b6b83a888b07 242cd0a4ad7cecaf7a40a9320a084400cdced1c9 M	Domain2/Domain.CourseBuildModel/Service/Realization/ClassPeriodService.cs
+:100644 100644 2ca27083199f17c8c9c39e89d6e67945440b9117 0c160b3d1136da9df8fb3877da4016fe85f14c52 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 c54fd51d4c450f57520e494dee7bfd04b543928b 5d41016617de6771258b7ea91da35ff6d9bb5a91 M	WebApi/WebApiCourse/Controllers/SyncCourseScheduleController.cs
+commit 1c3480ecd5ace0de2f19f8c8fe79037c89fc199c
+tree 36517b36f5c27db6a7c7ddd26cf5810cb48d720e
+parent c0dab0e67008c6eaa98c5a50d027b7efde99a540
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-15 17:55:51 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-15 17:55:51 +0800
+
+    editor:删除和还原作业是发布子作业的report订阅。删除：DeleteHteInfoEvent，还原：RestoreHTEAndReportEvent
+
+
+
+:100644 100644 a1b8947fc51cea7bccaff9e384d19bbf0db65f63 2ca27083199f17c8c9c39e89d6e67945440b9117 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit c0dab0e67008c6eaa98c5a50d027b7efde99a540
+tree c2fc6dac9427588128b59a3d0fe28ef8cce6b9a8
+parent a846a80e4b3644c311985ef66bcd045b05a59e65
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-15 16:24:09 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-15 16:24:09 +0800
+
+    editor:修改CourseAndHTEService/CreateIndividualizationHTE1。保存hteinfo的订阅时先创建HTEExtScope
+
+
+
+:100644 100644 ff038391628a42c5570e4c2204a94a13f9bb6fa5 a1b8947fc51cea7bccaff9e384d19bbf0db65f63 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit a846a80e4b3644c311985ef66bcd045b05a59e65
+tree d527afc3587f94a7ca92e5982eb8f2957ec2cc0f
+parent 4b7b2108a28dcf680463223ece2076e1c909c64e
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-11 17:51:57 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-11 17:51:57 +0800
+
+    editor:修改备课端还原作业方法
+
+
+
+:100644 100644 7b6f68ed91d3f38a4399e3a471aa2463088bf39e eb6e59e08157efce1fa93f95fe9c8bdd772e1b1c M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 4b7b2108a28dcf680463223ece2076e1c909c64e
+tree efc2ef3f0607b2bef7cd333e65d7b0f674fa8ff5
+parent 2b05ab09ccf86c2daa088aeb1b3b2156b442c8df
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-11 17:25:08 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-11 17:25:08 +0800
+
+    editor:修改批量删除作业和恢复作业方法
+
+
+
+:100644 100644 8229e3fbded5ab0f532f47ea57c4609197a7f88c 2ca5ad256d238702ae9c9ebab6a3fd5ccd25f615 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTE.cs
+:100644 100644 91eeca0ab6243ae3c3b29befacfb4a25aa6d25a9 e59e50e5012e2ef7656bd6d23eddb6b15476dbbd M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 078d3944ad86e98f5b1e294afd0a2a5df292ee86 7b6f68ed91d3f38a4399e3a471aa2463088bf39e M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 dd2f96db9f4370d3e2fc723b71b37e27577f1927 ff038391628a42c5570e4c2204a94a13f9bb6fa5 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 94dd5d4b4ec5029d9ae563532899eb0f21de17fb
+tree 13f258400fbfb8c69cbd8bd05149459258d7a825
+parent 5c029982290d8872d00b523d6842fb6327d05ea2
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-11 13:33:09 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-11 13:33:09 +0800
+
+    editor:修改CourseAndHTEService/RemoveHTEsForCourse方法
+
+
+
+:100644 100644 67748f17d31484b4011aae896c5e3a0274eea7e3 dd2f96db9f4370d3e2fc723b71b37e27577f1927 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 7ed7d093966f0a10437c769775a88c626413e8d5
+tree 881ee6d671f7b1f36d1821bd4b0b9b8f8b2dd043
+parent 203a7861dfde4d8894c8340e4c9917e8c820b247
+author 王奇 <wq15127015744@126.com> 2020-12-11 10:40:15 +0800
+committer 王奇 <wq15127015744@126.com> 2020-12-11 10:40:15 +0800
+
+    edit：课程主线列表 获取作业
+
+
+
+:100644 100644 379573eb80057e3dddbafaf31f3054253eebf987 6f777a022f10443c993e79b2e2c9b307c8e6b2f6 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 5c029982290d8872d00b523d6842fb6327d05ea2
+tree 5e6883b9bbff424734447394564ca305396cad29
+parent 94c54bfc43bd8bc85305337a960d8215172a0024
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-10 13:44:29 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-10 13:44:29 +0800
+
+    editor:修改备课端管理作业中心
+
+
+
+:100644 100644 ab86a5a73bfa18624198fc7aa1062797d82a661a 078d3944ad86e98f5b1e294afd0a2a5df292ee86 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 94c54bfc43bd8bc85305337a960d8215172a0024
+tree 1f2170ce44dfa115a3f530da324ed498e5b06ccc
+parent 2a2e3e034eb154372c869fd8edcbb7314c3be656
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-10 10:43:49 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-10 10:43:49 +0800
+
+    editor:修改CourseAndHTEService/RemoveHTEForCourse和CourseAndHTEService/RemoveHTEsForCourse方法
+
+
+
+:100644 100644 71945e3b95a0ec1eb492b82609ab04edfc0ede56 67748f17d31484b4011aae896c5e3a0274eea7e3 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 2a2e3e034eb154372c869fd8edcbb7314c3be656
+tree 8e277a451d7de92c295db5d90761ff46e5a90356
+parent eb00b2126cb2e8461615fa9e279cc1c8b8e92f56
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-09 11:49:41 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-09 11:49:41 +0800
+
+    editor:修改获取hteAndCourseIndex的时间筛选
+
+
+
+:100644 100644 fbd86678132614ed6f729dab9817a9bd2fce0177 ab86a5a73bfa18624198fc7aa1062797d82a661a M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 f202ed20bd031d8435df39bbcde6701a9eca9062 3b0867409afe7df68890619a70a0db682419e0ed M	Domain2/Domain.CourseBuildModel/Specification/HTEAndCourseIndexSpecification.cs
+commit eb00b2126cb2e8461615fa9e279cc1c8b8e92f56
+tree 76ed311d2a7094b7aea5cf9e91c287c5681c99da
+parent dab5b0c6011bba9789b5457206ca4ef96ee5c52e
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-08 16:02:37 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-08 16:02:37 +0800
+
+    editor:添加新方法根据课程ID和HTEID获取这个作业下的学生列表，CourseAndHTEService/GetUserInfoByHTEID1
+
+
+
+:100644 100644 5415299e635ec6ab9462813559600ab07a327aa4 8229e3fbded5ab0f532f47ea57c4609197a7f88c M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTE.cs
+:100644 100644 7f88e0d149a69b3b85d800bfcb944822b0c17276 71945e3b95a0ec1eb492b82609ab04edfc0ede56 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 7344c46739abe9ffefeab480babb4ca1fadf57df 3182352d94794d10b5d7050ca74c6158de2dff30 M	Domain2/Domain.CourseModel/Service/Interface/IClass.cs
+:100644 100644 ae9214b52525d31b1a8f61e2815d4bd84d89b0c4 35bfa7a529744c5811bef051bc5b4bda464ab6ed M	Domain2/Domain.CourseModel/Service/Interface/IRegisterCourse.cs
+:100644 100644 4009cb3d61767fb32437178bc57149aad75e0299 55118d7a8d720c9a9bbf81c08087d39003197c45 M	Domain2/Domain.CourseModel/Service/Realization/ClassService.cs
+:100644 100644 6da7de612ffd7a9a5084fb7b4ee35d66046f59e5 0ec37634a67560dd3defbb460a175c4050306aab M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs
+:100644 100644 617235929a023320351842575f36de17e98cfd75 b7668dcf1e9f687f45f51c6ced4c40f98ec4f914 M	Domain2/Domain.CourseModel/Specification/RegistCourseSpecification.cs
+commit dab5b0c6011bba9789b5457206ca4ef96ee5c52e
+tree 50c4cbed73e46417549a003f79bb16dbb8897b35
+parent e1733ceb085b29983db136e05fb9e9eaae990017
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-07 18:17:58 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-07 18:17:58 +0800
+
+    editor:修改同步作业接口
+
+
+
+:100644 100644 c36b9d3808a44f18086b192d39d74915de26a26e 91eeca0ab6243ae3c3b29befacfb4a25aa6d25a9 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 05324fe911d399db71da47c6d8c77530de3abb22 6f3a484c28363d58e074c827e160b6b83a888b07 M	Domain2/Domain.CourseBuildModel/Service/Realization/ClassPeriodService.cs
+:100644 100644 a33575cd570ed1b64b49f7d4e850d4f8c41d9a96 fbd86678132614ed6f729dab9817a9bd2fce0177 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit d50825c809d22c5e89d848b8dd43b283846745c3
+tree 61914d5d02ac8d0f4dcb53514cf657a3c7bd8c37
+parent d3f4185532fdd44249881a921d609c5f3e2a0bc5
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-07 16:00:41 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-07 16:00:41 +0800
+
+    editor:修改备课端管理作业中心
+
+
+
+:100644 100644 c92a86b8d4f2adf0523f30615131bede8b31c92d c36b9d3808a44f18086b192d39d74915de26a26e M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 95a496428cf6e8785d82a283e3853499ff2143c8 906a5c9ae8c497280ca32e15468c4c488aa37b28 M	Domain2/Domain.CourseBuildModel/Service/Realization/ClassPeriodService.cs
+:100644 100644 32717c048ad4bf6fd19be7ca77f4ddd035c17b17 a33575cd570ed1b64b49f7d4e850d4f8c41d9a96 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 45f791f436d8774e81be9d94518edc32e450d880 a898ad9954d97d112b84792bdc69f9000cdd0ac4 M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs
+:100644 100644 f8570a81e0bb63a365ae781823b8ae1350bad8f9 a4467b581275eeeeb7850647754446095106b730 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 84614a4bfc7431be1dbd7f408cfb2e0541f23357 0317b342a4262578bd06c0128f8bc2ad599ce267 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+commit 5c8b8eda50b963fc1c878b5221787fff191965f0
+tree 31ac48b883d7cd66db172dfef9b31516e424da13
+parent d4349598cd9589b8b43b2d22aed3eb6597ac0487
+author 彩娟 冯 <1446730634@qq.com> 2020-12-07 15:22:18 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-07 15:22:18 +0800
+
+    editor:自动导入班级外课程作业订阅、以及相关domain接口
+
+
+
+:100644 100644 50ae553e88e912d1d8a8954fd97ea23de581f02f 0aeb9b79bd5ffac38bb37c0ab657121b1388f159 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 bfb888ebbf9fafc4fcd44df2202fc2a1ef41bb32 a07050a278435cb519dc70bd5aaa9c0836d8bf14 M	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+:100644 100644 27ff3ab6d8548dfcdc61bf96caa1718c107758da f54c975dc011c47987556847a9a16b3800a483e0 M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+commit 448dcb52ce9760ccbb8f875ef2fa45426cb53b59
+tree 9d7eba25cf1a8cf80ca52798e4bd4d7d3c9519c4
+parent 00c73242c69e77fe361bf20418de890882c73455
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-07 11:44:22 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-07 11:44:22 +0800
+
+    editor:修改备课端复制作业接口，新作业添加索引表数据
+
+
+
+:100644 100644 a57031bdc611a22a84e7977b6e152d7e198ee1eb 95a496428cf6e8785d82a283e3853499ff2143c8 M	Domain2/Domain.CourseBuildModel/Service/Realization/ClassPeriodService.cs
+:100644 100644 708c67597e3fa3c74ff5e2d9b1b0f04f623a1a61 32717c048ad4bf6fd19be7ca77f4ddd035c17b17 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 2e064979746369b8655f0d753b6aa5444c015719 7f88e0d149a69b3b85d800bfcb944822b0c17276 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 3182352d94794d10b5d7050ca74c6158de2dff30 7344c46739abe9ffefeab480babb4ca1fadf57df M	Domain2/Domain.CourseModel/Service/Interface/IClass.cs
+:100644 100644 0d6367cf225a72f26ab3d715683d0c6c19ab0e43 aa1be411634eaa48770c7015399cec5a270eb4bd M	Domain2/Domain.CourseModel/Service/Interface/IRegisterCourse.cs
+:100644 100644 ed0c80d7c31a139cf8c10f5e36d60902c28230de 4009cb3d61767fb32437178bc57149aad75e0299 M	Domain2/Domain.CourseModel/Service/Realization/ClassService.cs
+:100644 100644 868f44a73f4a76104e1cd8f71044f2cf61931e18 45f791f436d8774e81be9d94518edc32e450d880 M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs
+:100644 100644 b7668dcf1e9f687f45f51c6ced4c40f98ec4f914 617235929a023320351842575f36de17e98cfd75 M	Domain2/Domain.CourseModel/Specification/RegistCourseSpecification.cs
+commit 203a7861dfde4d8894c8340e4c9917e8c820b247
+tree 723b162e67adabb0b391ffce7d278e12587b1bb3
+parent 904270dfda7fb30b89109e0e69fd79ef8f03adcd
+author 王奇 <wq15127015744@126.com> 2020-12-07 10:04:11 +0800
+committer 王奇 <wq15127015744@126.com> 2020-12-07 10:04:11 +0800
+
+    edit: GetClassPeriodHteContentApiRDtoList 获取除分层作业外的作业判空
+
+
+
+:100644 100644 937ab2f0cd235f4d4cd83ab1e6c2116cbc50c7a5 379573eb80057e3dddbafaf31f3054253eebf987 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 904270dfda7fb30b89109e0e69fd79ef8f03adcd
+tree 93fd4a3c989ff4ce100bad48ae51df9089a7f67d
+parent b7464679d2f21223cd7758bc5706c4a9e5940f06
+author 王奇 <wq15127015744@126.com> 2020-12-04 19:00:37 +0800
+committer 王奇 <wq15127015744@126.com> 2020-12-04 19:00:37 +0800
+
+    edit:获取课程主线下的content更改课程主线下没有分层作业问题
+
+
+
+:100644 100644 d1334b89fe18bc7eafc58dd2feb773dc0fc3eeb3 937ab2f0cd235f4d4cd83ab1e6c2116cbc50c7a5 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 3dfb3086e1318cba4fffa69b6ce01b48b6ff09d1
+tree ffa6dc230e333d4184d8cff575bf05a0ded3af83
+parent 59466fab20aa737598835c050fc22c3f18a79bfb
+author 王奇 <wq15127015744@126.com> 2020-12-04 18:25:22 +0800
+committer 王奇 <wq15127015744@126.com> 2020-12-04 18:25:22 +0800
+
+    edit:课程主线 获取作业返回模型添加classid字段
+    区分分层作业和普通作业提交人数
+
+
+
+:100644 100644 a4467b581275eeeeb7850647754446095106b730 f8570a81e0bb63a365ae781823b8ae1350bad8f9 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 f0eefce9c949a8c228f2ab90af8a62399ad17946 84614a4bfc7431be1dbd7f408cfb2e0541f23357 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:100644 100644 fc88b34f6be0a9fd4ba516a17beae219395cbba5 d1334b89fe18bc7eafc58dd2feb773dc0fc3eeb3 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 ef11270c98877d0c62c1f686be34995b0eaeced8 b8b10e1fa6ca7c2c095867f051e2f03e49b6c056 M	WebApi/WebApiCourse/Models/ReturnDto/CourseSchedule_ApiRDto.cs
+commit d4349598cd9589b8b43b2d22aed3eb6597ac0487
+tree 7637ee69cd0cd1ee6fee3c0aecb352b62c46b2ab
+parent 80809b74505f816b058961a156f706b246b57a7d
+author AnHaNIYa <1400436027@qq.com> 2020-12-04 16:00:26 +0800
+committer AnHaNIYa <1400436027@qq.com> 2020-12-04 16:00:26 +0800
+
+    editor：  升级版本
+
+
+
+:100644 100644 276a3c219674734154cc97e93d2e5944818c036a a70d8e79d4fa8ba3c6faeb78d3aaf408fe65f7d0 M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit 80809b74505f816b058961a156f706b246b57a7d
+tree 7c8d3539277d2276c61f506c9f17682b7e3f8be2
+parent 456b29491b406c883e825fb6e542aa11a01ef9f5
+author AnHaNIYa <1400436027@qq.com> 2020-12-04 15:59:27 +0800
+committer AnHaNIYa <1400436027@qq.com> 2020-12-04 15:59:27 +0800
+
+    editor: 升级版本
+
+
+
+:100644 100644 276a3c219674734154cc97e93d2e5944818c036a a70d8e79d4fa8ba3c6faeb78d3aaf408fe65f7d0 M	WebApi/CourseWebApiServer/CourseWebApiServer.csproj
+commit 456b29491b406c883e825fb6e542aa11a01ef9f5
+tree 48d0c293266c9613b01b6081093d359d659069b1
+parent 03c75fa250592ecfb20cc4e94cf8c58dedbbec1c
+author AnHaNIYa <1400436027@qq.com> 2020-12-04 15:58:49 +0800
+committer AnHaNIYa <1400436027@qq.com> 2020-12-04 15:58:49 +0800
+
+    editor:
+
+
+
+:100644 100644 fd14ec130e6f135701bed6047d07d1792bd39c40 a28de39acd316761edf88e34857f37ac49b1097f M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 5d0632a786b9ce8d1368e9043243ad5af6e27a6b
+tree 68fff4ab01e14d3f220ada5a55bb418f62e19cd9
+parent db61bb88cfa0d2fe2d14cbd9a382731386206b81
+author AnHaNIYa <1400436027@qq.com> 2020-12-04 15:19:17 +0800
+committer AnHaNIYa <1400436027@qq.com> 2020-12-04 15:19:17 +0800
+
+    editor：  AspNetCoreHostingModel
+
+
+
+:100644 100644 37a8b00f52f96061c0f6064771277ed50d3918d7 276a3c219674734154cc97e93d2e5944818c036a M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit db61bb88cfa0d2fe2d14cbd9a382731386206b81
+tree 0c2fed4d5459d19f1acf2c80f470abb377f52ee7
+parent 3867ef616dbac3499962cf8d6b0694282a9d97fa
+author AnHaNIYa <1400436027@qq.com> 2020-12-04 15:18:46 +0800
+committer AnHaNIYa <1400436027@qq.com> 2020-12-04 15:18:46 +0800
+
+    editor: 升级版本
+
+
+
+:100644 100644 165d704100c2e0a0d857542454eb8b2cdd0e2e95 7c98d945be66afbef1e77fa2c1c6fdd735e2f516 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 37a8b00f52f96061c0f6064771277ed50d3918d7 276a3c219674734154cc97e93d2e5944818c036a M	WebApi/CourseWebApiServer/CourseWebApiServer.csproj
+commit 3867ef616dbac3499962cf8d6b0694282a9d97fa
+tree 888b204eba1b8eea8a355dca2464c0ec0db28b82
+parent 076221b942ac28bc8610d656516768e3e383d0d8
+author AnHaNIYa <1400436027@qq.com> 2020-12-04 14:53:42 +0800
+committer AnHaNIYa <1400436027@qq.com> 2020-12-04 14:53:42 +0800
+
+    ediotr:  Domain.CourseBuildModel
+
+
+
+:100644 100644 a09cd1cf648688fd82f5b8255ed3ef139df35de2 016f4c667df6cbcc3dcddfc0636898eff4fb102d M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 a57031bdc611a22a84e7977b6e152d7e198ee1eb 65e22303d7bc960eaa123cfddb38177c4ef5c959 M	Domain2/Domain.CourseBuildModel/Service/Realization/ClassPeriodService.cs
+:100644 100644 7ad721cdb48eb54f5490212383d6b23fa13eaa3f 223c18ef898e01a726c2053e9aadb87292f10cdd M	Domain2/Domain.CourseTemplateModel/Service/Realization/BuildCourseService.cs
+:100644 100644 cbecc216fc845429f125386f18e7b319c70529d7 02c944608b7486ed9005d04ca49bc20a5ef74503 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+commit 21528dcaccccfc362421ab8c0391a009418a5237
+tree 76d174a16da788ed329cb021e8422b0a00edde19
+parent 75c9f2b2da21a7dcb6094f874e5bb91c14f0a75c
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-04 11:56:48 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-04 11:56:48 +0800
+
+    editor:修改复制作业接口
+
+
+
+:100644 100644 9608088a1378fa55ffcfb6a9bcfc785fafca2905 c92a86b8d4f2adf0523f30615131bede8b31c92d M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 2993031730255192812787c6d1c0632a5298f2eb 708c67597e3fa3c74ff5e2d9b1b0f04f623a1a61 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 4807b198804f5a328850588106a982a177bf4e7d 2e064979746369b8655f0d753b6aa5444c015719 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit f1aa6bfe845ca442a0c91ac15867c0f8494ed49c
+tree 89b37926e9791ee98bf177da25d14417030acbcd
+parent b092aa6bcea2447d4dd934a91d00e16122c7010d
+author AnHaNIYa <1400436027@qq.com> 2020-12-04 09:17:20 +0800
+committer AnHaNIYa <1400436027@qq.com> 2020-12-04 09:17:20 +0800
+
+    editor : 同步课程Bug
+
+
+
+:100644 100644 0d6367cf225a72f26ab3d715683d0c6c19ab0e43 35bfa7a529744c5811bef051bc5b4bda464ab6ed M	Domain2/Domain.CourseModel/Service/Interface/IRegisterCourse.cs
+:100644 100644 868f44a73f4a76104e1cd8f71044f2cf61931e18 0ec37634a67560dd3defbb460a175c4050306aab M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs
+:100644 100644 0163753ac1a3873e738a2a4a7232f39f42824fd7 b35e8b6cec85a89e0e33ad7b5ab9ea102b7d6eb1 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+:100644 100644 a526a589a1f0dfc64cd335c659365dbe94955e56 fd14ec130e6f135701bed6047d07d1792bd39c40 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 9bd0dcc0225993f3399c70c897447fc63d357bbf
+tree 740edcc28b2552adde75a494b47196c9601fbeda
+parent 3aede8c2ae2fb5957205ae4bc0274cd5df1a3304
+author 王奇 <wq15127015744@126.com> 2020-12-03 17:37:34 +0800
+committer 王奇 <wq15127015744@126.com> 2020-12-03 17:37:34 +0800
+
+    submit:GetClassPeriodHteContentApiRDtoList 查找作业人数 改为
+    GetHTETotalInfoByHTE
+
+
+
+:100644 100644 0163753ac1a3873e738a2a4a7232f39f42824fd7 fc88b34f6be0a9fd4ba516a17beae219395cbba5 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 75c9f2b2da21a7dcb6094f874e5bb91c14f0a75c
+tree c3112e69215e6d7e22964749e3900b1b6b5aa754
+parent 4e1435b2c483db8c5b03b7e10d12e7125167d3af
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 18:11:45 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 18:11:45 +0800
+
+    editor:修改备课端管理作业中心
+
+
+
+:100644 100644 652440ceda68615e0a8d5ced071cddc9c515afe9 9608088a1378fa55ffcfb6a9bcfc785fafca2905 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 8b5170cd382d1084b0b1a3ccd08c8bdd21462f66 2993031730255192812787c6d1c0632a5298f2eb M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 70d1c5d4d3dc0f5f2df28d9a5dbb5fd41fda952c f202ed20bd031d8435df39bbcde6701a9eca9062 M	Domain2/Domain.CourseBuildModel/Specification/HTEAndCourseIndexSpecification.cs
+commit 4e1435b2c483db8c5b03b7e10d12e7125167d3af
+tree 9e7874ffbff342d5a962c8725c450e1d1dd423be
+parent bb4acbe854507d844dfcbab48df53db7487d7e6c
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 16:23:00 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 16:23:00 +0800
+
+    editor:修改备课端管理作业中心
+
+
+
+:100644 100644 8decc7551c1465431ed11160aa6ce627ae617925 652440ceda68615e0a8d5ced071cddc9c515afe9 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 1456334b4acbde5fe7f0d556f209bd0ae55a517a 8b5170cd382d1084b0b1a3ccd08c8bdd21462f66 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit bb4acbe854507d844dfcbab48df53db7487d7e6c
+tree c1dd18caee9f887e7e92e69618f31d9a4846c3b2
+parent 3aede8c2ae2fb5957205ae4bc0274cd5df1a3304
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 15:59:22 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 15:59:22 +0800
+
+    editor:修改备课端管理作业中心
+
+
+
+:100644 100644 01fdef3bb7d4d5194b4a1179669301c29492251a 577cbc0cf4293b883e58eb11aee5326546305635 M	Domain2/Domain.CourseBuildModel/Index/HTEAndCourseIndex.cs
+:100644 100644 f4ba43faf195f292d82d76926c78bc305243ffc0 8decc7551c1465431ed11160aa6ce627ae617925 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 f79daf63161c05b414a324fbe5c808afdca5e0ae 1456334b4acbde5fe7f0d556f209bd0ae55a517a M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 3c07f9f70e7c39aa65a1915195b30ac6d485c91b 381aded2ee2eeab9ed39c13cc882232185c27022 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexFactory.cs
+:100644 100644 e61648f694e9518a1fefeaf8c9152eac74c0ce40 5de5d4fe59956be5cf7a7c235273e16acf0d34be M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexRAFCommonSql.cs
+:100644 100644 de15f4e3a040d5b2acd04c713569942718b4c613 03141db6668fdb1e25cf80f51daf86a13856e773 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexRepository.cs
+commit 3aede8c2ae2fb5957205ae4bc0274cd5df1a3304
+tree 0bb4434edfeded266dcd1715c8a60dfd98ad7de3
+parent 5ac179fed90f198857058149d4504dd95f622fc2
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 11:19:17 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 11:19:17 +0800
+
+    editor:修改备课端管理作业中心
+
+
+
+:100644 100644 f2fdf5043b6a2fbb137e0b3d53df53541248944b f79daf63161c05b414a324fbe5c808afdca5e0ae M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 5ac179fed90f198857058149d4504dd95f622fc2
+tree 717434404cf8c5fad0dcca0de168f7a7a548a1e6
+parent b92315fdec493f9b5e6bc6db3b7f50873353ded6
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 11:05:44 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 11:05:44 +0800
+
+    editor:修改备课端查看作业列表接口
+
+
+
+:100644 100644 b828989ea792e988461faccf751c66736cbb2b8a 70d1c5d4d3dc0f5f2df28d9a5dbb5fd41fda952c M	Domain2/Domain.CourseBuildModel/Specification/HTEAndCourseIndexSpecification.cs
+commit 6af4b954f4f9c444bcc63fcec48045afc681da5f
+tree f4fa57f7116bad0081c1454fd950439f051a6f21
+parent 7580beb3547db86d4ebdbdf5710991d770ba4417
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 09:33:17 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-02 09:33:17 +0800
+
+    editor:修改备课端管理作业中心
+
+
+
+:100644 100644 e700a57a26f8ed7a6fceac963f424249eda51db9 f2fdf5043b6a2fbb137e0b3d53df53541248944b M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 cbecc216fc845429f125386f18e7b319c70529d7 a4467b581275eeeeb7850647754446095106b730 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+commit 83b6a75cda90050a3acc16f906fb57e052eac8b7
+tree a0f0c953f496de39d2576b51c1113f825bf25510
+parent 4121867cac0acb7473fff1402e1a3b69eef4f3de
+author 彩娟 冯 <1446730634@qq.com> 2020-12-01 18:43:03 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-12-01 18:43:03 +0800
+
+    editor:布置作业分层列表新增行政班ID、行政班年级属性
+
+
+
+:100644 100644 f2dc0b5c4bd5bd4a1d3c578619ffe139db6b3954 edc4de3732486452c46ec042936e9694b41c66ae M	WebApi/WebApiCourse/Controllers/TeachingGroupController.cs
+:100644 100644 9de4ddebb64780f776051411ce46e541646ff3f9 e7dbd7fbd7efe699fd30b9e421a931b7bda27b6e M	WebApi/WebApiCourse/Models/ResTeachingGroup.cs
+commit 7580beb3547db86d4ebdbdf5710991d770ba4417
+tree 28168750a12651a656e6e5984d3331282135ee31
+parent 8e3d6666687b9d212a2f76e9a325275a8ed17bf2
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-01 17:23:58 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-01 17:23:58 +0800
+
+    editor:修改CourseAndHTEIndexService索引模型
+
+
+
+:100644 100644 d86ee1d53dd799656f0f049d84f2e2c785be5f48 01fdef3bb7d4d5194b4a1179669301c29492251a M	Domain2/Domain.CourseBuildModel/Index/HTEAndCourseIndex.cs
+:100644 100644 d9df1c1e56d9192064023ad8d0e836b6cfdb58ef f4ba43faf195f292d82d76926c78bc305243ffc0 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 149a6742b17441a4c06f1f3c02af935dff5c2ba8 e700a57a26f8ed7a6fceac963f424249eda51db9 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 04ea2177e376c19d8678b673649cc66c41a7dbb4 3c07f9f70e7c39aa65a1915195b30ac6d485c91b M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexFactory.cs
+:100644 100644 d6b2cc8f31503aec11e1b79a025283eef69fd0dd e61648f694e9518a1fefeaf8c9152eac74c0ce40 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexRAFCommonSql.cs
+:100644 100644 a20d8a34ec76033b8e5b94e2eb4f5f5a386459ac de15f4e3a040d5b2acd04c713569942718b4c613 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexRepository.cs
+commit 57cb737e2ef7ecdb52ac750132bc205c93c56d95
+tree acbfedb693e4a24dda1e55b748f6c4c81500f20d
+parent 631b3b52d1c48020d6787a0c18dc5d602497aa8e
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-01 14:25:10 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-12-01 14:25:10 +0800
+
+    editor:修改备课端查询作业中心列表接口
+
+
+
+:100644 100644 2deb91b6ef95b682862400758f378945e78ffa0e 149a6742b17441a4c06f1f3c02af935dff5c2ba8 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 4121867cac0acb7473fff1402e1a3b69eef4f3de
+tree 330f5d7d897934e7100db04295765ea7874d6483
+parent 631b3b52d1c48020d6787a0c18dc5d602497aa8e
+author 彩娟 冯 <1446730634@qq.com> 2020-11-30 18:09:41 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-11-30 18:09:41 +0800
+
+    editor:获取班级所属行政班年级
+
+
+
+:100644 100644 7a00dea573a3e4dbc2c4e4442b8b6297d1a31efb 55e8b244ee57cf3c3f90b7d209956edc72fa00cc M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 73704b63da9d0d76ca9af13d89a4c4c6fed20313
+tree 651b73e0a70ba9babc05c10cfebf540d9492efc5
+parent 521a34d6a7fdc7a97dada5e938f2b9bd404a20f3
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-30 16:37:46 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-30 16:37:46 +0800
+
+    editor:修改接口Class/GetClassInfoList的返回值增加新属性GradeNumber
+
+
+
+:100644 100644 5a9d4737637041db8dd4c402d50f6577304ed8cf ed0afdac402fc59e220da28a5a090c6dd3a2dc7e M	WebApi/WebApiCourse/Controllers/ClassController.cs
+:100644 100644 d85a30cfc1c6f4b246658c0b113cd21a8a904da1 c621aa1090eb554cb1e88e9b241e150eec08148c M	WebApi/WebApiCourse/Models/ReturnDto/ClassInfo_ApiDto.cs
+commit f0e3162eee46b23cb252353ce0bd8ac5863be2d5
+tree f74c20be5866d5525cc60de09c85f35fdb2e473f
+parent 5b8db17f9d70d9cfd8a2860f345804db9ac917f7
+author 彩娟 冯 <1446730634@qq.com> 2020-11-30 16:14:57 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2020-11-30 16:14:57 +0800
+
+    editor:自动导入课程外班级作业订阅
+
+
+
+:100644 100644 7bc50ee031a5667129763057b5a1ff097559e218 514f8df21df383902a03d22e1449cb59c5a933b6 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTE.cs
+:100644 100644 57c7883b2810ba3c4a2ad65a1062b8b05188e9f6 d32e50b0f6a4c61dbfeaa9d2b026ca02ae5bbb54 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplate.cs
+:100644 100644 980983e92117288ca579b7a697d35ed94bce156e b7997c51d2ba301f3855d3d24c1ecaf5c7143c6d M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 c799424a776e7072866810a25d971ee9edaa590e 04c5dba73ab4be6a9fe55a115d935186ed64b1a9 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+:100644 100644 eca01b2ae33e7459405804cc3dc96afd78c1fab9 a3a912a2ccd59a892d20c0e20536d836dacbdfba M	Domain2/Domain.CourseBuildModel/Specification/CourseTemplateCourseRelationSpecification.cs
+:100644 100644 fa968b15694e59ca0b691871ad677e29d4ca6757 e3ffc2ffaf92beb145e812e2cde73ff6a270a943 M	Domain2/Domain.CourseBuildModel/Specification/HTEAndCourseSpecification.cs
+:100644 100644 61bf291759115c8083ac7ec1dadfd6be33459ada bc5f3db334d327d5f3d3588b5e9ee8a0d216a3df M	Domain2/Domain.CourseModel/Service/Interface/ICourse.cs
+:100644 100644 9f4912b1053b266fa979c9e1d3ddf42657ecc88c 8b75b49c4e3b4a68cb2e2fb11d242d4729f62c12 M	Domain2/Domain.CourseModel/Service/Realization/CourseService.cs
+:100644 100644 fbd38c7db57007bfc4b909a10a56015d74924198 4a5915fa5c5e418d5ede12ba73c43c1066767a93 M	Domain2/Domain.CourseModel/Specification/TeachingCourseSpecification.cs
+:100644 100644 02c944608b7486ed9005d04ca49bc20a5ef74503 cbecc216fc845429f125386f18e7b319c70529d7 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:000000 100644 0000000000000000000000000000000000000000 bfb888ebbf9fafc4fcd44df2202fc2a1ef41bb32 A	SubscriptionService/CourseSubsReport/AutoImportHteForClassSub.cs
+:100644 100644 03f25303116f4366894002d30449bd6f512832b0 9fcae54323c272716052282188571677cc25e6cb M	SubscriptionService/CourseSubsReport/Configs/MessageTranfer.config
+:100644 100644 db5f86159ba853ebba598925f52e192a5e78bdc4 27ff3ab6d8548dfcdc61bf96caa1718c107758da M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+:100644 100644 3beb71aa59d97a630888cb768d0b31235418bb98 52e460b69e0c023ddc2b44460ec9358c963a1f65 M	SubscriptionService/CourseSubsReport/Properties/launchSettings.json
+commit 521a34d6a7fdc7a97dada5e938f2b9bd404a20f3
+tree 915c0c895d6beed0215b1c9a68c4ecdc6f06fb65
+parent e84e93c66586464ac61c228aea39cbc23554acf0
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-30 16:13:32 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-30 16:13:32 +0800
+
+    editor:修改备课端管理作业中心
+
+
+
+:100644 100644 2fc1694d0b9b44f711849f0845f0fc5a7fa99c0e 06b90ecfaafa71b98e23e705af40a5cc636f00e5 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 4c252033e087b49d80d2c9d9969dc47fd9e3baad 11d4a043888c2abd2c1bb7dd5ef5d3f485f91e78 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+commit e84e93c66586464ac61c228aea39cbc23554acf0
+tree 9dda9c3c3b518a039e2068e540c06a118dd34732
+parent ee0a109c7fea3e05f3b3c20895cffde96e36e335
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-27 18:09:54 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-27 18:09:54 +0800
+
+    editor:修改删除作业接口
+
+
+
+:100644 100644 4b3fe11ce07ee5edd535f1c739ea014de4e5027e ccc48fc51b8560fcfd07a825c4035ce7661a0e5a M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit ee0a109c7fea3e05f3b3c20895cffde96e36e335
+tree eeff4e47c39dfffe619c883b386812b1caeb6f57
+parent 0ae8913ec12360609bb6fbcff81e64e452888603
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-27 09:43:27 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-27 09:43:27 +0800
+
+    editor:管理备课端作业中心
+
+
+
+:100644 100644 d85f531a3cc7ff2ea0014d7313b204f66530832c d86ee1d53dd799656f0f049d84f2e2c785be5f48 M	Domain2/Domain.CourseBuildModel/Index/HTEAndCourseIndex.cs
+:100644 100644 2119772d5318aa68d05eb4b383ae435b8dbfa3b0 bf8a59f5551ff8013e18b58dd6eb7887265dc9d3 M	Domain2/Domain.CourseBuildModel/Service/Interface/IBussinessModelLog.cs
+:100644 100644 5b52fb72520ef949a8e2020496ba6a0e2fce89f1 6ab37499d7a7f3b1c30982b24ccec6d024d4d24f M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTE.cs
+:100644 100644 a0dbd7706c23516f3082dacac6be97b94361ecf8 d9df1c1e56d9192064023ad8d0e836b6cfdb58ef M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 57c7883b2810ba3c4a2ad65a1062b8b05188e9f6 334faefc0d7a0a4f8b94e120ba09901f711fd73d M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseTemplate.cs
+:100644 100644 97aaa93d0b72db58246bdff5927788c57abc371e 832d422716aea649e8bcfbff97f9dc905998ac09 M	Domain2/Domain.CourseBuildModel/Service/Realization/BussinessModelLogService.cs
+:100644 100644 edb64cfd2013eac993886a88b7d6b786c0f35384 9ceed34a4070d1b86cf94dbe1086e724bc478876 M	Domain2/Domain.CourseBuildModel/Service/Realization/ComFunction.cs
+:100644 100644 1674e3dd26374ed6b3d1406ee3c9242ce9173502 2deb91b6ef95b682862400758f378945e78ffa0e M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 4784b7767a117ae624d390bf4650f6264e8b39eb 4b3fe11ce07ee5edd535f1c739ea014de4e5027e M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 c799424a776e7072866810a25d971ee9edaa590e d0df0f95360aafd92dca40929917a5c40b031e92 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseTemplateService.cs
+:100644 100644 edbdb3b330f64ba0c93ca8aec0fe13e2a08b6801 e0897bc7be2fc0d5cffd73ed5a06e740c3e200d9 M	Domain2/Domain.CourseBuildModel/Specification/ClassPeriodHteContentQuerySpecification.cs
+:100644 100644 2f669b193b5217d5aaae39e444b147bc44ed3b5f b828989ea792e988461faccf751c66736cbb2b8a M	Domain2/Domain.CourseBuildModel/Specification/HTEAndCourseIndexSpecification.cs
+:100644 100644 fa968b15694e59ca0b691871ad677e29d4ca6757 dea78544d5eb35bfb853eb84910256bca7cef7f4 M	Domain2/Domain.CourseBuildModel/Specification/HTEAndCourseSpecification.cs
+:100644 100644 c9541bb1757ec135c8dc0c1e5aa8f94143eb3c2b 4c252033e087b49d80d2c9d9969dc47fd9e3baad M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 1ec06303a1879cf9f1ad7e5f58319811526fde5e 04ea2177e376c19d8678b673649cc66c41a7dbb4 M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexFactory.cs
+:100644 100644 be50007615d5e55cb112450d03556e51ef4fcfdf d6b2cc8f31503aec11e1b79a025283eef69fd0dd M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexRAFCommonSql.cs
+:100644 100644 fbf14cfeb1fc8cdf3a84f9256133513deafc32c5 a20d8a34ec76033b8e5b94e2eb4f5f5a386459ac M	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexRepository.cs
+commit 0ae8913ec12360609bb6fbcff81e64e452888603
+tree 6a2b8d9f67e7ed4807aed0d12c0bc491615343a8
+parent 3c26b589d7fdeb7485456e359f58369fe4ced444
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-23 09:37:09 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-23 09:37:09 +0800
+
+    editor:添加HTEAndCourseIndex索引表、接口和实现
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 d85f531a3cc7ff2ea0014d7313b204f66530832c A	Domain2/Domain.CourseBuildModel/Index/HTEAndCourseIndex.cs
+:100644 100644 65c19e47e76d7fe280cf7c2fd4e551f6a7a59a30 eed5f4ea82be2a7245390cadcf1f2b979e016314 M	Domain2/Domain.CourseBuildModel/Properties/PublishProfiles/FolderProfile.pubxml
+:000000 100644 0000000000000000000000000000000000000000 a0dbd7706c23516f3082dacac6be97b94361ecf8 A	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:000000 100644 0000000000000000000000000000000000000000 1674e3dd26374ed6b3d1406ee3c9242ce9173502 A	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:000000 100644 0000000000000000000000000000000000000000 2f669b193b5217d5aaae39e444b147bc44ed3b5f A	Domain2/Domain.CourseBuildModel/Specification/HTEAndCourseIndexSpecification.cs
+:000000 100644 0000000000000000000000000000000000000000 1ec06303a1879cf9f1ad7e5f58319811526fde5e A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexFactory.cs
+:000000 100644 0000000000000000000000000000000000000000 be50007615d5e55cb112450d03556e51ef4fcfdf A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexRAFCommonSql.cs
+:000000 100644 0000000000000000000000000000000000000000 fbf14cfeb1fc8cdf3a84f9256133513deafc32c5 A	Infrastructure2/EntAppSoft.Infrastructure.CourseBuildModel/HTEAndCourseIndexRepository.cs
+commit 3c26b589d7fdeb7485456e359f58369fe4ced444
+tree 7ae8915da403908b39170a91350542feb14ec762
+parent f0ad0e57eaa7e77fb7deb82bf6a485aa40d89304
+author dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-19 10:11:44 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2020-11-19 10:11:44 +0800
+
+    editor:ICourseAndHTE添加新方法GetUserInfoByHTEID。
+
+
+
+:100644 100644 7bc50ee031a5667129763057b5a1ff097559e218 5b52fb72520ef949a8e2020496ba6a0e2fce89f1 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTE.cs
+:100644 100644 980983e92117288ca579b7a697d35ed94bce156e 4784b7767a117ae624d390bf4650f6264e8b39eb M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs

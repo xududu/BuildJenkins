@@ -1,0 +1,60 @@
+Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4KDdTOLDdu1aa3eu6ou0kse9PgodpPlCyG5tEbKA9wvbAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQifUNLIz1DMws9Az0jQwsAPKfDqcwAAAA=[0m192.168.0.218 in workspace /usr/local/jenkins/workspace/CourseDomainServer_Publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/course.git
+ > git init /usr/local/jenkins/workspace/CourseDomainServer_Publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/feature-core22^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/feature-core22^{commit} # timeout=10
+Checking out Revision 20be4c0fd751d484cd2fd49e82555682b09efc14 (refs/remotes/origin/feature-core22)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 20be4c0fd751d484cd2fd49e82555682b09efc14
+Commit message: "Merge branch 'feature-core22' of http://123.56.234.251/Domain/course into feature-core22"
+ > git rev-list --no-walk 20be4c0fd751d484cd2fd49e82555682b09efc14 # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=DomainServer:CSProjFile=CourseDomainServer:BINPATH=bin/Release/netcoreapp2.2
+Build environment variables will be made available to the next build: DServicePort=20005:DOCKERIMAGENAME=coursedomainserver:DockerProName=domain:DockerImageVersion=5.0.0
+[CourseDomainServer_Publish] $ /bin/sh -xe /tmp/jenkins5423732057751750798.sh
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker pull reg.hexfuture.com/dotnet/sdk
+Using default tag: latest
+latest: Pulling from dotnet/sdk
+Digest: sha256:bacb30a69411f0f71a5ec7bb07c7a4449b20aa4571cb3a53682012d50e374768
+Status: Image is up to date for reg.hexfuture.com/dotnet/sdk:latest
++ docker pull reg.hexfuture.com/dotnet/runtime
+Using default tag: latest
+latest: Pulling from dotnet/runtime
+Digest: sha256:a93e450611b4087a3acecf0b01735f7ba181a08bdaf3862f26ee8120176e2696
+Status: Image is up to date for reg.hexfuture.com/dotnet/runtime:latest
++ cat
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker build --no-cache -t reg.hexfuture.com/domain/coursedomainserver:5.0.0 .
+Sending build context to Docker daemon  121.2MB
+Error response from daemon: Dockerfile parse error line 8: EXPOSE requires at least one argument
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

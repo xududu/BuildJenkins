@@ -1,0 +1,24 @@
+commit a868742b4c7691b5dfeb18d6143dbbf06448a366
+tree 3c3ba0a7942fc66a316b8c3271a914ac639ad2a8
+parent abfef19d0deba517204d09c3079d627eb54b280f
+author yangjialin <yangjialin@hexfuture.com> 2019-07-08 17:32:06 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-07-08 17:32:06 +0800
+
+    fix:订阅服务配置修改
+
+
+
+:100644 100644 5ac7a9dcbca789264033bb85425264dc5802e5b0 9eea74f12c9bc2faeb9aa38993baedf06464435a M	SubscriptionService/CourseSubsReport/Configs/Log4Net.config
+:100644 100644 ed23960fe20efb47a4caf3eaff8a3a1333168878 e584f33e0f0be3ac8980ba5b9407ba8642daefc9 M	SubscriptionService/CourseSubsReport/EntAppFrameWork.config
+commit 24f0c6e39eace4b8b74e785990bea2325bf91c1a
+tree 09e9f2b4e5b90c50f982d397fc1f04019c87fef5
+parent abfef19d0deba517204d09c3079d627eb54b280f
+author 王宇鹤 <2511980201@qq.com> 2019-07-08 17:11:09 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-08 17:11:09 +0800
+
+    feat:订阅配置
+
+
+
+:100644 100644 5ac7a9dcbca789264033bb85425264dc5802e5b0 e0433478d3411f4d574ac42b89ec401d890b5420 M	SubscriptionService/CourseSubsReport/Configs/Log4Net.config
+:100644 100644 ed23960fe20efb47a4caf3eaff8a3a1333168878 3c118bb2351b9ed3720e9d446d4f8768541a48ad M	SubscriptionService/CourseSubsReport/EntAppFrameWork.config

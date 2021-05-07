@@ -1,0 +1,11 @@
+commit fa57791fe27a5a37e6072f20c965ede9d1229a8f
+tree 41994bff3f2c4643306c3c412d6949ae72fb3299
+parent 120d9f39413f5056e5ec49c21d3e0039b56ed9fd
+author 王宇鹤 <2511980201@qq.com> 2019-08-06 17:32:56 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-08-06 17:32:56 +0800
+
+    feat:bc
+
+
+
+:100644 100644 308053e20429d9c7fece57e6d9e09372bd0c183d 29a6bed80a2a0e3f7b672c3e6ede5db1f75f7e9e M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config

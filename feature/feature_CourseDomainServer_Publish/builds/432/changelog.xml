@@ -1,0 +1,12 @@
+commit ae3b41e9d690fe8e37fcc2f4e4aee795d1f9c9f9
+tree 4a402aa8b5d60d324b0d3c573b9c79bc85400682
+parent 1f2a436de8be101465f748b1f2ec6915dc548d9b
+author 彩娟 冯 <1446730634@qq.com> 2021-03-23 09:45:30 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-03-23 09:45:30 +0800
+
+    editor:SearchRegisteCourseListByClassIds还原同步接口
+
+
+
+:100644 100644 20b7a09b01469f04cf514da46066225abf50b7b1 9cfbeca9bead032f55c186bc59cbd3af2bad8dea M	Domain2/Domain.CourseModel/Service/Interface/IRegisterCourse.cs
+:100644 100644 cac25067c0b9415cc8a9d57dafd2e851c0de60c0 9fc6347d9896be0eab25c2dc46cf2e3e0c417c05 M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs

@@ -1,0 +1,24 @@
+commit 87632bd367500aa46a5a518970cfd4faf77b070d
+tree ed5b79112a8636f4d0a93c27fd9f5fdb71f4dd34
+parent d6c26a9be1b5cb7806ec8dae6c00771e131beaa4
+author yangjialin <yangjialin@hexfuture.com> 2019-07-22 11:21:21 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-07-22 11:21:21 +0800
+
+    fix:命名空间
+
+
+
+:100644 100644 4a94b907f1bee07b36816e0981486bedf7dff49d 9aba8cd4a29fc2020a260965533dfe7b93dc8425 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 2d543ba326ee99c3c69be6a8b8747bd2ede8de4e 452673cfe93601c3389f145e5cfff8f72f7feacb M	WebApi/WebApiCourse/Controllers/CourseAndContentCommonController.cs
+commit d6c26a9be1b5cb7806ec8dae6c00771e131beaa4
+tree 5463d03e77380b71961490c79d7b2778baadb595
+parent a590249537991e62edb884b1f2173ae7e57c4b8c
+author yangjialin <yangjialin@hexfuture.com> 2019-07-22 10:24:23 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-07-22 10:24:23 +0800
+
+    fix: 修改控制器名称
+
+
+
+:100644 100644 3a5fe5808064ee006e74628cce498f993d58ebce 2d543ba326ee99c3c69be6a8b8747bd2ede8de4e R084	WebApi/WebApiCourse/Controllers/CourseAndExercisePoolController.cs	WebApi/WebApiCourse/Controllers/CourseAndContentCommonController.cs
+:100644 100644 c51a71d88bf3bc3924df14ec8c145dbc5797281f 0279ef9bf2aff382865ca80faf6409e20df24a97 M	WebApi/WebApiCourse/Controllers/CourseController.cs

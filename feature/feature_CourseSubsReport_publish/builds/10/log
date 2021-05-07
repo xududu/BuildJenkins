@@ -1,0 +1,211 @@
+Started by upstream project "[8mha:////4IMyMJNAvnFdPXj2qzEtnE0lkA6j7uZToQ+3yGZSJe9WAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH3HnBzn/NKi4lR9AHm2i67EAAAA[0mAllCourse" build number [8mha:////4J+mhbk9GTi9h0PEtoAYMoX3LqCUjuakD2VRT+Fzol73AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwkfcecHOf80qLiVH1jAK+wrQjFAAAA[0m3
+originally caused by:
+ Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/jenkins_home/workspace/CourseSubsReport_publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/course.git
+ > git init /var/jenkins_home/workspace/CourseSubsReport_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/feature-core22^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/feature-core22^{commit} # timeout=10
+Checking out Revision c62ae66eb6c069bb1315d60e19be551304af2ff9 (refs/remotes/origin/feature-core22)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c62ae66eb6c069bb1315d60e19be551304af2ff9
+Commit message: "Merge branch 'feature-core22' of http://123.56.234.251/Domain/course into feature-core22"
+ > git rev-list --no-walk 8d625bffbcbbcbb4f1cffad610666ff77d741143 # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=SubscriptionService:CSProjFile=CourseSubsReport:BINPATH=bin/Release/netcoreapp2.2
+[CourseSubsReport_publish] $ /bin/sh -xe /tmp/jenkins4533799734803232842.sh
++ cd SubscriptionService/CourseSubsReport
++ dotnet clean CourseSubsReport.csproj
+Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/16/19 11:43:05 AM.
+     1>Project "/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj" on node 1 (Clean target(s)).
+     1>CoreClean:
+         Creating directory "obj/Debug/netcoreapp2.2/".
+     1>Done Building Project "/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj" (Clean target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
++ dotnet publish CourseSubsReport.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp2.2
+Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 10.74 sec for /var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj.
+  CourseSubsReport -> /var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp2.2/CourseSubsReport.dll
+  CourseSubsReport -> /var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp2.2/publish/
++ pwd
+/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport
++ cd bin/Release/netcoreapp2.2/publish/
++ exiftool AipSdk.dll CommonServiceLocator.SolrNet.Cloud.dll CommonServiceLocator.SolrNet.dll CommonServiceLocator.dll CommonTools.dll+  Confluent.Kafka.dll Core.ReportModel.dll CoreCompat.System.ComponentModel.Attributes.dll CourseSubsReport.dll Domain.CommunicationModel.Interface.dll Domain.CommunicationModel.dll Domain.ContentModel.dll Domain.CourseBuildModel.dll Domain.CourseModel.dllegrep Domain.CourseRedisModel.dll ^File Name|^File Version Number Domain.CoursewareModel.dll
+ Domain.EbookModel.dll Domain.ExecutiveClass.dll Domain.ExerciseModel.dll Domain.HTEPaperModel.dll Domain.HomeTestExamModel.dll Domain.KeyPointModel.dll Domain.LGLogAndReportModel.dll Domain.LicenseModel.dll Domain.MenuModel.dll Domain.MultipleTeachingModel.dll Domain.OrderModel.dll Domain.ProductModel.dll Domain.SalesQueryModel.dll Domain.SyllabusModel.dll Domain.SystemModel.dll Domain.UserModel.dll DomainModelStructure.dll DomainProcess.dll DotNetty.Buffers.dll DotNetty.Codecs.dll DotNetty.Common.dll DotNetty.Handlers.dll DotNetty.Transport.Libuv.dll DotNetty.Transport.dll EntAppFrameWork.AOP.dll EntAppFrameWork.AuthenticationAndAuthorization.dll EntAppFrameWork.Common.dll EntAppFrameWork.DataAccess.Redis.dll EntAppFrameWork.DataAccess.SqlServer.dll EntAppFrameWork.DataAccess.dll EntAppFrameWork.DomainModel.dll EntAppFrameWork.Log.dll EntAppFrameWork.PCL.dll EntAppFrameWork.PublishSubscribe.Kafka.dll EntAppFrameWork.PublishSubscribe.dll EntAppFrameWork.RPC.dll EntAppFrameWork.SerialNumber.dll EntAppFrameWork.Staticization.dll EntAppFrameWork.dll Microsoft.AspNetCore.Authentication.Abstractions.dll Microsoft.AspNetCore.Authentication.Core.dll Microsoft.AspNetCore.Connections.Abstractions.dll Microsoft.AspNetCore.Diagnostics.Abstractions.dll+  Microsoft.AspNetCore.Diagnostics.dll Microsoft.AspNetCore.HostFiltering.dll Microsoft.AspNetCore.Hosting.Abstractions.dll Microsoft.AspNetCore.Hosting.Server.Abstractions.dll Microsoft.AspNetCore.Hosting.dll Microsoft.AspNetCore.Http.Abstractions.dll Microsoft.AspNetCore.Http.Extensions.dll Microsoft.AspNetCore.Http.Features.dll Microsoft.AspNetCore.Http.dllawk Microsoft.AspNetCore.HttpOverrides.dll Microsoft.AspNetCore.Routing.Abstractions.dll -F Microsoft.AspNetCore.Routing.dll : Microsoft.AspNetCore.Server.IIS.dll {tmp=$2;getline;print tmp" :"$2} Microsoft.AspNetCore.Server.IISIntegration.dll
+ Microsoft.AspNetCore.Server.Kestrel.Core.dll Microsoft.AspNetCore.Server.Kestrel.Https.dll Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll Microsoft.AspNetCore.Server.Kestrel.dll Microsoft.AspNetCore.WebUtilities.dll Microsoft.AspNetCore.dll Microsoft.CodeAnalysis.CSharp.Workspaces.dll Microsoft.CodeAnalysis.CSharp.dll Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll Microsoft.CodeAnalysis.VisualBasic.dll Microsoft.CodeAnalysis.Workspaces.dll Microsoft.CodeAnalysis.dll Microsoft.Extensions.Configuration.Abstractions.dll Microsoft.Extensions.Configuration.Binder.dll Microsoft.Extensions.Configuration.CommandLine.dll Microsoft.Extensions.Configuration.EnvironmentVariables.dll Microsoft.Extensions.Configuration.FileExtensions.dll Microsoft.Extensions.Configuration.Json.dll Microsoft.Extensions.Configuration.UserSecrets.dll Microsoft.Extensions.Configuration.dll Microsoft.Extensions.DependencyInjection.Abstractions.dll Microsoft.Extensions.DependencyInjection.dll Microsoft.Extensions.FileProviders.Abstractions.dll Microsoft.Extensions.FileProviders.Physical.dll Microsoft.Extensions.FileSystemGlobbing.dll Microsoft.Extensions.Hosting.Abstractions.dll Microsoft.Extensions.Logging.Abstractions.dll Microsoft.Extensions.Logging.Configuration.dll Microsoft.Extensions.Logging.Console.dll Microsoft.Extensions.Logging.Debug.dll Microsoft.Extensions.Logging.EventSource.dll Microsoft.Extensions.Logging.dll Microsoft.Extensions.ObjectPool.dll Microsoft.Extensions.Options.ConfigurationExtensions.dll Microsoft.Extensions.Options.dll Microsoft.Extensions.Primitives.dll Microsoft.Net.Http.Headers.dll Newtonsoft.Json.dll PinYinConverterCore.dll Pipelines.Sockets.Unofficial.dll Polly.dll RWSServiceRuntime.dll Receive.Logic.dll Receive.Push.dll Receive.Service.dll Report.DAL.dll Report.Helper.dll Report.Model.dll SolrNet.Cloud.dll SolrNet.dll StackExchange.Redis.dll SubsribePublishDTO.dll System.Composition.AttributedModel.dll System.Composition.Convention.dll System.Composition.Hosting.dll System.Composition.Runtime.dll System.Composition.TypedParts.dll System.Configuration.ConfigurationManager.dll System.Data.DataSetExtensions.dll System.Data.SqlClient.dll System.Diagnostics.PerformanceCounter.dll System.IO.Pipelines.dll System.Runtime.CompilerServices.Unsafe.dll System.Security.Cryptography.ProtectedData.dll System.Security.Permissions.dll System.ServiceModel.Primitives.dll System.ServiceModel.dll System.Text.Encoding.CodePages.dll System.Text.Encodings.Web.dll System.Threading.Channels.dll ZooKeeperNetEx.dll aliyun.oss.sdk.core-2.5.3.dll.dll log4net.dll
+ AipSdk.dll : 3.6.13.0
+ CommonServiceLocator.SolrNet.Cloud.dll : 1.0.14.0
+ CommonServiceLocator.SolrNet.dll : 1.0.14.0
+ CommonServiceLocator.dll : 2.0.2.0
+ CommonTools.dll : 5.0.1.0
+ Confluent.Kafka.dll : 0.11.6.0
+ Core.ReportModel.dll : 5.0.2.1
+ CoreCompat.System.ComponentModel.Attributes.dll : 4.2.3.0
+ CourseSubsReport.dll : 1.0.0.0
+ Domain.CommunicationModel.Interface.dll : 5.0.1.0
+ Domain.CommunicationModel.dll : 5.0.1.0
+ Domain.ContentModel.dll : 5.0.1.0
+ Domain.CourseBuildModel.dll : 5.0.1.0
+ Domain.CourseModel.dll : 5.0.1.0
+ Domain.CourseRedisModel.dll : 5.0.1.0
+ Domain.CoursewareModel.dll : 5.0.1.0
+ Domain.EbookModel.dll : 5.0.5.0
+ Domain.ExecutiveClass.dll : 5.0.1.0
+ Domain.ExerciseModel.dll : 5.0.2.1
+ Domain.HTEPaperModel.dll : 1.0.0.0
+ Domain.HomeTestExamModel.dll : 5.0.3.1
+ Domain.KeyPointModel.dll : 5.0.6.0
+ Domain.LGLogAndReportModel.dll : 5.0.1.0
+ Domain.LicenseModel.dll : 5.0.1.0
+ Domain.MenuModel.dll : 5.0.1.0
+ Domain.MultipleTeachingModel.dll : 5.0.1.0
+ Domain.OrderModel.dll : 5.0.1.0
+ Domain.ProductModel.dll : 5.0.1.0
+ Domain.SalesQueryModel.dll : 5.0.1.0
+ Domain.SyllabusModel.dll : 5.0.1.0
+ Domain.SystemModel.dll : 5.0.1.0
+ Domain.UserModel.dll : 5.0.1.0
+ DomainModelStructure.dll : 4.0.0.0
+ DomainProcess.dll : 5.0.0.0
+ DotNetty.Buffers.dll : 0.6.0.0
+ DotNetty.Codecs.dll : 0.6.0.0
+ DotNetty.Common.dll : 0.6.0.0
+ DotNetty.Handlers.dll : 0.6.0.0
+ DotNetty.Transport.Libuv.dll : 0.6.0.0
+ DotNetty.Transport.dll : 0.6.0.0
+ EntAppFrameWork.AOP.dll : 4.0.0.0
+ EntAppFrameWork.AuthenticationAndAuthorization.dll : 4.0.0.0
+ EntAppFrameWork.Common.dll : 4.0.3.0
+ EntAppFrameWork.DataAccess.Redis.dll : 4.0.0.0
+ EntAppFrameWork.DataAccess.SqlServer.dll : 4.0.0.0
+ EntAppFrameWork.DataAccess.dll : 4.0.0.0
+ EntAppFrameWork.DomainModel.dll : 4.0.2.0
+ EntAppFrameWork.Log.dll : 4.0.0.0
+ EntAppFrameWork.PCL.dll : 4.0.1.0
+ EntAppFrameWork.PublishSubscribe.Kafka.dll : 4.0.1.0
+ EntAppFrameWork.PublishSubscribe.dll : 4.0.0.0
+ EntAppFrameWork.RPC.dll : 4.0.1.0
+ EntAppFrameWork.SerialNumber.dll : 4.0.0.0
+ EntAppFrameWork.Staticization.dll : 4.0.0.0
+ EntAppFrameWork.dll : 4.0.2.0
+ Microsoft.AspNetCore.Authentication.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Authentication.Core.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Connections.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Diagnostics.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Diagnostics.dll : 2.2.0.18316
+ Microsoft.AspNetCore.HostFiltering.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Hosting.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Hosting.Server.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Hosting.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.Extensions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.Features.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.dll : 2.2.0.18316
+ Microsoft.AspNetCore.HttpOverrides.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Routing.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Routing.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.IIS.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.IISIntegration.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Core.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Https.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.dll : 2.2.0.18316
+ Microsoft.AspNetCore.WebUtilities.dll : 2.2.0.18316
+ Microsoft.AspNetCore.dll : 2.2.0.18316
+ Microsoft.CodeAnalysis.CSharp.Workspaces.dll : 2.10.0.0
+ Microsoft.CodeAnalysis.CSharp.dll : 2.10.0.0
+ Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll : 2.10.0.0
+ Microsoft.CodeAnalysis.VisualBasic.dll : 2.10.0.0
+ Microsoft.CodeAnalysis.Workspaces.dll : 2.10.0.0
+ Microsoft.CodeAnalysis.dll : 2.10.0.0
+ Microsoft.Extensions.Configuration.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.Binder.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.CommandLine.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.EnvironmentVariables.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.FileExtensions.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.Json.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.UserSecrets.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.dll : 2.2.0.18315
+ Microsoft.Extensions.DependencyInjection.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.DependencyInjection.dll : 2.2.0.18315
+ Microsoft.Extensions.FileProviders.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.FileProviders.Physical.dll : 2.2.0.18315
+ Microsoft.Extensions.FileSystemGlobbing.dll : 2.2.0.18315
+ Microsoft.Extensions.Hosting.Abstractions.dll : 2.2.0.18316
+ Microsoft.Extensions.Logging.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.Configuration.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.Console.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.Debug.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.EventSource.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.dll : 2.2.0.18315
+ Microsoft.Extensions.ObjectPool.dll : 2.2.0.18315
+ Microsoft.Extensions.Options.ConfigurationExtensions.dll : 2.2.0.18315
+ Microsoft.Extensions.Options.dll : 2.2.0.18315
+ Microsoft.Extensions.Primitives.dll : 2.2.0.18315
+ Microsoft.Net.Http.Headers.dll : 2.2.0.18316
+ Newtonsoft.Json.dll : 12.0.1.22727
+ PinYinConverterCore.dll : 1.0.2.0
+ Pipelines.Sockets.Unofficial.dll : 1.0.7.56431
+ Polly.dll : 7.0.3.0
+ RWSServiceRuntime.dll : 5.1.2.0
+ Receive.Logic.dll : 5.0.2.0
+ Receive.Push.dll : 5.0.2.0
+ Receive.Service.dll : 5.0.1.0
+ Report.DAL.dll : 5.0.2.0
+ Report.Helper.dll : 5.0.2.0
+ Report.Model.dll : 5.0.2.0
+ SolrNet.Cloud.dll : 1.0.14.0
+ SolrNet.dll : 1.0.14.0
+ StackExchange.Redis.dll : 2.0.519.65453
+ SubsribePublishDTO.dll : 5.0.1.0
+ System.Composition.AttributedModel.dll : 4.6.24705.1
+ System.Composition.Convention.dll : 4.6.24705.1
+ System.Composition.Hosting.dll : 4.6.24705.1
+ System.Composition.Runtime.dll : 4.6.24705.1
+ System.Composition.TypedParts.dll : 4.6.24705.1
+ System.Configuration.ConfigurationManager.dll : 4.6.26515.6
+ System.Data.DataSetExtensions.dll : 4.6.26515.6
+ System.Data.SqlClient.dll : 4.6.27110.4
+ System.Diagnostics.PerformanceCounter.dll : 4.6.26515.6
+ System.IO.Pipelines.dll : 4.6.26919.2
+ System.Runtime.CompilerServices.Unsafe.dll : 4.6.26919.2
+ System.Security.Cryptography.ProtectedData.dll : 4.6.26515.6
+ System.Security.Permissions.dll : 4.6.26515.6
+ System.ServiceModel.Primitives.dll : 4.6.26720.1
+ System.ServiceModel.dll : 4.6.26720.1
+ System.Text.Encoding.CodePages.dll : 4.6.26515.6
+ System.Text.Encodings.Web.dll : 4.6.26515.6
+ System.Threading.Channels.dll : 4.6.26515.6
+ ZooKeeperNetEx.dll : 3.4.12.1
+ aliyun.oss.sdk.core-2.5.3.dll.dll : 2.5.3.0
+ log4net.dll : 2.0.8.0
++ rm -rf /var/jenkins_home/workspace/CourseSubsReport_docker_build
++ cp -r ./ /var/jenkins_home/workspace/CourseSubsReport_docker_build
+Finished: SUCCESS

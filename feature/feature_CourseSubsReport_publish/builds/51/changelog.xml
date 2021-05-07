@@ -1,0 +1,15 @@
+commit 38a0781ef6e6930fb8b22c8a597a83fb30025edc
+tree 885706ef3c4b61805dfa24f8e0801f92d8d47ca2
+parent a30b761f1aea74ed5829e92c25b74551dc798d68
+author 彩娟 冯 <1446730634@qq.com> 2019-08-28 14:42:42 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-08-28 14:42:42 +0800
+
+    Log4Net.config
+
+
+
+:100644 100644 660bac539d0ada4b81b7d507af902263690bb298 0a116b0849765bf1252e7909ba1a4efc7434f638 M	DomainServer/CourseDomainServer/Configs/Log4Net.config
+:100644 100644 660bac539d0ada4b81b7d507af902263690bb298 0a116b0849765bf1252e7909ba1a4efc7434f638 M	SubscriptionService/CourseSubsReport/Configs/Log4Net.config
+:100644 100644 17bb6782c3dc8ad8154f6071c00b30a61883cd23 c87e469812a8dfbec361bafb59b835d184b12c76 M	SyncAndCheckServer/SyncCourseServer/Configs/Log4Net.config
+:100644 100644 7add9055119348cef189292db4575dfc4f85462b 1f6c14259f51173375b1f626a243d69f429a59f8 M	WebApi/CourseWebAPIServer/Configs/Log4Net.config
+:100644 100644 7add9055119348cef189292db4575dfc4f85462b 1f6c14259f51173375b1f626a243d69f429a59f8 M	WebApi/CourseWebApiServer/Configs/Log4Net.config

@@ -1,0 +1,12 @@
+commit 71d71ee1b26ba602e2d9b1ae48caa9f547340f00
+tree a46864e470b1794b17b76d9f69f2802690148046
+parent ee34786fc0afcb4b66a91631cbf7c351b0735e6f
+author AnHaNIYa <1400436027@qq.com> 2021-02-20 15:06:24 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-20 15:06:24 +0800
+
+    修改 框架隐式、显式   LazyLoad定义
+
+
+
+:100644 100644 21e2e2e530963ba9dd5c3cb124cfb5ea75068db9 cce8494a15076b7495ed69a0cf3efca05ee46c74 M	Domain2/Domain.CourseTemplateModel/Core/CourseTemplate.cs
+:100644 100644 65abd928f3a3f2ddc39272e3732137fe935c6217 406db6683d2de4907e53bb06a7f7b9ed47e231b8 M	Domain2/Domain.CourseTemplateModel/Core/DirectoryInfo.cs

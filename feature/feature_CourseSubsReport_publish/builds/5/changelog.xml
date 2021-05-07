@@ -1,0 +1,14 @@
+commit abfef19d0deba517204d09c3079d627eb54b280f
+tree d88d2d32014a9539250db7c7d71682a746afc3fa
+parent f049ae01c11f0b44a820dd41f0f1815262fff558
+author yangjialin <yangjialin@hexfuture.com> 2019-07-08 16:36:11 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-07-08 16:36:11 +0800
+
+    fix:添加业务DLL
+
+
+
+:100644 100644 dc20ea613445284dc54aa376c327b93d6813933c b4719b402b849e53e52b9e46a822a2b02c83b1e9 M	SubscriptionService/CourseSubsReport/Configs/MessageTranfer.config
+:100644 100644 26ed8d5436678b810e32722adf25128decf2d629 8227e80630235903a987925efe7d8533663b81c1 M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+:100644 100644 7030952d62a213c5b9d75c09c445638959310126 5f8a68d94ea7ccfbe32e650cd3b9dc480cd9ca81 M	SubscriptionService/CourseSubsReport/Host.cs
+:000000 100644 0000000000000000000000000000000000000000 68be41a55b6d4377e3905252ad481e415a97357a A	SubscriptionService/CourseSubsReport/Properties/launchSettings.json

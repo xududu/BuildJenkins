@@ -1,0 +1,22 @@
+commit c2eba5fb03d9bbaa0a7e7db313441cbe8e581826
+tree 5a386b5d6e48ad620153f7218a796c0ddccf0482
+parent 879a0fe3b10818e435074788aa8433c0316d13e7
+author yangjialin <yangjialin@hexfuture.com> 2019-08-10 17:32:07 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-08-10 17:32:07 +0800
+
+    fix:修改配置
+
+
+
+:100644 100644 b4719b402b849e53e52b9e46a822a2b02c83b1e9 9549ef30867797067876ef8d846ef44e8cfa57d3 M	SubscriptionService/CourseSubsReport/Configs/MessageTranfer.config
+commit 482e6c5d7b32a1388732e61a990470a492822b70
+tree 39e46d10adb39c1d0f454484802373ec7430ce3d
+parent 879a0fe3b10818e435074788aa8433c0316d13e7
+author 王宇鹤 <2511980201@qq.com> 2019-08-10 17:19:00 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-08-10 17:19:00 +0800
+
+    feat:订阅方法
+
+
+
+:100644 100644 b4719b402b849e53e52b9e46a822a2b02c83b1e9 b4e5e98a964e706fef36ef28bc21877c39e2f71b M	SubscriptionService/CourseSubsReport/Configs/MessageTranfer.config

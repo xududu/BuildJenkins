@@ -1,0 +1,23 @@
+commit 8dc55d25e3718d40ca7ad0d0c2b9bb701744b20b
+tree a259c4642e17e55e0fbc821f17ae40b29484c3ac
+parent 943c8d0830f86c1943c5d86d7c36edad7c1c444f
+author yangjialin <yangjialin@hexfuture.com> 2020-10-16 19:07:01 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2020-10-16 19:07:01 +0800
+
+    edit:remove SearchUserRegistedCourseList2 test In
+
+
+
+:100644 100644 162aa537ac3721cfe9f91a63d909b95c44bd6563 b8c588f8127f8901ae1185aac058e52a24a5b2c8 M	Domain2/Domain.CourseModel/Service/Interface/IRegisterCourse.cs
+commit 943c8d0830f86c1943c5d86d7c36edad7c1c444f
+tree 3d8e062ad4724ca6c35ff3e3c2cb56e992e67fe7
+parent e77c368fd4fea2ddb93bf08161ec30dfab848778
+author yangjialin <yangjialin@hexfuture.com> 2020-10-16 19:06:08 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2020-10-16 19:06:08 +0800
+
+    edit:UserRegistedCourseDto Protobuf
+
+
+
+:100644 100644 93167a08e6705f4782230fd0026de6c02fb46d5a bf92e33210e8cf1dd821c9cfcd856d095aded844 M	Domain2/Domain.CourseModel/DTO/UserRegistedCourseDto.cs
+:100644 100644 0d6367cf225a72f26ab3d715683d0c6c19ab0e43 162aa537ac3721cfe9f91a63d909b95c44bd6563 M	Domain2/Domain.CourseModel/Service/Interface/IRegisterCourse.cs

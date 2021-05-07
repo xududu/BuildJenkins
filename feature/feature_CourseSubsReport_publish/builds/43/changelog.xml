@@ -1,0 +1,12 @@
+commit 54d9e6b41ce170617edd0d25b402041b527973e3
+tree ed5ff77707bbb5e30770c3a1667327606367f238
+parent 8c3a70d647494251ac6e021ba0a517dfb6b1e111
+author gaofeng <gaofeng@hexfuture.com> 2019-08-22 18:39:54 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-08-22 18:39:54 +0800
+
+    feature:redis使用改为using
+
+
+
+:100644 100644 c2f37add50d41c5033b7ee99c2a4b8a6388b1919 a779b3fe4e0c2f876afc9d538dc2497c91cd4de8 M	WebApi/WebApiCourse/Controllers/ClassRoomController.cs
+:100644 100644 52b146118ccf7b6a4aa66e0b68df9f1f4ef401a9 a5f6dd585677ecafacc7a39867af2f2d0e1ed2e7 M	WebApi/WebApiCourse/Controllers/CourseController.cs

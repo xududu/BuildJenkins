@@ -1,0 +1,167 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>AllPublish</upstreamProject>
+            <upstreamUrl>job/AllPublish/</upstreamUrl>
+            <upstreamBuild>10</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>admin</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.envinject.EnvInjectPluginAction plugin="envinject@2.1.6"/>
+    <hudson.plugins.git.util.BuildData plugin="git@3.10.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/dev-async</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.8.0">
+              <sha1>44d11034e3537f3f75ff002a34f15379b00e5136</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/dev-async</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>84</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>refs/remotes/origin/dev</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.8.0">
+              <sha1>d05b0765f7e1c1cc147d99bc55f93c826d39fca3</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/dev</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision plugin="git-client@2.8.0">
+              <sha1 reference="../../marked/sha1"/>
+              <branches class="list">
+                <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>74</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>refs/remotes/origin/feature-core22</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.8.0">
+              <sha1>7626240a224627d726b4812b7325b72b0845b0e2</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/feature-core22</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision plugin="git-client@2.8.0">
+              <sha1 reference="../../marked/sha1"/>
+              <branches class="list">
+                <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>55</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>refs/remotes/origin/feature-hteTrash</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.8.0">
+              <sha1>483b253bec80a3c8ec5c6308241042491c169de0</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/feature-hteTrash</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision plugin="git-client@2.8.0">
+              <sha1 reference="../../marked/sha1"/>
+              <branches class="list">
+                <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>67</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>ssh://git@123.56.234.251:10022/Domain/course.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.10.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/dev-async</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/usr/local/jenkins/workspace/feature_CourseSubsReport_publish</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <org.jenkinsci.plugins.envpropagator.EnvMapperAction plugin="build-env-propagator@1.0">
+      <customEnvMapping>
+        <entry>
+          <string>CSProjPath</string>
+          <string>SubscriptionService</string>
+        </entry>
+        <entry>
+          <string>DOCKERIMAGENAME</string>
+          <string>coursesubsreport</string>
+        </entry>
+        <entry>
+          <string>BINPATH</string>
+          <string>bin/Release/netcoreapp3.1</string>
+        </entry>
+        <entry>
+          <string>DockerProName</string>
+          <string>subs</string>
+        </entry>
+        <entry>
+          <string>ServiceName</string>
+          <string>coursesubsreport-w1</string>
+        </entry>
+        <entry>
+          <string>CSProjFile</string>
+          <string>CourseSubsReport</string>
+        </entry>
+        <entry>
+          <string>DockerName</string>
+          <string>w1.coursesubsreport.sub.group.hex.com</string>
+        </entry>
+      </customEnvMapping>
+    </org.jenkinsci.plugins.envpropagator.EnvMapperAction>
+    <org.jenkinsci.plugins.envpropagator.BuildEnvContributorAction plugin="build-env-propagator@1.0"/>
+  </actions>
+  <queueId>808</queueId>
+  <timestamp>1604047115776</timestamp>
+  <startTime>1604047115780</startTime>
+  <result>SUCCESS</result>
+  <duration>468891</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>192.168.1.219</builtOn>
+  <workspace>/usr/local/jenkins/workspace/feature_CourseSubsReport_publish</workspace>
+  <hudsonVersion>2.235.3</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@3.10.1">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

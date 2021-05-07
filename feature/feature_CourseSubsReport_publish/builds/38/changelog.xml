@@ -1,0 +1,26 @@
+commit deccc21d4c841f0854b34820b5d9ea8d8ba71207
+tree 39594de38edbb4073be501baf4be307d9785173f
+parent 5499e3ee63698723dda6da95411834a82457a886
+author 王宇鹤 <2511980201@qq.com> 2019-08-19 16:24:39 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-08-19 16:24:39 +0800
+
+    feat: 修改配置
+
+
+
+:100644 100644 5cb01b5b384fdbc8577ab85a5fa7675d129cb80d 131afed56b65f717df8a2c97b6bc398a78fab9b8 M	SubscriptionService/CourseSubsReport/EntAppFrameWork.config
+:100644 100644 64636fd4fc9d40410bc481097daced95a9972e70 c8d6729108ef6f9b0502c81b6483147e9ca173c4 M	SyncAndCheckServer/SyncCourseServer/Properties/launchSettings.json
+commit ddc408808a1aaf4e790e9a4bff2cd55e29c5905f
+tree 773e00ed8256253254103dbea6c306bdb20231f1
+parent b2a18e35472ef8a6d198b7b0a6e59c05863d231f
+author yangjialin <yangjialin@hexfuture.com> 2019-08-19 14:59:08 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-08-19 14:59:08 +0800
+
+    fix:GetUserExercisePoolByCourseId 习题数量为“”的bug
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logError20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logInfo20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logWarn20190819.txt
+:100644 100644 62636d1754a49dfbe8e965bce6b319805eeb5b2e 76a0b0bff3f3aa0860475ae617f9649521aab0ad M	WebApi/WebApiCourse/Controllers/CourseAndContentCommonController.cs

@@ -1,0 +1,35 @@
+commit 879a0fe3b10818e435074788aa8433c0316d13e7
+tree 5ff01d864a022ce0c7183f000ac9506c4391eb5c
+parent 4b783ecec927ec769bdf3883f0116e0e8c63c4ca
+author 王宇鹤 <2511980201@qq.com> 2019-08-10 16:46:55 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-08-10 16:46:55 +0800
+
+    关闭组件日志
+
+
+
+:100644 100644 f108724efcfd79e0ea2d856a9e5ecffd584c6084 10c24362d15302b4abdca09714e9142e164b4b26 M	SubscriptionService/CourseSubsReport/EntAppFrameWork.config
+commit 0ff75442b2e2324373385f4e8c2951d7aa00ff8e
+tree 4d48d2f10c37ac2bfb7b0a2fa7e38491be4e15b1
+parent c27df6bfcf25086a01533d959fed06ce3db303e8
+author 王宇鹤 <2511980201@qq.com> 2019-08-10 16:16:14 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-08-10 16:16:14 +0800
+
+    feat: RemoveStudent
+
+
+
+:100644 100644 00817c8b61cfedfb5689204254c500ff9ad81651 5a8ec5322648cce8780c4655c637f29cfab1d688 M	WebApi/WebApiCourse/Controllers/ManageTeachingGroupController.cs
+:100644 100644 dbd6b75b336fdab13d645ed3bac340e2eaedf4ba df96771b703e8758aa6991c0ec76bcce8bb62551 M	WebApi/WebApiCourse/Models/ReqTeachingGroup.cs
+commit 5de5d5d4aba236057ef8145509f851a46e094c49
+tree f534568e8627f1014def529f5ec6c97f45b9c03a
+parent c27df6bfcf25086a01533d959fed06ce3db303e8
+author 彩娟 冯 <1446730634@qq.com> 2019-08-10 15:48:19 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-08-10 15:48:19 +0800
+
+    去日志
+
+
+
+:100644 100644 e649e1a1844f9fb5952094590b7436582bc5c711 33d104e3a42fa13da643a61b019fcabeaebf0fd1 M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 5d35d2cad5ec08019ef892349c2ddeb20c8921f8 52b146118ccf7b6a4aa66e0b68df9f1f4ef401a9 M	WebApi/WebApiCourse/Controllers/CourseController.cs

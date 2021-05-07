@@ -1,0 +1,13 @@
+commit 6b552718d1f6818e23564d92c5440a32eba485dc
+tree 39455aedf2986bbf32374dc3ec1c5f2e8f4b28aa
+parent cda18b473344bf638e8dced9aadcfa06dc74a845
+author dongjiazhe <dongjiazhe@hexfuture.com> 2021-03-16 11:04:57 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2021-03-16 11:04:57 +0800
+
+    editor:修改CoursewareContent模型CreateUserID属性
+
+
+
+:100644 100644 955d142a0ba458b0d9442eb42a4eccc4b710c8c2 c777a2f060aef96ef0c0d9963d21457888eee400 M	Domain2/Domain.CourseBuildModel/Core/CoursewareContent.cs
+:100644 100644 3493c54c77e1575b0931bfcc1d4c77c2bd054c69 7d7ae4740628b2e383052d9a114463b8a10a0ff5 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 afe3aa4e8b779afa2343f0dd52d6fd738b1a845d 18ad0783c150100c4c8d3c954de026c4918bd7b0 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json

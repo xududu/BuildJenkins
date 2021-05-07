@@ -1,0 +1,11 @@
+commit c7b6418384384cc8dd1a70ac9473c3b1db2215e8
+tree 05ea2c215ca5af88742e59339fa7c59ee6ae5362
+parent 8dc55d25e3718d40ca7ad0d0c2b9bb701744b20b
+author 王宇鹤 <2511980201@qq.com> 2020-10-19 09:56:50 +0800
+committer 王宇鹤 <2511980201@qq.com> 2020-10-19 09:56:50 +0800
+
+    StudentAndTeacherQuery
+
+
+
+:100644 100644 b6210b90e6eb32673e3992075be60781735e3cb6 a280faa41b4f4e90f833f3c73c6b50aaa97a6859 M	Domain2/Domain.CourseBuildModel/Specification/StudentAndTeacherQuerySpecification.cs

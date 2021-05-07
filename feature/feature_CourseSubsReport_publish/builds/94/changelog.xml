@@ -1,0 +1,47 @@
+commit 460819539a4d519b864847f0f0efd9586a4d6cfc
+tree d746a1896cd97fee3dae60ad4e59868d0b75f23c
+parent 30a55cedd11f3425dafd8a6682f8ec7a981e1da5
+author 彩娟 冯 <1446730634@qq.com> 2021-02-03 18:20:22 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-03 18:20:22 +0800
+
+    editor：获取作业和课程关系
+
+
+
+:100644 100644 c0bfb6c83eee61f4f976bc2adc0eeeed5261c272 7b5c78e48bc0119d382f4f4a21c44d8bd5682bca M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 1a7ba5d7c88dbe2050f7aa6b30b58a6c402d15c7
+tree 8b4da8b59b8baeba9345a9abfd347436951c7545
+parent f6dcc80ae39b877c2433744560b8f7d5d579e82f
+author 彩娟 冯 <1446730634@qq.com> 2021-02-01 15:59:59 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-01 15:59:59 +0800
+
+    editor:布置作业所用接口（新框架）
+
+
+
+:100644 100644 926f861b7f05ce207685e426b791395b45dbca7e d31ba5925b6f73d789bc0425a9602e32a5509001 M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTEIndex.cs
+:100644 100644 41e090833fe06883c09559e8ae39f9dafecbdc00 c0bfb6c83eee61f4f976bc2adc0eeeed5261c272 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 5b0f68ac7eed8ccc4218a02ce858186b24e07152 7ed990e2b059372fc628e3dfadbf8d5198b79602 M	Domain2/Domain.CourseModel/Service/Interface/IRegisterCourse.cs
+:100644 100644 9e4cca580c26cb565a46bbcc68f979a155721b8e c29596ae2794d73ac2873a57be89625f4e8510ec M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs
+commit 09ada7f51bf2c1b3de942d962e556ee7cbfc4108
+tree 17952d4a4d03af40159927d6abf9218e9d17c3df
+parent 8c6830e670c879b472fce62ee1449e7262f72ccd
+author 承昊 石 <279502695@qq.com> 2021-01-29 16:10:07 +0800
+committer 承昊 石 <279502695@qq.com> 2021-01-29 16:10:07 +0800
+
+    edit:StudentAndTeacherQuery构造函数修改
+
+
+
+:100644 100644 9169d1e95abdee3aa6a7ce7fc68a663dd884acee ccab7426dd7f430286f5f0d9e0854ab60504a904 M	Domain2/Domain.CourseModel/Query/StudentAndTeacherQuery.cs
+commit 8c6830e670c879b472fce62ee1449e7262f72ccd
+tree 71ad9d18a2b436c95115f7b748188d343e8695bc
+parent 0096236977b1271b07fc355f997036ed91fe76ef
+author AnHaNIYa <1400436027@qq.com> 2021-01-27 18:06:38 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-01-27 18:06:38 +0800
+
+      editor: UserConvertToDTO
+
+
+
+:100644 100644 5be372e141d48dee2afd5d19348df30b021e5a79 f2b72d3cf990714ca12f166c68b4a4fd836bcbb2 M	Domain2/Domain.CourseModel/DTO/UserDTO.cs

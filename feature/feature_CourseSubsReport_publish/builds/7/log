@@ -1,0 +1,48 @@
+Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/jenkins_home/workspace/CourseSubsReport_publish
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/feature-core22^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/feature-core22^{commit} # timeout=10
+Checking out Revision c98aee9e6b90c56487681d67ce76155f3175757f (refs/remotes/origin/feature-core22)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c98aee9e6b90c56487681d67ce76155f3175757f
+Commit message: "fix:订阅服务合并代码"
+ > git rev-list --no-walk c98aee9e6b90c56487681d67ce76155f3175757f # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=SubscriptionService:CSProjFile=CourseSubsReport:BINPATH=bin/Release/netcoreapp2.2
+[CourseSubsReport_publish] $ /bin/sh -xe /tmp/jenkins4688580786326646034.sh
++ cd SubscriptionService/CourseSubsReport
++ dotnet clean CourseSubsReport.csproj
+Microsoft (R) Build Engine version 16.0.450+ga8dc7f1d34 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/8/19 5:34:04 PM.
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
++ dotnet publish CourseSubsReport.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp2.2
+Microsoft (R) Build Engine version 16.0.450+ga8dc7f1d34 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='Report.DAL'&semVerLevel=2.0.0'.
+  No such device or address
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='Report.DAL'&semVerLevel=2.0.0'.
+  No such device or address
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='Report.Model'&semVerLevel=2.0.0'.
+  No such device or address
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='Report.Model'&semVerLevel=2.0.0'.
+  No such device or address
+/usr/share/dotnet/sdk/2.2.203/NuGet.targets(119,5): error : Failed to retrieve information about 'Report.DAL' from remote source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='Report.DAL'&semVerLevel=2.0.0'. [/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj]
+/usr/share/dotnet/sdk/2.2.203/NuGet.targets(119,5): error :   No such device or address [/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj]
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

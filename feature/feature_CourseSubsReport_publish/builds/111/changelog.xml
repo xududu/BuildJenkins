@@ -1,0 +1,26 @@
+commit 6b205de2d2a91b61f6e5916c16a60c2ccf45fde6
+tree b7dcdf5241c425c36c465ece5ec8c5574f61165a
+parent e1a366bb654765711637720e5deac4cbafc4b9f1
+author yangjialin <yangjialin@hexfuture.com> 2021-02-25 11:27:32 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2021-02-25 11:27:32 +0800
+
+    edit:修改GROUPID
+
+
+
+:100644 100644 9e8d5ea414d2ec2d53fd31f180e355fb3f889e86 41712e09c81ea00e9c41ecf038ebd2dbfea24973 M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config
+commit e1a366bb654765711637720e5deac4cbafc4b9f1
+tree fa51a0a2fe79e7bee6cd0a4ae2a017464edd0d7c
+parent 71d71ee1b26ba602e2d9b1ae48caa9f547340f00
+author yangjialin <yangjialin@hexfuture.com> 2021-02-25 10:31:53 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2021-02-25 10:31:53 +0800
+
+    edit:修改配置文件
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 349d0eced16a925b4e699dc3151478c02cd9ec31 A	.vscode/launch.json
+:000000 100644 0000000000000000000000000000000000000000 7fc50a1d1a0fb43635656cf239acf24083ba7215 A	.vscode/tasks.json
+:100644 100644 af91efe44c1ce5da36643c2180222f14e123e86d 29d855a4002601fb7f01c54b092e15a5f6d2e120 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 3459e0764a49b43b57ab1878df5243c5fef53264 9e8d5ea414d2ec2d53fd31f180e355fb3f889e86 M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config
+:100644 100644 2baf41c60da2aaa6771fb35312c3c26c5caffa23 96726a03110a9191ea994dbf8144dcb8bb96f3e1 M	SyncAndCheckServer/SyncCourseServer/Properties/launchSettings.json

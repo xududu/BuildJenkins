@@ -1,0 +1,17 @@
+commit d0f6e26010acb120e6c2fe6ed836095599041025
+tree 4fc6969fa0fe442cc1d743520ece3ac795af7677
+parent 8d04469728b885116b4e15fd6b0fc426b737728f
+author yangjialin <yangjialin@hexfuture.com> 2019-07-08 15:31:20 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-07-08 15:31:20 +0800
+
+    fix:订阅服务配置项更新
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 407b2ca7edeac868a7bbd5f421f762b3358f3fc7 A	SubscriptionService/CourseSubsReport/App.config
+:000000 100644 0000000000000000000000000000000000000000 5ac7a9dcbca789264033bb85425264dc5802e5b0 A	SubscriptionService/CourseSubsReport/Configs/Log4Net.config
+:000000 100644 0000000000000000000000000000000000000000 dc20ea613445284dc54aa376c327b93d6813933c A	SubscriptionService/CourseSubsReport/Configs/MessageTranfer.config
+:000000 100644 0000000000000000000000000000000000000000 eb162f5ef34abfc5e07c786efefd7083278a49e7 A	SubscriptionService/CourseSubsReport/Configs/TimerJobTranfer.config
+:000000 100644 0000000000000000000000000000000000000000 ed23960fe20efb47a4caf3eaff8a3a1333168878 A	SubscriptionService/CourseSubsReport/EntAppFrameWork.config
+:100644 100644 f2edddbbd5700334c2217378294bff2403dfc120 7030952d62a213c5b9d75c09c445638959310126 M	SubscriptionService/CourseSubsReport/Host.cs
+:100644 100644 f3c6bcd0851b26129fa2772998d6bfcb554bb270 e203d601fec260bd99c1996b35af4a46a09671a9 M	SubscriptionService/CourseSubsReport/Program.cs

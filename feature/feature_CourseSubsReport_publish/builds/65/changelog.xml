@@ -1,0 +1,11 @@
+commit 1bf6af04aac2cdd7dcd5cd2ffb0daeaa5654df37
+tree 92ade39c92d6e9654d396bdad2da8594e030639f
+parent afc54b302e11bef84e15b63e59b41a479fa1d01c
+author 王宇鹤 <2511980201@qq.com> 2019-10-14 11:22:22 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-14 11:22:22 +0800
+
+    feat:test
+
+
+
+:100644 100644 4315e49f5e3aa98d3d5b2200e7d4d1a3f6067bc3 2530d5384d22c30a7eb2ff51c1d617bb274d463c M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs

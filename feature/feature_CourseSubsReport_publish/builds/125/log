@@ -1,0 +1,38 @@
+Started by upstream project "[8mha:////4CM9vt+k05D2hNz6rQj/lZiFK78E5Tq1g0pRsvuyxSx9AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP201MSS0qLUeMecnIDSpJzM4gx9AHyojITNAAAA[0mfeature_AllPublish" build number [8mha:////4H+ksFr0IWigxJQ7MxDKMpI5G9Z+Ose8e1+gHrQkJG6ZAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JP201MSS0qLUeMecnIDSpJzM4gx9YwsAfVzDa88AAAA=[0m38
+originally caused by:
+ Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4C7WLzTQ/Mj+3OtJt70nJPJ2hpzHX1PSOHUcWVjQbPSZAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQifUNLIz1DMws9Qz0jQ0sAGr6k48wAAAA=[0m192.168.1.219 in workspace /usr/local/jenkins/workspace/feature_CourseSubsReport_publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/course.git
+ > git init /usr/local/jenkins/workspace/feature_CourseSubsReport_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/dev-async^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/dev-async^{commit} # timeout=10
+Checking out Revision cf9f9a1ec1857a8da8ab703866a6e71f91f30aad (refs/remotes/origin/dev-async)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf9f9a1ec1857a8da8ab703866a6e71f91f30aad
+Commit message: "editor:   DirectoryInfo"
+ > git rev-list --no-walk cf9f9a1ec1857a8da8ab703866a6e71f91f30aad # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=SubscriptionService:CSProjFile=CourseSubsReport:BINPATH=bin/Release/netcoreapp3.1:DOCKERIMAGENAME=coursesubsreport:DockerProName=subs:DockerName=w1.coursesubsreport.sub.group.hex.com:ServiceName=coursesubsreport-w1
+Build environment variables will be made available to the next build: ser=protobuf:KPversion=2
+[feature_CourseSubsReport_publish] $ /bin/sh -xe /tmp/jenkins144720535136451463.sh
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+Error response from daemon: login attempt to https://reg.hexfuture.com/v2/ failed with status: 502 Bad Gateway
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,11 @@
+commit 51edc4da9eb987b51e454f5614cd1ae1a3267a89
+tree 4ce379fde1aa9ad8b22c092ace5d99b4ef63353c
+parent 1fc977b4958c71852942847fed7a4f52a15fffa9
+author AnHaNIYa <1400436027@qq.com> 2021-03-04 09:06:09 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-03-04 09:06:09 +0800
+
+    ediotr: 课程去掉    ContentProviderObj
+
+
+
+:100644 100644 5715d2e11bab79b2a816a0b38e610ce4bdf8ed0d 7a4aa30f581719e5e1bec16d172301819d837800 M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs

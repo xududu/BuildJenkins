@@ -1,0 +1,312 @@
+Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+ln builds/lastSuccessfulBuild /var/jenkins_home/jobs/feature_CourseSubsReport_publish/lastSuccessful failed
+java.nio.file.DirectoryNotEmptyException: /var/jenkins_home/jobs/feature_CourseSubsReport_publish/lastSuccessful
+	at sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:242)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at hudson.Util.createSymlink(Util.java:1192)
+	at hudson.model.Run.createSymlink(Run.java:1957)
+	at hudson.model.Run.updateSymlinks(Run.java:1938)
+	at hudson.model.Run.execute(Run.java:1816)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ln builds/lastStableBuild /var/jenkins_home/jobs/feature_CourseSubsReport_publish/lastStable failed
+java.nio.file.DirectoryNotEmptyException: /var/jenkins_home/jobs/feature_CourseSubsReport_publish/lastStable
+	at sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:242)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at hudson.Util.createSymlink(Util.java:1192)
+	at hudson.model.Run.createSymlink(Run.java:1957)
+	at hudson.model.Run.updateSymlinks(Run.java:1939)
+	at hudson.model.Run.execute(Run.java:1816)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4MDYWumaGptxmzSEQa4kByck1jJfHJRUyNArrtdRV95jAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQifUNLIz1DMws9Az0jY3MAL9hKC8wAAAA=[0m192.168.0.237 in workspace /usr/local/jenkins/workspace/feature_CourseSubsReport_publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/course.git
+ > git init /usr/local/jenkins/workspace/feature_CourseSubsReport_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/dev^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/dev^{commit} # timeout=10
+Checking out Revision ec76b36a26bd690653338198a89cc0d4e178c6e7 (refs/remotes/origin/dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ec76b36a26bd690653338198a89cc0d4e178c6e7
+Commit message: "test"
+ > git rev-list --no-walk 902e7eb1d0b56be6e187ac0dc5f9334ef5c76d85 # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=SubscriptionService:CSProjFile=CourseSubsReport:BINPATH=bin/Release/netcoreapp2.2:DOCKERIMAGENAME=coursesubsreport:DockerProName=subs:DockerName=w1.coursesubsreport.sub.group.hex.com:ServiceName=coursesubsreport-w1
+[feature_CourseSubsReport_publish] $ /bin/sh -xe /tmp/jenkins7422564584596691774.sh
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker pull reg.hexfuture.com/dotnet/sdk
+Using default tag: latest
+latest: Pulling from dotnet/sdk
+Digest: sha256:0991a8b02a9124939f293570bf67f792fd35bbb2a27e1b029d9515c84e22718d
+Status: Image is up to date for reg.hexfuture.com/dotnet/sdk:latest
++ docker pull reg.hexfuture.com/dotnet/runtime
+Using default tag: latest
+latest: Pulling from dotnet/runtime
+Digest: sha256:18b6f46964dd33dd7ca1494960cf5ba0396a3b1e479be275b2b47587e38d2e31
+Status: Image is up to date for reg.hexfuture.com/dotnet/runtime:latest
+++ cat ./SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+++ grep -i versionprefix
+++ awk '-F>' '{ print $2 }'
+++ awk '-F<' '{ print $1 }'
++ DockerImageVersion=1.0.6
++ cat
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker build --no-cache -t reg.hexfuture.com/subs/coursesubsreport:1.0.6 .
+Sending build context to Docker daemon  122.2MB
+Step 1/8 : FROM reg.hexfuture.com/dotnet/sdk
+ ---> 872a2d0fc47a
+Step 2/8 : COPY ./ /opt/publishdir
+ ---> 0a41889ba934
+Step 3/8 : RUN echo "192.168.0.40 nuget.hexstudy.com" >> /etc/hosts;dotnet publish /opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp2.2
+ ---> Running in 9627fa859552
+Microsoft (R) Build Engine version 16.2.32702+c4012a063 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.DomainModel'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.DataAccess'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='ZooKeeperNetEx'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.Staticization'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.PublishSubscribe'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.Log'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.SerialNumber'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='log4net'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.DataAccess.Redis'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Diagnostics.TraceSource'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Collections.NonGeneric'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Diagnostics.Process'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Diagnostics.StackTrace'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.IO.FileSystem.Watcher'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Net.Requests'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Net.NameResolution'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Threading.Thread'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Security.Principal.Windows'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='Microsoft.Win32.Registry'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Threading.ThreadPool'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Collections.Immutable'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Reflection.Metadata'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Threading.Overlapped'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Net.WebHeaderCollection'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Security.Claims'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Security.Principal'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='ZooKeeperNetEx'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.Staticization'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.DataAccess'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.PublishSubscribe'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='log4net'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.SerialNumber'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.Log'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.DataAccess.Redis'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Diagnostics.TraceSource'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Collections.NonGeneric'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Diagnostics.Process'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Diagnostics.StackTrace'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.IO.FileSystem.Watcher'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Net.NameResolution'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Net.Requests'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Threading.Thread'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='Microsoft.Win32.Registry'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Security.Principal.Windows'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Threading.ThreadPool'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Collections.Immutable'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Net.WebHeaderCollection'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Threading.Overlapped'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Reflection.Metadata'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Security.Principal'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='System.Security.Claims'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+  Failed to download package 'Core.ReportModel.5.0.2.1' from 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/package/Core.ReportModel/5.0.2.1'.
+  The server returned an invalid or unrecognized response.
+  Retrying 'FindPackagesByIdAsyncCore' for source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='SubsribePublishDTO'&semVerLevel=2.0.0'.
+  An error occurred while sending the request.
+    Unable to read data from the transport connection: Connection reset by peer.
+    Connection reset by peer
+/usr/share/dotnet/sdk/2.2.401/NuGet.targets(123,5): error : Failed to retrieve information about 'EntAppFrameWork.Staticization' from remote source 'http://nuget.hexstudy.com/nuget/HexFutureMicroService/FindPackagesById()?id='EntAppFrameWork.Staticization'&semVerLevel=2.0.0'. [/opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj]
+/usr/share/dotnet/sdk/2.2.401/NuGet.targets(123,5): error :   An error occurred while sending the request. [/opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj]
+/usr/share/dotnet/sdk/2.2.401/NuGet.targets(123,5): error :   Unable to read data from the transport connection: Connection reset by peer. [/opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj]
+/usr/share/dotnet/sdk/2.2.401/NuGet.targets(123,5): error :   Connection reset by peer [/opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj]
+The command '/bin/sh -c echo "192.168.0.40 nuget.hexstudy.com" >> /etc/hosts;dotnet publish /opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp2.2' returned a non-zero code: 1
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

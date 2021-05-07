@@ -1,0 +1,25 @@
+commit 921b7ce869024beac1d253f6305a82c68fed1498
+tree 27bcb06dd1e5ef28fe93cbb13b58e24e12aba40e
+parent f801526a6c9f5fc3f446bf8bafb9af2b47d68096
+author AnHaNIYa <1400436027@qq.com> 2021-02-18 13:38:48 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-18 13:38:48 +0800
+
+    修改配置文件
+
+
+
+:100644 100644 5ea04046f74202714a55628f2b12b817db58ab40 54af85ea7f58e6b18e01068bb1a7683c6fbe0f04 M	SubscriptionService/CourseSubsReport/EntAppFrameWork.config
+:100644 100644 c67f5f927a5ac3bf6395cbeb2eff103777f08e8d 3459e0764a49b43b57ab1878df5243c5fef53264 M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config
+:100644 100644 9f72edd6baffa7182875e5aaae05611a7ba89162 2baf41c60da2aaa6771fb35312c3c26c5caffa23 M	SyncAndCheckServer/SyncCourseServer/Properties/launchSettings.json
+commit f801526a6c9f5fc3f446bf8bafb9af2b47d68096
+tree eb06af854c29e9198a12f09d30b31749773d6805
+parent 436be8772e3ccc5239f2487835015eb5bc8e66a7
+author AnHaNIYa <1400436027@qq.com> 2021-02-18 11:08:56 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-18 11:08:56 +0800
+
+     修改 Course Ent
+
+
+
+:100644 100644 fffaa90794dd8019346e9860b1d0665d9a18d55a 88bf2ec924b4b1a80a8be7e5c376cf868ac0a8be M	SubscriptionService/CourseSubsReport/Properties/launchSettings.json
+:100644 100644 a67ecc8af63e5100cf9b259930994c8cddd9178b c67f5f927a5ac3bf6395cbeb2eff103777f08e8d M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config

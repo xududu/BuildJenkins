@@ -1,0 +1,59 @@
+Started by upstream project "[8mha:////4GIPRDKy+Xyts9ig1UMJPbapXkpp+cZ23MzahY1lZLy6AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH3HnJz4gNKknMziDH0AeGGWkMYAAAA=[0mAll_Publish" build number [8mha:////4Ll/LUg2p9beEc2HsOqlMsjd7MUIF/f4kgIj/XyTJ87GAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6jjk58QGlSTmZxRn6xgDdiNkHxwAAAA==[0m3
+originally caused by:
+ Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/jenkins_home/workspace/CourseSubsReport_publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/course.git
+ > git init /var/jenkins_home/workspace/CourseSubsReport_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/feature-core22^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/feature-core22^{commit} # timeout=10
+Checking out Revision 99dce9296f862331874248c676c8d477e1d6ecbf (refs/remotes/origin/feature-core22)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99dce9296f862331874248c676c8d477e1d6ecbf
+Commit message: "editor:   去掉Sync 里的 log日志"
+ > git rev-list --no-walk 64d702f47d4695c2eb15c2d2c77d6d28e3823fda # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=SubscriptionService:CSProjFile=CourseSubsReport:BINPATH=bin/Release/netcoreapp2.2
+[CourseSubsReport_publish] $ /bin/sh -xe /tmp/jenkins7048104127522215353.sh
++ cd SubscriptionService/CourseSubsReport
++ dotnet clean CourseSubsReport.csproj
+Microsoft (R) Build Engine version 16.2.32702+c4012a063 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/1/19 8:24:58 PM.
+     1>Project "/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj" on node 1 (Clean target(s)).
+     1>CoreClean:
+         Creating directory "obj/Debug/netcoreapp2.2/".
+     1>Done Building Project "/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj" (Clean target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.86
++ dotnet publish CourseSubsReport.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp2.2
+Microsoft (R) Build Engine version 16.2.32702+c4012a063 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 17.13 sec for /var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj.
++ pwd
+/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport
++ cd bin/Release/netcoreapp2.2/publish/
+/tmp/jenkins7048104127522215353.sh: 15: cd: can't cd to bin/Release/netcoreapp2.2/publish/
+Build was aborted
+Aborted by [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

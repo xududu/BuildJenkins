@@ -1,0 +1,24 @@
+commit f1c2f7c9118b202e967dda0ff61eb13c3a3b218d
+tree 044140cd33add980e91e12c22815741aa1f382fb
+parent ff5ab24f6d95a035958d578ee443bc841725b2d9
+author AnHaNIYa <1400436027@qq.com> 2021-02-04 15:18:04 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-04 15:18:04 +0800
+
+    查询学习小组，添加规格
+
+
+
+:100644 100644 a826a996f869f88e8f1ebbd51cd8b74c12d79eab c2a0d96add4fc0c1631ed8faac056e987b808d83 M	Domain2/Domain.CourseModel/Specification/LearningGroupAndUserSpecification.cs
+commit ff5ab24f6d95a035958d578ee443bc841725b2d9
+tree 77de28cac8a86c53e826608a0c453fab090eb05f
+parent 1982da24ff5f8fddfb376e09accfe8ca2d47f67c
+author AnHaNIYa <1400436027@qq.com> 2021-02-04 15:07:54 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-04 15:07:54 +0800
+
+    新加D接口， 根据组ID集合, 查询组下的人
+
+
+
+:100644 100644 f92829b5c2c65391583413747568e61cef952c3b a826a996f869f88e8f1ebbd51cd8b74c12d79eab M	Domain2/Domain.CourseModel/Specification/LearningGroupAndUserSpecification.cs
+:100644 100644 1b47663c6fb27518101fb28fe508d72b8d5138cd ad30a8a293d2417e67ebb960ed4d03491a429ba0 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 c74ace62ab2e62178b315fec1ce15dabe7bcecb8 a71be8a64953a7c6e7c109d07b53758102df88c3 M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs

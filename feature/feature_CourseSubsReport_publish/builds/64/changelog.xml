@@ -1,0 +1,13 @@
+commit afc54b302e11bef84e15b63e59b41a479fa1d01c
+tree e7606c0f696765afd116902bcfda777117d65c0d
+parent cdfba17b030cc19df2c712a400cd0badcb81a5f9
+author 王宇鹤 <2511980201@qq.com> 2019-10-14 11:01:23 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-14 11:01:23 +0800
+
+    test
+
+
+
+:100644 100644 3ba0ffce9ccd7229d3a79f6521bdec8abb86fb53 1b75c9520087a347662c257d1efdef000d563d23 M	Domain2/Domain.CourseBuildModel/DTO/HTEAndSubHTEDTO.cs
+:100644 100644 3c15149d64f66fd7de7b6d96d105460724d6638f c069822ec25e8bcbe159586642b29679c7fa7a3f M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 06e1111a4404818c6959ad9758e26f2f2bc6dc77 4315e49f5e3aa98d3d5b2200e7d4d1a3f6067bc3 M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs

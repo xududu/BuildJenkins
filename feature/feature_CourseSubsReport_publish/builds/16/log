@@ -1,0 +1,56 @@
+Started by upstream project "[8mha:////4IMyMJNAvnFdPXj2qzEtnE0lkA6j7uZToQ+3yGZSJe9WAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH3HnBzn/NKi4lR9AHm2i67EAAAA[0mAllCourse" build number [8mha:////4CSG66F9SWL8NzRNsjxCS0A9WrBwpNaEf+r15sI0gJb9AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JH3HnBzn/NKi4lR9QwMAaJrAFMYAAAA=[0m10
+originally caused by:
+ Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/jenkins_home/workspace/CourseSubsReport_publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/course.git
+ > git init /var/jenkins_home/workspace/CourseSubsReport_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/feature-core22^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/feature-core22^{commit} # timeout=10
+Checking out Revision bd0ed80a58e8a61d44c6d067db163ff245f3c724 (refs/remotes/origin/feature-core22)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bd0ed80a58e8a61d44c6d067db163ff245f3c724
+Commit message: "feat:内存过高问题"
+ > git rev-list --no-walk 87632bd367500aa46a5a518970cfd4faf77b070d # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=SubscriptionService:CSProjFile=CourseSubsReport:BINPATH=bin/Release/netcoreapp2.2
+[CourseSubsReport_publish] $ /bin/sh -xe /tmp/jenkins7135399335828456618.sh
++ cd SubscriptionService/CourseSubsReport
++ dotnet clean CourseSubsReport.csproj
+Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/19 5:56:35 PM.
+     1>Project "/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj" on node 1 (Clean target(s)).
+     1>CoreClean:
+         Creating directory "obj/Debug/netcoreapp2.2/".
+     1>Done Building Project "/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj" (Clean target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
++ dotnet publish CourseSubsReport.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp2.2
+Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+/var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj : error NU1101: Unable to find package Receive.Push. No packages exist with this id in source(s): http://nuget.hexstudy.com/nuget/HexFutureMicroService, nuget.org
+  Restore failed in 3.36 sec for /var/jenkins_home/workspace/CourseSubsReport_publish/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

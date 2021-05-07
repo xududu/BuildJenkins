@@ -1,0 +1,23 @@
+commit 8f8af143c04fa40e384ff78d2f13227d6c1b73a0
+tree 6b66c5b94f3ab33e55da30f835cc473b747f40b0
+parent 5500f9d6c6e538bcdacd879513f9db6a03952856
+author 彩娟 冯 <1446730634@qq.com> 2021-02-08 14:23:40 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-08 14:23:40 +0800
+
+    editor:保存作业和课程关系
+
+
+
+:100644 100644 7b5c78e48bc0119d382f4f4a21c44d8bd5682bca c80e912b64ef7685d87a6013513f185225b563e3 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 5500f9d6c6e538bcdacd879513f9db6a03952856
+tree 653cb81428f7a328b7e03b2a0c5c8e1665edfd09
+parent bf7c146bbd326a5ac8328d7ca863fe6910c5004d
+author 彩娟 冯 <1446730634@qq.com> 2021-02-07 09:54:59 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-07 09:54:59 +0800
+
+    editor:批量爆保存作业和课程关系
+
+
+
+:100644 100644 101c1f7025453f35df2231abef6ec7140af23918 7b5c78e48bc0119d382f4f4a21c44d8bd5682bca M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 383367ebb606bfeced71e0d1f5a4f8befe4ccbe6 253ce70b5cbad0fa1a09372b5695327b374fe21f M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs

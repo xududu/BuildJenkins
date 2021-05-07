@@ -1,0 +1,22 @@
+commit 64d702f47d4695c2eb15c2d2c77d6d28e3823fda
+tree 0a81046279f021382c9ceb6bd2700a4ebd5d8ffe
+parent 4357f8d4eb039dde74c64a2facdf1506693c8018
+author 王宇鹤 <2511980201@qq.com> 2019-07-25 14:47:33 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-25 14:47:33 +0800
+
+    feat:配置
+
+
+
+:100644 100644 e8a75b6c31aaf3ba094a193b48f83fa218eee75c f108724efcfd79e0ea2d856a9e5ecffd584c6084 M	SubscriptionService/CourseSubsReport/EntAppFrameWork.config
+commit 4357f8d4eb039dde74c64a2facdf1506693c8018
+tree a292c8b30360c7cbd4db39130ae5985eec860dc3
+parent 2e73016b1ad781fe5806a4ff807f3a1373b1e9c0
+author 王宇鹤 <2511980201@qq.com> 2019-07-25 14:44:46 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-25 14:44:46 +0800
+
+    feat:域名
+
+
+
+:100644 100644 fd40595b7fad3f0587a74ba1c6132467f47ccce2 cf42bef4f8cbba7e82e5c308fa58664c8bd74e29 M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config

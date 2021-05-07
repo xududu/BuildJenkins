@@ -1,0 +1,31 @@
+commit 6abe4c4fec60e9a1c300bf94ed89aa1e9575121c
+tree 2a06879029f5251fbe139337de555ff60d4a95db
+parent 921b7ce869024beac1d253f6305a82c68fed1498
+author dongjiazhe <dongjiazhe@hexfuture.com> 2021-02-19 18:08:15 +0800
+committer dongjiazhe <dongjiazhe@hexfuture.com> 2021-02-19 18:08:15 +0800
+
+    editor:修改一对多隐式关系懒加载
+
+
+
+:100644 100644 62d83e65c2d5551474a55198f0c52e74786d9dd2 ab3ddfc8e95614f52fe7140533b8f6539994b9c2 M	Domain2/Domain.CourseBuildModel/Core/CourseTemplate.cs
+:100644 100644 93e05daf94dc987fe8d601f55237b4b759b33390 f575288507f00291810d967a6b3e4622873411e4 M	Domain2/Domain.CourseBuildModel/Core/DirectoryInfo.cs
+:100644 100644 b48931defc4539efca6967dcc475981428bcf311 21e2e2e530963ba9dd5c3cb124cfb5ea75068db9 M	Domain2/Domain.CourseTemplateModel/Core/CourseTemplate.cs
+:100644 100644 035c3378d7ec6033da1c564f724ec0fde228853e 32ccca9f642852b38726702c194bae80e9e62b29 M	Domain2/Domain.SyllabusModel/Core/CourseWeek.cs
+:100644 100644 647b7328b7217f0dd4fe52548dba7b4309fd6292 af91efe44c1ce5da36643c2180222f14e123e86d M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+commit b90d6b7085f6f367a3b50aeea9e2cacc537e1942
+tree 8386d3ca6d0df14a1668182daa40f411114fffad
+parent 921b7ce869024beac1d253f6305a82c68fed1498
+author 彩娟 冯 <1446730634@qq.com> 2021-02-19 17:20:17 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-19 17:20:17 +0800
+
+    editor:多媒体作业关联作业到课时（异步接口）
+
+
+
+:100644 100644 3f14510542214443ca043f110fdf07a9cba8c680 d5bf78bd9cf8c150d1fb3f25156d20c58870b35f M	Domain2/Domain.CourseBuildModel/Core/ClassPeriodHteLog.cs
+:100644 100644 bf8a59f5551ff8013e18b58dd6eb7887265dc9d3 c851268d9f8b86c8576d2b6a60573e4054f3c88f M	Domain2/Domain.CourseBuildModel/Service/Interface/IBussinessModelLog.cs
+:100644 100644 fb1de3f11fe16023739c480774001f4a7328902f 25d29ff005ffb7171882bc355de62cca82a8edff M	Domain2/Domain.CourseBuildModel/Service/Interface/IClassPeriod.cs
+:100644 100644 832d422716aea649e8bcfbff97f9dc905998ac09 9681dfec509b538d8adca31a7acc195b2ff1afb8 M	Domain2/Domain.CourseBuildModel/Service/Realization/BussinessModelLogService.cs
+:100644 100644 ba2d89448e2c92a49abba4347516075fcb89f177 5930e3f670210222146290736ad26f212f8a0a64 M	Domain2/Domain.CourseBuildModel/Service/Realization/ClassPeriodService.cs
+:100644 100644 647b7328b7217f0dd4fe52548dba7b4309fd6292 9b5c6b1a9f67384f5aee8a718669d0a82d902fc2 M	DomainServer/CourseDomainServer/Properties/launchSettings.json

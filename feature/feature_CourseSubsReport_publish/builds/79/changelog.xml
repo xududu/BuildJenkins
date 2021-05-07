@@ -1,0 +1,36 @@
+commit 44d11034e3537f3f75ff002a34f15379b00e5136
+tree f4e91d9276469235c6e34e8acf6df399de365136
+parent ac6a318ed61a3f5441afcec39d7b8ed454df5f27
+author yangjialin <yangjialin@hexfuture.com> 2020-10-22 18:20:44 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2020-10-22 18:20:44 +0800
+
+    EDIT BaseDto.ProtoBuf多态
+
+
+
+:100644 100644 8365dd10abf98c1a4e69f34d015d83f54b9a403b 6a912d4041c854e1ba318f25bc80638890abb492 M	Domain2/Domain.CourseModel/DTO/BaseDto.cs
+:100644 100644 230dab3b2e0ff3634205868883f88c84c82df814 03cf706dad4d329b11936fa6d1735c5cd5bff5be M	SyncAndCheckServer/SyncCourseServer/Properties/launchSettings.json
+commit ac6a318ed61a3f5441afcec39d7b8ed454df5f27
+tree 05ea2c215ca5af88742e59339fa7c59ee6ae5362
+parent 19cd399ad8822b5cce94be649f3826bba8742ca7
+author yangjialin <yangjialin@hexfuture.com> 2020-10-19 10:55:18 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2020-10-19 10:55:18 +0800
+
+    Revert "edit:CoruseBuildeModel排StudentAndTeacherQuerySpecification
+    规格"
+
+    This reverts commit 19cd399ad8822b5cce94be649f3826bba8742ca7.
+
+
+:100644 100644 6d431d68b31a9951fc2fe9c84b8b313e70845b21 caf14b5f7b09e04112905445553eb15658f8cfc7 M	Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj
+commit 19cd399ad8822b5cce94be649f3826bba8742ca7
+tree 738aceda7b2cfb0471f814b7b10bf6db56ac589a
+parent c7b6418384384cc8dd1a70ac9473c3b1db2215e8
+author yangjialin <yangjialin@hexfuture.com> 2020-10-19 10:54:31 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2020-10-19 10:54:31 +0800
+
+    edit:CoruseBuildeModel排StudentAndTeacherQuerySpecification 规格
+
+
+
+:100644 100644 caf14b5f7b09e04112905445553eb15658f8cfc7 6d431d68b31a9951fc2fe9c84b8b313e70845b21 M	Domain2/Domain.CourseBuildModel/Domain.CourseBuildModel.csproj

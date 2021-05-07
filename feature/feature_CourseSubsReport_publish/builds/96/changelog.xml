@@ -1,0 +1,63 @@
+commit bf7c146bbd326a5ac8328d7ca863fe6910c5004d
+tree 5c401312dfa281401c91c9cbb1355e541cf61029
+parent 7e9113bef5e50b3446df327cbf255eb463c5895f
+author 彩娟 冯 <1446730634@qq.com> 2021-02-05 17:14:24 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-05 17:14:24 +0800
+
+    editor:SaveHTEAndCourseIndexAsync
+
+
+
+:100644 100644 7ac917ffdb21e09f1b1532f53c36d12a3ffb3a7c 101c1f7025453f35df2231abef6ec7140af23918 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit dc1ce5f7c0009832f2d0bbe3dcf7aeef0895fd63
+tree 93c2ba4deead48d1bf55bda2ea5ab60f8b926f9e
+parent 460819539a4d519b864847f0f0efd9586a4d6cfc
+author 彩娟 冯 <1446730634@qq.com> 2021-02-05 17:12:38 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-05 17:12:38 +0800
+
+    editor:获取学生信息（根据班级、层）
+
+
+
+:100644 100644 265685fd166c8d0c895951301cc5ac14ce9f5eb2 d9ea6994e4eff6f2fe21d4cacffa38f05d81d53e M	Domain2/Domain.CourseBuildModel/Service/Interface/ICourseAndHTE.cs
+:100644 100644 7b5c78e48bc0119d382f4f4a21c44d8bd5682bca 7ac917ffdb21e09f1b1532f53c36d12a3ffb3a7c M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+:100644 100644 74fac6bf5aa668f22275a1bb43e014b566cd0a5f 383367ebb606bfeced71e0d1f5a4f8befe4ccbe6 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 c29596ae2794d73ac2873a57be89625f4e8510ec 78ede9da793a7143a9f4d552f09f4d7eb4314400 M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs
+commit ae1bdf9ce5f413dda38e00b8d8e579e193977986
+tree 775dfc80bc4bfee3f7edda38ca05e67c1e739380
+parent f4970d89d19b11ec0eaa915139904c8d9a445ed0
+author AnHaNIYa <1400436027@qq.com> 2021-02-05 17:00:54 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-05 17:00:54 +0800
+
+    UPDATE  一对多模型 延迟加载
+
+
+
+:100644 100644 258c5caaa7dccfcf92a9728601c455da05b19337 c777a2f060aef96ef0c0d9963d21457888eee400 M	Domain2/Domain.CourseBuildModel/Core/CoursewareContent.cs
+:100644 100644 d02ce2bd69a431b4eb9b0b932ec48e774b6a00ed 5ec1170701264b92925ba0f81acb7076b6418a6a M	Domain2/Domain.CourseBuildModel/Core/EbookSectionContent.cs
+:100644 100644 803128d9b530d31862c8cf529ef821134218822c d9497ced828c8b1d84c2489d1de7bf85796af960 M	Domain2/Domain.CourseBuildModel/Core/HteContent.cs
+:100644 100644 16b70eb09f8e46c15c136af96a9586227d6ff04c fb462520de82f7b67d2b1423ab0b58a3814cf6c7 M	Domain2/Domain.SyllabusModel/Core/CourseExamProportion.cs
+commit c8df944781935a88ad1e9cb6de67a3802829f183
+tree 09f13b57107446397ddeda037d38cd6d019cb787
+parent c3f9a03150bf06adf0be4079a73450d702a4fd36
+author 王奇 <wq15127015744@126.com> 2021-02-05 14:35:41 +0800
+committer 王奇 <wq15127015744@126.com> 2021-02-05 14:35:41 +0800
+
+    edit:coursemodel.dto.userdto  birthday允许为空
+
+
+
+:100644 100644 5be372e141d48dee2afd5d19348df30b021e5a79 4869332894150f799aeca3e1630532b23d695760 M	Domain2/Domain.CourseModel/DTO/UserDTO.cs
+:100644 100644 af91efe44c1ce5da36643c2180222f14e123e86d 647b7328b7217f0dd4fe52548dba7b4309fd6292 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 9b55f50ad5ab4252bd71e09cbc1ee19f69dd3939 9de2d6a44615a982e8ed6a144aad5ca0d22940dd M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+commit 28ede3d007453e30b09f2d8bb5d9d03d42a871fe
+tree 044a1c28f921364170498dd120b9a6c8cdfdcd1b
+parent f1c2f7c9118b202e967dda0ff61eb13c3a3b218d
+author AnHaNIYa <1400436027@qq.com> 2021-02-05 13:39:38 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-05 13:39:38 +0800
+
+    editor: 升级版本
+
+
+
+:100644 100644 061f326ae44e2d9f2adb7c77cea0127413b188a2 dc96873de1687b07c7870cdd48c70abe6dc30641 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj

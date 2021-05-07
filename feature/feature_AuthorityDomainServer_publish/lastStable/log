@@ -1,0 +1,325 @@
+Started by upstream project "[8mha:////4GIPRDKy+Xyts9ig1UMJPbapXkpp+cZ23MzahY1lZLy6AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH3HnJz4gNKknMziDH0AeGGWkMYAAAA=[0mAll_Publish" build number [8mha:////4KUrALpqrHUBT8h8aQuEIZwFG8vUgyudflUKI12zATaTAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH3HnJz4gNKknMziDH0jUwB1b012yAAAAA==[0m25
+originally caused by:
+ Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4MDYWumaGptxmzSEQa4kByck1jJfHJRUyNArrtdRV95jAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQifUNLIz1DMws9Az0jY3MAL9hKC8wAAAA=[0m192.168.0.237 in workspace /usr/local/jenkins/workspace/AuthorityDomainServer_publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/Authority.git
+ > git init /usr/local/jenkins/workspace/AuthorityDomainServer_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/Authority.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/Authority.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/Authority.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/Authority.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/Authority.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/Authority.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/feature-core22^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/feature-core22^{commit} # timeout=10
+Checking out Revision 28682b2db033494af8628ddcc5db6e0dbdbc5c10 (refs/remotes/origin/feature-core22)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 28682b2db033494af8628ddcc5db6e0dbdbc5c10
+Commit message: "Log4Net.config"
+ > git rev-list --no-walk 28682b2db033494af8628ddcc5db6e0dbdbc5c10 # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=DomainServer:CSProjFile=AuthorityDomainServer
+Build environment variables will be made available to the next build: DockerPort=20012:DOCKERIMAGENAME=authoritydomainserver:DockerProName=domain
+Build environment variables will be made available to the next build: DockerImageVersion=5.0.0
+[AuthorityDomainServer_publish] $ /bin/sh -xe /tmp/jenkins4934202285089724382.sh
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker pull reg.hexfuture.com/dotnet/sdk
+Using default tag: latest
+latest: Pulling from dotnet/sdk
+Digest: sha256:bacb30a69411f0f71a5ec7bb07c7a4449b20aa4571cb3a53682012d50e374768
+Status: Image is up to date for reg.hexfuture.com/dotnet/sdk:latest
++ docker pull reg.hexfuture.com/dotnet/runtime
+Using default tag: latest
+latest: Pulling from dotnet/runtime
+Digest: sha256:a93e450611b4087a3acecf0b01735f7ba181a08bdaf3862f26ee8120176e2696
+Status: Image is up to date for reg.hexfuture.com/dotnet/runtime:latest
++ cat
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker build --no-cache -t reg.hexfuture.com/domain/authoritydomainserver:5.0.0 .
+Sending build context to Docker daemon  940.5kB
+Step 1/9 : FROM reg.hexfuture.com/dotnet/sdk
+ ---> 3b3aa3bb0c44
+Step 2/9 : COPY ./ /opt/publishdir
+ ---> b47666e06b28
+Step 3/9 : RUN echo "192.168.0.40 nuget.hexstudy.com" >> /etc/hosts;dotnet publish /opt/publishdir/DomainServer/AuthorityDomainServer/AuthorityDomainServer.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp2.2
+ ---> Running in b85bed54336d
+Microsoft (R) Build Engine version 16.2.32702+c4012a063 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 26.59 sec for /opt/publishdir/Domain2.0/Domain.AuthorityModel/Domain.AuthorityModel.csproj.
+  Restore completed in 26.55 sec for /opt/publishdir/DomainServer/AuthorityDomainServer/AuthorityDomainServer.csproj.
+  Restore completed in 26.59 sec for /opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj.
+Service/Realization/AuthorityEbookService.cs(38,24): warning CS0618: 'IEbookManage.SearchAllValidEbookManageQueryByEbookList(IList<long>, int, int, out int, out int)' is obsolete: '使用存在contentProviderId参数的方法' [/opt/publishdir/Domain2.0/Domain.AuthorityModel/Domain.AuthorityModel.csproj]
+Service/Realization/AuthorityEbookService.cs(45,24): warning CS0618: 'IEbookManage.SearchAllValidEbookManageQueryByTwoSubjectList(IList<long>, int, int, out int, out int)' is obsolete: '请使用包含有contentProviderId参数的方法' [/opt/publishdir/Domain2.0/Domain.AuthorityModel/Domain.AuthorityModel.csproj]
+Service/Realization/AuthorityEbookService.cs(106,20): warning CS0618: 'IEbookManage.SearchAllValidEbookManageQueryByTwoSubjectList(IList<long>, int, int, out int, out int)' is obsolete: '请使用包含有contentProviderId参数的方法' [/opt/publishdir/Domain2.0/Domain.AuthorityModel/Domain.AuthorityModel.csproj]
+Service/Realization/AppUserService.cs(43,25): warning CS0618: 'IApp.SearchAppByAppIdList(IList<long>)' is obsolete: '使用SearchByIdList方法' [/opt/publishdir/Domain2.0/Domain.AuthorityModel/Domain.AuthorityModel.csproj]
+Service/Realization/AuthorityEbookService.cs(176,20): warning CS0618: 'IEbookManage.SearchAllValidEbookManageQueryByTwoSubjectListAndKeywords(IList<long>, string, int, int, out int, out int)' is obsolete: '请使用包含有contentProviderId参数的方法' [/opt/publishdir/Domain2.0/Domain.AuthorityModel/Domain.AuthorityModel.csproj]
+  Domain.AuthorityModel -> /opt/publishdir/Domain2.0/Domain.AuthorityModel/bin/Release/netstandard2.0/Domain.AuthorityModel.dll
+SubjectCourseQueryForAuthorityRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(51,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(69,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(75,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppResourseRepository.cs(96,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(63,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(75,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(81,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(93,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(105,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(117,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(129,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(69,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(81,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppUserRepository.cs(72,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(61,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(67,17): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(78,17): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(84,17): warning CS0472: The result of the expression is always 'true' since a value of type 'PlatformType' is never equal to 'null' of type 'PlatformType?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(94,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(69,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(81,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(93,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+EmpowerContentProviderRepository.cs(72,17): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(45,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(57,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(69,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(81,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(93,17): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppUserRepository.cs(170,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppUserRepository.cs(178,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(194,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(202,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(211,25): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(221,21): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(256,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(264,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(273,25): warning CS0472: The result of the expression is always 'true' since a value of type 'PlatformType' is never equal to 'null' of type 'PlatformType?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(283,21): warning CS0472: The result of the expression is always 'true' since a value of type 'PlatformType' is never equal to 'null' of type 'PlatformType?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(312,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppRepository.cs(320,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(119,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(127,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(135,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(143,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(167,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(175,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(183,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(191,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(199,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+SubjectCourseQueryForAuthorityRepository.cs(207,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(131,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(139,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(163,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(171,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(195,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(203,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(227,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityOneSubjectQueryRepository.cs(235,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+EmpowerContentProviderRepository.cs(170,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+EmpowerContentProviderRepository.cs(178,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(143,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(151,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(175,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(183,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(207,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(215,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(239,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(247,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(271,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityTwoSubjectQueryRepository.cs(279,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(143,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(151,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(175,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(183,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(207,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(215,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(239,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(247,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(271,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthoritySubjectCourseQueryRepository.cs(279,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppResourseRepository.cs(298,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AppResourseRepository.cs(306,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(173,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(181,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(205,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(213,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(221,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(229,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(253,25): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(261,21): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(269,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(277,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(301,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(309,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(333,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(341,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(365,25): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(373,21): warning CS0472: The result of the expression is always 'false' since a value of type 'long' is never equal to 'null' of type 'long?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(397,25): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+AuthorityEbookQueryRepository.cs(405,21): warning CS0472: The result of the expression is always 'false' since a value of type 'bool' is never equal to 'null' of type 'bool?' [/opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/EntAppSoft.Infrastructure.AuthorityModel.csproj]
+  EntAppSoft.Infrastructure.AuthorityModel -> /opt/publishdir/Infrastructure2.0/EntAppSoft.Infrastructure.AuthorityModel/bin/Release/netstandard2.0/EntAppSoft.Infrastructure.AuthorityModel.dll
+  AuthorityDomainServer -> /opt/publishdir/DomainServer/AuthorityDomainServer/bin/Release/netcoreapp2.2/AuthorityDomainServer.dll
+  AuthorityDomainServer -> /opt/publishdir/DomainServer/AuthorityDomainServer/bin/Release/netcoreapp2.2/publish/
+Removing intermediate container b85bed54336d
+ ---> b169eddd9b72
+Step 4/9 : FROM reg.hexfuture.com/dotnet/runtime
+ ---> 1c1906d8da91
+Step 5/9 : COPY --from=0 /opt/publishdir/DomainServer/AuthorityDomainServer/bin/Release/netcoreapp2.2/publish/ /opt/AuthorityDomainServer
+ ---> 3a3512a22c77
+Step 6/9 : WORKDIR /opt/AuthorityDomainServer
+ ---> Running in 395679df203d
+Removing intermediate container 395679df203d
+ ---> a09baf644904
+Step 7/9 : VOLUME /opt/AuthorityDomainServer
+ ---> Running in 5cf336689cba
+Removing intermediate container 5cf336689cba
+ ---> 9716c83105ac
+Step 8/9 : EXPOSE 20012
+ ---> Running in daf62305fc36
+Removing intermediate container daf62305fc36
+ ---> 5af77b752eb7
+Step 9/9 : RUN exiftool /opt/AuthorityDomainServer/*.dll|egrep "^File Name|^File Version Number"|awk -F ":" '{tmp=$2;getline;print tmp" :"$2}'
+ ---> Running in 85a30a8399b3
+ AuthorityDomainServer.dll : 1.0.0.0
+ CommonServiceLocator.SolrNet.Cloud.dll : 1.0.14.0
+ CommonServiceLocator.SolrNet.dll : 1.0.14.0
+ CommonServiceLocator.dll : 2.0.2.0
+ CommonTools.dll : 5.0.1.0
+ Confluent.Kafka.dll : 1.1.0.0
+ Domain.AuthorityModel.dll : 5.0.1.0
+ Domain.ContentModel.dll : 5.0.1.0
+ Domain.CoursewareModel.dll : 5.0.1.0
+ Domain.EbookModel.dll : 5.0.5.0
+ Domain.EbookStyleModel.dll : 5.0.5.0
+ Domain.ExerciseModel.dll : 5.0.2.1
+ Domain.KeyPointModel.dll : 5.0.6.0
+ Domain.SystemModel.dll : 5.0.1.0
+ Domain.UserModel.dll : 5.0.1.0
+ DomainModelStructure.dll : 4.0.0.0
+ DomainProcess.dll : 5.0.0.0
+ DotNetty.Buffers.dll : 0.6.0.0
+ DotNetty.Codecs.dll : 0.6.0.0
+ DotNetty.Common.dll : 0.6.0.0
+ DotNetty.Handlers.dll : 0.6.0.0
+ DotNetty.Transport.Libuv.dll : 0.6.0.0
+ DotNetty.Transport.dll : 0.6.0.0
+ EntAppFrameWork.AOP.dll : 4.0.0.0
+ EntAppFrameWork.AuthenticationAndAuthorization.dll : 4.0.0.0
+ EntAppFrameWork.Common.dll : 4.0.3.0
+ EntAppFrameWork.DataAccess.Redis.dll : 4.0.0.0
+ EntAppFrameWork.DataAccess.SqlServer.dll : 4.0.0.0
+ EntAppFrameWork.DataAccess.dll : 4.0.0.0
+ EntAppFrameWork.DomainModel.dll : 4.0.2.0
+ EntAppFrameWork.Log.dll : 4.0.0.0
+ EntAppFrameWork.PCL.dll : 4.0.1.0
+ EntAppFrameWork.PublishSubscribe.Kafka.dll : 4.0.1.0
+ EntAppFrameWork.PublishSubscribe.dll : 4.0.0.0
+ EntAppFrameWork.RPC.dll : 4.0.1.0
+ EntAppFrameWork.SerialNumber.dll : 4.0.0.0
+ EntAppFrameWork.Staticization.dll : 4.0.0.0
+ EntAppFrameWork.dll : 4.0.2.0
+ EntAppSoft.Infrastructure.AuthorityModel.dll : 5.0.1.0
+ EntAppSoft.Infrastructure.ContentModel.dll : 5.0.1.0
+ EntAppSoft.Infrastructure.EbookModel.dll : 5.0.9.0
+ EntAppSoft.Infrastructure.EbookStyleModel.dll : 5.0.9.0
+ EntAppSoft.Infrastructure.ExerciseModel.dll : 5.0.1.0
+ EntAppSoft.Infrastructure.KeyPointModel.dll : 5.0.9.0
+ EntAppSoft.Infrastructure.SystemModel.dll : 5.0.1.0
+ EntAppSoft.Infrastructure.UserModel.dll : 5.0.1.0
+ Microsoft.CodeAnalysis.CSharp.Workspaces.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.CSharp.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.VisualBasic.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.Workspaces.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.dll : 3.200.19.38121
+ Microsoft.DotNet.PlatformAbstractions.dll : 2.1.0.0
+ Microsoft.Extensions.DependencyInjection.Abstractions.dll : 1.1.0.21115
+ Microsoft.Extensions.DependencyModel.dll : 2.1.0.0
+ Microsoft.Extensions.Logging.Abstractions.dll : 1.1.1.30217
+ Microsoft.Extensions.Logging.dll : 1.1.1.30217
+ Newtonsoft.Json.dll : 12.0.2.23222
+ Pipelines.Sockets.Unofficial.dll : 2.0.22.26858
+ Polly.dll : 7.1.0.0
+ RWSServiceRuntime.dll : 5.1.2.0
+ SolrNet.Cloud.dll : 1.0.14.0
+ SolrNet.dll : 1.0.14.0
+ StackExchange.Redis.dll : 2.0.601.3402
+ SubsribePublishDTO.dll : 5.0.1.0
+ System.Composition.AttributedModel.dll : 4.6.24705.1
+ System.Composition.Convention.dll : 4.6.24705.1
+ System.Composition.Hosting.dll : 4.6.24705.1
+ System.Composition.Runtime.dll : 4.6.24705.1
+ System.Composition.TypedParts.dll : 4.6.24705.1
+ System.Configuration.ConfigurationManager.dll : 4.6.26515.6
+ System.Data.DataSetExtensions.dll : 4.6.26515.6
+ System.Data.SqlClient.dll : 4.6.27110.4
+ System.Diagnostics.PerformanceCounter.dll : 4.6.26515.6
+ System.IO.Pipelines.dll : 4.6.26814.2
+ System.Runtime.CompilerServices.Unsafe.dll : 4.6.26919.2
+ System.Security.Cryptography.ProtectedData.dll : 4.6.26515.6
+ System.Security.Permissions.dll : 4.6.26515.6
+ System.ServiceModel.Primitives.dll : 4.6.26720.1
+ System.ServiceModel.dll : 4.6.26720.1
+ System.Text.Encoding.CodePages.dll : 4.6.27129.4
+ System.Threading.Channels.dll : 4.6.26515.6
+ ZooKeeperNetEx.dll : 3.4.12.1
+ log4net.Kafka.dll : 5.0.0.0
+ log4net.dll : 2.0.8.0
+Removing intermediate container 85a30a8399b3
+ ---> bfe428f1c42c
+Successfully built bfe428f1c42c
+Successfully tagged reg.hexfuture.com/domain/authoritydomainserver:5.0.0
++ docker push reg.hexfuture.com/domain/authoritydomainserver:5.0.0
+The push refers to repository [reg.hexfuture.com/domain/authoritydomainserver]
+dad75b8ab8dc: Preparing
+a95d332780ca: Preparing
+3ee4908d2720: Preparing
+027db4dc1d4f: Preparing
+f2bc0bd5a7b8: Preparing
+6339615de93e: Preparing
+c6c9de941dfa: Preparing
+9c894eb0930b: Preparing
+d56055da3352: Preparing
+6339615de93e: Waiting
+9c894eb0930b: Waiting
+d56055da3352: Waiting
+c6c9de941dfa: Waiting
+027db4dc1d4f: Layer already exists
+a95d332780ca: Layer already exists
+f2bc0bd5a7b8: Layer already exists
+3ee4908d2720: Layer already exists
+6339615de93e: Layer already exists
+c6c9de941dfa: Layer already exists
+9c894eb0930b: Layer already exists
+d56055da3352: Layer already exists
+dad75b8ab8dc: Pushed
+5.0.0: digest: sha256:f5b27232eed394f9a248567434b16b849b88a38cf26bd69a64abea85f36bd68a size: 2215
+Finished: SUCCESS

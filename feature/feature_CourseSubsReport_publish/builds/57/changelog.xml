@@ -1,0 +1,70 @@
+commit 9edd4b386a0fcc94a04ccf4cb0cc014e13b2086e
+tree a9d16128ac1e1c118143c3345e9bb8c642f8f2b3
+parent e038589bea38a4bec247303a4429db4000bd568a
+author 王宇鹤 <2511980201@qq.com> 2019-10-11 16:53:19 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-11 16:53:19 +0800
+
+    feat:测试
+
+
+
+:100644 100644 055c1d2ea36fab7cd65f707e24322d7f645f09cb 1131a838b78089b943ad6be295869050fd5c80ba M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 527b1f22f3d76a8f45b5918937ea2e05a72c8ec8 d0b60e326070546921a1848aa277d23cbd333b2c M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit e038589bea38a4bec247303a4429db4000bd568a
+tree caf4b8b26f7373e7c3605c972d9ef1abbc0aec19
+parent bf777f8e360de24cec4ae8651b2e7dd8cafb54b0
+author 王宇鹤 <2511980201@qq.com> 2019-10-10 17:09:03 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-10 17:09:03 +0800
+
+    测试
+
+
+
+:100644 100644 5c9575e9c7f82d9c75b7e35fdfb38004f50004c2 055c1d2ea36fab7cd65f707e24322d7f645f09cb M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+:100644 100644 6b41d18f76aa39397c3d4ec6247a1bf7f5bda65d 2c4c7ee62bad702dc50cb6ac6684dc0a64829367 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+commit 0adb15d7973a15b23d34ecaa74044ec691c2e2cb
+tree bb97c0db0f4be6cdea802256a15449a1c5e120d7
+parent 7626240a224627d726b4812b7325b72b0845b0e2
+author 王宇鹤 <2511980201@qq.com> 2019-10-08 10:02:39 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-08 10:02:39 +0800
+
+    feat:RewordGroutStudent
+
+
+
+:100644 100644 fd996f2299f7d39105d5422fa40404d5df66d58a abded11cb9741b7ad7b86dd49de28e73b5c4afdb M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+:100644 100644 2e24edfdd4d86c139f9955ad18f3e7d22b790888 cee7c8ef2f01379bfe757d109888b7e18228f557 M	WebApi/WebApiCourse/Models/ParameterDto/ReqStudentReword.cs
+commit 7626240a224627d726b4812b7325b72b0845b0e2
+tree 9233fe3bb5b15577203b55f6cd2d061bb7b08f24
+parent 99d595c81ebb2d97f67af1683cf651aafa55dbfb
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 18:22:58 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 18:22:58 +0800
+
+    小组成员集体加分
+
+
+
+:100644 100644 660126d2402d3ca998ad1250feb3cb5f6f2815f5 873260b23cfc1e7748f5feff541c13deddd1af32 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+commit b24327519cb5d96f9c32b8c9d0e17ec375b82d7a
+tree 6157d2538b9972da31ad2a677881adc7623fddeb
+parent b2a18e35472ef8a6d198b7b0a6e59c05863d231f
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 11:26:14 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 11:26:14 +0800
+
+    小组统一加分
+
+
+
+:100644 100644 a2042accef6e330eefc75049bf47b6c1722e397d 660126d2402d3ca998ad1250feb3cb5f6f2815f5 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 92a83b98357d76263c1ebfaad0475a39340d24f8 20348b87d0e607440a08496874dcbb732db6192b M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 8afeab8e32bf4c74f519769dd9594287332c5a9c de3a95b18871c2bb1f69d43d465b7924d2f7638e M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 3afce9561cd883e175f8e9d2fd1392bfb8eb49c3 6e20b31233e155e385c8365063ee5a362d34d478 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logError20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logError20190828.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logInfo20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logInfo20190828.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logWarn20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logWarn20190828.txt
+:100644 100644 52b146118ccf7b6a4aa66e0b68df9f1f4ef401a9 9206fafbc8e242783aac748d82447ce5c08d9241 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 8852ed346d2054d45bea9e5ac1ab90ab016929ab fd996f2299f7d39105d5422fa40404d5df66d58a M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+:100644 100644 015bc5e49dfbbe429f812809c2fb28b2187c6cfa 2e24edfdd4d86c139f9955ad18f3e7d22b790888 M	WebApi/WebApiCourse/Models/ParameterDto/ReqStudentReword.cs

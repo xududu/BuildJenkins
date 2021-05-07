@@ -1,0 +1,47 @@
+commit 13824f39864e7f8b96e381c8435637aed51f7644
+tree f7168992cccf9939a8f73d7b4e52fe4586fcdd69
+parent 50a03880966cfe0879a56066ff1afb0e2c6cbf08
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 16:56:37 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 16:56:37 +0800
+
+    feat:测试
+
+
+
+:100644 100644 12496d302d9913e167c09159b1c5bcf25eda032a 68b5403e7539795cee3106d125ef903aae096101 M	Domain2/Domain.CourseBuildModel/DTO/TeacherHTEListDTO.cs
+:100644 100644 bcdca2c0322f88a724ff19cb4010fe10353ab574 3c15149d64f66fd7de7b6d96d105460724d6638f M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 50a03880966cfe0879a56066ff1afb0e2c6cbf08
+tree 7156d968f94f62eceeb0534e1417d7e408bb7e63
+parent 004a7b0c01e3f0365a0dbbaaa04f99d3e15b2b41
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 16:41:22 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 16:41:22 +0800
+
+    feat:测试
+
+
+
+:100644 100644 81891bfa33484d0abb3a198a70caba8e943f129d 3beb71aa59d97a630888cb768d0b31235418bb98 M	SubscriptionService/CourseSubsReport/Properties/launchSettings.json
+:100644 100644 0bd0c90f9251fe45f3bf504ce927bbd686f26406 2eac823c26b649649f8362673a5d1c3b995de6ee M	SubscriptionService/CourseSubsReport/RestoreHTEAndCourse.cs
+commit 004a7b0c01e3f0365a0dbbaaa04f99d3e15b2b41
+tree 7c9a666876a5bce182876b87d9cd267fd6a00b51
+parent 821469d6bf21a95f5605590683923eca460dcb43
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 15:47:04 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 15:47:04 +0800
+
+    feat:测试
+
+
+
+:100644 100644 b4106e9d4fde3a5fa23b4320153283fe7a77fa5a bcdca2c0322f88a724ff19cb4010fe10353ab574 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs
+commit 821469d6bf21a95f5605590683923eca460dcb43
+tree 36b4c4430ef622aa4aa04af3a31abd9c55534333
+parent 821deee24996e5b743bb2f985ca1671ea9cc5d50
+author 王宇鹤 <2511980201@qq.com> 2019-10-12 15:09:19 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-10-12 15:09:19 +0800
+
+    测试
+
+
+
+:100644 100644 910275c03826314df75209ca15d6a88763b644d9 12496d302d9913e167c09159b1c5bcf25eda032a M	Domain2/Domain.CourseBuildModel/DTO/TeacherHTEListDTO.cs
+:100644 100644 bdd9efedf8c257e7c1d59587b841e9149116848f b4106e9d4fde3a5fa23b4320153283fe7a77fa5a M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEService.cs

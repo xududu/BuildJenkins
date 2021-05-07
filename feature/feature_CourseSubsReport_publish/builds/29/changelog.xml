@@ -1,0 +1,46 @@
+commit 860349a8312418d5f93a9f5a8a78a5164127ed66
+tree 5c2245503e3efe8d8eb61dfb3792f9c2955c527d
+parent 516a60ce2c7867198090f6964481890ffa16f5bc
+author 王宇鹤 <2511980201@qq.com> 2019-08-08 18:15:52 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-08-08 18:15:52 +0800
+
+    feat:MoveStudent
+
+
+
+:100644 100644 7eddbf869a2052ae86d03689d9e4b18d80ffbb66 edfaa20950a327ace619d7b9fcc7b3a81cac37f9 M	WebApi/WebApiCourse/Controllers/ManageStudyClassController.cs
+:100644 100644 86533366038d139f7dd6f468a8a089fb87591cb5 8efa89e983feccd892ae0c18dd238d47792c31c2 M	WebApi/WebApiCourse/Models/MoveStudentModel.cs
+commit f734373588b87d60fad0a5d861c13bf3e7a43fbd
+tree 0d061b54422186d09fbf5f8ad893bd92a7a02d45
+parent 516a60ce2c7867198090f6964481890ffa16f5bc
+author gaofeng <gaofeng@hexfuture.com> 2019-08-08 18:05:53 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-08-08 18:05:53 +0800
+
+    feature:课程日志重新打
+
+
+
+:100644 100644 6fd3eff0ecffe8244a98361c8703016d0b28581f e649e1a1844f9fb5952094590b7436582bc5c711 M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+commit 516a60ce2c7867198090f6964481890ffa16f5bc
+tree 7f527b54c793b03d8cf8b3b1a7fe82fd93bb81d4
+parent fa408465ccb011be84c12bcb518052f4284ee435
+author gaofeng <gaofeng@hexfuture.com> 2019-08-08 17:49:39 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-08-08 17:49:39 +0800
+
+    feature:debutcourse
+
+
+
+:100644 100644 e5ea461586e985911e175a922363002299329ffc 6fd3eff0ecffe8244a98361c8703016d0b28581f M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 98b5d4b9831d593e5f1ba17956e04e67d2cbd501 5d35d2cad5ec08019ef892349c2ddeb20c8921f8 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit fa408465ccb011be84c12bcb518052f4284ee435
+tree 7ecbafa768e81e55093e7d7b691822ff40dce634
+parent c1e5ef6801adbb0d21609c7fc020693edf10124d
+author gaofeng <gaofeng@hexfuture.com> 2019-08-08 17:35:49 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-08-08 17:35:49 +0800
+
+    课程api添加日志
+
+
+
+:100644 100644 169b15489bf88a46ce1786e7c00823661789f2a1 98b5d4b9831d593e5f1ba17956e04e67d2cbd501 M	WebApi/WebApiCourse/Controllers/CourseController.cs

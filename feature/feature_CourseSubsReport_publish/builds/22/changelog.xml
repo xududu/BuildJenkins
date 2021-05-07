@@ -1,0 +1,17 @@
+commit 0f39fa92680c24be7fcf55daf8ba9cdcddaa3f05
+tree e0e532330a2ac37c438dd5eef68cde69f2ac9111
+parent 88665cf95d5ab6b0e2aa6f962a5ed1af9166b4e2
+author 王宇鹤 <2511980201@qq.com> 2019-08-02 10:24:53 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-08-02 10:24:53 +0800
+
+    feat: log
+
+
+
+:100644 100644 5d33594eb65f3452225042d7868bc8f4c1f42036 5374e4b8062fa68cb5c874836ffb1c14c7967943 M	DomainServer/CourseDomainServer/Configs/Log4Net.config
+:100644 100644 2c040efcc8b8a404de03d2c67cbdc076ac73c63b c3e3440d4fb5253715afa68d8eee2bb813f70487 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 5d33594eb65f3452225042d7868bc8f4c1f42036 baa050521763931df64cee41331bca2e1b9a1a6e M	SubscriptionService/CourseSubsReport/Configs/Log4Net.config
+:100644 100644 af73d9adcb6ad316987013b5594e20ae46e64100 b4d2fb71d7872369bc3e553276273b69c505b0cd M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+:100644 100644 5d33594eb65f3452225042d7868bc8f4c1f42036 baa050521763931df64cee41331bca2e1b9a1a6e M	SyncAndCheckServer/SyncCourseServer/Configs/Log4Net.config
+:100644 100644 7b5f5179a55d8ef652b8eb2b26910cb7457f67f7 704a2d15ca03f2f2e9ff4d118bea846c67dd0336 M	SyncAndCheckServer/SyncCourseServer/SyncCourseServer.csproj
+:100644 100644 fe379cae26ce463b8fc7d34e0256388d780f0259 5374e4b8062fa68cb5c874836ffb1c14c7967943 M	WebApi/CourseWebAPIServer/Configs/Log4Net.config

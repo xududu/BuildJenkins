@@ -1,0 +1,11 @@
+commit cf9f9a1ec1857a8da8ab703866a6e71f91f30aad
+tree 4c5588c990f67da9195aa83cf2c6a2c1b298de4e
+parent 51edc4da9eb987b51e454f5614cd1ae1a3267a89
+author AnHaNIYa <1400436027@qq.com> 2021-03-05 14:46:02 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-03-05 14:46:02 +0800
+
+    editor:   DirectoryInfo
+
+
+
+:100644 100644 35a12570f849df2952b46707e8c27ea48dcd4571 db71c4bd2095e3a916848505385ca60f3af50755 M	Domain2/Domain.CourseBuildModel/Core/DirectoryInfo.cs

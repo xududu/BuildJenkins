@@ -1,0 +1,13 @@
+commit 436be8772e3ccc5239f2487835015eb5bc8e66a7
+tree 662327b0c53aabd9758b36b643a6e0b909fc8e43
+parent e27f186fd4d8b2418970fd77f9c25da8e76fcdd0
+author AnHaNIYa <1400436027@qq.com> 2021-02-09 17:11:52 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-09 17:11:52 +0800
+
+    UPDATE  SYNC配置
+
+
+
+:100644 100644 226695832cb4e9a07e97b56dae141c88158aff6a 5ea04046f74202714a55628f2b12b817db58ab40 M	SubscriptionService/CourseSubsReport/EntAppFrameWork.config
+:100644 100644 df59acedead3c5e2feaab79d3c533b71a58ef295 a67ecc8af63e5100cf9b259930994c8cddd9178b M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config
+:100644 100644 8df56068551c372f5f42a9d2189cc47201531ae2 9f72edd6baffa7182875e5aaae05611a7ba89162 M	SyncAndCheckServer/SyncCourseServer/Properties/launchSettings.json

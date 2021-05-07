@@ -1,0 +1,35 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.envinject.EnvInjectPluginAction plugin="envinject@2.1.6"/>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>3809</queueId>
+  <timestamp>1612856963796</timestamp>
+  <startTime>1612856963800</startTime>
+  <result>ABORTED</result>
+  <duration>11372</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>192.168.0.236</builtOn>
+  <workspace>/usr/local/jenkins/workspace/feature_CourseSubsReport_publish</workspace>
+  <hudsonVersion>2.235.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

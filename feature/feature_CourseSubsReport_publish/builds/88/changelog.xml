@@ -1,0 +1,24 @@
+commit a43170524a3ddc10cf57cfe286e328530eac157b
+tree 4cd16df85f0ea4b2834a412e0df2e276d46188c3
+parent fd1361a65261d7ead3db2a4e0669c6c559441246
+author yangjialin <yangjialin@hexfuture.com> 2020-12-21 15:26:45 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2020-12-21 15:26:45 +0800
+
+    edit:课程模板延时加载
+
+
+
+:100644 100644 984c824756d20052edd098ed7bfec6553ec03040 b48931defc4539efca6967dcc475981428bcf311 M	Domain2/Domain.CourseTemplateModel/Core/CourseTemplate.cs
+commit fd1361a65261d7ead3db2a4e0669c6c559441246
+tree 2bbe6f9bc18e08bd7b17cc3174471b1204535e80
+parent 5357c3c7aa17486c2f5b633f220d8de913bd85b1
+author yangjialin <yangjialin@hexfuture.com> 2020-12-21 15:04:24 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2020-12-21 15:04:24 +0800
+
+    edit:课程模板里面课程主线上的课件电子书延时加载问题
+
+
+
+:100644 100644 2d9811a250dbdfb953223ab6ca432b2a4cf2da9b ac54e369d81c431fe800368e77c5c630b43a8432 M	Domain2/Domain.CourseTemplateModel/Core/ClassPeriod.cs
+:100644 100644 7943213f88df9607dacddb9c6791aa72ac55a28a 9fcbc9f3f5292f0831bb62b7a0ddb2e0598b58e3 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 831d608b8c81cc73fe2bba482ec75563926b9b31 bbf3597e4196de94193415d21aa1d9a25cfde741 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json

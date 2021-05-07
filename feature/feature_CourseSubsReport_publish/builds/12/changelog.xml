@@ -1,0 +1,79 @@
+commit a590249537991e62edb884b1f2173ae7e57c4b8c
+tree f022c1af5a9ca654eecebd01cc1f9b261a9ed955
+parent 8b603f37170fc7f9ffd7b51571517d98babf1c56
+author 王宇鹤 <2511980201@qq.com> 2019-07-19 15:29:04 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-19 15:29:04 +0800
+
+    feat:配置
+
+
+
+:100644 100644 707bc61bacefce38edf6368f57e8fc27a88ccdfc 17d395aad295edb264d7d31982b010ceb3162596 M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config
+:100644 100644 925b9848099e97e7d8e9c23755cd66254016d49e 64636fd4fc9d40410bc481097daced95a9972e70 M	SyncAndCheckServer/SyncCourseServer/Properties/launchSettings.json
+commit 008d66630c1cc00f554c4137d624a5114ea38110
+tree 24c437406a20fbbd936a4734569c6dda8cd3b78d
+parent be551c937b968c703aaa0d13822297fe25a1eea8
+author gaofeng <gaofeng@hexfuture.com> 2019-07-19 15:12:10 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-07-19 15:12:10 +0800
+
+    feature:s的ent配置文件更新
+
+
+
+:100644 100644 eca0b882ffcdc4859ed582f5e93a9a349eedb0c4 707bc61bacefce38edf6368f57e8fc27a88ccdfc M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config
+:100644 100644 b6b2e5898b80ad476f586d6e535305f40b6f2b1c 925b9848099e97e7d8e9c23755cd66254016d49e M	SyncAndCheckServer/SyncCourseServer/Properties/launchSettings.json
+commit 28957b30b2aeb629f4a3d86c1cc8631dd46f44d2
+tree bfc83b3596b426e7117bfbae3341848fe1c65596
+parent be551c937b968c703aaa0d13822297fe25a1eea8
+author 王宇鹤 <2511980201@qq.com> 2019-07-19 10:25:29 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-07-19 10:25:29 +0800
+
+    feat:s添加底层包
+
+
+
+:100644 100644 58b1e2e29dc573ee52304b64a5792a4f19bd5e46 253d26e00e2ee77363733ef80e5143bdaeac66fe M	SyncAndCheckServer/SyncCourseServer/SyncCourseServer.csproj
+commit be551c937b968c703aaa0d13822297fe25a1eea8
+tree 114d025824f5a5fa5a49d29654fb21f3afe66d48
+parent 483bafbb7025b9310a9582b3f946af16f02c5086
+author gaofeng <gaofeng@hexfuture.com> 2019-07-18 16:35:13 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-07-18 16:35:13 +0800
+
+    feature:D的配置文件更新
+
+
+
+:100644 100644 34e39d72471ecc038b56b2145c06b8f11202fc39 ce0984f71d109992d5739f2453f399655fbe9676 M	DomainServer/CourseDomainServer/EntAppFrameWork1.config
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logError20190715.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logError20190716.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logError20190717.txt
+:000000 100644 0000000000000000000000000000000000000000 58985b1ce75a98bed80f2df1c4f8c4f92cff3c30 A	WebAPI/CourseWebAPIServer/log/logInfo20190715.txt
+:000000 100644 0000000000000000000000000000000000000000 03aacaced1cce04f8d114f4cfbae007425ca4a6f A	WebAPI/CourseWebAPIServer/log/logInfo20190716.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logInfo20190717.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logWarn20190715.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logWarn20190716.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logWarn20190717.txt
+commit 483bafbb7025b9310a9582b3f946af16f02c5086
+tree 39f411dd800f3894a5b7131daae0335d57602b26
+parent 2efca0254b9c25b60dec4a5ce8b0615f2b1b7a00
+author 安冰超 <1400436027@qq.com> 2019-07-17 15:46:16 +0800
+committer 安冰超 <1400436027@qq.com> 2019-07-17 15:46:16 +0800
+
+    editor: 修改接口参数ClassPeriod
+
+
+
+:100644 100644 7f34ab74adc4795c13693c132f195d2ccf8207e8 2524642194e64bbea071f4768fb95026ea00085e M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs
+commit 2efca0254b9c25b60dec4a5ce8b0615f2b1b7a00
+tree 715d9de8e57045339a7f276f7ad359ff6e418d6e
+parent 83f289399b7deec7be2d1d98182620ee85379901
+author gaofeng <gaofeng@hexfuture.com> 2019-07-17 11:19:36 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-07-17 11:19:36 +0800
+
+    feature:安装领域内模型依赖的领域外模型的底层包
+
+
+
+:100644 100644 100c4344bc65c176b3b20c5e4e27e1bf798601f1 6c087ecdd564c45d9016889161b1d949a0b34d07 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 a0ad1ab7fd08b02924ad09154b697ad64586ee37 4a94b907f1bee07b36816e0981486bedf7dff49d M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 3fe0f92e36cfa8a5d03a09998d747a5ccc16f0df cc4d252e00953f3cfbfd5b8cf7a6fc39a6f8ba95 M	WebApi/CourseWebApiServer/Properties/launchSettings.json

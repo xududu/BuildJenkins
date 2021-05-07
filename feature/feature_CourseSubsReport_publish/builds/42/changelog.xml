@@ -1,0 +1,26 @@
+commit 6b3e439b661f725e7f0c2335570a0b9f2deb6ab4
+tree ecdc943d6c6e064d8aa7c8dcfc0af67075b6de3c
+parent b2136ce0be92cb07ce92c4f4c4db4623f8ab40fe
+author 彩娟 冯 <1446730634@qq.com> 2019-08-22 18:24:36 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-08-22 18:24:36 +0800
+
+    CourseSubsReport  Ent配置文件
+
+
+
+:100644 100644 131afed56b65f717df8a2c97b6bc398a78fab9b8 1bb8197196551f25a5559bf6ac70279016b19441 M	SubscriptionService/CourseSubsReport/EntAppFrameWork.config
+commit db9e90bfbd45a2e306443ed2b2458303a0ae37f3
+tree 0232847194f2a0f91aff182f4619ffc7932519e0
+parent dc206a24a262038bd7bafae01d4fd6a18c252ca0
+author 王宇鹤 <2511980201@qq.com> 2019-08-22 17:57:13 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-08-22 17:57:13 +0800
+
+    feat:修改配置
+
+
+
+:100644 100644 8afeab8e32bf4c74f519769dd9594287332c5a9c 03793f18333edf849d68658176dc4eb48a3d56b4 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 00864cb6e3778bbc7d9a306c351c45cd94f00860 c2135a4f0dd86544abac9046bf8546321e7b9d67 M	SyncAndCheckServer/SyncCourseServer/EntAppFrameWork.config
+:100644 100644 95c890ef62b69029fc2a23ed90ef8e0cea8eee57 409c38f3062bec33ae4783d3cbc530d60fe5a930 M	WebApi/CourseWebAPIServer/CourseWebApi.config
+:100644 100644 25fc4b0b423afc8515df10ed55ad99d132f47363 6fd85595fbb52b7f1a67d5107b6dcca3e18e44d0 M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+:100644 100644 3afce9561cd883e175f8e9d2fd1392bfb8eb49c3 58e68ba1648191cbb71b17010f670960200c90bf M	WebApi/CourseWebAPIServer/Properties/launchSettings.json

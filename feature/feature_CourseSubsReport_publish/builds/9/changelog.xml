@@ -1,0 +1,63 @@
+commit 8d625bffbcbbcbb4f1cffad610666ff77d741143
+tree 238ec1c1d561b21359b75c15a062bb6e3c4e9f5a
+parent 067228a75f762e6a8e58f5b20952fae21738c34e
+author gaofeng <gaofeng@hexfuture.com> 2019-07-13 15:54:55 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-07-13 15:54:55 +0800
+
+    Domain.CourseTemplateModel移除，这个dll暂时还启用，后续会把Domain.CourseBuildModel中的CourseTemplate迁移出来
+
+
+
+:100644 100644 b2d2eb5295cbafb3e53decdab12863082e52ea10 dcd08c812c32685023be73b55fb737e0d300f0d8 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 79dbbf57a142440c34d3aa26a978bc580228375a fd9c25399da9fddfcbd63b5409b057c190e11a4f M	WebAPI/CourseWebAPIServer/log/logInfo20190713.txt
+commit 88102a5a6f62107a00bd4c2c081ffa8b34fd96a4
+tree d23224f3b61e3c2c216f6f1837c4719f7182ed17
+parent f8c9010f96672e60bb36b66d56e7fe6fe6dad9e5
+author gaofeng <gaofeng@hexfuture.com> 2019-07-13 15:43:25 +0800
+committer gaofeng <gaofeng@hexfuture.com> 2019-07-13 15:43:25 +0800
+
+    引用课程模板
+
+
+
+:100644 100644 965fde9f60f19731eb2e8dd53a0f987bb15582a6 b2d2eb5295cbafb3e53decdab12863082e52ea10 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 23e6289f94fc8ab65ee2b89371b72c198fe194ad a0ad1ab7fd08b02924ad09154b697ad64586ee37 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebAPI/CourseWebAPIServer/log/logError20190713.txt
+:000000 100644 0000000000000000000000000000000000000000 79dbbf57a142440c34d3aa26a978bc580228375a A	WebAPI/CourseWebAPIServer/log/logInfo20190713.txt
+:000000 100644 0000000000000000000000000000000000000000 834a6bef6921ba618f8f44adb55b5bcda0fec51b A	WebAPI/CourseWebAPIServer/log/logWarn20190713.txt
+:100644 100644 96b65bbc3b02f8fac54b5735927132aeb2ee07fd 3fe0f92e36cfa8a5d03a09998d747a5ccc16f0df M	WebApi/CourseWebApiServer/Properties/launchSettings.json
+commit a93903ff77963f1ac3ca3a313f9beef682d7294e
+tree 7f61313eeb252ba24b94622b3b5a72127ae14d5a
+parent 6b87d56d9a1fd27c271c9f18395bb6fd62e1d1dd
+author luodaishi <luodaishi@hexfuture.com> 2019-07-13 12:18:22 +0800
+committer luodaishi <luodaishi@hexfuture.com> 2019-07-13 12:18:22 +0800
+
+    nuget
+
+
+
+:100644 000000 a9a421ce9030f5dd39c77e5519ad3a6ecd71ee79 0000000000000000000000000000000000000000 D	.nuget/packages.config
+:100644 100644 76f66b2977c97fa9845cffc18e469fb284b6da01 3a7325c4151473f0493792ff5803342e728ea4ac M	Course.sln
+commit 6b87d56d9a1fd27c271c9f18395bb6fd62e1d1dd
+tree 2084ca9db3fceebc249ca3ef9f3ce77e48db4422
+parent 7a7adb384b645768bd4231ad4f8ab8a87ff964d6
+author luodaishi <luodaishi@hexfuture.com> 2019-07-13 12:17:48 +0800
+committer luodaishi <luodaishi@hexfuture.com> 2019-07-13 12:17:48 +0800
+
+    忽略文件
+
+
+
+:100644 100644 840d7ae81a89c5fa8dada3b6bb610c608dff5e48 cd526b6af8ed90cce8f29441f20a1e1052a4df46 M	.gitignore
+commit 7a7adb384b645768bd4231ad4f8ab8a87ff964d6
+tree cff7c9e6cab9c004ceb8c9904de637acdc302fee
+parent f8c9010f96672e60bb36b66d56e7fe6fe6dad9e5
+author luodaishi <luodaishi@hexfuture.com> 2019-07-13 12:17:41 +0800
+committer luodaishi <luodaishi@hexfuture.com> 2019-07-13 12:17:41 +0800
+
+    忽略一些文件
+
+
+
+:100644 000000 fb1023c31bb62b47d1ac56979fdd5f2668352d4d 0000000000000000000000000000000000000000 D	.vs/config/applicationhost.config
+:100644 000000 0827bf91e7a329900e77d9e69177f6d84afd068e 0000000000000000000000000000000000000000 D	Course.sln.GhostDoc.xml

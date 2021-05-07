@@ -1,0 +1,16 @@
+Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4FNQdq2YeB/LrZrvFOyhpSwEGUlCLoRkHe7jtRHRDyGyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/eT83ILSktQifSNDCwDNQmeUwgAAAA==[0m218 in workspace /usr/local/jenkins/workspace/feature_AuthorityDomainServer_publish_test
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+Run condition [Strings match] enabling prebuild for step [Trigger/call builds on other projects]
+Strings match run condition: string 1=[BuildAndRun], string 2=[BuildAndRun]
+Run condition [Strings match] enabling perform for step [Trigger/call builds on other projects]
+Waiting for the completion of [8mha:////4JpMtWcT7MP01QVCG9VJ03368cTPazRPOy8f2ice2IEKAAAAmR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKmGQ0M/KT9LPzU9JzYlPyc9NzMyLTyrNzEnRBwDxl6y4nQAAAA==[0mmodel_domain_build
+[8mha:////4PlzMHTDGMcWcFAVOsm2RzHcyQCdVfc9oVykTxTqDZpaAAAAmx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLWGQ0s/KT9LPzU9JzYlPyc9NzMyLTyrNzEnRN9IHANqKjgyfAAAA[0mmodel_domain_build #2 completed. Result was FAILURE
+Build step 'Conditional step (single)' marked build as failure
+Strings match run condition: string 1=[BuildAndRun], string 2=[BuildAndRun]
+Run condition [Strings match] enabling perform for step [Builder to mark whether executed]
+Finished: FAILURE

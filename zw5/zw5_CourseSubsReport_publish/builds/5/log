@@ -1,0 +1,80 @@
+Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4FNQdq2YeB/LrZrvFOyhpSwEGUlCLoRkHe7jtRHRDyGyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/eT83ILSktQifSNDCwDNQmeUwgAAAA==[0m218 in workspace /usr/local/jenkins/workspace/feature_AuthorityDomainServer_publish_test
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+Run condition [Strings match] enabling prebuild for step [Trigger/call builds on other projects]
+Strings match run condition: string 1=[JustRun], string 2=[BuildAndRun]
+Run condition [Strings match] preventing perform for step [Trigger/call builds on other projects]
+Build environment variables will be made available to the next build: CSProjPath=DomainServer:CSProjFile=AuthorityDomainServer:DockerPort=20012:DOCKERIMAGENAME=authoritydomainserver
+Build environment variables will be made available to the next build: DockerProName=domain:ZKAppRole=Common-Authority:DockerName=w1.authority.domain.common.hex.com:ServiceName=authority-w1
+SSH: Connecting from host [docker-218]
+SSH: Connecting with configuration [51.group1.WebApi] ...
+SSH: EXEC: STDOUT/STDERR from command [#启动docker images
+docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+
+docker pull reg.hexfuture.com/domain/authoritydomainserver
+
+# 判断1,如果存在同名字执行中的容器,先停止,没有判断停止失败情况
+num=`docker ps -f name=w1.authority.domain.common.hex.com -f status=running|wc -l`
+if [ $num == 2 ];then
+ docker stop w1.authority.domain.common.hex.com 
+fi
+
+# 判断2,如果存在同名字的停止的容器,删除
+num=`docker ps -af name=w1.authority.domain.common.hex.com -f status=exited|wc -l`
+if [ $num == 2 ];then
+ docker rm w1.authority.domain.common.hex.com
+fi
+sleep 8s
+docker run -d \
+-p 20012:20012 \
+-v /etc/localtime:/etc/localtime \
+-v /usr/local/docker-data/sleep.sh:/docker-entrypoint-initdb.d/sleep.sh \
+-l io.rancher.container.network=true \
+--ulimit core=-1 \
+--security-opt seccomp=unconfined \
+--privileged=true \
+-e HOST_IP=`ip a sh eth0 | grep "inet " |awk '{print $2}'|awk -F/ '{print $1}'` \
+-e ETCD_ADDR=etcd.common.hex.com:2379 \
+-h w1.authority.domain.common.hex.com \
+--name w1.authority.domain.common.hex.com \
+reg.hexfuture.com/domain/authoritydomainserver \
+dotnet \
+/opt/AuthorityDomainServer/AuthorityDomainServer.dll \
+--serviceName authority-w1 \
+--zkConfigServer w1.confandsa.zk.group.hex.com:2181,w2.confandsa.zk.group.hex.com:2181,w3.confandsa.zk.group.hex.com:2181 \
+--zkAppRole Common-Authority \
+--aop off \
+--minThreadCount 10 \
+--serviceAddress tcp://w1.authority.domain.common.hex.com:20012 \
+--runScope Core991 \
+--msGroup dongbei \
+--KPversion 2 \
+--psapp v2 \
+--ser protobuf \
+--zkTimeOut 30000 \
+--mcTimeOut 30000 \
+--trace kafka] ...
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Using default tag: latest
+latest: Pulling from domain/authoritydomainserver
+Digest: sha256:31b5f8dad3b57811ff52eca07069a23f9e1b897c6f4f5cf45f88c880d7ba656d
+Status: Image is up to date for reg.hexfuture.com/domain/authoritydomainserver:latest
+w1.authority.domain.common.hex.com
+w1.authority.domain.common.hex.com
+79a30291de36dc70d216f39b077413421fddb3ad6944cc89d983e3f897014879
+SSH: EXEC: completed after 26,620 ms
+SSH: Disconnecting configuration [51.group1.WebApi] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Strings match run condition: string 1=[JustRun], string 2=[BuildAndRun]
+Run condition [Strings match] preventing perform for step [Builder to mark whether executed]
+Finished: SUCCESS

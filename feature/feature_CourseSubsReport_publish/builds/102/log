@@ -1,0 +1,419 @@
+Started by upstream project "[8mha:////4CM9vt+k05D2hNz6rQj/lZiFK78E5Tq1g0pRsvuyxSx9AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP201MSS0qLUeMecnIDSpJzM4gx9AHyojITNAAAA[0mfeature_AllPublish" build number [8mha:////4CNv7rLswP9EZILkWXzIzCLvK+FyG3XXdOuu0zTaY6nwAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JP201MSS0qLUeMecnIDSpJzM4gx9IzMAO0Bglc8AAAA=[0m26
+originally caused by:
+ Started by user [8mha:////4JjhcWdxm/hi1Nz/WlYVSPCrki8iepN9l4+Y7hwcs2qAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4C7WLzTQ/Mj+3OtJt70nJPJ2hpzHX1PSOHUcWVjQbPSZAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQifUNLIz1DMws9Qz0jQ0sAGr6k48wAAAA=[0m192.168.1.219 in workspace /usr/local/jenkins/workspace/feature_CourseSubsReport_publish
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential 1f6fc89a-18c3-402e-89f3-1e617e6edd8a
+Cloning the remote Git repository
+Cloning repository ssh://git@123.56.234.251:10022/Domain/course.git
+ > git init /usr/local/jenkins/workspace/feature_CourseSubsReport_publish # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url ssh://git@123.56.234.251:10022/Domain/course.git # timeout=10
+Fetching upstream changes from ssh://git@123.56.234.251:10022/Domain/course.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress ssh://git@123.56.234.251:10022/Domain/course.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/dev-async^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/dev-async^{commit} # timeout=10
+Checking out Revision 921b7ce869024beac1d253f6305a82c68fed1498 (refs/remotes/origin/dev-async)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 921b7ce869024beac1d253f6305a82c68fed1498
+Commit message: "修改配置文件"
+ > git rev-list --no-walk 436be8772e3ccc5239f2487835015eb5bc8e66a7 # timeout=10
+Build environment variables will be made available to the next build: CSProjPath=SubscriptionService:CSProjFile=CourseSubsReport:BINPATH=bin/Release/netcoreapp3.1:DOCKERIMAGENAME=coursesubsreport:DockerProName=subs:DockerName=w1.coursesubsreport.sub.group.hex.com:ServiceName=coursesubsreport-w1
+Build environment variables will be made available to the next build: ser=protobuf:KPversion=2
+[feature_CourseSubsReport_publish] $ /bin/sh -xe /tmp/jenkins6005684143292378463.sh
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker pull reg.hexfuture.com/dotnet/sdk:3.1
+3.1: Pulling from dotnet/sdk
+Digest: sha256:c31116825aebd79605b91dc032ce5049c0bb9454223ccfc70c9a07142592dbcb
+Status: Image is up to date for reg.hexfuture.com/dotnet/sdk:3.1
++ docker pull reg.hexfuture.com/dotnet/runtime:3.1
+3.1: Pulling from dotnet/runtime
+Digest: sha256:97821cd78b06459e0cf7f238978620b2ba1112ba11042a763afca7d1b54981a0
+Status: Image is up to date for reg.hexfuture.com/dotnet/runtime:3.1
+++ cat ./SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+++ grep -i versionprefix
+++ awk '-F>' '{ print $2 }'
+++ awk '-F<' '{ print $1 }'
++ DockerImageVersion=1.1.0
++ cat
++ docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker build --no-cache -t reg.hexfuture.com/subs/coursesubsreport:1.1.0 .
+Sending build context to Docker daemon  125.4MB
+Step 1/8 : FROM reg.hexfuture.com/dotnet/sdk:3.1
+ ---> c4155a9104a8
+Step 2/8 : COPY ./ /opt/publishdir
+ ---> f50e4a951603
+Step 3/8 : RUN dotnet publish /opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj --source http://nuget.hexstudy.com/nuget/HexFutureMicroService --source https://api.nuget.org/v3/index.json -c Release -f netcoreapp3.1
+ ---> Running in f4a183ca6b05
+Microsoft (R) Build Engine version 16.7.0+7fb82e5b2 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/domainprocess/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/domainprocess/index.json' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.configuration/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.configuration/index.json' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/system.io.compression/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.io.compression/index.json' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.fileproviders.physical/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.fileproviders.physical/index.json' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.netcore.targets/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.targets/index.json' has timed out after 100000ms.
+  Failed to download package 'System.Diagnostics.Debug.4.0.11' from 'https://api.nuget.org/v3-flatcontainer/system.diagnostics.debug/4.0.11/system.diagnostics.debug.4.0.11.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.diagnostics.debug/4.0.11/system.diagnostics.debug.4.0.11.nupkg' has timed out after 100000ms.
+  Failed to download package 'System.AppContext.4.3.0' from 'https://api.nuget.org/v3-flatcontainer/system.appcontext/4.3.0/system.appcontext.4.3.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.appcontext/4.3.0/system.appcontext.4.3.0.nupkg' has timed out after 100000ms.
+  Failed to download package 'System.Diagnostics.Debug.4.3.0' from 'https://api.nuget.org/v3-flatcontainer/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg' has timed out after 100000ms.
+  Failed to download package 'Microsoft.Extensions.Configuration.FileExtensions.2.2.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.fileextensions/2.2.0/microsoft.extensions.configuration.fileextensions.2.2.0.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.fileextensions/2.2.0/microsoft.extensions.configuration.fileextensions.2.2.0.nupkg' has timed out after 100000ms.
+  Failed to download package 'System.Threading.Timer.4.0.1' from 'https://api.nuget.org/v3-flatcontainer/system.threading.timer/4.0.1/system.threading.timer.4.0.1.nupkg'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.threading.timer/4.0.1/system.threading.timer.4.0.1.nupkg' has timed out after 100000ms.
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/system.numerics.vectors/index.json'.
+  The HTTP request to 'GET https://api.nuget.org/v3-flatcontainer/system.numerics.vectors/index.json' has timed out after 100000ms.
+  Restored /opt/publishdir/SubscriptionService/CourseSubsReport/CourseSubsReport.csproj (in 2.11 min).
+  CourseSubsReport -> /opt/publishdir/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp3.1/CourseSubsReport.dll
+  CourseSubsReport -> /opt/publishdir/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp3.1/publish/
+Removing intermediate container f4a183ca6b05
+ ---> cfeae24ebc73
+Step 4/8 : FROM reg.hexfuture.com/dotnet/runtime:3.1
+ ---> 938c75095d82
+Step 5/8 : COPY --from=0 /opt/publishdir/SubscriptionService/CourseSubsReport/bin/Release/netcoreapp3.1/publish/ /opt/CourseSubsReport
+ ---> fa9f2afd6b21
+Step 6/8 : WORKDIR /opt/CourseSubsReport
+ ---> Running in 1a45c7433acf
+Removing intermediate container 1a45c7433acf
+ ---> de91c1f47c00
+Step 7/8 : VOLUME /opt/CourseSubsReport
+ ---> Running in 328a2d2048e5
+Removing intermediate container 328a2d2048e5
+ ---> 8b292cab3ab8
+Step 8/8 : RUN exiftool /opt/CourseSubsReport/*.dll|egrep "^File Name|^File Version Number"|awk -F ":" '{tmp=$2;getline;print tmp" :"$2}'
+ ---> Running in 7714a2fad035
+ AipSdk.dll : 3.6.13.0
+ BouncyCastle.Crypto.dll : 1.8.6.1
+ CommonFunc.dll : 5.1.0.0
+ CommonServiceLocator.SolrNet.Cloud.dll : 1.0.14.0
+ CommonServiceLocator.SolrNet.dll : 1.0.14.0
+ CommonServiceLocator.dll : 2.0.2.0
+ CommonTools.dll : 5.1.0.0
+ Confluent.Kafka.dll : 1.4.4.0
+ Core.ReportModel.dll : 5.1.0.0
+ CoreCompat.System.ComponentModel.Attributes.dll : 4.2.3.0
+ CourseSubsReport.dll : 1.1.0.0
+ DnsClient.dll : 1.3.2.0
+ Domain.CommunicationModel.Interface.dll : 5.1.0.0
+ Domain.CommunicationModel.dll : 5.1.0.0
+ Domain.ContentModel.dll : 5.1.0.0
+ Domain.CourseBuildModel.dll : 5.1.0.0
+ Domain.CourseModel.dll : 5.1.0.0
+ Domain.CourseRedisModel.dll : 5.1.0.0
+ Domain.CoursewareModel.dll : 5.1.0.0
+ Domain.EbookModel.dll : 5.1.0.0
+ Domain.ExecutiveClass.dll : 5.1.0.0
+ Domain.ExerciseModel.dll : 5.1.0.0
+ Domain.HTEPaperModel.dll : 5.1.0.0
+ Domain.HomeTestExamModel.dll : 5.1.0.0
+ Domain.KeyPointModel.dll : 5.1.0.0
+ Domain.LGLogAndReportModel.dll : 5.1.0.0
+ Domain.LicenseModel.dll : 5.1.0.0
+ Domain.MenuModel.dll : 5.1.0.0
+ Domain.MultipleTeachingModel.dll : 5.1.0.0
+ Domain.OrderModel.dll : 5.1.0.0
+ Domain.ProductModel.dll : 5.1.0.0
+ Domain.ReportModel.dll : 5.1.0.0
+ Domain.SalesQueryModel.dll : 5.1.0.0
+ Domain.StudentStudyModel.dll : 5.1.0.0
+ Domain.SyllabusModel.dll : 5.1.0.0
+ Domain.SystemModel.dll : 5.1.0.0
+ Domain.UserModel.dll : 5.1.0.0
+ Domain.WrongExerciseNoteModel.dll : 5.1.0.0
+ DomainModelStructure.dll : 4.1.0.0
+ DomainProcess.dll : 5.1.0.0
+ DotNetty.Buffers.dll : 0.6.0.0
+ DotNetty.Codecs.dll : 0.6.0.0
+ DotNetty.Common.dll : 0.6.0.0
+ DotNetty.Handlers.dll : 0.6.0.0
+ DotNetty.Transport.Libuv.dll : 0.6.0.0
+ DotNetty.Transport.dll : 0.6.0.0
+ EntAppFrameWork.AOP.dll : 4.1.0.0
+ EntAppFrameWork.AuthenticationAndAuthorization.dll : 4.1.0.0
+ EntAppFrameWork.Common.dll : 4.1.0.0
+ EntAppFrameWork.DataAccess.MySqlConnector.dll : 4.1.0.0
+ EntAppFrameWork.DataAccess.Redis.dll : 4.1.0.0
+ EntAppFrameWork.DataAccess.SqlServer.dll : 4.1.0.0
+ EntAppFrameWork.DataAccess.dll : 4.1.0.0
+ EntAppFrameWork.DomainModel.dll : 4.1.0.0
+ EntAppFrameWork.Log.dll : 4.1.0.0
+ EntAppFrameWork.PCL.dll : 4.1.0.0
+ EntAppFrameWork.PublishSubscribe.Kafka.dll : 4.1.0.0
+ EntAppFrameWork.PublishSubscribe.dll : 4.1.0.0
+ EntAppFrameWork.RPC.dll : 4.1.0.0
+ EntAppFrameWork.SerialNumber.dll : 4.1.0.0
+ EntAppFrameWork.Staticization.dll : 4.1.0.0
+ EntAppFrameWork.dll : 4.1.0.0
+ Google.Protobuf.dll : 3.12.3.0
+ Grpc.Core.Api.dll : 2.30.0.0
+ Grpc.Core.dll : 2.30.0.0
+ HBaseClient.dll : 5.0.1.0
+ ICSharpCode.SharpZipLib.dll : 1.2.0.246
+ Microsoft.AspNetCore.Authentication.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Authentication.Core.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Connections.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Diagnostics.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Diagnostics.dll : 2.2.0.18316
+ Microsoft.AspNetCore.HostFiltering.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Hosting.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Hosting.Server.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Hosting.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.Extensions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.Features.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Http.dll : 2.2.0.18316
+ Microsoft.AspNetCore.HttpOverrides.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Routing.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Routing.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.IIS.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.IISIntegration.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Core.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Https.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll : 2.2.0.18316
+ Microsoft.AspNetCore.Server.Kestrel.dll : 2.2.0.18316
+ Microsoft.AspNetCore.WebUtilities.dll : 2.2.0.18316
+ Microsoft.AspNetCore.dll : 2.2.0.18316
+ Microsoft.CodeAnalysis.CSharp.Workspaces.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.CSharp.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.VisualBasic.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.Workspaces.dll : 3.200.19.38121
+ Microsoft.CodeAnalysis.dll : 3.200.19.38121
+ Microsoft.DotNet.PlatformAbstractions.dll : 2.1.0.0
+ Microsoft.Extensions.Configuration.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.Binder.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.CommandLine.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.EnvironmentVariables.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.FileExtensions.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.Json.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.UserSecrets.dll : 2.2.0.18315
+ Microsoft.Extensions.Configuration.dll : 2.2.0.18315
+ Microsoft.Extensions.DependencyInjection.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.DependencyInjection.dll : 2.2.0.18315
+ Microsoft.Extensions.DependencyModel.dll : 2.1.0.0
+ Microsoft.Extensions.FileProviders.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.FileProviders.Physical.dll : 2.2.0.18315
+ Microsoft.Extensions.FileSystemGlobbing.dll : 2.2.0.18315
+ Microsoft.Extensions.Hosting.Abstractions.dll : 2.2.0.18316
+ Microsoft.Extensions.Logging.Abstractions.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.Configuration.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.Console.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.Debug.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.EventSource.dll : 2.2.0.18315
+ Microsoft.Extensions.Logging.dll : 2.2.0.18315
+ Microsoft.Extensions.ObjectPool.dll : 2.2.0.18315
+ Microsoft.Extensions.Options.ConfigurationExtensions.dll : 2.2.0.18315
+ Microsoft.Extensions.Options.dll : 2.2.0.18315
+ Microsoft.Extensions.Primitives.dll : 2.2.0.18315
+ Microsoft.Net.Http.Headers.dll : 2.2.0.18316
+ Microsoft.VisualBasic.dll : 1.0.24212.1
+ Microsoft.Win32.SystemEvents.dll : 4.6.26515.6
+ MySqlConnector.dll : 1.0.0.0
+ NPOI.OOXML.dll : 2.5.1.0
+ NPOI.OpenXml4Net.dll : 2.5.1.0
+ NPOI.OpenXmlFormats.dll : 2.5.1.0
+ NPOI.dll : 2.5.1.0
+ Newtonsoft.Json.dll : 12.0.2.23222
+ PinYinConverterCore.dll : 1.0.2.0
+ Pipelines.Sockets.Unofficial.dll : 2.0.22.26858
+ Polly.dll : 7.1.0.0
+ RWSServiceRuntime.dll : 5.2.0.0
+ Receive.Logic.dll : 5.1.0.0
+ Receive.Push.dll : 5.1.0.0
+ Receive.Service.dll : 5.1.0.0
+ Report.DAL.dll : 5.1.0.0
+ Report.Helper.dll : 5.1.0.0
+ Report.Model.dll : 5.1.0.0
+ SolrNet.Cloud.dll : 1.0.14.0
+ SolrNet.dll : 1.0.14.0
+ StackExchange.Redis.dll : 2.0.601.3402
+ SubsribePublishDTO.dll : 5.1.0.0
+ System.Composition.AttributedModel.dll : 4.6.24705.1
+ System.Composition.Convention.dll : 4.6.24705.1
+ System.Composition.Hosting.dll : 4.6.24705.1
+ System.Composition.Runtime.dll : 4.6.24705.1
+ System.Composition.TypedParts.dll : 4.6.24705.1
+ System.Configuration.ConfigurationManager.dll : 4.6.26515.6
+ System.Data.SqlClient.dll : 4.6.27110.4
+ System.Diagnostics.PerformanceCounter.dll : 4.6.26515.6
+ System.Drawing.Common.dll : 4.6.26515.6
+ System.IO.Pipelines.dll : 4.6.26919.2
+ System.Private.ServiceModel.dll : 4.700.19.56502
+ System.Security.Cryptography.Pkcs.dll : 4.6.26515.6
+ System.Security.Cryptography.ProtectedData.dll : 4.6.26515.6
+ System.Security.Cryptography.Xml.dll : 4.6.26515.6
+ System.Security.Permissions.dll : 4.6.26515.6
+ System.ServiceModel.Primitives.dll : 4.700.19.56502
+ System.ServiceModel.dll : 4.700.19.56502
+ Thrift2ForHBase1.1.dll : 5.0.1.0
+ ZooKeeperNetEx.dll : 3.4.12.4
+ aliyun.oss.sdk.core-2.5.3.dll.dll : 2.5.3.0
+ apache-thrift-netcore.dll : 0.9.3.0
+ dotnet-etcd.dll : 4.1.1.0
+ log4net.Kafka.dll : 5.1.0.0
+ log4net.dll : 2.0.8.0
+ protobuf-net.Core.dll : 3.0.29.1881
+ protobuf-net.dll : 3.0.29.1881
+Removing intermediate container 7714a2fad035
+ ---> dc5fc8377c33
+Successfully built dc5fc8377c33
+Successfully tagged reg.hexfuture.com/subs/coursesubsreport:1.1.0
++ docker push reg.hexfuture.com/subs/coursesubsreport:1.1.0
+The push refers to repository [reg.hexfuture.com/subs/coursesubsreport]
+090f68144783: Preparing
+af679e33c7cc: Preparing
+88602a1590d3: Preparing
+be86e0c2642d: Preparing
+966e4a1df68a: Preparing
+08e8c8e2420b: Preparing
+07cab4339852: Preparing
+08e8c8e2420b: Waiting
+07cab4339852: Waiting
+af679e33c7cc: Layer already exists
+08e8c8e2420b: Layer already exists
+88602a1590d3: Layer already exists
+07cab4339852: Layer already exists
+be86e0c2642d: Layer already exists
+966e4a1df68a: Layer already exists
+090f68144783: Pushed
+1.1.0: digest: sha256:032e2e268ae0a137fc33d624720b41cdd9a601472e8f727bcd419c59c3d4e4b4 size: 1796
++ docker tag reg.hexfuture.com/subs/coursesubsreport:1.1.0 reg.hexfuture.com/subs/coursesubsreport
++ docker push reg.hexfuture.com/subs/coursesubsreport
+The push refers to repository [reg.hexfuture.com/subs/coursesubsreport]
+090f68144783: Preparing
+af679e33c7cc: Preparing
+88602a1590d3: Preparing
+be86e0c2642d: Preparing
+966e4a1df68a: Preparing
+08e8c8e2420b: Preparing
+07cab4339852: Preparing
+08e8c8e2420b: Waiting
+07cab4339852: Waiting
+966e4a1df68a: Layer already exists
+88602a1590d3: Layer already exists
+be86e0c2642d: Layer already exists
+af679e33c7cc: Layer already exists
+090f68144783: Layer already exists
+07cab4339852: Layer already exists
+08e8c8e2420b: Layer already exists
+1.1.0: digest: sha256:032e2e268ae0a137fc33d624720b41cdd9a601472e8f727bcd419c59c3d4e4b4 size: 1796
+090f68144783: Preparing
+af679e33c7cc: Preparing
+88602a1590d3: Preparing
+be86e0c2642d: Preparing
+966e4a1df68a: Preparing
+08e8c8e2420b: Preparing
+07cab4339852: Preparing
+88602a1590d3: Layer already exists
+090f68144783: Layer already exists
+af679e33c7cc: Layer already exists
+08e8c8e2420b: Layer already exists
+07cab4339852: Layer already exists
+be86e0c2642d: Layer already exists
+966e4a1df68a: Layer already exists
+latest: digest: sha256:032e2e268ae0a137fc33d624720b41cdd9a601472e8f727bcd419c59c3d4e4b4 size: 1796
+SSH: Connecting from host [docker-219]
+SSH: Connecting with configuration [subs-55] ...
+SSH: EXEC: STDOUT/STDERR from command [#启动docker images
+docker login -u matengfei -p Pass@word1 reg.hexfuture.com
+
+docker pull reg.hexfuture.com/subs/coursesubsreport
+
+
+# 判断1,如果存在同名字执行中的容器,先停止,没有判断停止失败情况
+num=`docker ps -f name=w1.coursesubsreport.sub.group.hex.com -f status=running|wc -l`
+if [ $num == 2 ];then
+ docker stop w1.coursesubsreport.sub.group.hex.com
+fi
+
+# 判断2,如果存在同名字的停止的容器,删除
+num=`docker ps -af name=w1.coursesubsreport.sub.group.hex.com -f status=exited|wc -l`
+if [ $num == 2 ];then
+ docker rm w1.coursesubsreport.sub.group.hex.com
+fi
+sleep 8s
+docker run -d \
+-v /etc/localtime:/etc/localtime \
+-v /usr/local/docker-data/sleep.sh:/docker-entrypoint-initdb.d/sleep.sh \
+-l io.rancher.container.network=true \
+--ulimit core=-1 \
+--security-opt seccomp=unconfined \
+--privileged=true \
+-e HOST_IP=`ip a sh eth0 | grep "inet " |awk '{print $2}'|awk -F/ '{print $1}'` \
+-e ETCD_ADDR=etcd.common.hex.com:2379 \
+-h w1.coursesubsreport.sub.group.hex.com \
+--name w1.coursesubsreport.sub.group.hex.com \
+reg.hexfuture.com/subs/coursesubsreport \
+dotnet \
+/opt/CourseSubsReport/CourseSubsReport.dll \
+--serviceName coursesubsreport-w1 \
+--zkConfigServer w1.confandsa.zk.group.hex.com:2181,w2.confandsa.zk.group.hex.com:2181,w3.confandsa.zk.group.hex.com:2181 \
+--minThreadCount 100 \
+--runScope Core991 \
+--msGroup zw5 \
+--ser protobuf \
+--psapp v2 \
+--KPversion  2 \
+--zkTimeOut 15000 \
+--mcTimeOut 30000 \
+--trace kafka \
+--KafkaRedis  1] ...
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Using default tag: latest
+latest: Pulling from subs/coursesubsreport
+d121f8d1c412: Already exists
+7b2d5a029506: Already exists
+778ad5bbc2d1: Already exists
+6de7a0eb2598: Already exists
+0d31addcc96c: Already exists
+4f86e2b68cd8: Already exists
+ed34515c2b37: Pulling fs layer
+ed34515c2b37: Verifying Checksum
+ed34515c2b37: Download complete
+ed34515c2b37: Pull complete
+Digest: sha256:032e2e268ae0a137fc33d624720b41cdd9a601472e8f727bcd419c59c3d4e4b4
+Status: Downloaded newer image for reg.hexfuture.com/subs/coursesubsreport:latest
+w1.coursesubsreport.sub.group.hex.com
+w1.coursesubsreport.sub.group.hex.com
+dce22cdeda62e314798aead844eaf18d4bc6189bc2a4a17e5ef4e2c5b4c8f26b
+SSH: EXEC: completed after 49,036 ms
+SSH: Disconnecting configuration [subs-55] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

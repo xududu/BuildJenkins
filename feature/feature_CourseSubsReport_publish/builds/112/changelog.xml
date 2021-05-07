@@ -1,0 +1,91 @@
+commit 9a943aa4d7b9f7c8ea687ee8ee98e473f8518b5c
+tree 294ba098898580e8c6f15a46af4e551a66fae1c0
+parent c49f592e13692a244deb8dc88dc0a07d0a36bb83
+author AnHaNIYa <1400436027@qq.com> 2021-02-26 10:56:11 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-26 10:56:11 +0800
+
+    editor:   修改     Domain.CourseBuildModel.Core     DirectoryInfo
+
+
+
+:100644 100644 773da09cb37676392102d07d3c804d1a51c6efc2 35a12570f849df2952b46707e8c27ea48dcd4571 M	Domain2/Domain.CourseBuildModel/Core/DirectoryInfo.cs
+commit 9a49c1b02a908b8682d5f48e25781b48296b1a32
+tree e7839453d9298fa0ff3d4d1bf05c00c5a344e0d5
+parent d71d5985428b3e6d991e9d0901e67f8142f78aae
+author AnHaNIYa <1400436027@qq.com> 2021-02-25 17:37:51 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-25 17:37:51 +0800
+
+     DirectoryInfo模型     去掉Children
+
+
+
+:100644 100644 f575288507f00291810d967a6b3e4622873411e4 773da09cb37676392102d07d3c804d1a51c6efc2 M	Domain2/Domain.CourseBuildModel/Core/DirectoryInfo.cs
+commit c6ccef93a79b31fb29c4b884c89ff5e52a0f87bf
+tree acf56e29cff2bcb5c7ea3516cc39ce2c4e0beb20
+parent 66680a2004fef47c5edd670952e53f14e29fba7d
+author 彩娟 冯 <1446730634@qq.com> 2021-02-25 16:22:05 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-25 16:22:05 +0800
+
+    editor:修改接口GetHTEAndCourseIndexByHTEIds
+
+
+
+:100644 100644 d32a9991caeceadbafe6f30c57a5001a7d8ead61 abb5ce2c40507609e4a315449fc1718691a03d72 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit fd43c73cf5d5a16f2da7d25c4632750f3b587e28
+tree 463ac828b320cc64d6f404bacea66331ec307396
+parent db16d8446684a97f646fb174b6dfbf8db23bed27
+author 彩娟 冯 <1446730634@qq.com> 2021-02-25 16:14:37 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-25 16:14:37 +0800
+
+    editor:GetHTEAndCourseIndexByHTEIds修改接口
+
+
+
+:100644 100644 f296c5e9bd8b3ee536ab7eedb756cbef87829160 ac47d2b848f600e57d29db2317a9b71e67a58889 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 9de4d1b41e2f3433f55768c4662b5b10ebe669d3
+tree 32d69181436c2e5ca28e429c9c5f3887fe984da9
+parent f6c3169826e34bfc5b03bcb3ae5ebdb2c651757a
+author 彩娟 冯 <1446730634@qq.com> 2021-02-25 15:18:04 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-25 15:18:04 +0800
+
+    editor：GetHTEAndCourseIndexByHTEIds增加参数为空判断
+
+
+
+:100644 100644 fc0280192a0b9fbbb14e839db605672c93f3a37a f296c5e9bd8b3ee536ab7eedb756cbef87829160 M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 9c518fc6e286af369f097e7b827abe3f1fc278e1
+tree 4bab93a0aafd77400e26b6cc314fd43a4ea6b28c
+parent 71d71ee1b26ba602e2d9b1ae48caa9f547340f00
+author AnHaNIYa <1400436027@qq.com> 2021-02-25 15:17:06 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-25 15:17:06 +0800
+
+    editor:   CreateCourseResourceRelation   修改创建课程接口
+
+
+
+:100644 100644 7e935f7b6cb44dc911788c294c96333602846021 5715d2e11bab79b2a816a0b38e610ce4bdf8ed0d M	Domain2/Domain.CourseBuildModel/Service/Realization/BuildCourseService.cs
+:100644 100644 af91efe44c1ce5da36643c2180222f14e123e86d 3493c54c77e1575b0931bfcc1d4c77c2bd054c69 M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 88bf2ec924b4b1a80a8be7e5c376cf868ac0a8be 9edee70db22e0dd7ce9334e37bcc7c90ed469e52 M	SubscriptionService/CourseSubsReport/Properties/launchSettings.json
+:100644 100644 8f9b3c43058b7bfdb8fa2fd17efa449f36cea7b8 afe3aa4e8b779afa2343f0dd52d6fd738b1a845d M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+commit 1b03b5cc0c85ffbb92689ab4cb9cb8911042bdd0
+tree aee8cdafd7448b37241afe1c298b43d41848d1a1
+parent ee34786fc0afcb4b66a91631cbf7c351b0735e6f
+author 彩娟 冯 <1446730634@qq.com> 2021-02-25 15:15:25 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2021-02-25 15:15:25 +0800
+
+    editor:GetHTEAndCourseIndexByHTEIds新增参数为空判断
+
+
+
+:100644 100644 c80e912b64ef7685d87a6013513f185225b563e3 fc0280192a0b9fbbb14e839db605672c93f3a37a M	Domain2/Domain.CourseBuildModel/Service/Realization/CourseAndHTEIndexService.cs
+commit 66680a2004fef47c5edd670952e53f14e29fba7d
+tree fe8c4b9da03629fdd1dd00a7fd90da463a37d22c
+parent 28ede3d007453e30b09f2d8bb5d9d03d42a871fe
+author AnHaNIYa <1400436027@qq.com> 2021-02-22 10:59:51 +0800
+committer AnHaNIYa <1400436027@qq.com> 2021-02-22 10:59:51 +0800
+
+     GetClassPeriodHteContentApiRDtoList    备课端作业列表
+
+
+
+:100644 100644 4b30f7bd0e77a1dc31c8330ed27b34250dec7bec 70ab873eede59143323e9c1b6cf241a945d811d7 M	WebApi/WebApiCourse/Controllers/ClassPeriodController.cs

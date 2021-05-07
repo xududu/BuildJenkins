@@ -1,0 +1,196 @@
+commit 7626240a224627d726b4812b7325b72b0845b0e2
+tree 9233fe3bb5b15577203b55f6cd2d061bb7b08f24
+parent 99d595c81ebb2d97f67af1683cf651aafa55dbfb
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 18:22:58 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 18:22:58 +0800
+
+    小组成员集体加分
+
+
+
+:100644 100644 660126d2402d3ca998ad1250feb3cb5f6f2815f5 873260b23cfc1e7748f5feff541c13deddd1af32 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+commit b24327519cb5d96f9c32b8c9d0e17ec375b82d7a
+tree 6157d2538b9972da31ad2a677881adc7623fddeb
+parent b2a18e35472ef8a6d198b7b0a6e59c05863d231f
+author zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 11:26:14 +0800
+committer zhangjingkun <zhangjingkun@hexfuture.com> 2019-09-23 11:26:14 +0800
+
+    小组统一加分
+
+
+
+:100644 100644 a2042accef6e330eefc75049bf47b6c1722e397d 660126d2402d3ca998ad1250feb3cb5f6f2815f5 M	Domain2/Domain.LGLogAndReportModel/Service/Interface/ILearningGroup.cs
+:100644 100644 92a83b98357d76263c1ebfaad0475a39340d24f8 20348b87d0e607440a08496874dcbb732db6192b M	Domain2/Domain.LGLogAndReportModel/Service/Realization/LearningGroupService.cs
+:100644 100644 8afeab8e32bf4c74f519769dd9594287332c5a9c de3a95b18871c2bb1f69d43d465b7924d2f7638e M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 3afce9561cd883e175f8e9d2fd1392bfb8eb49c3 6e20b31233e155e385c8365063ee5a362d34d478 M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logError20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logError20190828.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logInfo20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logInfo20190828.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logWarn20190819.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	WebApi/CourseWebApiServer/log/logWarn20190828.txt
+:100644 100644 52b146118ccf7b6a4aa66e0b68df9f1f4ef401a9 9206fafbc8e242783aac748d82447ce5c08d9241 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+:100644 100644 8852ed346d2054d45bea9e5ac1ab90ab016929ab fd996f2299f7d39105d5422fa40404d5df66d58a M	WebApi/WebApiCourse/Controllers/LearningGroupController.cs
+:100644 100644 015bc5e49dfbbe429f812809c2fb28b2187c6cfa 2e24edfdd4d86c139f9955ad18f3e7d22b790888 M	WebApi/WebApiCourse/Models/ParameterDto/ReqStudentReword.cs
+commit cb9350c5217bd832907710b969ecceeb9c1172e2
+tree e88c447b7f8dc7a04377b70a9ae696e5d572b4b5
+parent df33f911101224891ae262dc138a296491285d56
+author 彩娟 冯 <1446730634@qq.com> 2019-09-16 11:11:50 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-09-16 11:11:50 +0800
+
+    fix:修改版本号
+
+
+
+:100644 100644 5cd8863f3e9bed824bd747b48ab8cb8da0aa9053 b1d7fe8d844a4ffef54b061ceb65ca227e8c5cee M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit 8d55ef388531a4baff2bbd742694d73546f21a83
+tree e202bdccdda6f198d5465c2e4ba4f895944d0f8b
+parent 3567f56d1b315160daa09c0e3bfbb8add171daff
+author 王宇鹤 <2511980201@qq.com> 2019-09-12 11:43:57 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-09-12 11:43:57 +0800
+
+    feat:DeleteAllStudentInClass
+
+
+
+:100644 100644 3b3ae04e2a603940541faf0503eaecc077201617 ea0c024f7e5c06f2b41d0751cde4d1f2195340cd M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 0129dac4996173ff2e41bc10f5ee5a90bacb75ca
+tree 80506ac71e035ebc62788e4be87b10889e68e23b
+parent ba7b770d620353f87a48f9723368217326de1736
+author 彩娟 冯 <1446730634@qq.com> 2019-09-11 17:48:00 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-09-11 17:48:00 +0800
+
+    SearchTemplateByKeywordForTeacher
+
+
+
+:100644 100644 87cf2111824e935adc2dac0701e3c52fa5f87456 43ce36bb4b1d6bc7947d9c753ba0552d47da9e5e M	WebApi/WebApiCourse/Controllers/CourseTemplateController.cs
+commit ba7b770d620353f87a48f9723368217326de1736
+tree 3fb3955d350b74657d9459745826e573ef6066ce
+parent 902e7eb1d0b56be6e187ac0dc5f9334ef5c76d85
+author 彩娟 冯 <1446730634@qq.com> 2019-09-11 10:26:13 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-09-11 10:26:13 +0800
+
+    创建课程接口第四步-绑定课程模板的目录给课程（改为异步）
+
+
+
+:100644 100644 c96a28636b016ed2f25f8741bb90ff8ee0357144 774f1249f6ed949884209cd285b5a213afa79416 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 902e7eb1d0b56be6e187ac0dc5f9334ef5c76d85
+tree b01963aabb34493043ce04c6b569bb48ac497de6
+parent 0a65ecd86b2a474b9905ed0c5b90b6f75819ec54
+author 安冰超 <1400436027@qq.com> 2019-09-09 14:12:17 +0800
+committer 安冰超 <1400436027@qq.com> 2019-09-09 14:12:17 +0800
+
+    editor: 统一修改版本号1.0.0.1
+
+
+
+:100644 100644 c3e3440d4fb5253715afa68d8eee2bb813f70487 90ee424f18561d0f79d0259c7881329d08343291 M	DomainServer/CourseDomainServer/CourseDomainServer.csproj
+:100644 100644 d2e34d5e8fe24b45513bbba85c3db352c8d106a3 05e562c582bf64816c81ffb4846968809278bd6d M	ReverseTransfer/ReverseTransferCourseServer/ReverseTransferCourseServer.csproj
+:100644 100644 8c8e1c3585403b6e78ef7d1fe75fdc198b4c7bc3 2b7ed2bfb5ea8a9f3621c9b40a048b03fde2c52f M	SubscriptionService/CourseSubsReport/CourseSubsReport.csproj
+:100644 100644 704a2d15ca03f2f2e9ff4d118bea846c67dd0336 f960a98e725fb70669daed639650903e8d5e6cce M	SyncAndCheckServer/SyncCourseServer/SyncCourseServer.csproj
+:100644 100644 6fd85595fbb52b7f1a67d5107b6dcca3e18e44d0 5cd8863f3e9bed824bd747b48ab8cb8da0aa9053 M	WebApi/CourseWebAPIServer/CourseWebApiServer.csproj
+commit d41711284a6cd2fa9523a0232d0de3686bd8bfca
+tree 3c7378fe5715941c593aae4db7edb658266a62af
+parent a30b761f1aea74ed5829e92c25b74551dc798d68
+author yangjialin <yangjialin@hexfuture.com> 2019-09-09 11:13:03 +0800
+committer yangjialin <yangjialin@hexfuture.com> 2019-09-09 11:13:03 +0800
+
+    fix:添加订阅服务配置
+
+
+
+:100644 100644 cd526b6af8ed90cce8f29441f20a1e1052a4df46 91c46edad441145dba2ce419b3940bde0c04b9d6 M	.gitignore
+:100644 100644 03793f18333edf849d68658176dc4eb48a3d56b4 6b41d18f76aa39397c3d4ec6247a1bf7f5bda65d M	DomainServer/CourseDomainServer/Properties/launchSettings.json
+:100644 100644 407b2ca7edeac868a7bbd5f421f762b3358f3fc7 ac86a670050f4bfbde87ef6034af146df630aa0b M	SubscriptionService/CourseSubsReport/App.config
+:100644 100644 58e68ba1648191cbb71b17010f670960200c90bf f5039fa65a39307e00a7de9eb39c5c4205aa033c M	WebApi/CourseWebAPIServer/Properties/launchSettings.json
+commit 3567f56d1b315160daa09c0e3bfbb8add171daff
+tree bff403cb66c93ddeddf859d58f4f2175ca68e2e7
+parent 157f387995a392eea51bebb26e66baa50b7a2156
+author 王宇鹤 <2511980201@qq.com> 2019-09-07 17:00:29 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-09-07 17:00:29 +0800
+
+    feat: SearchUserScoreAllHistory
+
+
+
+:100644 100644 454fd352a09daa8395419409e8709ddd4c541af3 373719d955dc2842a70e91ac736861e505f2662e M	WebApi/WebApiCourse/Models/ReturnDto/ResLearningUserScore.cs
+commit 157f387995a392eea51bebb26e66baa50b7a2156
+tree 49f04a7814926fbab5648deffa7020a86d24f23a
+parent 5c5f1fe5f86bb41c95ca56cc7ed58254f1e3b4b2
+author 王宇鹤 <2511980201@qq.com> 2019-09-06 11:38:52 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-09-06 11:38:52 +0800
+
+    feat:还原
+
+
+
+:100644 100644 be0586d482d07bc9d7d7c186bb48dbc72f534ffd c96a28636b016ed2f25f8741bb90ff8ee0357144 M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit 5c5f1fe5f86bb41c95ca56cc7ed58254f1e3b4b2
+tree 1d075d2071298b1e1f5d7a1ca4a9ea9f6d8720ef
+parent 060263e2ae20eecb76402eabc57b93ce9ce2a28c
+author 王宇鹤 <2511980201@qq.com> 2019-09-05 15:01:19 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-09-05 15:01:19 +0800
+
+    feat: 测试
+
+
+
+:100644 100644 4f5dab705de293f0edd641a75888080d0c6bd4b7 3b3ae04e2a603940541faf0503eaecc077201617 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 060263e2ae20eecb76402eabc57b93ce9ce2a28c
+tree abffe0d7df855ef97a3e2c5789d2dce9ba6dc4d8
+parent 8ab80cfaf12906fc25c7dfe5645483d021ec9dcf
+author 王宇鹤 <2511980201@qq.com> 2019-09-05 14:49:20 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-09-05 14:49:20 +0800
+
+    feat:测试
+
+
+
+:100644 100644 9be45b585db1facd998b235f53de6ce2fc789ad8 4f5dab705de293f0edd641a75888080d0c6bd4b7 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 128a76ff36c32b9eb25b4cbcbeadf71610d2ed0f
+tree a50dc5f0a2b57dd3dd7165a00746c5f51f66d1a9
+parent cb041396ee5f726a2eaa42a06115cf90d9d1d554
+author 王宇鹤 <2511980201@qq.com> 2019-09-05 14:31:21 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-09-05 14:31:21 +0800
+
+    feat: 模板创建课程不创建班级
+
+
+
+:100644 100644 a44d1b2b8b1977060b93fedea723b1588da3dfd3 9be45b585db1facd998b235f53de6ce2fc789ad8 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+:100644 100644 f61d4815a75b087a63c22caaebee3084bd09bc8f be0586d482d07bc9d7d7c186bb48dbc72f534ffd M	WebApi/WebApiCourse/Controllers/CourseController.cs
+commit d7ec7be6bf816098795e818c4995e855487a26ec
+tree f4ec0dd9cdd7d3016ca6e5a705d981d314d160b4
+parent cb041396ee5f726a2eaa42a06115cf90d9d1d554
+author 彩娟 冯 <1446730634@qq.com> 2019-09-05 14:27:51 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-09-05 14:27:51 +0800
+
+    GetSyncOriginCourseListByTargetCourseId
+
+
+
+:100644 100644 29b15201a98a3c61e1d11cd1ce499b010982070a c54fd51d4c450f57520e494dee7bfd04b543928b M	WebApi/WebApiCourse/Controllers/SyncCourseScheduleController.cs
+commit 86f4f34d3757204dcaf85264802ce0c6495e00eb
+tree f798abb873292bc6f224a621c0607ae4b1e77aa4
+parent a30b761f1aea74ed5829e92c25b74551dc798d68
+author 王宇鹤 <2511980201@qq.com> 2019-09-05 11:17:44 +0800
+committer 王宇鹤 <2511980201@qq.com> 2019-09-05 11:17:44 +0800
+
+    feat: CreateClasssAndStudentFromExClassId
+
+
+
+:100644 100644 e824c45814a7430ec9d7c5c78517b5add239c56e a44d1b2b8b1977060b93fedea723b1588da3dfd3 M	WebApi/WebApiCourse/Controllers/ClassController.cs
+commit 469a083c0577830a07712b4e975e8daaf4e89d10
+tree 7a3cee5ef758899a173330ee4afcfa4cb6a1c9ee
+parent b8b348988ff086ca94752b70adc669c96fbff96b
+author 彩娟 冯 <1446730634@qq.com> 2019-09-04 16:15:54 +0800
+committer 彩娟 冯 <1446730634@qq.com> 2019-09-04 16:15:54 +0800
+
+    IsRegistedCourseSuccessUserOrCreatedCourseUser
+
+
+
+:100644 100644 e8af83396c9a66e922616b000d13ee98939e81ca 868f44a73f4a76104e1cd8f71044f2cf61931e18 M	Domain2/Domain.CourseModel/Service/Realization/RegisterCourseService.cs
