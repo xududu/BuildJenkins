@@ -153,21 +153,22 @@ def build_job_obj(b_group, b_img=None, img_v=None, all_img_obj=None):
             # 判断job的名字是否包含要启动的任务
             if job['color'] == 'disabled':
                 continue
+
             if b_img == 'all':
                 for group in group_list:
+                    print('执行的项目是:<%s>，执行的组是:<%s>' % (job['name'], group))
                     server.build_job(job['name'], parameters={'ms_group': group})
             # 如果只build某些model
             elif '_' + b_img in job['name']:
                 for group in group_list:
+                    print('执行的项目是:<%s>，执行的组是:<%s>' % (job['name'], group))
                     server.build_job(job['name'], parameters={'ms_group': group})
-            else:
-                print('Model Name ERROR!!!!!')
-                raise IndexError
         return
     else:
         # 只build一个镜像时
         job_name = imgCorrespondenceJK[b_img]
         for group in group_list:
+            print('执行的项目是:<%s>，执行的组是:<%s>' % (job_name, group))
             server.build_job(job_name, parameters={"image_tag": img_v, 'ms_group': group})
         return
 
@@ -178,14 +179,18 @@ def str_dict_handle(img_str: str):
     :param img_str: {classnumberserver:1.1.1,oauthwebapiserver:1.1.2}
     :return:  {'classnumberserver': '1.1.1', 'oauthwebapiserver': '1.1.2'}--- type=dict
     """
-    res_dic = {}
-    han_str = img_str.strip('{}')
-    han_list = han_str.split(',')
-    for imgAdnVersion in han_list:
-        img_name = imgAdnVersion.split(':')[0]
-        img_version = imgAdnVersion.split(':')[1]
-        res_dic[img_name] = img_version
-    return res_dic
+    try:
+        res_dic = {}
+        han_str = img_str.strip('{}')
+        han_list = han_str.split(',')
+        for imgAdnVersion in han_list:
+            img_name = imgAdnVersion.split(':')[0]
+            img_version = imgAdnVersion.split(':')[1]
+            res_dic[img_name] = img_version
+    except IndexError as e:
+        raise IndexError from e
+    else:
+        return res_dic
 
 
 def main(argv):

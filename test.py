@@ -1,57 +1,34 @@
-import redis
-import re
+import jenkins
 
-# pool = redis.ConnectionPool(host='192.168.1.41', port=6409, db=0)
-#
-# r = redis.Redis(connection_pool=pool)
-# # print(r.mget("863288446120_LastCustomer"))
-# keys = r.keys()
-# # print(keys)
-# for key in keys:
-#
-#   print(key.decode(), r.mget(key),r.ttl(key))
+server = jenkins.Jenkins('http://192.168.0.202:48080/', username='admin', password='admin')
+# jobs = server.get_jobs(view_name='modle')
 
+job_info = server.get_job_info('model_DC_send')
+server.get_queue_info()
+# print(server.get_queue_info())
+aa = 'sdf'
+bb = 'asdf'
+print('sfs %s %s' % (aa, bb))
+# print(job_info)
+# 获取下一个构建编号：
+# build_number = server.get_job_info('stable_DCCourseSendServer_dc')['nextBuildNumber']
+# 开始构建
+''''''
 
-# pipe = r.pipeline()  
-# pipe_size = 100000  
-""""
-len = 0
-key_list = []
-print(r.pipeline())
+# 获取构建信息：
+# build_info = server.get_build_info('stable_DCCourseSendServer_dc', 47)
+# 获取构建状态：
+# print(build_info)
+# is_building = build_info['building'] # True是正在构建—>如果这个值存在，则说明在构建，如果不存在则说明已经构建完成了，通过build_info[“result”]获取构建成功还是构建失败！
+# print(is_building)
 
+# 获取下级项目是否构建成功
+# job_info = server.get_job_info('stable_DCCourseSendServer_dc')
+# print(job_info['downstreamProjects'][0]['color']) #状态
+# print(job_info['downstreamProjects'][0]['name'])  #名字
 
-
-for key in keys:  
-    key_list.append(key)  
-    msg = pipe.get(key)
-    if len < pipe_size:  
-        len += 1
-    else:
-        for (k, v) in zip(key_list, pipe.execute()):  
-            print(k, v)
-        len = 0
-        key_list = []
-
-
-for (k, v) in zip(key_list, pipe.execute()):  
-    print(k, v)
-"""
-#keys = r.keys()
-#print(type(keys))
-#print(keys)
-
-# l = ['Python', 'C++', 'Java']
-# #追加元素
-# l.append('PHP')
-# print(l)
-# print(l.append('asdf'))
-# print(l)
-# b_group = 'all'
-# if b_group == 'zs' or 'all':
-#     print('ok')
-
-# imgCorrespondenceJK = {'a':2,'b':3}
-# f = imgCorrespondenceJK[None]
-# print(f)
-a = ' aaa  '
-print(a.strip())
+# 最后一次构建是否成功
+# build_info = server.get_build_info('model_DC_receive', 266)
+# print(build_info['result'])
+# print(build_info.build_info['building'])
+# print(jobs)
