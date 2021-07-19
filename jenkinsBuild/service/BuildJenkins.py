@@ -1,5 +1,6 @@
 import jenkins
-import operationdata
+from service import operationdata
+from modules import ErrorModules
 
 
 class build_main_obj(object):
@@ -26,6 +27,7 @@ class build_main_obj(object):
                 image_version = job_name_tup[1]
                 print('执行的项目是:<%s>，执行的组是:<%s>，执行的数据中心是:<%s>' % (job_name, group, self.dc_name))
                 self.server.build_job(job_name, parameters={"image_tag": image_version, 'ms_group': group})
+        return True
 
     def build_job_obj(self, b_group, b_img=None, img_v=None, all_img_obj=None):
         """
@@ -38,7 +40,10 @@ class build_main_obj(object):
         """
         if b_group == 'zs':
             if self.dc_name == 'sc':
-                self.ZS_Group_list.remove('center')
+                try:
+                    self.ZS_Group_list.remove('center')
+                except ValueError:
+                    print('next job!')
             self.group_list = self.ZS_Group_list
         elif b_group == 'all':
             self.group_list = self.ZS_Group_list
@@ -46,8 +51,7 @@ class build_main_obj(object):
         elif b_group in self.ZS_Group_list:
             self.group_list = b_group.split()
         else:
-            print('Group Name ERROR!!!!!')
-            raise IndexError
+            raise ErrorModules.GroupNameError(b_group)
         # 如果要build所有镜像会执行此部分
         if all_img_obj:
             for job in all_img_obj:
@@ -59,7 +63,7 @@ class build_main_obj(object):
                 # 如果只build某些model
                 elif '_' + b_img in job['name']:
                     self.build_job_obj_auxiliary_function(build_name=job['name'])
-            return
+            return True
         else:
             # 只build指定镜像时
             job_name = operationdata.data_select_function(img=b_img)
@@ -70,10 +74,10 @@ class build_main_obj(object):
                 if group != 'center':
                     operationdata.update_img_ver_function(img=b_img, ver=img_v)
                     print('更新镜像%s的版本号更新为：%s' % (b_img, img_v))
-            return
+            return True
 
     @staticmethod
-    def __str_dict_handle(img_str: str):
+    def _str_dict_handle(img_str: str):
         """
         字符串处理成字典
         :param img_str: {classnumberserver:1.1.1,oauthwebapiserver:1.1.2}
@@ -88,7 +92,7 @@ class build_main_obj(object):
                 img_version = imgAdnVersion.split(':')[1]
                 res_dic[img_name] = img_version
         except IndexError as e:
-            raise IndexError from e
+            raise ErrorModules.ImagesFormatError(img_str)
         else:
             return res_dic
 
@@ -105,7 +109,7 @@ class build_main_obj(object):
             self.build_job_obj(b_group=ms_group, b_img=img_version, all_img_obj=all_jobs_name_obj)
         else:
             # 如果只build某些指定的镜像执行此部分
-            img_version_dict = self.__str_dict_handle(img_version)
+            img_version_dict = self._str_dict_handle(img_version)
             for img in img_version_dict:
                 version = img_version_dict[img]
                 self.build_job_obj(b_group=ms_group, b_img=img, img_v=version)
@@ -117,12 +121,12 @@ class build_main_obj(object):
         :param new_jobs: 新项目的字典 {'aicard':'stable_aicard_website'}
         :return:
         """
-        img_jobs_dict = self.__str_dict_handle(new_jobs)
+        img_jobs_dict = self._str_dict_handle(new_jobs)
         # 在同时传入多个新项目的时候，把一个大字典拆分成单个字典，然后调用new_job_insert_function函数
         for img in img_jobs_dict:
             job_name = img_jobs_dict[img]
             new_str = img + ':' + job_name
-            single_img_jobs_dict = self.__str_dict_handle(new_str)
+            single_img_jobs_dict = self._str_dict_handle(new_str)
             operationdata.new_job_insert_function(single_img_jobs_dict)
             print('%s 已添加！' % single_img_jobs_dict)
         return True

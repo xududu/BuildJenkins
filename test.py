@@ -10,6 +10,14 @@
 # for child in soup.children:#遍历子节点，并存在List中，用来排序
 #
 #     print(child)
-a = {'a': 1}
-b = a.keys()
-print(list(b))
+# a = {'a': 1}
+# b = a.keys()
+# print(list(b))
+
+
+import time
+
+for i in range(10):
+    time.sleep(1)
+    assert i != 9
+    print(i)
